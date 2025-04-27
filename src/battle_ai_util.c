@@ -1650,7 +1650,7 @@ bool32 ShouldSetHail(u32 battler, u32 ability, u32 holdEffect)
       || ability == ABILITY_MAGIC_GUARD
       || ability == ABILITY_OVERCOAT
       || holdEffect == HOLD_EFFECT_SAFETY_GOGGLES
-      || IS_BATTLER_OF_TYPE(battler, TYPE_ICE)
+      || IS_BATTLER_OF_TYPE(battler, TYPE_ICE, TYPE_WATER)
       || HasMoveEffect(battler, EFFECT_BLIZZARD)
       || HasMoveEffect(battler, EFFECT_AURORA_VEIL)
       || HasMoveEffect(battler, EFFECT_WEATHER_BALL))
@@ -1717,7 +1717,7 @@ bool32 ShouldSetSnow(u32 battler, u32 ability, u32 holdEffect)
       || ability == ABILITY_ICE_BODY
       || ability == ABILITY_FORECAST
       || ability == ABILITY_SLUSH_RUSH
-      || IS_BATTLER_OF_TYPE(battler, TYPE_ICE)
+      || IS_BATTLER_OF_TYPE(battler, TYPE_ICE, TYPE_WATER)
       || HasMoveEffect(battler, EFFECT_BLIZZARD)
       || HasMoveEffect(battler, EFFECT_AURORA_VEIL)
       || HasMoveEffect(battler, EFFECT_WEATHER_BALL))
@@ -2661,7 +2661,7 @@ static bool32 BattlerAffectedBySandstorm(u32 battlerId, u32 ability)
 
 static bool32 BattlerAffectedByHail(u32 battlerId, u32 ability)
 {
-    if (!IS_BATTLER_OF_TYPE(battlerId, TYPE_ICE)
+    if (!IS_BATTLER_OF_TYPE(battlerId, TYPE_ICE, TYPE_WATER)
       && ability != ABILITY_SNOW_CLOAK
       && ability != ABILITY_OVERCOAT
       && ability != ABILITY_ICE_BODY)

@@ -2271,6 +2271,7 @@ u8 DoBattlerEndTurnEffects(void)
             }
             else if (gBattleWeather & B_WEATHER_HAIL
                   && !IS_BATTLER_OF_TYPE(battler, TYPE_ICE)
+                  && !IS_BATTLER_OF_TYPE(battler, TYPE_WATER)
                   && ability != ABILITY_SNOW_CLOAK
                   && ability != ABILITY_OVERCOAT
                   && ability != ABILITY_ICE_BODY
@@ -6119,13 +6120,14 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
              && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
              && IsBattlerTurnDamaged(gBattlerTarget)
              && IsBattlerAlive(gBattlerTarget)
-             && TryChangeBattleTerrain(gBattlerTarget, STATUS_FIELD_GRASSY_TERRAIN, &gFieldTimers.terrainTimer))
+             && TryChangeBattleTerrain(gBattlerTarget, STATUS_FIELD_GRASSY_TERRAIN, &gFieldTimers.terrainTimer)
+             && (gSideTimers[GetBattlerSide(gBattlerAttacker)].leechSeedAmount != 1))
             {
                 BattleScriptPushCursor();
                 gBattlescriptCurrInstr = BattleScript_SeedSowerActivates;
                 effect++;
             }
-            break;
+            break;    
         case ABILITY_THERMAL_EXCHANGE:
             if (!(gBattleStruct->moveResultFlags[gBattlerTarget] & MOVE_RESULT_NO_EFFECT)
              && IsBattlerTurnDamaged(gBattlerTarget)
@@ -9392,9 +9394,13 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
         if (IsBattleMoveRecoil(move))
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
         break;
+    case ABILITY_GOLDEN_BOOT:
+        if (IsKickingMove(move))
+        modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
+        break;   
     case ABILITY_IRON_FIST:
         if (IsPunchingMove(move))
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_SHEER_FORCE:
         if (MoveIsAffectedBySheerForce(move))
@@ -10059,7 +10065,8 @@ static inline u32 CalcDefenseStat(struct DamageCalculationData *damageCalcData, 
     // snow def boost for ice types
     if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && IsBattlerWeatherAffected(battlerDef, B_WEATHER_SNOW) && usesDefStat)
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
-
+    if (IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE) && IsBattlerWeatherAffected(battlerDef, B_WEATHER_HAIL) && usesDefStat)
+        modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
     // The defensive stats of a Player's Pokémon are boosted by x1.1 (+10%) if they have the 5th badge and 7th badges.
     // Having the 5th badge boosts physical defense while having the 7th badge boosts special defense.
     if (ShouldGetStatBadgeBoost(FLAG_BADGE05_GET, battlerDef) && IsBattleMovePhysical(move))

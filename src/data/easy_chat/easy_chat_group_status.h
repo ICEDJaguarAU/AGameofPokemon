@@ -54,6 +54,7 @@ const u8 gEasyChatWord_Toughness[] = _("TOUGHNESS");
 const u8 gEasyChatWord_ShedSkin[] = _("SHED SKIN");
 const u8 gEasyChatWord_HugePower[] = _("HUGE POWER");
 const u8 gEasyChatWord_VoltAbsorb[] = _("VOLT ABSORB");
+const u8 gEasyChatWord_FireBreather[] = _("FIRE BREATHER");
 const u8 gEasyChatWord_WaterAbsorb[] = _("WATER ABSORB");
 const u8 gEasyChatWord_Electric[] = _("ELECTRIC");
 const u8 gEasyChatWord_Forecast[] = _("FORECAST");

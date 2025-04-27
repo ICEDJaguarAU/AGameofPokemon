@@ -211,6 +211,7 @@ enum
     LIST_SIDE_RAINBOW,
     LIST_SIDE_SEA_OF_FIRE,
     LIST_SIDE_SWAMP,
+    LIST_SIDE_LEECH_SEED,
 };
 
 enum
@@ -637,6 +638,7 @@ static const struct ListMenuItem sSideStatusListItems[] =
     {sText_Rainbow, LIST_SIDE_RAINBOW},
     {sText_SeaOfFire, LIST_SIDE_SEA_OF_FIRE},
     {sText_Swamp, LIST_SIDE_SWAMP},
+    {sText_LeechSeeded, LIST_SIDE_LEECH_SEED},
 };
 
 static const struct ListMenuItem sAIListItems[] =
@@ -1991,6 +1993,15 @@ static u16 *GetSideStatusValue(struct BattleDebugMenu *data, bool32 changeStatus
                 *(u32 *)(data->modifyArrows.modifiedValPtr) &= ~SIDE_STATUS_STEALTH_ROCK;
         }
         return &sideTimer->stealthRockAmount;
+    case LIST_SIDE_LEECH_SEED:
+        if (changeStatus)
+        {
+            if (statusTrue)
+                *(u32 *)(data->modifyArrows.modifiedValPtr) |= SIDE_STATUS_LEECH_SEED;
+            else
+                *(u32 *)(data->modifyArrows.modifiedValPtr) &= ~SIDE_STATUS_LEECH_SEED;
+        }
+        return &sideTimer->stealthRockAmount;    
     case LIST_SIDE_STEELSURGE:
         if (changeStatus)
         {

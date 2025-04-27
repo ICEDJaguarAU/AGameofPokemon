@@ -859,6 +859,16 @@ static const u16 sCameruptFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_NUMEL
 
+#if P_FAMILY_TRAPINCH
+static const u16 sFlygonFormSpeciesIdTable[] = {
+    SPECIES_FLYGON,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FLYGON_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_TRAPINCH
+
 #if P_FAMILY_SWABLU
 static const u16 sAltariaFormSpeciesIdTable[] = {
     SPECIES_ALTARIA,
@@ -869,12 +879,23 @@ static const u16 sAltariaFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_SWABLU
 
+#if P_FAMILY_FEEBAS
+static const u16 sMiloticFormSpeciesIdTable[] = {
+    SPECIES_MILOTIC,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_MILOTIC_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_FEEBAS
+
 #if P_FAMILY_CASTFORM
 static const u16 sCastformFormSpeciesIdTable[] = {
     SPECIES_CASTFORM_NORMAL,
     SPECIES_CASTFORM_SUNNY,
     SPECIES_CASTFORM_RAINY,
     SPECIES_CASTFORM_SNOWY,
+    SPECIES_CASTFORM_SANDY,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_CASTFORM
@@ -1459,15 +1480,6 @@ static const u16 sFlorgesFormSpeciesIdTable[] = {
 #if P_FAMILY_FURFROU
 static const u16 sFurfrouFormSpeciesIdTable[] = {
     SPECIES_FURFROU_NATURAL,
-    SPECIES_FURFROU_HEART,
-    SPECIES_FURFROU_STAR,
-    SPECIES_FURFROU_DIAMOND,
-    SPECIES_FURFROU_DEBUTANTE,
-    SPECIES_FURFROU_MATRON,
-    SPECIES_FURFROU_DANDY,
-    SPECIES_FURFROU_LA_REINE,
-    SPECIES_FURFROU_KABUKI,
-    SPECIES_FURFROU_PHARAOH,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_FURFROU

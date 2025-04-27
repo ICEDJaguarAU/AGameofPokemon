@@ -85,6 +85,14 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .breakable = TRUE,
     },
 
+    [ABILITY_FIRE_BREATHER] =
+    {
+        .name = _("Fire Breather"),
+        .description = COMPOUND_STRING("Turns fire into HP."),
+        .aiRating = 7,
+        .breakable = TRUE,
+    },
+
     [ABILITY_WATER_ABSORB] =
     {
         .name = _("Water Absorb"),
@@ -676,6 +684,13 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 6,
     },
 
+    [ABILITY_GOLDEN_BOOT] =
+    {
+        .name = _("Golden Boot"),
+        .description = COMPOUND_STRING("Boosts kicking moves."),
+        .aiRating = 6,
+    },
+    
     [ABILITY_POISON_HEAL] =
     {
         .name = _("Poison Heal"),
@@ -2054,7 +2069,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_SEED_SOWER] =
     {
         .name = _("Seed Sower"),
-        .description = COMPOUND_STRING("Affects terrain when hit."),
+        .description = COMPOUND_STRING("Throws seeds when hit also affects terrain when hit."),
         .aiRating = 5,
     },
 

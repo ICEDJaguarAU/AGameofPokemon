@@ -11,41 +11,40 @@
 #define PSY_RS (B_UPDATED_TYPE_MATCHUPS >= GEN_2 ? X(2.0) : X(0.0))  // Ghost      -> Psychic
 #define FIR_RS (B_UPDATED_TYPE_MATCHUPS >= GEN_2 ? X(0.5) : X(1.0))  // Ice        -> Fire
 
+
 const uq4_12_t gTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON_TYPES] =
 {//                   Defender -->
  //  Attacker           None   Normal Fighting Flying  Poison  Ground   Rock    Bug     Ghost   Steel  Mystery  Fire   Water   Grass  Electric Psychic   Ice   Dragon   Dark   Fairy   Stellar
     [TYPE_NONE]     = {______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______},
-    [TYPE_NORMAL]   = {______, ______, ______, ______, ______, ______, X(0.5), ______, X(0.0), X(0.5), ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______},
-    [TYPE_FIGHTING] = {______, X(2.0), ______, X(0.5), X(0.5), ______, X(2.0), X(0.5), X(0.0), X(2.0), ______, ______, ______, ______, ______, X(0.5), X(2.0), ______, X(2.0), X(0.5), ______},
+    [TYPE_NORMAL]   = {______, ______, ______, ______, ______, ______, X(0.5), ______, X(0.0), X(0.5), ______, ______, ______, ______, ______, ______, ______, ______, X(0.5), X(2.0), ______},
+    [TYPE_FIGHTING] = {______, X(2.0), ______, X(0.5), X(0.5), ______, X(2.0), X(0.5), X(0.0), X(2.0), ______, ______, ______, ______, ______, X(0.5), X(2.0), X(0.5), X(2.0), X(0.5), ______},
     [TYPE_FLYING]   = {______, ______, X(2.0), ______, ______, ______, X(0.5), X(2.0), ______, X(0.5), ______, ______, ______, X(2.0), X(0.5), ______, ______, ______, ______, ______, ______},
-    [TYPE_POISON]   = {______, ______, ______, ______, X(0.5), X(0.5), X(0.5), BUG_RS, X(0.5), X(0.0), ______, ______, ______, X(2.0), ______, ______, ______, ______, ______, X(2.0), ______},
-    [TYPE_GROUND]   = {______, ______, ______, X(0.0), X(2.0), ______, X(2.0), X(0.5), ______, X(2.0), ______, X(2.0), ______, X(0.5), X(2.0), ______, ______, ______, ______, ______, ______},
-    [TYPE_ROCK]     = {______, ______, X(0.5), X(2.0), ______, X(0.5), ______, X(2.0), ______, X(0.5), ______, X(2.0), ______, ______, ______, ______, X(2.0), ______, ______, ______, ______},
+    [TYPE_POISON]   = {______, X(2.0), ______, ______, X(0.5), ______, X(0.5), BUG_RS, X(0.5), X(0.0), ______, ______, ______, X(2.0), ______, ______, ______, ______, ______, X(2.0), ______},
+    [TYPE_GROUND]   = {______, ______, ______, X(0.0), X(2.0), ______, X(2.0), X(0.5), X(0.0), X(2.0), ______, X(2.0), X(0.5), X(0.5), X(2.0), ______, X(0.5), ______, ______, ______, ______},
+    [TYPE_ROCK]     = {______, ______, X(0.5), X(2.0), ______, X(0.5), ______, X(2.0), ______, X(0.5), ______, X(2.0), X(0.5), ______, ______, ______, X(2.0), ______, ______, ______, ______},
     [TYPE_BUG]      = {______, ______, X(0.5), X(0.5), PSN_RS, ______, ______, ______, X(0.5), X(0.5), ______, X(0.5), ______, X(2.0), ______, X(2.0), ______, ______, X(2.0), X(0.5), ______},
-    [TYPE_GHOST]    = {______, X(0.0), ______, ______, ______, ______, ______, ______, X(2.0), STL_RS, ______, ______, ______, ______, ______, PSY_RS, ______, ______, X(0.5), ______, ______},
-    [TYPE_STEEL]    = {______, ______, ______, ______, ______, ______, X(2.0), ______, ______, X(0.5), ______, X(0.5), X(0.5), ______, X(0.5), ______, X(2.0), ______, ______, X(2.0), ______},
+    [TYPE_GHOST]    = {______, X(0.0), X(2.0), ______, ______, ______, ______, ______, X(2.0), STL_RS, ______, ______, ______, ______, ______, PSY_RS, ______, X(0.5), X(0.5), X(2.0), ______},
+    [TYPE_STEEL]    = {______, ______, ______, ______, ______, ______, X(2.0), ______, X(0.5), X(0.5), ______, X(0.5), X(0.5), ______, X(0.5), ______, X(2.0), X(2.0), ______, X(2.0), ______},
     [TYPE_MYSTERY]  = {______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______},
     [TYPE_FIRE]     = {______, ______, ______, ______, ______, ______, X(0.5), X(2.0), ______, X(2.0), ______, X(0.5), X(0.5), X(2.0), ______, ______, X(2.0), X(0.5), ______, ______, ______},
-    [TYPE_WATER]    = {______, ______, ______, ______, ______, X(2.0), X(2.0), ______, ______, ______, ______, X(2.0), X(0.5), X(0.5), ______, ______, ______, X(0.5), ______, ______, ______},
-    [TYPE_GRASS]    = {______, ______, ______, X(0.5), X(0.5), X(2.0), X(2.0), X(0.5), ______, X(0.5), ______, X(0.5), X(2.0), X(0.5), ______, ______, ______, X(0.5), ______, ______, ______},
-    [TYPE_ELECTRIC] = {______, ______, ______, X(2.0), ______, X(0.0), ______, ______, ______, ______, ______, ______, X(2.0), X(0.5), X(0.5), ______, ______, X(0.5), ______, ______, ______},
-    [TYPE_PSYCHIC]  = {______, ______, X(2.0), ______, X(2.0), ______, ______, ______, ______, X(0.5), ______, ______, ______, ______, ______, X(0.5), ______, ______, X(0.0), ______, ______},
+    [TYPE_WATER]    = {______, ______, ______, ______, ______, X(2.0), X(2.0), ______, ______, X(2.0), ______, X(2.0), X(0.5), X(0.5), ______, ______, ______, X(0.5), ______, ______, ______},
+    [TYPE_GRASS]    = {______, ______, ______, X(0.5), X(0.5), X(2.0), X(2.0), X(0.5), ______, X(0.5), ______, X(0.5), X(2.0), X(0.5), ______, ______, X(0.5), X(0.5), ______, ______, ______},
+    [TYPE_ELECTRIC] = {______, ______, ______, X(2.0), ______, X(0.0), ______, ______, ______, X(2.0), ______, ______, X(2.0), X(0.5), X(0.5), ______, ______, X(0.5), ______, ______, ______},
+    [TYPE_PSYCHIC]  = {______, ______, X(2.0), ______, X(2.0), ______, ______, ______, X(0.5), X(0.5), ______, ______, ______, ______, ______, X(0.5), ______, ______, X(0.0), ______, ______},
     [TYPE_ICE]      = {______, ______, ______, X(2.0), ______, X(2.0), ______, ______, ______, X(0.5), ______, FIR_RS, X(0.5), X(2.0), ______, ______, X(0.5), X(2.0), ______, ______, ______},
-    [TYPE_DRAGON]   = {______, ______, ______, ______, ______, ______, ______, ______, ______, X(0.5), ______, ______, ______, ______, ______, ______, ______, X(2.0), ______, X(0.0), ______},
-    [TYPE_DARK]     = {______, ______, X(0.5), ______, ______, ______, ______, ______, X(2.0), STL_RS, ______, ______, ______, ______, ______, X(2.0), ______, ______, X(0.5), X(0.5), ______},
-    [TYPE_FAIRY]    = {______, ______, X(2.0), ______, X(0.5), ______, ______, ______, ______, X(0.5), ______, X(0.5), ______, ______, ______, ______, ______, X(2.0), X(2.0), ______, ______},
+    [TYPE_DRAGON]   = {______, X(2.0), X(2.0), ______, ______, ______, ______, ______, X(2.0), X(0.5), ______, ______, ______, ______, ______, ______, ______, X(2.0), ______, X(0.0), ______},
+    [TYPE_DARK]     = {______, X(2.0), X(0.5), ______, ______, ______, ______, X(0.5), X(2.0), STL_RS, ______, ______, ______, ______, ______, X(2.0), ______, ______, X(0.5), X(0.5), ______},
+    [TYPE_FAIRY]    = {______, ______, X(2.0), ______, X(0.5), ______, ______, ______, X(0.5), X(0.5), ______, X(0.5), ______, ______, ______, X(0.5), ______, X(2.0), X(2.0), ______, ______},
     [TYPE_STELLAR]  = {______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, ______},
 };
 
 #undef ______
 #undef X
 
-// Notes regarding custom data:
-// - The "generic" field is large enough that the text for TYPE_ELECTRIC will exceed TEXT_BUFF_ARRAY_COUNT.
-// - In this array there's commented-out data such as references to type-resist berries that would otherwise would go unused.
-//   However, we figured this information would be useful for users that want to add their own types as a reminder of
-//   what data would they need to add in order to have their new types be fully fledged like official types.
-// - Changing "isHiddenPowerType" for any type will change the distribution of all Hidden Power types from vanilla.
+// .generic is large enough that the text for TYPE_ELECTRIC will exceed TEXT_BUFF_ARRAY_COUNT.
+// In this array there's commented-out data such as references to type-resist berries that would otherwise would go unused.
+// However, we figured this information would be useful for users that want to add their own types as a reminder of
+// what data would they need to add in order to have their new types be fully fledged like official types.
 const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
 {
     [TYPE_NONE] =
@@ -58,7 +57,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_NormalTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = TRUE,
-        .isHiddenPowerType = FALSE,
     },
     [TYPE_NORMAL] =
     {
@@ -72,7 +70,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_NormalTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = FALSE,
         //.enhanceItem = ITEM_SILK_SCARF,
         //.berry = ITEM_CHILAN_BERRY,
         //.gem = ITEM_NORMAL_GEM,
@@ -92,7 +89,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_FightingTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_BLACK_BELT,
         //.berry = ITEM_CHOPLE_BERRY,
         //.gem = ITEM_FIGHTING_GEM,
@@ -114,7 +110,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_FlyingTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_SHARP_BEAK,
         //.berry = ITEM_COBA_BERRY,
         //.gem = ITEM_FLYING_GEM,
@@ -136,7 +131,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_PoisonTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_POISON_BARB,
         //.berry = ITEM_KEBIA_BERRY,
         //.gem = ITEM_POISON_GEM,
@@ -158,7 +152,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_GroundTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_SOFT_SAND,
         //.berry = ITEM_SHUCA_BERRY,
         //.gem = ITEM_GROUND_GEM,
@@ -180,7 +173,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_RockTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_HARD_STONE,
         //.berry = ITEM_CHARTI_BERRY,
         //.gem = ITEM_ROCK_GEM,
@@ -202,7 +194,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_BugTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_SILVER_POWDER,
         //.berry = ITEM_TANGA_BERRY,
         //.gem = ITEM_BUG_GEM,
@@ -224,7 +215,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_GhostTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_SPELL_TAG,
         //.berry = ITEM_KASIB_BERRY,
         //.gem = ITEM_GHOST_GEM,
@@ -246,7 +236,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_SteelTMHM,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_METAL_COAT,
         //.berry = ITEM_BABIRI_BERRY,
         //.gem = ITEM_STEEL_GEM,
@@ -265,7 +254,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .damageCategory = DAMAGE_CATEGORY_SPECIAL,
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = TRUE,
-        .isHiddenPowerType = FALSE,
     },
     [TYPE_FIRE] =
     {
@@ -279,7 +267,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_FireTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_CHARCOAL,
         //.berry = ITEM_OCCA_BERRY,
         //.gem = ITEM_FIRE_GEM,
@@ -301,7 +288,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_WaterTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_MYSTIC_WATER,
         //.berry = ITEM_PASSHO_BERRY,
         //.gem = ITEM_WATER_GEM,
@@ -323,7 +309,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_GrassTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_MIRACLE_SEED,
         //.berry = ITEM_RINDO_BERRY,
         //.gem = ITEM_GRASS_GEM,
@@ -345,7 +330,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_ElectricTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_MAGNET,
         //.berry = ITEM_WACAN_BERRY,
         //.gem = ITEM_ELECTRIC_GEM,
@@ -367,7 +351,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_PsychicTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_TWISTED_SPOON,
         //.berry = ITEM_PAYAPA_BERRY,
         //.gem = ITEM_PSYCHIC_GEM,
@@ -389,7 +372,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_IceTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_NEVER_MELT_ICE,
         //.berry = ITEM_YACHE_BERRY,
         //.gem = ITEM_ICE_GEM,
@@ -411,7 +393,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_DragonTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_DRAGON_FANG,
         //.berry = ITEM_HABAN_BERRY,
         //.gem = ITEM_DRAGON_GEM,
@@ -423,8 +404,8 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
     },
     [TYPE_DARK] =
     {
-        .name = _("Dark"),
-        .generic = _("a DARK move"),
+        .name = _("Vile"),
+        .generic = _("a VILE move"),
         .palette = 13,
         .zMove = MOVE_BLACK_HOLE_ECLIPSE,
         .maxMove = MOVE_MAX_DARKNESS,
@@ -433,7 +414,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_DarkTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = TRUE,
         //.enhanceItem = ITEM_BLACK_GLASSES,
         //.berry = ITEM_COLBUR_BERRY,
         //.gem = ITEM_DARK_GEM,
@@ -455,7 +435,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_FairyTMHM,
         .useSecondTypeIconPalette = TRUE,
         .isSpecialCaseType = FALSE,
-        .isHiddenPowerType = FALSE,
         //.enhanceItem = ITEM_FAIRY_FEATHER,
         //.berry = ITEM_ROSELI_BERRY,
         //.gem = ITEM_FAIRY_GEM,
@@ -476,7 +455,6 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .paletteTMHM = gItemIconPalette_NormalTMHM, // failsafe
         .useSecondTypeIconPalette = FALSE,
         .isSpecialCaseType = TRUE,
-        .isHiddenPowerType = FALSE,
         // .teraShard = ITEM_STELLAR_TERA_SHARD,
     },
 };

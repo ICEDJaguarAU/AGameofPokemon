@@ -1553,6 +1553,8 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
              || IS_BATTLER_OF_TYPE(battlerDef, TYPE_GRASS)
              || DoesPartnerHaveSameMoveEffect(BATTLE_PARTNER(battlerAtk), battlerDef, move, aiData->partnerMove))
                 ADJUST_SCORE(-10);
+            else if (gSideTimers[GetBattlerSide(battlerDef)].leechSeedAmount > 0)
+              ADJUST_SCORE(-10);    
             else if (aiData->abilities[battlerDef] == ABILITY_LIQUID_OOZE)
                 ADJUST_SCORE(-3);
             break;
@@ -5431,7 +5433,7 @@ static s32 AI_PredictSwitch(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
     u32 i;
     u32 unmodifiedScore = score;
     u32 ability = gBattleMons[battlerAtk].ability;
-    u32 opposingHazardFlags = gSideStatuses[GetBattlerSide(battlerDef)] & (SIDE_STATUS_SPIKES | SIDE_STATUS_STEALTH_ROCK | SIDE_STATUS_TOXIC_SPIKES);
+    u32 opposingHazardFlags = gSideStatuses[GetBattlerSide(battlerDef)] & (SIDE_STATUS_SPIKES | SIDE_STATUS_STEALTH_ROCK | SIDE_STATUS_TOXIC_SPIKES | SIDE_STATUS_LEECH_SEED);
     u32 aiHazardFlags = gSideStatuses[GetBattlerSide(battlerAtk)] & (SIDE_STATUS_HAZARDS_ANY);
     u32 moveEffect = GetMoveEffect(move);
     struct AiLogicData *aiData = AI_DATA;

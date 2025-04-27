@@ -80,9 +80,17 @@ static const u8 sNectarDesc[]         = _("Flower nectar that\n"
                                           "changes the form\n"
                                           "of certain Pokémon.");
 
+static const u8 sVenusauriteDesc[]   = _("This stone enables\n"
+                                            "Venusaur to Mega\n"
+                                            "Evolve in battle.");                                           
+
 static const u8 sCharizarditeDesc[]   = _("This stone enables\n"
                                           "Charizard to Mega\n"
                                           "Evolve in battle.");
+
+static const u8 sBlastoisiniteDesc[]   = _("This stone enables\n"
+                                            "Blastoise to Mega\n"
+                                            "Evolve in battle."); 
 
 static const u8 sMewtwoniteDesc[]     = _("This stone enables\n"
                                           "Mewtwo to Mega\n"
@@ -4160,6 +4168,23 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Magmarizer,
     },
 
+    [ITEM_FROSTIRIZER] =
+    {
+        .name = _("Frostirizer"),
+        .price = (I_PRICE >= GEN_7) ? 2000 * TREASURE_FACTOR : 2100,
+        .description = COMPOUND_STRING(
+            "Loved by a certain\n"
+            "Pokémon. It's full\n"
+            "of frost energy."),
+        .pocket = POCKET_ITEMS,
+        .type = EVO_HELD_ITEM_TYPE,
+        .fieldUseFunc = EVO_HELD_ITEM_FIELD_FUNC,
+        .effect = gItemEffect_EvoItem,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Frostirizer,
+        .iconPalette = gItemIconPalette_Frostirizer,
+    },
+
     [ITEM_DUBIOUS_DISC] =
     {
         .name = _("Dubious Disc"),
@@ -5275,6 +5300,36 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Venusaurite,
     },
 
+    [ITEM_VENUSAURITE_X] =
+    {
+        .name = _("Venusarite X"),
+        .pluralName = _("Venusaurites X"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sVenusauriteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Venusaurite,
+        .iconPalette = gItemIconPalette_Venusaurite,
+    }, 
+
+    [ITEM_VENUSAURITE_Y] =
+    {
+        .name = _("Venusarite Y"),
+        .pluralName = _("Venusaurites Y"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sVenusauriteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Venusaurite,
+        .iconPalette = gItemIconPalette_Venusaurite,
+    }, 
+         
     [ITEM_CHARIZARDITE_X] =
     {
         .name = _("Charizardite X"),
@@ -5314,6 +5369,36 @@ const struct Item gItemsInfo[] =
             "This stone enables\n"
             "Blastoise to Mega\n"
             "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Blastoisinite,
+        .iconPalette = gItemIconPalette_Blastoisinite,
+    },
+
+    [ITEM_BLASTOISINITE_X] =
+    {
+        .name = _("Blastoisinite X"),
+        .pluralName = _("Blastoisinites X"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sBlastoisiniteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Blastoisinite,
+        .iconPalette = gItemIconPalette_Blastoisinite,
+    },
+
+    [ITEM_BLASTOISINITE_Y] =
+    {
+        .name = _("Blastoisinite Y"),
+        .pluralName = _("Blastoisinites Y"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sBlastoisiniteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -5475,6 +5560,23 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Aerodactylite,
     },
 
+    [ITEM_DRACONITE] =
+    {
+        .name = _("Draconite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Dragonite to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Draconite,
+        .iconPalette = gItemIconPalette_Draconite,
+    },
+    
     [ITEM_MEWTWONITE_X] =
     {
         .name = _("Mewtwonite X"),
@@ -5794,6 +5896,40 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Cameruptite,
     },
 
+    [ITEM_FLYGONITE] =
+    {
+        .name = _("Flygonite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Flygon to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Flygonite,
+        .iconPalette = gItemIconPalette_Flygonite,
+    },
+
+    [ITEM_MILOTITE] =
+    {
+        .name = _("Milotite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Milotic to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Milotite,
+        .iconPalette = gItemIconPalette_Milotite,
+    },
+    
     [ITEM_ALTARIANITE] =
     {
         .name = _("Altarianite"),

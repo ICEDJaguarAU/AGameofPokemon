@@ -1462,8 +1462,18 @@ static s32 GetSwitchinWeatherImpact(void)
         if (holdEffect != HOLD_EFFECT_SAFETY_GOGGLES && ability != ABILITY_MAGIC_GUARD && ability != ABILITY_OVERCOAT)
         {
             if ((gBattleWeather & B_WEATHER_HAIL)
-             && (AI_DATA->switchinCandidate.battleMon.types[0] != TYPE_ICE || AI_DATA->switchinCandidate.battleMon.types[1] != TYPE_ICE)
-             && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_ICE_BODY)
+                && (AI_DATA->switchinCandidate.battleMon.types[0] != TYPE_ICE && AI_DATA->switchinCandidate.battleMon.types[1] != TYPE_ICE
+                && AI_DATA->switchinCandidate.battleMon.types[0] != TYPE_WATER && AI_DATA->switchinCandidate.battleMon.types[1] != TYPE_WATER
+                && ability != ABILITY_ICE_BODY && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_SLUSH_RUSH))
+            {
+                weatherImpact = maxHP / 16;
+                if (weatherImpact == 0)
+                    weatherImpact = 1;
+            }
+            else if ((gBattleWeather & B_WEATHER_SNOW)
+                && (AI_DATA->switchinCandidate.battleMon.types[0] != TYPE_ICE && AI_DATA->switchinCandidate.battleMon.types[1] != TYPE_ICE
+                && AI_DATA->switchinCandidate.battleMon.types[0] != TYPE_WATER && AI_DATA->switchinCandidate.battleMon.types[1] != TYPE_WATER
+                && ability != ABILITY_ICE_BODY && ability != ABILITY_SNOW_CLOAK && ability != ABILITY_SLUSH_RUSH))
             {
                 weatherImpact = maxHP / 16;
                 if (weatherImpact == 0)

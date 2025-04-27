@@ -248,6 +248,7 @@ struct SideTimer
     u8 safeguardBattlerId;
     u16 spikesAmount; // debug menu complains. might be better to solve there instead if possible
     u16 toxicSpikesAmount;
+    u16 leechSeedAmount;
     u16 stealthRockAmount;
     u16 stickyWebAmount;
     u8 stickyWebBattlerId;

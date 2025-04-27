@@ -1637,8 +1637,23 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
+#define SPECIES_FROSTKWEN                               1524
+#define SPECIES_WRAITHEON                               1525
+#define SPECIES_DRAKEON                                 1526
+#define SPECIES_ADMIRATROSS                             1527
+#define SPECIES_FLYGON_MEGA                             1528
+#define SPECIES_MILOTIC_MEGA                            1529
+#define SPECIES_CASTFORM_SANDY                          1530
+#define SPECIES_VENUSAUR_MEGA_X                         1531
+#define SPECIES_VENUSAUR_MEGA_Y                         1532
+#define SPECIES_BLASTOISE_MEGA_X                        1533
+#define SPECIES_BLASTOISE_MEGA_Y                        1534
+#define SPECIES_STEINULFUR                              1535
+#define SPECIES_AETHELWULF                              1536
+#define SPECIES_VARGKOENIG                              1537
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+
+#define SPECIES_EGG                                     (SPECIES_VARGKOENIG + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

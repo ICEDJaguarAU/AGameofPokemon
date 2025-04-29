@@ -4410,6 +4410,36 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE103WEST",
+      "name": "Route103West_Layout",
+      "width": 48,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route103West/border.bin",
+      "blockdata_filepath": "data/layouts/Route103West/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WOODS_WEST",
+      "name": "PetalburgWoodsWest_Layout",
+      "width": 40,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PetalburgWoodsWest/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWoodsWest/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WOODS_EAST",
+      "name": "PetalburgWoodsEast_Layout",
+      "width": 50,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PetalburgWoodsEast/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWoodsEast/map.bin"
     }
   ]
 }

@@ -15,18 +15,8 @@
   "connections": [
     {
       "map": "MAP_RUSTBORO_CITY",
-      "offset": 0,
+      "offset": 2,
       "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE105",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_PETALBURG_CITY",
-      "offset": 50,
-      "direction": "right"
     }
   ],
   "object_events": [

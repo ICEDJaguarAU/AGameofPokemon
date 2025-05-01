@@ -200,15 +200,15 @@
       "x": 14,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE104",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_ROUTE104N",
+      "dest_warp_id": "1"
     },
     {
       "x": 15,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE104",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_ROUTE104N",
+      "dest_warp_id": "2"
     },
     {
       "x": 16,

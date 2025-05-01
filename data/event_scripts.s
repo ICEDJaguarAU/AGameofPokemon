@@ -1162,3 +1162,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/PetalburgWoodsEast/scripts.inc"
 
 	.include "data/maps/Route104S/scripts.inc"
+
+	.include "data/maps/Route104N/scripts.inc"

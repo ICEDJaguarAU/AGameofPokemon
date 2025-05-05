@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104N/border.bin",
       "blockdata_filepath": "data/layouts/Route104N/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE116EAST",
+      "name": "Route116East_Layout",
+      "width": 54,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route116East/border.bin",
+      "blockdata_filepath": "data/layouts/Route116East/map.bin"
     }
   ]
 }

@@ -4490,6 +4490,16 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/Route116North/border.bin",
       "blockdata_filepath": "data/layouts/Route116North/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_RUSTURF",
+      "name": "Mt_Rusturf_Layout",
+      "width": 30,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IslandHarbor",
+      "border_filepath": "data/layouts/Mt_Rusturf/border.bin",
+      "blockdata_filepath": "data/layouts/Mt_Rusturf/map.bin"
     }
   ]
 }

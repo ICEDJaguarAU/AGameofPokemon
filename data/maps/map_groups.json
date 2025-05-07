@@ -437,7 +437,8 @@
     "MeteorFalls_StevensCave",
     "PetalburgWoodsWest",
     "PetalburgWoodsEast",
-    "Upper_RusturfTunnel"
+    "Upper_RusturfTunnel",
+    "Mt_Rusturf"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

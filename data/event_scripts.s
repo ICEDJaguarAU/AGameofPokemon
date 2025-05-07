@@ -1167,3 +1167,7 @@ EventScript_VsSeekerChargingDone::
 
 
 	.include "data/maps/Route116East/scripts.inc"
+
+	.include "data/maps/Upper_RusturfTunnel/scripts.inc"
+
+	.include "data/maps/Route116North/scripts.inc"

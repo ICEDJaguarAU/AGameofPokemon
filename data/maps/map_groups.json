@@ -96,7 +96,8 @@
     "Route103West",
     "Route104S",
     "Route104N",
-    "Route116East"
+    "Route116East",
+    "Route116North"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -435,7 +436,8 @@
     "AlteringCave",
     "MeteorFalls_StevensCave",
     "PetalburgWoodsWest",
-    "PetalburgWoodsEast"
+    "PetalburgWoodsEast",
+    "Upper_RusturfTunnel"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

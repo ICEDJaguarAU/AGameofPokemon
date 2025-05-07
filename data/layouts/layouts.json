@@ -4470,6 +4470,26 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route116East/border.bin",
       "blockdata_filepath": "data/layouts/Route116East/map.bin"
+    },
+    {
+      "id": "LAYOUT_UPPER_RUSTURF_TUNNEL",
+      "name": "Upper_RusturfTunnel_Layout",
+      "width": 40,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/Upper_RusturfTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/Upper_RusturfTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE116NORTH",
+      "name": "Route116North_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/Route116North/border.bin",
+      "blockdata_filepath": "data/layouts/Route116North/map.bin"
     }
   ]
 }

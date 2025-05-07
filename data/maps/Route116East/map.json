@@ -40,8 +40,8 @@
       "x": 32,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE116EAST",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_UPPER_RUSTURF_TUNNEL",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

@@ -4415,7 +4415,7 @@
       "id": "LAYOUT_ROUTE103WEST",
       "name": "Route103West_Layout",
       "width": 48,
-      "height": 30,
+      "height": 22,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route103West/border.bin",
@@ -4520,6 +4520,16 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route115North/border.bin",
       "blockdata_filepath": "data/layouts/Route115North/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE103EAST",
+      "name": "Route103East_Layout",
+      "width": 38,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route103East/border.bin",
+      "blockdata_filepath": "data/layouts/Route103East/map.bin"
     }
   ]
 }

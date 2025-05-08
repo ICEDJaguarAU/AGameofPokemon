@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 19,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_UPPER_RUSTURF_TUNNEL",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_UPPER_RUSTURF_TUNNEL",
+      "dest_warp_id": "3"
+    }
   ],
   "coord_events": [
 

@@ -4500,6 +4500,26 @@
       "secondary_tileset": "gTileset_IslandHarbor",
       "border_filepath": "data/layouts/Mt_Rusturf/border.bin",
       "blockdata_filepath": "data/layouts/Mt_Rusturf/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE115SOUTH",
+      "name": "Route115South_Layout",
+      "width": 40,
+      "height": 46,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Route115South/border.bin",
+      "blockdata_filepath": "data/layouts/Route115South/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE115NORTH",
+      "name": "Route115North_Layout",
+      "width": 40,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Route115North/border.bin",
+      "blockdata_filepath": "data/layouts/Route115North/map.bin"
     }
   ]
 }

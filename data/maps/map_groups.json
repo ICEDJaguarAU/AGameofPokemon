@@ -97,7 +97,9 @@
     "Route104S",
     "Route104N",
     "Route116East",
-    "Route116North"
+    "Route116North",
+    "Route115South",
+    "Route115North"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

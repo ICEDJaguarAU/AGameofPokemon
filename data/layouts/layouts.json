@@ -4530,6 +4530,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route103East/border.bin",
       "blockdata_filepath": "data/layouts/Route103East/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE118WEST",
+      "name": "Route118West_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/Route118West/border.bin",
+      "blockdata_filepath": "data/layouts/Route118West/map.bin"
     }
   ]
 }

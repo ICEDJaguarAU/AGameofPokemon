@@ -1181,3 +1181,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route103East/scripts.inc"
 
 	.include "data/maps/Route118West/scripts.inc"
+
+	.include "data/maps/Route111South/scripts.inc"

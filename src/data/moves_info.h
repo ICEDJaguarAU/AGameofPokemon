@@ -18687,7 +18687,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Control foe's item to attack.\n"
             "Fails if foe has no item."),
         .effect = EFFECT_POLTERGEIST,
-        .power = 130,
+        .power = 150,
         .type = TYPE_GHOST,
         .accuracy = 90,
         .pp = 5,

@@ -11778,12 +11778,12 @@ Illumise
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_KIRA_AND_DAN_2 ===
-Name: KIRA & DAN
-Class: Young Couple
-Pic: Young Couple
+=== TRAINER_VITO_1 ===
+Name: VITO
+Class: Cooltrainer 
+Pic: Cooltrainer M
 Gender: Male
-Music: Girl
+Music: Boy
 Double Battle: Yes
 AI: Check Bad Move
 
@@ -11795,10 +11795,10 @@ Illumise
 Level: 30
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_KIRA_AND_DAN_3 ===
-Name: KIRA & DAN
-Class: Young Couple
-Pic: Young Couple
+=== TRAINER_VITO_2 ===
+Name: VITO
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
 Music: Girl
 Double Battle: Yes
@@ -11812,10 +11812,10 @@ Illumise
 Level: 33
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-=== TRAINER_KIRA_AND_DAN_4 ===
-Name: KIRA & DAN
-Class: Young Couple
-Pic: Young Couple
+=== TRAINER_VITO_3 ===
+Name: VITO
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
 Music: Girl
 Double Battle: Yes
@@ -11829,10 +11829,10 @@ Illumise
 Level: 36
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_KIRA_AND_DAN_5 ===
-Name: KIRA & DAN
-Class: Young Couple
-Pic: Young Couple
+=== TRAINER_VITO_4 ===
+Name: VITO
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
 Music: Girl
 Double Battle: Yes
@@ -16706,8 +16706,8 @@ Swellow
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_THALIA_2 ===
-Name: THALIA
+=== TRAINER_LEAF_1 ===
+Name: LEAF
 Class: Beauty
 Pic: Beauty
 Gender: Female
@@ -16723,8 +16723,8 @@ Horsea
 Level: 34
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_THALIA_3 ===
-Name: THALIA
+=== TRAINER_LEAF_2 ===
+Name: LEAF
 Class: Beauty
 Pic: Beauty
 Gender: Female
@@ -16744,8 +16744,8 @@ Seadra
 Level: 36
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-=== TRAINER_THALIA_4 ===
-Name: THALIA
+=== TRAINER_LEAF_3 ===
+Name: LEAF
 Class: Beauty
 Pic: Beauty
 Gender: Female
@@ -16765,8 +16765,8 @@ Seadra
 Level: 38
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_THALIA_5 ===
-Name: THALIA
+=== TRAINER_LEAF_4 ===
+Name: LEAF
 Class: Beauty
 Pic: Beauty
 Gender: Female

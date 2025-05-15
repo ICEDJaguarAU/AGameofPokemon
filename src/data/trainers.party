@@ -11778,12 +11778,12 @@ Illumise
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_VITO_1 ===
+=== TRAINER_VITO_VR_2 ===
 Name: VITO
-Class: Cooltrainer 
+Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
-Music: Boy
+Music: Cool
 Double Battle: Yes
 AI: Check Bad Move
 
@@ -11795,12 +11795,12 @@ Illumise
 Level: 30
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_VITO_2 ===
+=== TRAINER_VITO_VR_3 ===
 Name: VITO
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
-Music: Girl
+Music: Cool
 Double Battle: Yes
 AI: Check Bad Move
 
@@ -11812,12 +11812,12 @@ Illumise
 Level: 33
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-=== TRAINER_VITO_3 ===
+=== TRAINER_VITO_VR_4 ===
 Name: VITO
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
-Music: Girl
+Music: Cool
 Double Battle: Yes
 AI: Check Bad Move
 
@@ -11829,12 +11829,12 @@ Illumise
 Level: 36
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_VITO_4 ===
+=== TRAINER_VITO_VR_5 ===
 Name: VITO
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
-Music: Girl
+Music: Cool
 Double Battle: Yes
 AI: Check Bad Move
 
@@ -16706,10 +16706,10 @@ Swellow
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_LEAF_1 ===
+=== TRAINER_LEAF_VR_1 ===
 Name: LEAF
-Class: Beauty
-Pic: Beauty
+Class: Rival
+Pic: Leaf
 Gender: Female
 Music: Female
 Double Battle: No
@@ -16723,10 +16723,10 @@ Horsea
 Level: 34
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_LEAF_2 ===
+=== TRAINER_LEAF_VR_2 ===
 Name: LEAF
-Class: Beauty
-Pic: Beauty
+Class: Rival
+Pic: Leaf
 Gender: Female
 Music: Female
 Double Battle: No
@@ -16744,10 +16744,10 @@ Seadra
 Level: 36
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-=== TRAINER_LEAF_3 ===
+=== TRAINER_LEAF_VR_3 ===
 Name: LEAF
-Class: Beauty
-Pic: Beauty
+Class: Rival
+Pic: Leaf
 Gender: Female
 Music: Female
 Double Battle: No
@@ -16765,10 +16765,10 @@ Seadra
 Level: 38
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_LEAF_4 ===
+=== TRAINER_LEAF_VR_4 ===
 Name: LEAF
-Class: Beauty
-Pic: Beauty
+Class: Rival
+Pic: Leaf
 Gender: Female
 Music: Female
 Double Battle: No
@@ -16838,7 +16838,7 @@ Charmander
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LEAF ===
+=== TRAINER_LEAF_1 ===
 Name: LEAF
 Class: Rival
 Pic: Leaf

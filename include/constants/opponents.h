@@ -646,10 +646,10 @@
 #define TRAINER_DEZ_AND_LUKE                640
 #define TRAINER_LEA_AND_JED                 641
 #define TRAINER_KIRA_AND_DAN_1              642
-#define TRAINER_LEAF_1                      643
-#define TRAINER_LEAF_2                      644
-#define TRAINER_LEAF_3                      645
-#define TRAINER_LEAF_4                      646
+#define TRAINER_LEAF_VR_2                   643
+#define TRAINER_LEAF_VR_3                   644
+#define TRAINER_LEAF_VR_4                   645
+#define TRAINER_LEAF_VR_5                   646
 #define TRAINER_JOHANNA                     647
 #define TRAINER_GERALD                      648
 #define TRAINER_VIVIAN                      649
@@ -847,15 +847,15 @@
 #define TRAINER_GABRIELLE_3                 841
 #define TRAINER_GABRIELLE_4                 842
 #define TRAINER_GABRIELLE_5                 843
-#define TRAINER_VITO_1                      844
-#define TRAINER_VITO_2                      845
-#define TRAINER_VITO_3                      846
-#define TRAINER_VITO_4                      847
+#define TRAINER_VITO_VR_2                   844
+#define TRAINER_VITO_VR_3                   845
+#define TRAINER_VITO_VR_4                   846
+#define TRAINER_VITO_VR_5                   847
 #define TRAINER_MARIELA                     848
 #define TRAINER_ALVARO                      849
 #define TRAINER_EVERETT                     850
 #define TRAINER_RED                         851
-#define TRAINER_LEAF                        852
+#define TRAINER_LEAF_1                      852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
 #define TRAINER_SIDNEY_REMATCH              855
@@ -864,6 +864,8 @@
 #define TRAINER_DRAKE_REMATCH               858
 #define TRAINER_WALLACE_REMATCH             859
 #define TRAINER_STEVEN_REMATCH              860
+#define TRAINER_VITO_VR_1                   861
+#define TRAINER_LEAF_VR_1                   862
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 3 additional trainers before trainer flag space overflows

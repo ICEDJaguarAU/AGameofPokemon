@@ -29587,7 +29587,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 11781
-    [DIFFICULTY_NORMAL][TRAINER_VITO_1] =
+    [DIFFICULTY_NORMAL][TRAINER_VITO_VR_2] =
     {
 #line 11782
         .trainerName = _("VITO"),
@@ -29597,7 +29597,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender =
 #line 11786
-            TRAINER_ENCOUNTER_MUSIC_BOY,
+            TRAINER_ENCOUNTER_MUSIC_COOL,
 #line 11787
         .doubleBattle = TRUE,
 #line 11788
@@ -29630,7 +29630,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 11798
-    [DIFFICULTY_NORMAL][TRAINER_VITO_2] =
+    [DIFFICULTY_NORMAL][TRAINER_VITO_VR_3] =
     {
 #line 11799
         .trainerName = _("VITO"),
@@ -29640,7 +29640,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender =
 #line 11803
-            TRAINER_ENCOUNTER_MUSIC_GIRL,
+            TRAINER_ENCOUNTER_MUSIC_COOL,
 #line 11804
         .doubleBattle = TRUE,
 #line 11805
@@ -29673,7 +29673,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 11815
-    [DIFFICULTY_NORMAL][TRAINER_VITO_3] =
+    [DIFFICULTY_NORMAL][TRAINER_VITO_VR_4] =
     {
 #line 11816
         .trainerName = _("VITO"),
@@ -29683,7 +29683,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender =
 #line 11820
-            TRAINER_ENCOUNTER_MUSIC_GIRL,
+            TRAINER_ENCOUNTER_MUSIC_COOL,
 #line 11821
         .doubleBattle = TRUE,
 #line 11822
@@ -29716,7 +29716,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 11832
-    [DIFFICULTY_NORMAL][TRAINER_VITO_4] =
+    [DIFFICULTY_NORMAL][TRAINER_VITO_VR_5] =
     {
 #line 11833
         .trainerName = _("VITO"),
@@ -29726,7 +29726,7 @@ F_TRAINER_FEMALE |
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .encounterMusic_gender =
 #line 11837
-            TRAINER_ENCOUNTER_MUSIC_GIRL,
+            TRAINER_ENCOUNTER_MUSIC_COOL,
 #line 11838
         .doubleBattle = TRUE,
 #line 11839
@@ -41739,14 +41739,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16709
-    [DIFFICULTY_NORMAL][TRAINER_LEAF_1] =
+    [DIFFICULTY_NORMAL][TRAINER_LEAF_VR_1] =
     {
 #line 16710
         .trainerName = _("LEAF"),
 #line 16711
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_RIVAL,
 #line 16712
-        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerPic = TRAINER_PIC_LEAF,
         .encounterMusic_gender =
 #line 16713
 F_TRAINER_FEMALE | 
@@ -41784,14 +41784,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16726
-    [DIFFICULTY_NORMAL][TRAINER_LEAF_2] =
+    [DIFFICULTY_NORMAL][TRAINER_LEAF_VR_2] =
     {
 #line 16727
         .trainerName = _("LEAF"),
 #line 16728
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_RIVAL,
 #line 16729
-        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerPic = TRAINER_PIC_LEAF,
         .encounterMusic_gender =
 #line 16730
 F_TRAINER_FEMALE | 
@@ -41840,14 +41840,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16747
-    [DIFFICULTY_NORMAL][TRAINER_LEAF_3] =
+    [DIFFICULTY_NORMAL][TRAINER_LEAF_VR_3] =
     {
 #line 16748
         .trainerName = _("LEAF"),
 #line 16749
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_RIVAL,
 #line 16750
-        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerPic = TRAINER_PIC_LEAF,
         .encounterMusic_gender =
 #line 16751
 F_TRAINER_FEMALE | 
@@ -41896,14 +41896,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16768
-    [DIFFICULTY_NORMAL][TRAINER_LEAF_4] =
+    [DIFFICULTY_NORMAL][TRAINER_LEAF_VR_4] =
     {
 #line 16769
         .trainerName = _("LEAF"),
 #line 16770
-        .trainerClass = TRAINER_CLASS_BEAUTY,
+        .trainerClass = TRAINER_CLASS_RIVAL,
 #line 16771
-        .trainerPic = TRAINER_PIC_BEAUTY,
+        .trainerPic = TRAINER_PIC_LEAF,
         .encounterMusic_gender =
 #line 16772
 F_TRAINER_FEMALE | 
@@ -42085,7 +42085,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16841
-    [DIFFICULTY_NORMAL][TRAINER_LEAF] =
+    [DIFFICULTY_NORMAL][TRAINER_LEAF_1] =
     {
 #line 16842
         .trainerName = _("LEAF"),

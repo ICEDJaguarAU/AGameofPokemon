@@ -1241,6 +1241,9 @@ static const u16 sYamaskFormSpeciesIdTable[] = {
 #if P_FAMILY_TRUBBISH
 static const u16 sGarbodorFormSpeciesIdTable[] = {
     SPECIES_GARBODOR,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GARBODOR_MEGA,
+#endif    
 #if P_GIGANTAMAX_FORMS
     SPECIES_GARBODOR_GMAX,
 #endif

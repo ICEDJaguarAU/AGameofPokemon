@@ -6168,6 +6168,23 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Audinite,
     },
 
+    [ITEM_GARBODORITE] =
+    {
+        .name = _("Garbodorite"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "Garbodor to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Sceptilite,
+        .iconPalette = gItemIconPalette_Sceptilite,
+    },    
+
     [ITEM_DIANCITE] =
     {
         .name = _("Diancite"),

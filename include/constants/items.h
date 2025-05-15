@@ -1001,12 +1001,13 @@
 #define ITEM_FLYGONITE 834
 #define ITEM_MILOTITE 835
 #define ITEM_FROSTIRIZER 836
+#define ITEM_GARBODORITE 837
 
 
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 837
+#define ITEMS_COUNT 838
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

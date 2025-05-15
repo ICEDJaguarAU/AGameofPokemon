@@ -6308,6 +6308,67 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .formChangeTable = sGarbodorFormChangeTable,
     },
 
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_GARBODOR_MEGA] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 145,
+        .baseDefense   = 112,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 112,
+        .types = MON_TYPES(TYPE_POISON, TYPE_ROCK),
+        .catchRate = 60,
+        .expYield = 166,
+        .evYield_Attack = 2,
+        .itemCommon = ITEM_SILK_SCARF,
+        .itemRare = ITEM_BLACK_SLUDGE,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
+        .abilities = { ABILITY_EARTH_EATER, ABILITY_EARTH_EATER, ABILITY_EARTH_EATER },
+        .bodyColor = BODY_COLOR_GREEN,
+        .noFlip = TRUE,
+        .speciesName = _("Garbodor"),
+        .cryId = CRY_GARBODOR,
+        .natDexNum = NATIONAL_DEX_GARBODOR,
+        .categoryName = _("Trash Heap"),
+        .height = 19,
+        .weight = 1073,
+        .description = COMPOUND_STRING(
+            "Beware the poisonous liquid it shoots\n"
+            "from its right arm. If even a little of it\n"
+            "gets on you, you'll experience the full\n"
+            "effects of this unidentified toxin."),
+        .pokemonScale = 256,
+        .pokemonOffset = 1,
+        .trainerScale = 326,
+        .trainerOffset = 4,
+        .frontPic = gMonFrontPic_GarbodorGmax,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_GarbodorGmax,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 2,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_GarbodorGmax,
+        .shinyPalette = gMonShinyPalette_GarbodorGmax,
+        .iconSprite = gMonIcon_GarbodorGmax,
+        .iconPalIndex = 0,
+        NO_SHADOW
+        FOOTPRINT(Garbodor)
+        .isGigantamax = TRUE,
+        .levelUpLearnset = sGarbodorLevelUpLearnset,
+        .teachableLearnset = sGarbodorTeachableLearnset,
+        .formSpeciesIdTable = sGarbodorFormSpeciesIdTable,
+        .formChangeTable = sGarbodorFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
+    
 #if P_GIGANTAMAX_FORMS
     [SPECIES_GARBODOR_GMAX] =
     {

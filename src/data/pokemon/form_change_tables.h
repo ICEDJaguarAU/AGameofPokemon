@@ -726,10 +726,12 @@ static const struct FormChange sDarmanitanGalarFormChangeTable[] = {
 #endif //P_FAMILY_DARUMAKA
 
 #if P_FAMILY_TRUBBISH
-static const struct FormChange sGarbodorFormChangeTable[] =
-{
+static const struct FormChange sGarbodorFormChangeTable[] = {
 #if P_GIGANTAMAX_FORMS
     {FORM_CHANGE_BATTLE_GIGANTAMAX, SPECIES_GARBODOR_GMAX},
+#endif
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GARBODOR_MEGA, ITEM_GARBODORITE},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };

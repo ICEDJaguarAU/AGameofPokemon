@@ -1651,9 +1651,10 @@
 #define SPECIES_STEINULFUR                              1535
 #define SPECIES_AETHELWULF                              1536
 #define SPECIES_VARGKOENIG                              1537
+#define SPECIES_GARBODOR_MEGA                           1538
 
 
-#define SPECIES_EGG                                     (SPECIES_VARGKOENIG + 1)
+#define SPECIES_EGG                                     (SPECIES_GARBODOR_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

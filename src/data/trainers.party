@@ -5972,7 +5972,7 @@ Level:6
 Ability: Keen Eye
 Bashful Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Wing Attack
+-Peck
 -Sand Attack
 -Swagger
 
@@ -6238,13 +6238,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
+Skiddo @ Lum Berry
+Level: 7
+Bashful Nature
+Ability: Sap Sipper
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Vine Whip
+-Tackle
+-Synthesis
 
-Taillow
-Level: 3
+Litleo @ Oran Berry
+Level:6 
+Bashful Nature
+Ability: Unnerve
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Headbutt
+-Ember 
+-Work Up 
+
+Psyduck @ Oran Berry 
+Bashful Nature 
+Ability: Damp
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Water Gun 
+-Confusion
+-Scratch
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -11076,13 +11095,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
+Swirlix @ Berry Juice
+Level: 7
+Bashful Nature 
+Ability: Unburden 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Fairy Wind 
+-Double Slap 
+-Sweet Scent 
+-Tackle 
 
-Shroomish
-Level: 4
+Shroomish @ Berry Juice
+Level: 8
+Bashful Nature 
+Ability: Effect Spore
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Tackle 
+-Leech Seed
+-Stun Spore 
+-Absorb
+
+Rattata_Alola @ Oran Berry
+Level: 8
+Bashful Nature
+Ability: Hustle
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Quick Attack 
+-Bite 
+-Tackle 
+-Tail Whip 
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11280,13 +11321,32 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 4
+Grubbin @ Oran Berry
+Ability: Swarm
+Bashful Nature
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bug Bite
+-Spark
+-Vice Grip
 
-Wurmple
-Level: 4
+Pineco @ Oran Berry
+Ability: Sturdy
+Bashful Nature
+Level:6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Pin Missile
+-Harden
+
+Sizzlipede @ Oran Berry
+Ability: Flash Fire
+Bashful Nature
+Level:7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bug Bite
+-Ember
+-Wrap
+
 
 === TRAINER_LYLE ===
 Name: LYLE

@@ -2123,9 +2123,34 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
+Minccino @ Oran Berry
+Level:12
+Modest Nature
+Ability: Cute Charm 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Echoed Voice
+-Attract 
+-Thunder Wave 
+-Sing
+
+Jigglypuff @ Oran Berry
+Level:11
+Bold Nature
+Ability: Cute Charm 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Round
+-Attract 
+-Thunder Wave 
+-Sing
+
+Phanpy @ Oran Berry
+Level:11
+Jolly Nature
+Ability: Cute Charm 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Stomp
+-Attract 
+-Rollout 
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -5985,13 +6010,33 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 5
+Krabby @ Oran Berry
+Relaxed Nature
+Ability: Shell Armor
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Clamp
+-Stomp
+-Metal Claw
+-Mud Slap
 
-Seedot
-Level: 7
+Clobbopus @ Oran Berry
+Jolly Nature
+Ability: Limber
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Smash
+-Bind
+-Detect
+
+Yanma @ Iron Ball
+Jolly Nature
+Ability: Speed Boost
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Acrobatics
+-Quick Attack
+-Struggle Bug
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -13059,9 +13104,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 9
+Magikarp @ Choice Band 
+Adamant Nature
+Ability: Rattled
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bounce 
+-Tackle
+
+Goldeen @ Focus Sash 
+Bashful Nature
+Ability: Water Veil
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Supersonic 
+-Aqua Jet 
+-Peck
+
+Staryu @ Oran Berry
+Jolly Nature
+Ability: Natural Cure 
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Confuse Ray 
+-Water Gun
+-Harden
+
 
 === TRAINER_HAILEY ===
 Name: HAILEY

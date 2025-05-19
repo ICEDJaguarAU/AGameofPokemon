@@ -11402,17 +11402,43 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 3
+Spinarak @ Scope Lens 
+Ability: Sniper
+Jolly Nature
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bug Bite
+-Infestation
+-String Shot 
+-Absorb
 
-Wurmple
-Level: 3
+Kricketot @ Lum Berry
+Ability: Shed Skin 
+Jolly Nature
+Level:12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bug Bite
+-Struggle Bug
 
-Wurmple
-Level: 3
+Nincada @ Oran Berry
+Ability: Compound Eyes
+Naughty Nature
+Level:13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bug Bite
+-False Swipe
+-Scratch
+-Mud Shot
+
+Nymble @ Oran Berry
+Ability: Golden Boot 
+Jolly Nature
+Level:13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Double Kick
+-Astonish
+-Assurance
+-Pounce
 
 Wurmple
 Level: 3

@@ -21533,6 +21533,7 @@ static const struct LevelUpMove sSpidopsLevelUpLearnset[] = {
 static const struct LevelUpMove sNymbleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_POUNCE),
     LEVEL_UP_MOVE( 4, MOVE_STRUGGLE_BUG),
     LEVEL_UP_MOVE( 6, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 9, MOVE_ASSURANCE),
@@ -21550,6 +21551,7 @@ static const struct LevelUpMove sNymbleLevelUpLearnset[] = {
 static const struct LevelUpMove sLokixLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_LUNGE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_POUNCE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_LOW_KICK),
     LEVEL_UP_MOVE( 1, MOVE_DETECT),

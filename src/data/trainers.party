@@ -231,9 +231,44 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 9
+Carvanha @ Oran Berry
+Ability: Strong Jaw      
+Naive Nature
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bite 
+-Poison Fang  
+-Aqua Jet  
+-Focus Energy
+
+Croagunk @ Salac Berry
+Ability: Poison Touch      
+Hasty Nature
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Poison Sting  
+-Low Kick   
+-Mud Slap   
+-Astonish
+
+Exeggcute @ Oran Berry
+Ability: Harvest      
+Relaxed Nature
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Reflect 
+-Bullet Seed   
+-Barrage  
+-Leech Seed
+
+Rockruff @ Muscle Band
+Ability: Quick Feet 
+Naive Nature
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Jaw Lock 
+-Sand Attack 
+-Bite 
+-Howl 
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -11428,7 +11463,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Bug Bite
 -False Swipe
 -Scratch
--Mud Shot
+-Mud Slap
 
 Nymble @ Oran Berry
 Ability: Golden Boot 
@@ -11440,9 +11475,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Assurance
 -Pounce
 
-Wurmple
-Level: 3
+Mothim @ Oran Berry
+Ability: Tinted Lens     
+Naughty Nature
+Level:13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Tackle
+-Protect
+-Bug Bite 
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -11517,13 +11557,57 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nincada
-Level: 6
+Ledyba @ Light Clay
+Ability: Swarm      
+Jolly Nature
+Level:15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Mach Punch  
+-Light Screen  
+-Reflect  
+-Supersonic
 
-Nincada
-Level: 6
+Larvesta @ Eviolite 
+Ability: Flame Body     
+Careful Nature
+Level:13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Struggle Bug
+-Flame Charge
+-String Shot
+-Ember
+
+Trapinch @ Oran Berry
+Ability: Arena Trap      
+Jolly Nature
+Level:14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bite 
+-Astonish 
+-Bug Bite 
+-Mud Slap
+
+Cutiefly @ Wise Glasses
+Ability: Shield Dust       
+Timid Nature
+Level:14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Absorb 
+-Fairy Wind  
+-Stun Spore 
+-Bug Bite 
+
+Butterfree @ Light Clay
+Ability: Tinted Lens       
+Timid Nature
+Level:14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Gust   
+-Confusion  
+-Stun Spore  
+-Poison Powder
+
+
 
 === TRAINER_JAMES_2 ===
 Name: JAMES

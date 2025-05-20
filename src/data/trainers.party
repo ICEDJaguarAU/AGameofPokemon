@@ -264,6 +264,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Rockruff @ Muscle Band
 Ability: Quick Feet 
 Naive Nature
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Jaw Lock 
 -Sand Attack 
@@ -2587,9 +2588,35 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 7
+Furfrou @ Leftovers
+Impish Nature 
+Ability: Fur Coat 
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Tail Whip
+- Sand Attack
+- Covet
+
+Yamper @ Leftovers
+Jolly Nature 
+Ability: Rattled 
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Roar 
+- Bite 
+- Nuzzle
+- Howl 
+
+Fidough @ Leftovers
+Impish Nature 
+Ability: Own Tempo
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Tail Whip
+- Lick
+- Covet
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -6451,17 +6478,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
+Qwilfish @ Black Sludge 
+Hasty Nature 
+Ability: Intimidate 
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet 
+- Fell Stinger 
+- Harden 
+- Poison Sting 
 
-Magikarp
-Level: 6
+Horsea @ Lum Berry
+Hasty Nature 
+Ability: Sniper 
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Focus Energy
+- Bubble beam 
+- Twister 
+- Smokescreen 
 
-Magikarp
-Level: 7
+Spheal @ Lum Berry
+Bold Nature 
+Ability: Thick Fat 
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Ball 
+- Rollout 
+- Defense Curl 
+- Growl
+
+Wiglett @ Leftovers
+Bold Nature 
+Ability: Gooey 
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Wrap
+- Sand Dash
+-Sand Attack
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8928,13 +8983,46 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Seedot
-Level: 6
+Pichu @ Oran Berry
+Modest Nature 
+Ability: Static 
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nuzzle
+- Double Slap
+- Tail Whip 
+- Charm
 
-Lotad
-Level: 6
+Cleffa @ Eviolite
+Bold Nature 
+Ability: Friend Guard 
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disarming Voice
+- Helping Hand 
+- Follow Me 
+- Healing Wish 
+
+Abra @ Lum Berry
+Timid Nature 
+Ability: Magic Guard 
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Kinesis 
+- Secret Power 
+- Confusion
+-Round 
+
+Skitty @ Lum Berry
+Timid Nature 
+Ability: Liquid Voice 
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Helping Hand 
+- Round
+- Disarming Voice
+
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -11214,13 +11302,44 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 6
+Finneon @ Lum Berry
+Level: 14
+Timid Nature
+Ability: Water Veil
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rain Dance 
+-Gust  
+-Water Gun   
 
-Shroomish
-Level: 6
+Oddish @ Lum Berry
+Level: 14
+Timid Nature
+Ability: Leaf Guard
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Acid 
+-Mega Drain  
+-Poison Powder 
+-Sweet Scent 
+
+Staravia @ Black Belt
+Level: 14
+Jolly Nature
+Ability: Intimidate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Quick Attack 
+-Double Team  
+-Wing Attack 
+-Steel Wing  
+
+Numel @ Passho Berry
+Level: 15
+Modest Nature
+Ability: Simple
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bulldoze 
+-Tackle 
+-Focus Energy 
+-Incinerate 
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11558,7 +11677,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Ledyba @ Light Clay
-Ability: Swarm      
+Ability: Rattled      
 Jolly Nature
 Level:15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -11597,7 +11716,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Stun Spore 
 -Bug Bite 
 
-Butterfree @ Light Clay
+Butterfree @ Oran Berry
 Ability: Tinted Lens       
 Timid Nature
 Level:14

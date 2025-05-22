@@ -4885,28 +4885,64 @@ Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Lileep @ Leftovers
+Level: 16
+Relaxed Nature
+Ability: Storm Drain
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Ancient Power 
+-Mega Drain 
+-Confuse Ray 
+-Wrap
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Anorith @ Muscle Band
+Level: 16
+Jolly Nature
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Water Gun 
+-Bug Bite 
+-Metal Claw
 
-Nosepass @ Oran Berry
-Level: 15
+Lunatone @ Weakness Policy
+Level: 16
+Timid Nature
+Ability: Levitate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Slide 
+-Rock Polish 
+-Moonlight 
+-Moonblast
+
+Solrock @ Lum Berry
+Level: 16
+Jolly Nature
+Ability: Storm Drain
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Slide 
+-Rock Polish 
+-Morning Sun 
+-Flare Blitz
+
+Larvitar @ Soft Sand
+Level: 18
+Relaxed Nature
+Ability: Sand Rush
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Stomping Tantrum 
+-Sandstorm 
+-Rock Tomb 
+-Bite
+
+Nosepass @ Chesto Berry
+Level: 17
+Bashful Nature
+Ability: Sand Force
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
+- Rest
+- Thunder Wave
+- Spark
 - Rock Tomb
 
 === TRAINER_BRAWLY_1 ===
@@ -6109,10 +6145,65 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 10
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Tyrunt @ Lum Berry
+Level: 16
+Jolly Nature
+Ability: Sturdy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Bite 
+-Charm 
+-Ancient Power 
+
+Archen @ Choice Scarf
+Level: 15
+Adamant Nature
+Ability: Defeatist
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Pluck 
+-Quick Attack 
+-Dragon Breath 
+
+Cranidos @ Lum Berry
+Level: 15
+Jolly Nature
+Ability: Sheer Force
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Rock Smash 
+-Headbutt 
+-Take Down 
+
+Amaura @ Lum Berry
+Level: 16
+Modest Nature
+Ability: Refrigerate
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Round 
+-Ancient Power 
+-Icy Water 
+
+Tirtouga @ Rindo Berry
+Level: 15
+Jolly Nature
+Ability: Solid Rock
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bite 
+-Jaw Lock 
+-Smack Down 
+-Withdraw 
+
+Shieldon @ Leftovers
+Level: 15
+Brave Nature
+Ability: Sturdy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Metal Sound 
+-Protect 
+-Heavy Slam 
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6123,13 +6214,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Bonsly @ Lum Berry
+Level: 15
+Careful Nature
+Ability: Rock Head
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Mimic 
+-Fake Tears 
+-Flail 
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Rolycoly @ Lum Berry
+Level: 15
+Jolly Nature
+Ability: Sheer Force
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Rock Polish 
+-Flame Wheel 
+-Smokescreen
+
+Corsola @ Rindo Berry
+Level: 15
+Bold Nature
+Ability: Regenerator
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Aqua Ring 
+-Water Gun 
+-Harden 
+
+Dwebble @ Leftovers
+Level: 16
+Bold Nature
+Ability: Shell Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Bug Bite 
+-Flail 
+-Withdraw 
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -10770,13 +10893,65 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Geodude_ALola @ Shuca Berry
+Level: 16
+Adamant Nature
+Ability: Rock Head
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Spark 
+-Charge 
+-Stealth Rock 
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Geodude @ Weakness Policy
+Level: 16
+Jolly Nature
+Ability: Sand Veil
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Sandstorm 
+-Bulldoze 
+-Smack Down 
+
+Aron @ Custap Berry
+Level: 16
+Adamant Nature
+Ability: Sturdy
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Headbutt 
+-Metal Claw 
+-Smack Down 
+
+Roggenrola @ Leftovers
+Level: 16
+Careful Nature
+Ability: Sand Force
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Sandstorm 
+-Mud Slap 
+-Smack Down 
+
+Nacli @ Oran Berry
+Level: 16
+Jolly Nature
+Ability: Purifying Salt
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Salt Cure 
+-Rock Polish 
+-Smack Down 
+
+Rhyhorn @ Smooth Rock
+Level: 16
+Bold Nature
+Ability: Lightning Rod
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rock Tomb 
+-Sandstorm 
+-Bulldoze 
+-Horn Attack 
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN

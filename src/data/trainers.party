@@ -5256,9 +5256,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Panpour @ Mystic Water 
+Timid Nature
+Ability: Torrent
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Fury Swipes 
+-Water Gun
+-Rain Dance
+-Bite
+
+Surskit @ Lum Berry 
+Bashful Nature
+Ability: Rain Dish
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Bubblebeam 
+-Quick Attack
+-Sweet Scent
+-Struggle Bug
 
 === TRAINER_TED ===
 Name: TED
@@ -5375,9 +5391,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Tangela @ Lum Berry 
+Calm Nature
+Ability: Regenerator
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Growth 
+-Stun Spore
+-Poison Powder
+-Vine Whip
+
+Cramorant @ Sitrus Berry 
+Hasty Nature
+Ability: Gulp Missile
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Fury Attack 
+-Air Cutter
+-Water Gun
+-Feather Dance
+
+Pikachu @ Lum Berry 
+Bashful Nature
+Ability: Lightning Rod
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Spark 
+-Feint
+-Double Slap
+-Nuzzle
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -12153,9 +12195,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Diglett @ Soft Sand 
+Jolly Nature
+Ability: Arena Trap
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Sucker Punch 
+-Bulldoze
+-Sand Dash
+-Astonish
+
+Diglett_Alola @ Focus Sash 
+Jolly Nature
+Ability: Tangling Hair
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Sucker Punch 
+-Metal Claw
+-Bulldoze
+-Mud Slap
+
+Wiglett @ Mystic Water 
+Jolly Nature
+Ability: Gooey
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Slam 
+-Aqua Jet
+-Mud Slap
+-Wrap
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13545,13 +13613,35 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 8
+Komala @ Chople Berry 
+Adamant Nature
+Ability: Comatose
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Yawn 
+-Defense Curl 
+-Rollout
+-Slam
 
-Poochyena
-Level: 8
+Shroodle @ Choice Scarf 
+Jolly Nature
+Ability: Prankster
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Poison Fang 
+-Flatter 
+-Bite
+-Switcheroo
+
+Capsakid @ Sitrus Berry 
+Jolly Nature
+Ability: Chlorophyll
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Sunny Day 
+-Razor Leaf 
+-Growth
+-Bite
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -13563,13 +13653,25 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 8
+Snubbull @ Magnet 
+Careful Nature
+Ability: Intimidate
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Headbutt 
+-Covet
+-Bite
+-Thunder Fang
 
-Zigzagoon @ Nugget
-Level: 8
+Meowth_Galar @ Sitrus Berry 
+Sassy Nature
+Ability: Inner Focus
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Metal Claw 
+-Pay Day
+-Hone Claws
+-Fake Out
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -14486,13 +14588,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Primeape @ Lum Berry 
+Jolly Nature
+Ability: Defiant
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Rage 
+-Thrash
+-Cross Chop
+-Low Kick
 
-Geodude
-Level: 8
+Drednaw @ Lum Berry 
+Adamant Nature
+Ability: Strong Jaw
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Counter 
+-Razor Shell
+-Crunch
+-Rock Polish
+
+Gligar @ Sharp Beak 
+Jolly Nature
+Ability: Hyper Cutter
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-U-Turn 
+-Slash
+-Poison Tail
+-Acrobatics
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -14503,13 +14627,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 8
+Glameow @ Lum Berry 
+Jolly Nature
+Ability: Limber
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Fake Out 
+-Hypnosis
+-Fury Swipes
+-Aerial Ace
 
-Lotad
-Level: 8
+Sneasel @ Focus Sash 
+Jolly Nature
+Ability: Inner Focus
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Metal Claw 
+-Quick Attack
+-Snatch
+-Ice Shard
 
 === TRAINER_MELINA ===
 Name: MELINA

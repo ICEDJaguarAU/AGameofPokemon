@@ -6994,6 +6994,7 @@ static const struct LevelUpMove sHoundourLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 8, MOVE_SMOG),
     LEVEL_UP_MOVE(13, MOVE_ROAR),
     LEVEL_UP_MOVE(16, MOVE_BITE),
+    LEVEL_UP_MOVE(18, MOVE_SNARL),
     LEVEL_UP_MOVE(20, MOVE_INCINERATE),
     LEVEL_UP_MOVE(25, MOVE_BEAT_UP),
     LEVEL_UP_MOVE(28, MOVE_FIRE_FANG),
@@ -7016,6 +7017,7 @@ static const struct LevelUpMove sHoundoomLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
     LEVEL_UP_MOVE(13, MOVE_ROAR),
     LEVEL_UP_MOVE(16, MOVE_BITE),
+    LEVEL_UP_MOVE(18, MOVE_SNARL),
     LEVEL_UP_MOVE(20, MOVE_INCINERATE),
     LEVEL_UP_MOVE(26, MOVE_BEAT_UP),
     LEVEL_UP_MOVE(30, MOVE_FIRE_FANG),
@@ -18093,6 +18095,7 @@ static const struct LevelUpMove sRockruffLevelUpLearnset[] = {
 static const struct LevelUpMove sLycanrocMiddayLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_POISON_FANG),
     LEVEL_UP_MOVE( 1, MOVE_ACCELEROCK),
+    LEVEL_UP_MOVE( 1, MOVE_JAW_LOCK),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_GUARD),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
@@ -18121,6 +18124,7 @@ static const struct LevelUpMove sLycanrocMiddayLevelUpLearnset[] = {
 static const struct LevelUpMove sLycanrocMidnightLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_PSYCHIC_FANGS),
     LEVEL_UP_MOVE( 1, MOVE_POISON_FANG),
+    LEVEL_UP_MOVE( 1, MOVE_JAW_LOCK),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_GUARD),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_TEAM),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
@@ -18490,6 +18494,7 @@ static const struct LevelUpMove sBounsweetLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sSteeneeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DOUBLE_KICK),
     LEVEL_UP_MOVE( 1, MOVE_RAZOR_LEAF),
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
     LEVEL_UP_MOVE( 1, MOVE_FLAIL),

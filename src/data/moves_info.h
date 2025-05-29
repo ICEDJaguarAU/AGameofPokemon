@@ -21137,7 +21137,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_FREEZE,
             .chance = 40,
         }),
-        .battleAnimScript = gBattleAnimMove_ChillingWater,
+        .battleAnimScript = gBattleAnimMove_IcyWater,
     },
 
     [MOVE_NIGHT_TERROR] =
@@ -21157,7 +21157,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CLEAR_SMOG,
         }),
-        .battleAnimScript = gBattleAnimMove_NightShade,
+        .battleAnimScript = gBattleAnimMove_NightTerror,
     },
 
     [MOVE_DEEP_FREEZE] =
@@ -21178,7 +21178,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_FREEZE,
             .chance = 100,
         }),
-        .battleAnimScript = gBattleAnimMove_SheerCold,
+        .battleAnimScript = gBattleAnimMove_DeepFreeze,
     },
 
    [MOVE_AQUA_CHOMP] =
@@ -21204,7 +21204,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_FLINCH,
             .chance = 20,
         }),
-        .battleAnimScript = gBattleAnimMove_FishiousRend,
+        .battleAnimScript = gBattleAnimMove_AquaChomp,
     },
 
     [MOVE_SAND_DASH] =
@@ -21222,7 +21222,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 1,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
-        .battleAnimScript = gBattleAnimMove_Rollout,
+        .battleAnimScript = gBattleAnimMove_SandDash,
     },
 
 
@@ -21245,7 +21245,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_FREEZE,
             .chance = 30,
         }),
-        .battleAnimScript = gBattleAnimMove_TerrainPulse,
+        .battleAnimScript = gBattleAnimMove_ChillPulse,
     },
     [MOVE_SEPTIC_SLAM] =
     {
@@ -21271,7 +21271,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_PARALYSIS,
             .chance = 25,
         }),
-        .battleAnimScript = gBattleAnimMove_PoisonTail,
+        .battleAnimScript = gBattleAnimMove_SepticSlam,
     },
     [MOVE_POLAR_VORTEX] =
     {
@@ -21292,7 +21292,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
             .chance = 100,
         }),
-        .battleAnimScript = gBattleAnimMove_Hurricane,
+        .battleAnimScript = gBattleAnimMove_PolarVortex,
     },       
     [MOVE_WATER_PUNCH] =
     {
@@ -21314,7 +21314,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_FLINCH,
             .chance = 25,
         }),
-        .battleAnimScript = gBattleAnimMove_SurgingStrikes,
+        .battleAnimScript = gBattleAnimMove_WaterPunch,
     },
     [MOVE_JEALOUS_FIT] =
     {
@@ -21335,7 +21335,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_1,
             .chance = 50,
         }),
-        .battleAnimScript = gBattleAnimMove_Grudge,
+        .battleAnimScript = gBattleAnimMove_JealousFit,
     },
 
     [MOVE_DIAMOND_FLASH] =
@@ -21361,7 +21361,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
-        .battleAnimScript = gBattleAnimMove_DiamondStorm,
+        .battleAnimScript = gBattleAnimMove_DiamondFlash,
     },    
 
     // Z-Moves

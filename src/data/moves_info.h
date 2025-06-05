@@ -537,7 +537,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Strikes the foe with wings\n"
             "spread wide."),
         .effect = EFFECT_HIT,
-        .power = 60,
+        .power = 35,
         .type = TYPE_FLYING,
         .accuracy = 100,
         .pp = 35,
@@ -545,6 +545,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
+        .strikeCount = 2,
         .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
         .contestCategory = CONTEST_CATEGORY_COOL,
         .contestComboStarterId = 0,
@@ -18801,7 +18802,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "User slams the target with\n"
             "wings and hits twice in a row."),
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = 45,
         .type = TYPE_FLYING,
         .accuracy = 100,
         .pp = 15,

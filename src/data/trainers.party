@@ -426,9 +426,35 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Murkrow @ Lum Berry
+Jolly Nature 
+Ability: Insomnia 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Assurance
+- Night Shade
+- Wing Attack
+- Haze
+
+Skrelp @ Black Sludge
+Timid Nature 
+Ability: Poison Point 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Tail
+- Water Gun
+- Smokescreen
+- Double Team
+
+Tirtouga @ Rindo Berry
+Sassy Nature 
+Ability: Solid Rock 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- Jaw Lock
+- Withdraw
+- Aqua Jet
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -439,13 +465,35 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mareanie @ Black Sludge
+Calm Nature 
+Ability: Merciless 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Sting
+- Venoshock
+- Recover
+- Pin Missile
 
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frillish @ Lum Berry
+Bold Nature 
+Ability: Cursed Body 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Draining Kiss
+- Icy Wind
+- Echoed Voice
+- Sing
+
+Whirlipede @ Rocky Helmet
+Sassy Nature 
+Ability: Speed Boost 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Bite
+- Iron Defense
+- Venoshock
+- Poison Tail
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1077,13 +1125,25 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Fletchinder @ Lum Berry
+Jolly Nature 
+Ability: Flame Body 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flame Charge
+- Peck
+- Quick Attack
+- Acrobatics
 
-Azurill
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Herdier @ Lum Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Play Rough
+- Retaliate
+- Bite
+- Work Up
 
 === TRAINER_AUSTINA ===
 Name: AUSTINA
@@ -1188,13 +1248,37 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Ambipom @ Silk Scarf
+Jolly Nature 
+Ability: Technician 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Fury Swipes
 - Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
+- Aerial Ace
+
+Nidorino @ Black Sludge
+Jolly Nature 
+Ability: Poison Point 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fury Attack
+- Horn Attack
+- Poison Sting
+- Toxic Spikes
+
+Luxio @ Lum Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Roar
+- Bite
+- Spark
+- Charge
+
+
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -5909,13 +5993,25 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mightyena @ Focus Sash
+Jolly Nature 
+Ability: Intimidate 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Tomb
+- Thief
+- Fire Fang
+- Tar Shot
 
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weepinbell @ Salac Berry
+Lonely Nature 
+Ability: Gluttony 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Razor Leaf
+- Acid
+- Belch
+- Growth
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -6635,13 +6731,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Electrike
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Maschiff @ Oran Berry
+Brave Nature 
+Ability: Stakeout 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Payback
+- Headbutt
+- Lick
+- Scary Face
+ 
+Shroodle @ Oran Berry
+Brave Nature 
+Ability: Unburden 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- U-Turn
+- Poison Fang
+- Slash
+- Switcheroo
 
 === TRAINER_WALLACE ===
 Name: WALLACE
@@ -9526,11 +9634,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 12
+Level: 24
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Machop
-Level: 12
+Level: 24
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_EDMOND ===
@@ -9542,9 +9650,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pelipper @ Damp Rock
+Timid Nature 
+Ability: Drizzle  
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Quick Attack 
+- Tailwind
+- Brine
+- Air Slash
+
+Buizel @ Rindo Berry
+Rash Nature 
+Ability: Swift Swim 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aqua Jet
+- Bite
+- Quick Attack
+- Ice Fang
+
+Palpitoad @ Lum Berry
+Modest Nature 
+Ability: Swift Swim 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flail
+- Bubble Beam
+- Mud Shot
+- Acid
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -10103,17 +10237,45 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tinkatink @ Muscle Band
+Brave Nature 
+Ability: Own Tempo 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brutal Swing
+- Metal Claw
+- Draining Kiss
+- Astonish
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Carkol @ Air Balloon
+Timid Nature 
+Ability: Steam Engine 
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Incinerate
+- Smack Down
+- Dig
+- Smokescreen
+
+Thwackey @ Sitrus Berry
+Lonely Nature 
+Ability: Grassy Surge 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Razor Leaf
+- Slash
+- Screech
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -10158,17 +10320,45 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pawmi @ Muscle Band
+Brave Nature 
+Ability: Natural Cure 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spark
+- Bite
+- Dig
+- Quick Attack
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens
+Timid Nature 
+Ability: Sniper 
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brine
+- Dragon Breath
+- Focus Energy
+- Aurora Beam
+
+Raboot @ Sitrus Berry
+Lonely Nature 
+Ability: Libero 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sand Dash
+- Flame Charge
+- Double Kick
+- Agility
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -10213,17 +10403,45 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Corvisquire @ Muscle Band
+Brave Nature 
+Ability: Big Pecks 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Taunt
+- Pluck
+- Fury Attack
+- Metal Claw
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dolliv @ Sitrus Berry
+Timid Nature 
+Ability: Harvest
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sunny Day
+- Grassy Terrain
+- Mega Drain
+- Swift
+
+Drizzile @ Sitrus Berry
+Lonely Nature 
+Ability: Sniper 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sucker Punch
+- Fell Stinger
+- Icy Water
+- Sludge
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -10268,17 +10486,45 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tinkatink @ Muscle Band
+Brave Nature 
+Ability: Own Tempo 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brutal Swing
+- Metal Claw
+- Draining Kiss
+- Astonish
 
-Grovyle
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Carkol @ Air Balloon
+Timid Nature 
+Ability: Steam Engine 
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Incinerate
+- Smack Down
+- Dig
+- Smokescreen
+
+Thwackey @ Sitrus Berry
+Lonely Nature 
+Ability: Grassy Surge 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Razor Leaf
+- Slash
+- Screech
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10323,20 +10569,48 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Pawmi @ Muscle Band
+Brave Nature 
+Ability: Natural Cure 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spark
+- Bite
+- Dig
+- Quick Attack
 
-Combusken
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seadra @ Scope Lens
+Timid Nature 
+Ability: Sniper 
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brine
+- Dragon Breath
+- Focus Energy
+- Aurora Beam
+
+Raboot @ Sitrus Berry
+Lonely Nature 
+Ability: Libero 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sand Dash
+- Flame Charge
+- Double Kick
+- Agility
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
-Name: MAY
+Name: ScreechMAY
 Class: Rival
 Pic: May
 Gender: Female
@@ -10378,17 +10652,45 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Aethelwulf @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Assurance
+- Poison Fang
+- Pursuit
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Corvisquire @ Muscle Band
+Brave Nature 
+Ability: Big Pecks 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Taunt
+- Pluck
+- Fury Attack
+- Metal Claw
 
-Marshtomp
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dolliv @ Sitrus Berry
+Timid Nature 
+Ability: Harvest
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sunny Day
+- Grassy Terrain
+- Mega Drain
+- Swift
+
+Drizzile @ Sitrus Berry
+Lonely Nature 
+Ability: Sniper 
+Level: 28
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sucker Punch
+- Fell Stinger
+- Icy Water
+- Sludge
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -11729,15 +12031,15 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bite
 - Howl
 
-Steenee @ Assault Vest
+Smoliv @ Oran Berry
 Jolly Nature 
-Ability: Sweet Veil
+Ability: Harvest
 Level: 22
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Razor Leaf
-- Double Kick
-- Rapid Spin
-- Flail
+- mega Drain
+- Sweet Scent
+- Growth
+- Tackle
 
 Drizzile @ Sitrus Berry
 Timid Nature 
@@ -14053,9 +14355,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mienfoo @ Black Belt
+Jolly Nature 
+Ability: Inner Focus 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Force Palm
+- Vacuum Wave
+- Fake Out
+- Detect
+
+Nidorina @ Lum Berry
+Timid Nature 
+Ability: Poison Point 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic Spikes
+- Fury Swipes
+- Poison Sting
+- Double Kick
+
+Flaaffy @ Magnet
+Relaxed Nature 
+Ability: Static 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Shock
+- Thunder Wave
+- Cotton Spore
+- Take Down
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -14066,13 +14394,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Jynx @ Never Melt Ice
+Timid Nature 
+Ability: Liquid Voice 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Draining Kiss
+- Icy Wind
+- Echoed Voice
+- Sing
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Electabuzz @ magnet
+Naive Nature 
+Ability: Static 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Screech
+- Thunder Wave
+- Shock Wave
+- Swift
+
+Magmar @ Charcoal
+Naive Nature 
+Ability: Flame Body 
+Level: 25
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Clear Smog
+- Confuse Ray
+- Flame Wheel
+- Smokescreen
 
 === TRAINER_KALEB ===
 Name: KALEB
@@ -14083,13 +14433,25 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kangaskhan @ Oran Berry
+Jolly Nature 
+Ability: Inner Focus 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fake Out
+- Focus Energy
+- Headbutt
+- Bite
 
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fearow @ Lum Berry
+Jolly Nature 
+Ability: Sniper 
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Take Down
+- Wing Attack
+- Assurance
+- Leer
 
 === TRAINER_JOSEPH ===
 Name: JOSEPH
@@ -15275,15 +15637,15 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bite
 - Howl
 
-Steenee @ Assault Vest
+Smoliv @ Oran Berry
 Jolly Nature 
-Ability: Sweet Veil
+Ability: Harvest
 Level: 22
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Razor Leaf
-- Double Kick
-- Rapid Spin
-- Flail
+- mega Drain
+- Sweet Scent
+- Growth
+- Tackle
 
 Drizzile @ Sitrus Berry
 Timid Nature 

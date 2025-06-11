@@ -3561,20 +3561,45 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
+Pincurchin @ Sitrus Berry
+Brave Nature 
+Ability: Electric Surge 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Recover
+- Bubble Beam
+- Fury Attack
 - Spark
-- Leer
 
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
+Drifblim @ Electric Seed
+Quiet Nature 
+Ability: Unburden 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Acrobatics
+- Phantom Force
+- Strength Sap
+- Payback
+
+Toxtricity @ Poison Barb
+Timid Nature 
+Ability: Punk Rock 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Venoshock
 - Shock Wave
-- Screech
+- Uproar
+
+Raichu_Alola @ Lum Berry
+Modest Nature 
+Ability: Surge Surfer 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Psychic
+- Thunder Wave
+- Light Screen
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3615,13 +3640,25 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Plusle @ Shuca Berry
+Timid Nature 
+Ability: Plus 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Discharge
+- Switcheroo
+- Grass Knot
 
-Magnemite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dedenne @ Sitrus Berry
+Timid Nature 
+Ability: Cheek Pouch 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rest
+- Snore
+- Parabolic Charge
+- Covet
 
 === TRAINER_FERNANDO_1 ===
 Name: FERNANDO
@@ -4305,10 +4342,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Abra
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
+Chimecho @ Assault Vest
+Bold Nature 
+Ability: Levitate 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Extrasensory
+- Dazzling Gleam
+- Charge Beam
+- Astonish
+
+Girafarig @ Lum Berry
+Timid Nature 
+Ability: Inner Focus 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Double Hit
+- Agility
+- Psybeam
+- Stomp
+
+Swoobat @ Focus Sash
+Timid Nature 
+Ability: Simple 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Amnesia
+- Assurance
+- Air Slash
+- Extrasensory
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -5136,37 +5198,65 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Voltorb
-Level: 20
+Magnezone @ Custap Berry
+Quiet Nature 
+Ability: Sturdy 
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+- Tri Attack
+- Electric Terrain
+- Flash Cannon
+- Volt Switch
 
-Electrike
-Level: 20
+Lanturn @ Leftovers
+Bold Nature 
+Ability: Volt Absorb 
+Level: 35
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
-
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
+- Volt Switch
+- Bubble Beam
 - Thunder Wave
-- Sonic Boom
+- Signal Beam
 
-Manectric @ Sitrus Berry
-Level: 24
+Rotom_Mow @ White Herb
+Timid Nature 
+Ability: Levitate 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Switch
+- Hex
+- Thunder Wave
+- Leaf Storm
+
+Vikavolt @ Sitrus Berry
+Brave Nature
+Ability: Levitate
+Level: 34
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Volt Switch
+- Leech Life
+- Mud Shot
+- Air Slash
+
+Electivire @ Air Balloon
+Brave Nature 
+Ability: Vital Spirit 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drain Punch
+- Light Screen
+- Thunder Punch
+- Knock Off
+
+Manectric @ Manectite
+Modest Nature 
+Ability: Lightning Rod 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Switch
+- Ice Fang
+- Snarl
+- Flamethrower
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -6503,21 +6593,55 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Headbutt
-- Sand Attack
-- Growl
-- Thunderbolt
+Porygon @ Eviolite
+Modest Nature 
+Ability: Analytic 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Psybeam
+- Swift
+- Recover
 
-Gulpin
-Level: 17
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+Rotom @ Leftovers
+Timid Nature 
+Ability: Levitate 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Switch
+- Thunder Wave
+- Hex
+- Confuse Ray
+
+Golem_Alola @ Lum Berry
+Adamant Nature 
+Ability: Galvanize 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Smack Down
+- Thunder Punch
+- Fire Punch
+- Heavy Slam
+
+Electrode_Hisui @ Lum Berry
+Modest Nature 
+Ability: Static 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rollout
+- Discharge
+- Chloroblast
+- Swift
+
+Raichu @ Light Ball
+Hasty Nature 
+Ability: Electric Surge 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Volt Tackle
+- Iron Tail
+- Agility
+- Feint
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -6988,21 +7112,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golduck @ Damp Rock
+Hasty Nature 
+Ability: Swift Swim 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Icy Water
+- Zen Headbutt
+- Icy Wind
 
-Wailmer
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seel @ Mystic Water
+Hasty Nature 
+Ability: Hydration 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aurora Beam
+- Icy Water
+- Rest
+- Aqua Ring
 
-Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ducklett @ Bright Powder
+Hasty Nature 
+Ability: Keen Eye 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Roost
+- Air Slash
+- Scald
+- Rain Dance
 
-Wailmer
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tatsugiri @ Wise Glasses
+Lonely Nature 
+Ability: Storm Drain 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Dragon Breath
+- Taunt
+- Lunge
 
 === TRAINER_NOLAN ===
 Name: NOLAN
@@ -10051,13 +10199,36 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Quilava @ Charcoal
+Hasty Nature 
+Ability: Blaze 
+Level: 31
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spark
+- FLame Wheel
+- Defense Curl
+- Swift
 
-Nuzleaf
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bayleef @ Miracle Seed
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 31
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leech Seed
+- Razor Leaf
+- Reflect
+- Poison Powder
+
+Feraligatr @ Mystic Water
+Lonely Nature 
+Ability: Strong Jaw 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Jaw Lock
+- Bite
+- Ice Fang
+- Psychic Fangs
+
 
 === TRAINER_HECTOR ===
 Name: HECTOR
@@ -13195,21 +13366,55 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Thunder Punch
+Volbeat @ Focus Sash
+Timid Nature 
+Ability: Prankster 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tail Glow
+- Baton Pass
+- Moonlight
+- Bug Buzz
 
-Meditite
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
+Jolteon @ Sitrus Berry
+Modest Nature 
+Ability: Quick Feet 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Thunder Wave
+- Pin Missile
+- Double Kick
+
+Zebstrika @ Lum Berry
+Naive Nature 
+Ability: Lightning Rod 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stomp
+- Spark
+- Flame Charge
+- Thunder Wave
+
+Galvantula @ Lum Berry
+Lonely Nature 
+Ability: Unnerve 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sucker Punch
+- Shock Wave
+- Bug Bite
+- Absorb
+
+Kilowattrel @ Lum Berry
+Timid Nature 
+Ability: Wind Power 
+Level: 32
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dual Wingbeat
+- Uproar
+- Shock Wave
+- Agility
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -13350,9 +13555,55 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Ralts
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Mankey @ Muscle Band
+Adamant Nature 
+Ability: Defiant 
+Level: 27
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Assurance
+- Cross Chop
+- Swagger
+- Covet
+
+Ledian @ Lum Berry
+Brave Nature 
+Ability: Iron Fist 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Agility
+- Baton Pass
+- Mach Punch
+- Drain Punch
+
+Riolu @ Focus Sash
+Timid Nature 
+Ability: Prankster 
+Level: 24
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Vacuum Wave
+- Work Up
+- Metal Claw
+- Counter
+
+Sneasel_Hisui  
+Adamant Nature 
+Ability: Pickpocket 
+Level: 30
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brick Break
+- Poison Jab
+- Fake Out
+- Metal Claw
+
+Kirlia @ Wise Glasses
+Lonely Nature 
+Ability: Synchronize 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Calm Mind
+- Psybeam
+- Draining Kiss
+- Life Dew
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
@@ -14462,13 +14713,43 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Loudred @ Choice Scarf
+Modest Nature 
+Ability: Scrappy 
+Level: 29
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Echoed Voice
 
-Voltorb
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Chatot @ Lum Berry
+Timid Nature 
+Ability: Keen Eye 
+Level: 29
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Round
+- Taunt
+- Chatter
+- Peck
+
+Heliolisk @ Lum Berry
+Timid Nature 
+Ability: Dry Skin 
+Level: 29
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Parabolic Charge
+- Volt Switch
+- Mud Shot
+- Quick Attack
+
+Snorlax @ Leftovers
+Impish Nature 
+Ability: Immunity 
+Level: 29
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Body Slam
+- Rest 
+- Snore
+- Bite
 
 === TRAINER_ALYSSA ===
 Name: ALYSSA
@@ -17330,19 +17611,25 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Illumise
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Minun @ Terrain Extender
+Timid Nature 
+Ability: Minus 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Electric Terrain
+- Swift
 - Shock Wave
-- Quick Attack
-- Charm
+- Thunder Wave
 
-Volbeat
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Confuse Ray
+Bellibolt @ Lum Berry
+Modest Nature 
+Ability: Electromorphosis 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Mud Shot
+- Water Gun
+- Slack Off
 
 === TRAINER_DARIUS ===
 Name: DARIUS

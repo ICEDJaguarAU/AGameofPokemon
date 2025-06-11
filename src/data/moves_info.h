@@ -589,7 +589,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Flies up on the first turn,\n"
             "then strikes the next turn."),
         .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 90 : 70,
+        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 70,
         .type = TYPE_FLYING,
         .accuracy = 120,
         .pp = 10,
@@ -10591,7 +10591,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .minimizeDoubleDamage = B_UPDATED_MOVE_FLAGS >= GEN_6,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH,
-            .chance = 20,
+            .chance = 30,
         }),
         .contestEffect = CONTEST_EFFECT_BETTER_IF_FIRST,
         .contestCategory = CONTEST_CATEGORY_COOL,
@@ -21166,17 +21166,21 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Deep Freeze"),
         .description = COMPOUND_STRING(
             "A chilling attack that\n"
-            "freezes the target."),
+        #if B_USE_FROSTBITE == TRUE
+            "leaves the foe with frostbite."),
+        #else
+            "freezes the foe."),
+        #endif
         .effect = EFFECT_HIT,
         .power = 10,
         .type = TYPE_ICE,
-        .accuracy = 65,
+        .accuracy = 80,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_FREEZE,
+            .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
             .chance = 100,
         }),
         .battleAnimScript = gBattleAnimMove_DeepFreeze,

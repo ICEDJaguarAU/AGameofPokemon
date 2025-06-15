@@ -358,9 +358,45 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 11
+Omanyte @ Rindo Berry 
+Calm Nature
+Ability: Shell Armor
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Water Gun 
+-Withdraw
+-Rollout
+-Leer
+
+Skrelp @ Oran Berry 
+Calm Nature
+Ability: Poison Point
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Water Gun 
+-Acid
+-Smokescreen
+-Twister
+
+Finizen @ Muscle Band 
+Brave Nature
+Ability: Water Veil
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Dive 
+-Double Hit
+-Aqua Jet
+-Astonish
+
+Wattrel @ Oran Berry 
+Gentle Nature
+Ability: Wind Power
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+-Uproar 
+-Spark
+-Pluck
+-Quick Attack
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -15569,7 +15605,7 @@ AI: Check Bad Move
 Primeape @ Lum Berry 
 Jolly Nature
 Ability: Defiant
-Level: 30
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Rage 
 -Thrash
@@ -15579,7 +15615,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Drednaw @ Lum Berry 
 Adamant Nature
 Ability: Strong Jaw
-Level: 30
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -Counter 
 -Razor Shell
@@ -15589,7 +15625,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Gligar @ Sharp Beak 
 Jolly Nature
 Ability: Hyper Cutter
-Level: 30
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -U-Turn 
 -Slash

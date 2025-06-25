@@ -3469,12 +3469,12 @@ Machop
 Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_NOB_2 ===
-Name: NOB
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
+=== TRAINER_LEAF_SLATEPORT ===
+Name: LEAF
+Class: Rival
+Pic: Leaf
+Gender: Female
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -3482,7 +3482,7 @@ Machoke
 Level: 27
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-=== TRAINER_NOB_3 ===
+=== TRAINER_UNUSED_1 ===
 Name: NOB
 Class: Black Belt
 Pic: Black Belt
@@ -3499,7 +3499,7 @@ Machoke
 Level: 29
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-=== TRAINER_NOB_4 ===
+=== TRAINER_UNUSED_2 ===
 Name: NOB
 Class: Black Belt
 Pic: Black Belt
@@ -3520,7 +3520,7 @@ Machoke
 Level: 31
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-=== TRAINER_NOB_5 ===
+=== TRAINER_UNUSED_3 ===
 Name: NOB
 Class: Black Belt
 Pic: Black Belt
@@ -5813,20 +5813,42 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growl
-- Tail Whip
-- Headbutt
-- Odor Sleuth
+Emolga @ Metronome
+Timid Nature 
+Ability: Motor Drive 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
 
-Makuhita
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Focus Energy
-- Arm Thrust
+Seaking @ Focus Sash
+Mild Nature 
+Ability: Lightning Rod 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Icy Water
+- Flip Turn
+- Aqua Ring
+- Icy Wind
+
+Lanturn @ Lum Berry
+Timid Nature 
+Ability: Volt Absorb 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Aqua Ring
+- Bubble Beam
+- Icy Wind
+
+Marowak @ Sitrus Berry
+Sassy Nature 
+Ability: Lightning Rod 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Hex
+- Rest
+- Snore
 
 === TRAINER_ANNA_AND_MEG_2 ===
 Name: ANNA & MEG
@@ -10929,13 +10951,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Whismur
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Claydol @ Lum Berry
+Modest Nature 
+Ability: Levitate 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earth Power
+- Extrasensory
+- Ancient Power
+- Rapid Spin
 
-Zigzagoon
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Klang @ Metal Coat
+Adamant Nature 
+Ability: Clear Body 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mud Shot
+- Hex
+- Rest
+- Snore
 
 Aron
 Level: 11
@@ -17909,7 +17943,7 @@ Sandslash
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_CORY_2 ===
+=== TRAINER_UNUSED_4 ===
 Name: CORY
 Class: Sailor
 Pic: Sailor
@@ -17930,7 +17964,7 @@ Tentacool
 Level: 30
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-=== TRAINER_CORY_3 ===
+=== TRAINER_UNUSED_5 ===
 Name: CORY
 Class: Sailor
 Pic: Sailor
@@ -17951,7 +17985,7 @@ Tentacool
 Level: 32
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-=== TRAINER_CORY_4 ===
+=== TRAINER_UNUSED_6 ===
 Name: CORY
 Class: Sailor
 Pic: Sailor
@@ -17972,7 +18006,7 @@ Tentacruel
 Level: 34
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_CORY_5 ===
+=== TRAINER_UNUSED_7 ===
 Name: CORY
 Class: Sailor
 Pic: Sailor

@@ -8484,7 +8484,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 3472
-    [DIFFICULTY_NORMAL][TRAINER_LEAF_SLATEPORT] =
+    [DIFFICULTY_NORMAL][TRAINER_SLATEPORTCITY_LEAF] =
     {
 #line 3473
         .trainerName = _("LEAF"),
@@ -8500,7 +8500,7 @@ F_TRAINER_FEMALE |
 #line 3478
         .doubleBattle = FALSE,
 #line 3479
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_POWERFUL_STATUS | AI_FLAG_ACE_POKEMON | AI_FLAG_SMART_SWITCHING,
         .partySize = 4,
         .party = (const struct TrainerMon[])
         {

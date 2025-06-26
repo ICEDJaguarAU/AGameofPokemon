@@ -187,7 +187,7 @@
 #define TRAINER_KIYO                        181
 #define TRAINER_KOICHI                      182
 #define TRAINER_NOB_1                       183
-#define TRAINER_LEAF_SLATEPORT              184
+#define TRAINER_SLATEPORTCITY_LEAF          184
 #define TRAINER_UNUSED_1                    185
 #define TRAINER_UNUSED_2                    186
 #define TRAINER_UNUSED_3                    187

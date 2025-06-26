@@ -43,7 +43,7 @@ TOOLCHAIN := $(DEVKITARM)
 # if dkP is not installed on this system
 ifneq (,$(TOOLCHAIN))
   ifneq ($(wildcard $(TOOLCHAIN)/bin),)
-    export PATH := $(TOOLCHAIN)/bin:$(PATH)
+	export PATH := $(TOOLCHAIN)/bin:$(PATH)
   endif
 endif
 
@@ -128,7 +128,7 @@ endif
 # Only throw an error for unused elements if its RH-Hideout's repo
 ifeq ($(UNUSED_ERROR),0)
   ifneq ($(GITHUB_REPOSITORY_OWNER),rh-hideout)
-    override CFLAGS += -Wno-error=unused-variable -Wno-error=unused-const-variable -Wno-error=unused-parameter -Wno-error=unused-function -Wno-error=unused-but-set-parameter -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=unused-local-typedefs
+	override CFLAGS += -Wno-error=unused-variable -Wno-error=unused-const-variable -Wno-error=unused-parameter -Wno-error=unused-function -Wno-error=unused-but-set-parameter -Wno-error=unused-but-set-variable -Wno-error=unused-value -Wno-error=unused-local-typedefs
   endif
 endif
 LIBPATH := -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libgcc.a))" -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libnosys.a))" -L "$(dir $(shell $(PATH_ARMCC) -mthumb -print-file-name=libc.a))"
@@ -138,7 +138,7 @@ ifeq ($(DINFO),1)
   override CFLAGS += -g
 else
   ifeq ($(DEBUG),1)
-    override CFLAGS += -g
+	override CFLAGS += -g
   endif
 endif
 
@@ -160,18 +160,18 @@ RAMSCRGEN    := $(TOOLS_DIR)/ramscrgen/ramscrgen$(EXE)
 FIX          := $(TOOLS_DIR)/gbafix/gbafix$(EXE)
 MAPJSON      := $(TOOLS_DIR)/mapjson/mapjson$(EXE)
 JSONPROC     := $(TOOLS_DIR)/jsonproc/jsonproc$(EXE)
-SCRIPT    := $(TOOLS_DIR)/poryscript/poryscript$(EXE)
+SCRIPT       := $(TOOLS_DIR)/poryscript/poryscript$(EXE)
 TRAINERPROC  := $(TOOLS_DIR)/trainerproc/trainerproc$(EXE)
 PATCHELF     := $(TOOLS_DIR)/patchelf/patchelf$(EXE)
 ifeq ($(shell uname),Darwin)
-    ROMTEST ?= $(shell command -v mgba-rom-test-mac 2>/dev/null || echo $(TOOLS_DIR)/mgba/mgba-rom-test-mac)
-    ROMTESTHYDRA := $(shell command -v mgba-rom-test-hydra 2>/dev/null || echo $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra)
+	ROMTEST ?= $(shell command -v mgba-rom-test-mac 2>/dev/null || echo $(TOOLS_DIR)/mgba/mgba-rom-test-mac)
+	ROMTESTHYDRA := $(shell command -v mgba-rom-test-hydra 2>/dev/null || echo $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra)
 else ifeq ($(shell uname),Linux)
-    ROMTEST ?= $(shell command -v mgba-rom-test 2>/dev/null || echo $(TOOLS_DIR)/mgba/mgba-rom-test)
-    ROMTESTHYDRA := $(shell command -v mgba-rom-test-hydra 2>/dev/null || echo $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra)
+	ROMTEST ?= $(shell command -v mgba-rom-test 2>/dev/null || echo $(TOOLS_DIR)/mgba/mgba-rom-test)
+	ROMTESTHYDRA := $(shell command -v mgba-rom-test-hydra 2>/dev/null || echo $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra)
 else
-    ROMTEST ?= $(TOOLS_DIR)/mgba/mgba-rom-test$(EXE)
-    ROMTESTHYDRA := $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra$(EXE)
+	ROMTEST ?= $(TOOLS_DIR)/mgba/mgba-rom-test$(EXE)
+	ROMTESTHYDRA := $(TOOLS_DIR)/mgba-rom-test-hydra/mgba-rom-test-hydra$(EXE)
 endif
 
 PERL := perl
@@ -199,8 +199,8 @@ SETUP_PREREQS ?= 1
 # Disable dependency scanning for rules that don't need it.
 ifneq (,$(MAKECMDGOALS))
   ifeq (,$(filter-out $(RULES_NO_SCAN),$(MAKECMDGOALS)))
-    NODEP := 1
-    SETUP_PREREQS := 0
+	NODEP := 1
+	SETUP_PREREQS := 0
   endif
 endif
 
@@ -211,12 +211,12 @@ ifeq ($(SETUP_PREREQS),1)
   # Forcibly execute `make tools` since we need them for what we are doing.
   $(foreach line, $(shell $(MAKE) -f make_tools.mk | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
   ifneq ($(.SHELLSTATUS),0)
-    $(error Errors occurred while building tools. See error messages above for more details)
+	$(error Errors occurred while building tools. See error messages above for more details)
   endif
   # Oh and also generate mapjson sources before we use `SCANINC`.
   $(foreach line, $(shell $(MAKE) generated | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
   ifneq ($(.SHELLSTATUS),0)
-    $(error Errors occurred while generating map-related sources. See error messages above for more details)
+	$(error Errors occurred while generating map-related sources. See error messages above for more details)
   endif
 endif
 
@@ -305,7 +305,7 @@ clean-assets:
 	find sound -iname '*.bin' -exec rm {} +
 	find . \( -iname '*.1bpp' -o -iname '*.4bpp' -o -iname '*.8bpp' -o -iname '*.gbapal' -o -iname '*.lz' -o -iname '*.rl' -o -iname '*.latfont' -o -iname '*.hwjpnfont' -o -iname '*.fwjpnfont' \) -exec rm {} +
 	find $(DATA_ASM_SUBDIR)/maps \( -iname 'connections.inc' -o -iname 'events.inc' -o -iname 'header.inc' \) -exec rm {} +
-
+	rm -f $(patsubst %.pory,%.inc,$(shell find data/ -type f -name '*.pory'))
 tidy: tidymodern tidycheck tidydebug
 
 tidymodern:

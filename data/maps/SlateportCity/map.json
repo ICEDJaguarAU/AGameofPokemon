@@ -357,8 +357,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 22,
-      "y": 27,
+      "x": 21,
+      "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -396,7 +396,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 21,
+      "x": 19,
       "y": 26,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",

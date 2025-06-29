@@ -4301,13 +4301,65 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dustox
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Arcanine @ Sitrus Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Take Down
+- Crunch
+- Fire Fang
+- Thunder Fang
 
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Furfrou @ Leftovers
+Jolly Nature 
+Ability: Fur Coat 
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Take Down
+- Charm
+- Iron Head
+- Attract
+
+Dachsbun @ Lum Berry
+Adamant Nature 
+Ability: Well-Baked Body 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Play Rough
+- Double-Edge
+- Ice Fang
+- Baby-Doll Eyes
+
+Mabosstiff @ Lum Berry
+Brave Nature 
+Ability: Intimidate 
+Level: 39
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Crunch
+- Hone Claws
+- Comeuppance
+
+Boltund @ Focus Sash
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- Charm
+- Thunder Fang
+- Roar
+
+Houndstone @ Sitrus Berry
+Bold Nature 
+Ability: Fluffy 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Last Respects
+- Play Rough
+- Zen Headbutt
+- Dig
 
 === TRAINER_JEFFREY_2 ===
 Name: JEFFREY
@@ -7633,9 +7685,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor @ Wise Glasses
+Timid Nature 
+Ability: Sticky Hold 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- U-Turn
+- Giga Drain
+- Struggle Bug
+- Water Shuriken
+
+Persian_Alola @ Black Glasses
+Timid Nature 
+Ability: Technician 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Snarl
+- Fury Swipes
+- Pay Day
+- Fake Out
+
+Dodrio @ Lum Berry
+Jolly Nature 
+Ability: Early Bird 
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drill Peck
+- Take Down
+- Swords Dance
+- Quick Attack
 
 === TRAINER_DYLAN_2 ===
 Name: DYLAN
@@ -7698,9 +7776,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rapidash @ Lum Berry
+Jolly Nature 
+Ability: Flame Body 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stomp
+- Flame Wheel
+- Hypnosis
+- Megahorn
+
+Cinccino @ Lum Berry
+Jolly Nature 
+Ability: Skill Link 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tail Slap
+- Rock Blast
+- Sing
+- Charm
+
+Swellow @ Silk Scarf
+Naive Nature 
+Ability: Guts 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Brave Bird
+- Steel Wing
+- Quick Attack
 
 === TRAINER_MARIA_2 ===
 Name: MARIA
@@ -11002,26 +11106,30 @@ Adamant Nature
 Ability: Clear Body 
 Level: 35
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Mud Shot
-- Hex
+- Gear Grind
+- Clear Smog
 - Rest
 - Snore
 
-Aron
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Electrode @ Lum Berry
+Timid Nature 
+Ability: Static 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Magnet Rise
+- Light Screen
+- Electro Ball
+- Swift
 
-Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frosmoth @ Lum Berry
+Timid Nature 
+Ability: Slush Rush 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hail
+- Aurora Veil
+- Aurora Beam
+- Bug Buzz
 
 === TRAINER_DAVIS ===
 Name: DAVIS
@@ -15740,9 +15848,25 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxicroak @ Payapa Berry
+Jolly Nature 
+Ability: Poison Touch 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Poison Jab
+- Sucker Punch
+- Drain Punch
+
+Hariyama @ Lum Berry
+Adamant Nature 
+Ability: Thick Fat 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Wake Up Slap
+- Fake Out
+- Knock Off
+- Rock Tomb
 
 === TRAINER_BRANDI ===
 Name: BRANDI
@@ -15753,9 +15877,25 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Orbeetle @ Lum Berry
+Timid Nature 
+Ability: Compound Eyes 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Bug Buzz
+- Hypnosis
+- Reflect
+
+Hypno @ Sitrus Berry
+Bold Nature 
+Ability: Bad Dreams 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Hypnosis
+- Zen Headbutt
+- Headbutt
 
 === TRAINER_AISHA ===
 Name: AISHA
@@ -15766,9 +15906,55 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Electabuzz @ Sitrus Berry
+Naive Nature 
+Ability: Motor Drive 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Fire Punch
+- Ice Punch
+- Rock Smash
+
+Torkoal @ Sitrus Berry
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 36
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Defense
+- Body Slam
+- Lava Plume
+- Protect
+
+Tsareena @ Lum Berry
+Jolly Nature 
+Ability: Queenly Majesty 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Trop Kick
+- Knock Off
+- Low Kick
+- Teeter Dance
+
+Grapploct @ Lum Berry
+Brave Nature 
+Ability: Technician 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Octolock
+- Octazooka
+- Bulk Up
+- Pain Split
+
+Quagsire @ Rindo Berry
+Careful Nature 
+Ability: Water Absorb 
+Level: 37
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Ice Punch
+- Water Punch
+- Yawn
+- Amnesia
 
 === TRAINER_MAKAYLA ===
 Name: MAKAYLA

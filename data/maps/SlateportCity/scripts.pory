@@ -1380,8 +1380,11 @@ SlateportCity_Text_TakingBattleTentChallenge:
 `
 
 script SlateportCity_TrainerBattle_Leaf {
+    lockall
     trainerbattle_single(TRAINER_SLATEPORTCITY_LEAF, SlateportCity_Leaf_Intro, SlateportCity_Leaf_Outro)
     msgbox(SlateportCity_Leaf_Postbattle, MSGBOX_DEFAULT)
+    setflag(FLAG_BATTLED_SLATEPORTCITY_LEAF)
+    releaseall
     end
 }
 

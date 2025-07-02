@@ -1044,7 +1044,7 @@ const u16 gWeatherTurnStringIds[] =
     [B_MSG_WEATHER_TURN_STRONG_WINDS] = STRINGID_MYSTERIOUSAIRCURRENTBLOWSON,
 };
 
-const u16 gSandStormHailDmgStringIds[] =
+const u16 gSandStormHailSnowDmgStringIds[] =
 {
     [B_MSG_SANDSTORM] = STRINGID_PKMNBUFFETEDBYSANDSTORM,
     [B_MSG_HAIL]      = STRINGID_PKMNPELTEDBYHAIL

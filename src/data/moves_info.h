@@ -1692,7 +1692,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Bubble Beam"),
         .description = COMPOUND_STRING(
             "Forcefully sprays bubbles\n"
-            "that may lower Speed."),
+            "that may lower Special Defence."),
         .effect = EFFECT_HIT,
         .power = 75,
         .type = TYPE_WATER,

@@ -810,7 +810,7 @@
 #define B_MSG_DOWNPOUR_CONTINUES 1
 #define B_MSG_RAIN_STOPPED       2
 
-// gSandStormHailSnowContinuesStringIds / gSandStormHailDmgStringIds/ gSandStormHailSnowEndStringIds
+// gSandStormHailSnowContinuesStringIds / gSandStormHailSnowDmgStringIds/ gSandStormHailSnowEndStringIds
 #define B_MSG_SANDSTORM  0
 #define B_MSG_HAIL       1
 #define B_MSG_SNOW       2

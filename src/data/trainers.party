@@ -11310,29 +11310,45 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gothorita @ Leftovers
+Bold Nature 
+Ability: Shadow Tag 
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Draining Kiss
+- Extrasensory
+- Rest 
+- Calm Mind
 
-Shroomish
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hitmonchan @ Lum Berry
+Jolly Nature 
+Ability: Iron Fist 
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Needle Arm
+- Close Combat
+- Water Punch
+- Agility
 
-Marill
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxtricity @ Lum Berry
+Rash Nature 
+Ability: Technician 
+Level: 39
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Acid Spray
+- Swagger
+- Flail
 
-Roselia
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skitty
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Goldeen
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sableye @ Sitrus Berry
+Bold Nature 
+Ability: Prankster 
+Level: 39
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Gem
+- Will O Wisp
+- Recover
+- Night Shade
 
 === TRAINER_HALLE ===
 Name: HALLE
@@ -15783,9 +15799,9 @@ AI: Check Bad Move
 Primeape @ Lum Berry 
 Jolly Nature
 Ability: Defiant
-Level: 34
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Rage 
+-Rage Fist
 -Thrash
 -Cross Chop
 -Low Kick
@@ -15793,20 +15809,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Drednaw @ Lum Berry 
 Adamant Nature
 Ability: Strong Jaw
-Level: 34
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
--Counter 
--Razor Shell
+-Rock Tomb 
+-Jaw Lock
 -Crunch
 -Rock Polish
 
-Gligar @ Sharp Beak 
+Gliscor @ Toxic Orb 
 Jolly Nature
-Ability: Hyper Cutter
-Level: 34
+Ability: Poison Heal
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 -U-Turn 
--Slash
+-Protect
 -Poison Tail
 -Acrobatics
 

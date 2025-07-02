@@ -5804,7 +5804,7 @@ BattleScript_WeatherFaded::
 	end2
 
 BattleScript_DamagingWeather::
-	printfromtable gSandStormHailDmgStringIds
+	printfromtable gSandStormHailSnowDmgStringIds
 	waitmessage B_WAIT_TIME_LONG
 	effectivenesssound
 	hitanimation BS_SCRIPTING

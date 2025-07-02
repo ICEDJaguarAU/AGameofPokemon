@@ -21125,7 +21125,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Icy Water"),
         .description = COMPOUND_STRING(
             "A spray of water that\n"
-            "may freeze the target."),
+            "may cause Frostbite."),
         .effect = EFFECT_HIT,
         .power = 65,
         .type = TYPE_WATER,
@@ -21135,7 +21135,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_FREEZE,
+            .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
             .chance = 40,
         }),
         .battleAnimScript = gBattleAnimMove_IcyWater,
@@ -21236,7 +21236,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Chill Pulse"),
         .description = COMPOUND_STRING(
             "A chilling pulse that\n"
-            "may freeze the target."),
+            "may cause Frostbite."),
         .effect = EFFECT_HIT,
         .power = 90,
         .type = TYPE_ICE,
@@ -21247,7 +21247,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_SPECIAL,
         .pulseMove = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_FREEZE,
+            .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE,
             .chance = 30,
         }),
         .battleAnimScript = gBattleAnimMove_ChillPulse,

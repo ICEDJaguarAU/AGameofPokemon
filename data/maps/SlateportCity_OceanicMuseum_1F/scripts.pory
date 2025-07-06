@@ -399,13 +399,13 @@ script OceanicMuseum_EventScript_MakeupLeafRivalBattle {
 }
 
 text Leaf_Intro {
-    "I was expecting a little more from this Museum"
+    format ("I was expecting a little more from this Museum.")
 }
 
 text Leaf_Outro {
-    "At least this battle made up for the wait to get in here"
+    format ("At least this battle made up for the wait to get in here.")
 }
 
 text PostBattle_Leaf {
-    "I'll be keeping my eye out for you. We will have another Battle someday."
+    format ("I'll be keeping my eye out for you. We will have another Battle someday.")
 }

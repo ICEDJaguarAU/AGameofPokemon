@@ -2754,32 +2754,3 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "the perfect fit for the BATTLE TENT!\p"
 # 1378 "data/maps/SlateportCity/scripts.pory"
 	.string "Give it your best effort!$"
-
-SlateportCity_TrainerBattle_Leaf::
-# 1383 "data/maps/SlateportCity/scripts.pory"
-	lockall
-# 1384 "data/maps/SlateportCity/scripts.pory"
-	trainerbattle_single TRAINER_SLATEPORTCITY_LEAF, SlateportCity_Leaf_Intro, SlateportCity_Leaf_Outro
-# 1385 "data/maps/SlateportCity/scripts.pory"
-	msgbox SlateportCity_Leaf_Postbattle, MSGBOX_DEFAULT
-# 1386 "data/maps/SlateportCity/scripts.pory"
-	setflag FLAG_BATTLED_SLATEPORTCITY_LEAF
-# 1387 "data/maps/SlateportCity/scripts.pory"
-	releaseall
-	end
-
-
-SlateportCity_Leaf_Intro::
-# 1393 "data/maps/SlateportCity/scripts.pory"
-	.string "This line is taking forever. You're not\n"
-	.string "cutting in are you? Hey Battle me, to\l"
-	.string "pass the time!$"
-
-SlateportCity_Leaf_Outro::
-# 1397 "data/maps/SlateportCity/scripts.pory"
-	.string "Arrgh, you beat me and the line has still\n"
-	.string "not moved!$"
-
-SlateportCity_Leaf_Postbattle::
-# 1401 "data/maps/SlateportCity/scripts.pory"
-	.string "What is taking so long??$"

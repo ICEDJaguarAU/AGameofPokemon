@@ -204,10 +204,10 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "OceanicMuseum_EventScript_MakeupLeafRivalBattle",
-      "flag": "FLAG_BATTLED_SLATEPORTCITY_LEAF"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     }
   ],
   "warp_events": [

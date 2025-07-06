@@ -1379,25 +1379,3 @@ SlateportCity_Text_TakingBattleTentChallenge:
 
 `
 
-script SlateportCity_TrainerBattle_Leaf {
-    lockall
-    trainerbattle_single(TRAINER_SLATEPORTCITY_LEAF, SlateportCity_Leaf_Intro, SlateportCity_Leaf_Outro)
-    msgbox(SlateportCity_Leaf_Postbattle, MSGBOX_DEFAULT)
-    setflag(FLAG_BATTLED_SLATEPORTCITY_LEAF)
-    releaseall
-    end
-}
-
-//text script
-
-text SlateportCity_Leaf_Intro {
-    format("This line is taking forever. You're not cutting in are you? Hey Battle me, to pass the time!")
-}
-
-text SlateportCity_Leaf_Outro {
-    format("Arrgh, you beat me and the line has still not moved!")
-}
-
-text SlateportCity_Leaf_Postbattle {
-    format("What is taking so long??")
-}

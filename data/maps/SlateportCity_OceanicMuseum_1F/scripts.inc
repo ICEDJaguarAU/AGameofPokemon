@@ -784,12 +784,15 @@ OceanicMuseum_EventScript_MakeupLeafRivalBattle::
 
 Leaf_Intro::
 # 401 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I was expecting a little more from this Museum$"
+	.string "I was expecting a little more from this\n"
+	.string "Museum.$"
 
 Leaf_Outro::
 # 405 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "At least this battle made up for the wait to get in here$"
+	.string "At least this battle made up for the\n"
+	.string "wait to get in here.$"
 
 PostBattle_Leaf::
 # 409 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	.string "I'll be keeping my eye out for you. We will have another Battle someday.$"
+	.string "I'll be keeping my eye out for you. We\n"
+	.string "will have another Battle someday.$"

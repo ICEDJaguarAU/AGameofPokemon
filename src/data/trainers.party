@@ -4136,9 +4136,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crustle @ Lum Berry
+Timid Nature 
+Ability: Weak Armor 
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sandstorm
+- X-Scissor
+- Rock Slide
+- Stealth Rock
+
+Sigilyph @ Leftovers
+Timid Nature 
+Ability: Magic Guard 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Air Slash
+- Heat Wave
+- Cosmic Power
+
+Piloswine @ Eviolite
+Careful Nature 
+Ability: Thick Fat 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stomping Tantrum
+- Ice Fang
+- Rest
+- Curse
 
 === TRAINER_ETHAN_2 ===
 Name: ETHAN
@@ -6043,13 +6069,25 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Taillow @ Oran Berry
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Toucannon @ Lum Berry
+Hasty Nature 
+Ability: Skill Link 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bullet Seed
+- Drill Peck
+- Supersonic
+- Rock Blast
 
-Zigzagoon @ Oran Berry
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Emolga @ Lum Berry
+Hasty Nature 
+Ability: Motor Drive 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Discharge
+- Dual Wingbeat
+- Iron Tail
+- Roost
 
 === TRAINER_MIGUEL_1 ===
 Name: MIGUEL
@@ -6182,9 +6220,35 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Roselia @ Oran Berry
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Abomasnow @ Lum Berry
+Hasty Nature 
+Ability: Soundproof 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Ice Punch
+- Needle Arm
+- Ingrain
+- Swagger
+
+Centiskorch @ Leftovers
+Careful Nature 
+Ability: White Smoke 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Coil
+- Fire Spin
+- Bug Bite
+- Protect
+
+Seismitoad @ Lum Berry
+Brave Nature 
+Ability: Water Absorb 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Drain Punch
+- Water Punch
+- Stomping Tantrum
+- Aqua Ring
 
 === TRAINER_VANESSA ===
 Name: VANESSA
@@ -6407,13 +6471,25 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Meditite
-Level: 18
+Medicham @ Medichamite
+Jolly Nature 
+Ability: Inner Focus 
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - High Jump Kick
-- Meditate
-- Confusion
-- Detect
+- Zen Headbutt
+- Fake Out
+- Thunder Punch
+
+Krookodile @ Lum Berry
+Jolly Nature 
+Ability: Moxie 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swagger
+- Foul Play
+- Stomping Tantrum
+- Aqua Tail
 
 === TRAINER_SHELBY_1 ===
 Name: SHELBY
@@ -9672,13 +9748,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Leavanny @ Smooth Rock
+Jolly Nature 
+Ability: Overcoat 
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- X Scissor 
+- Leaf Blade
+- Grass Whistle
+- Sandstorm
 
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clefable @ Leftovers
+Bold Nature 
+Ability: Magic Guard 
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Aura Sphere
+- Counter
+- Soft Boiled
+
+Stoutland @ Silk Scarf
+Adamant Nature 
+Ability: Sand Rush 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Retaliate
+- Body Slam
+- Play Rough
+- Stomping Tantrum
 
 === TRAINER_DIANA_2 ===
 Name: DIANA
@@ -12667,17 +12765,35 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Marill
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ribombee @ Focus Sash
+Timid Nature 
+Ability: Shield Dust 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Pollen Puff
+- Draining Kiss
+- Struggle Bug
+- Stun Spore
 
-Shroomish
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vibrava @ Lum Berry
+Hasty Nature 
+Ability: Levitate 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Breath
+- Scorching Sands
+- Roost
+- Crunch
 
-Numel
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sudowoodo @ Lum Berry
+Adamant Nature 
+Ability: Rock Head 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Head Smash
+- Double-Edge
+- Wood Hammer
+- Submission
 
 === TRAINER_HALEY_2 ===
 Name: HALEY
@@ -15029,9 +15145,37 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Farfetchd @ Leek
+Jolly Nature 
+Ability: Inner Focus 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Slash
+- Aerial Ace
+- Leaf Blade
+- Knock Off
+
+Watchog @ Lum Berry
+Brave Nature 
+Ability: Analytic 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Fang
+- Aqua Tail
+- Slam
+- Revenge
+
+Arbok @ Black Sludge
+Jolly Nature 
+Ability: Intimidate 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Fang
+- Sucker Punch
+- Coil
+- Mud Bomb
+
+
 
 === TRAINER_CELINA ===
 Name: CELINA
@@ -15042,9 +15186,25 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bellossom @ Lum Berry
+Modest Nature 
+Ability: Healer 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Giga Drain
+- Sleep Powder
+- Strength Sap
+
+Vileplume @ Lum Berry
+Modest Nature 
+Ability: Effect Spore 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Giga Drain
+- Sleep Powder
+- Strength Sap
 
 === TRAINER_BIANCA ===
 Name: BIANCA
@@ -15055,9 +15215,34 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Butterfree @ Choice Specs
+Timid Nature 
+Ability: Tinted Lens 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Cutter
+- Bug Buzz
+
+Simisage @ White Herb
+Naive Nature 
+Ability: Overgrow 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Storm
+- Superpower
+- Rock Slide
+- Acrobatics
+
+Stantler @ Lum Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Zen Headbutt
+- Jump Kick
+- Hypnosis
+- Stomp
+
 
 === TRAINER_HAYDEN ===
 Name: HAYDEN
@@ -15068,9 +15253,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bombirdier @ Sitrus Berry
+Brave Nature 
+Ability: Rocky Payload 
+Level: 42
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dual Wingbeat
+- Payback
+- Rock Tomb
+- Tailwind
+
+Heatmor @ Lum Berry
+Lonely Nature 
+Ability: White Smoke 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Lash
+- Thunder Punch
+- Hone Claws
+- Slash
+
+Camerupt @ Lum Berry
+Brave Nature 
+Ability: Solid Rock 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Horsepower
+- Lava Plume
+- Rock Slide
+- Curse
+
+Torkoal @ Lum Berry
+Mild Nature 
+Ability: Shell Armor 
+Level: 40
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Iron Defense
+- Body Slam
+- Clear Smog
 
 === TRAINER_SOPHIE ===
 Name: SOPHIE

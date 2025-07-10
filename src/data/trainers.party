@@ -4063,9 +4063,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nuzleaf
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Orthworm @ Weakness Policy
+Brave Nature 
+Ability: Earth Eater 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Iron Tail
+- Iron Defense
+- Smack Down
+- Bulldoze
+
+Grafaiai @ Black Sludge
+Bold Nature 
+Ability: Prankster 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Toxic Spikes
+- Poison Jab
+- Slash
+
+Brambleghast @ Big Root
+Timid Nature 
+Ability: Wind Rider 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Disable
+- Infestation
+- Hex
 
 === TRAINER_SHANE ===
 Name: SHANE
@@ -9659,13 +9685,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Taillow
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dubwool @ Assault Vest
+Impish Nature 
+Ability: Fluffy 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Mega Kick
+- Zen Headbutt
+- Payback
+- Counter
 
-Lombre
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ampharos @ Shuca Berry
+Timid Nature 
+Ability: Static 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunderbolt
+- Focus Blast
+- Agility
+- Dragon Pulse
+
+Spinda @ Chople Berry
+Impish Nature 
+Ability: Contrary 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dizzy Punch
+- Superpower
+- Psycho Cut
+- Hypnosis
 
 === TRAINER_NANCY ===
 Name: NANCY
@@ -13256,13 +13304,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bronzong @ Colbur Berry
+Brave Nature 
+Ability: Levitate 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gyro Ball
+- Extrasensory
+- Trick Room
+- Curse
 
-Machop
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Solrock @ Room Service
+Brave Nature 
+Ability: Levitate 
+Level: 35
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Flare Blitz
+- Acrobatics
+- Trick Room
+
+Lunatone @ Room Service
+Quiet Nature 
+Ability: Levitate 
+Level: 34
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Power Gem
+- Trick Room
+- Moonblast
+
+Ceruledge @ Charcoal
+Brave Nature 
+Ability: Weak Armor 
+Level: 33
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Claw
+- Lava Plume
+- Solar Blade
+- Swords Dance
 
 === TRAINER_TRENT_1 ===
 Name: TRENT
@@ -13273,17 +13353,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bastiodon @ Red Card
+Brave Nature 
+Ability: Sturdy 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Metal Burst
+- Stealth Rock
+- Rock Tomb
+- Roar
 
-Geodude
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Diggersby @ Chople Berry
+Jolly Nature 
+Ability: Huge Power 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Horsepower
+- Body Slam
+- Quick Attack
+- Swords Dance
 
-Geodude
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magcargo @ Red Card
+Timid Nature 
+Ability: Weak Armor 
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Power Gem
+- Earth Power
+- Shell Smash
 
 === TRAINER_LENNY ===
 Name: LENNY
@@ -15898,13 +15996,25 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Turtonator @ Heat Rock
+Modest Nature 
+Ability: Drought 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shell Trap
+- Shell Smash
+- Stealth Rock
+- Flamethrower
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Charizard @ Iapapa Berry
+Timid Nature 
+Ability: Solar Power 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flame Burst
+- Slash  
+- Air Slash
+- Solar Beam
 
 === TRAINER_SHAYLA ===
 Name: SHAYLA
@@ -15915,13 +16025,25 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Leafeon @ Miracle Seed
+Adamant Nature 
+Ability: Chlorophyll 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Knock Off
+- Swords Dance
+- Fake Tears
 
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Venusaur @ Life Orb
+Naughty Nature 
+Ability: Chlorophyll 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Petal Blizzard
+- Sludge
+- Synthesis
+- Weather Ball
 
 === TRAINER_KYRA ===
 Name: KYRA

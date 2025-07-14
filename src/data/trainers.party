@@ -1581,17 +1581,55 @@ Items: Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Electrike
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Scizor @ Occa Berry
+Sassy Nature 
+Ability: Technician 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- U-Turn
+- Bullet Punch
+- Dual Wingbeat
+- Knock Off
 
-Wailmer
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tangrowth @ Assault Vest
+Sassy Nature 
+Ability: Regenerator 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Giga Drain
+- Knock Off
+- Stun Spore
+- Sludge Bomb
 
-Makuhita
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Golisopod @ Assault Vest
+Careful Nature 
+Ability: Emergency Exit 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- First Impression
+- Liquidation
+- Leech Life
+- Rock Slide
+
+Noctowl @ Blunder Policy
+Timid Nature 
+Ability: Tinted Lens 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Uproar
+- Hypnosis
+- Dream Eater
+
+Dugtrio @ Focus Sash
+Jolly Nature 
+Ability: Arena Trap 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Slash
+- Sucker Punch
+- Rock Slide
 
 === TRAINER_EDGAR ===
 Name: EDGAR
@@ -1916,17 +1954,55 @@ Items: Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Wingull
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Vanillish @ Icy Rock
+Hasty Nature 
+Ability: Snow Warning 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Blizzard
+- Acid Armor
+- Uproar
+- Aurora Veil
 
-Numel
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tentacruel  @ Black Sludge
+Hasty Nature 
+Ability: Clear Body 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Blizzard
+- Water Pulse
+- Poison Jab
+- Toxic Spikes
 
-Roselia
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dewgong @ Leftovers
+Sassy Nature 
+Ability: Ice Body 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Blizzard
+- Drill Run
+- Protect
+- Substitute
+
+Magmortar @ Safety Goggles
+Naive Nature 
+Ability: Mega Launcher 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Lava Plume
+- Flash Cannon
+- Weather Ball
+- Scorching Sands
+
+Beartic @ Muscle Band
+Adamant Nature 
+Ability: Slush Rush 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Icicle Crash
+- Aqua Jet
+- Rock Slide
+- Meteor Mash
 
 === TRAINER_JENNIFER ===
 Name: JENNIFER
@@ -3607,9 +3683,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Passimian @ Sitrus Berry
+Jolly Nature 
+Ability: Defiant 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Smash
+- Rock Tomb
+- Knock Off
+- Acrobatics
+
+Throh @ Sitrus Berry
+Careful Nature 
+Ability: Guts 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Circle Throw
+- Facade
+- Bulk Up
+- Recover
+
+Heracross @ Flame Orb
+Jolly Nature 
+Ability: Guts 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Megahorn
+- Retaliate
+- Facade
 
 === TRAINER_ATSUSHI ===
 Name: ATSUSHI

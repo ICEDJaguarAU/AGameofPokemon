@@ -7054,9 +7054,34 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Trapinch
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scyther @ Choice Band
+Jolly Nature 
+Ability: Technician 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- U-Turn
+- Dual Wingbeat
+- Swords Dance
+
+Talonflame @ Sharp Beak
+Jolly Nature 
+Ability: Flame Body 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Will O Wisp
+- Swords Dance
+- Dual Wingbeat
+
+Tauros @ Lum Berry
+Jolly Nature 
+Ability: Sheer Force 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Raging Bull
+- Zen Headbutt
+- Close Combat
+- Throat Chop
 
 === TRAINER_DILLON ===
 Name: DILLON
@@ -7067,9 +7092,42 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales @ Lum Berry
+Timid Nature 
+Ability: Drought 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Solar Beam
+- Hypnosis
+- Dazzling Gleam
+
+Mamoswine @ Lum Berry
+Jolly Nature 
+Ability: Oblivious 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stomping Tantrum
+- Ice Fang
+- Ice Shard
+- Stealth Rock
+
+Shiftry @ Lum Berry
+Lonely Nature 
+Ability: Chlorophyll 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Solar Blade
+- Dark Pulse
+- Heat Wave
+- Nasty Plot
+
+Typhlosion @ Choice Scarf
+Modest Nature 
+Ability: Blaze 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Eruption
 
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
@@ -8778,29 +8836,35 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Crobat @ Life Orb
+Hasty Nature 
+Ability: Inner Focus 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Slash
+- Poison Fang
+- Heat Wave
+- Giga Drain
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Muk_Alola @ Black Sludge
+Impish Nature 
+Ability: Poison Touch 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Crunch
+- Ice Punch
+- Curse
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Sludge
-- Self Destruct
+Weezing_Galar @ Black Sludge
+Bold Nature 
+Ability: Neutralizing Gas 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Dazzling Gleam
+- Flamethrower
+- Toxic
 
 === TRAINER_LUNG ===
 Name: LUNG
@@ -8810,13 +8874,35 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 
-Koffing
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seviper @ Shuca Berry
+Hasty Nature 
+Ability: Shed Skin 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Coil
+- Belch
+- Psychic Fangs
+- Swagger
 
-Ninjask
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor @ Life Orb
+Timid Nature 
+Ability: Sticky Hold 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Water Shuriken
+- Giga Drain
+- U-Turn
+
+Greninja @ Sitrus Berry
+Hasty Nature 
+Ability: Protean 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Shuriken
+- Acrobatics
+- Spirit Shackle
+- Night Slash
 
 === TRAINER_LAO_2 ===
 Name: LAO
@@ -9182,13 +9268,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Tackle
-- Magnitude
-- Sunny Day
+Raichu @ White Herb
+Jolly Nature 
+Ability: Lightning Rod 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunderbolt
+- Grass Knot
+- Extreme Speed
+- Fake Out
+
+Marowak_Alola @ Thick Club
+Jolly Nature 
+Ability: Lightning Rod 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Bone
+- Fire Punch
+- Bonemerang
+- Low Kick
+
+Rhydon @ Leftovers
+Careful Nature 
+Ability: Lightning Rod 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Rock Tomb
+- Hammer Arm
+- Smack Down
 
 === TRAINER_CLARISSA ===
 Name: CLARISSA
@@ -12091,7 +12199,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude_ALola @ Shuca Berry
+Geodude_Alola @ Shuca Berry
 Level: 16
 Adamant Nature
 Ability: Rock Head
@@ -14686,13 +14794,45 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scrafty @ Sitrus Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Knock Off
+- Foul Play
+- Fake Out
 
-Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bruxish @ Lum Berry
+Jolly Nature 
+Ability: Dazzling 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic Fangs
+- Wave Crash
+- Crunch
+- Bulk Up
+
+Gothitelle @ Sitrus Berry
+Timid Nature 
+Ability: Shadow Tag 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Signal Beam
+- Fake Out
+- Hypnosis
+
+Bisharp @ Lum Berry
+Jolly Nature 
+Ability: Defiant 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Cut
+- Sucker Punch
+- Knock Off
+- Low Kick
 
 === TRAINER_KIM_AND_IRIS ===
 Name: KIM & IRIS
@@ -15502,13 +15642,45 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slurpuff @ Sitrus Berry
+Timid Nature 
+Ability: Unburden 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dazzling Gleam
+- Flamethrower
+- Psychic
+- Sticky Web
 
-Lombre
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lickilicky @ Lum Berry
+Jolly Nature 
+Ability: Own Tempo 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Double-Edge
+- Brick Break
+- Supersonic
+
+Appletun @ Starf Berry
+Timid Nature 
+Ability: Gluttony 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Pulse
+- Apple Acid
+- Leech Seed
+- Recover
+
+Alcremie_Caramel_Swirl @ Leftovers
+Bold Nature 
+Ability: Sweet Veil 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Draining Kiss
+- Mystical Fire
+- Acid Armor
+- Calm Mind
 
 === TRAINER_COBY ===
 Name: COBY
@@ -15519,13 +15691,35 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golurk @ Lum Berry
+Jolly Nature 
+Ability: Iron Fist 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Horsepower
+- Shadow Punch
+- Hammer Arm
+- Stealth Rock
 
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flapple @ Starf Berry
+Hasty Nature 
+Ability: Gluttony 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Pulse
+- Grav Apple
+- Dragon Dance
+- Wing Attack
+
+Vikavolt @ Lum Berry
+Timid Nature 
+Ability: Levitate 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Volt Switch
+- Agility
+- Energy Ball
 
 === TRAINER_LAWRENCE ===
 Name: LAWRENCE
@@ -15536,13 +15730,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Staraptor @ White Herb
+Jolly Nature 
+Ability: Intimidate 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dual Wingbeat
+- Quick Attack
+- Close Combat
+- Roost
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lumineon @ Focus Sash
+Hasty Nature 
+Ability: Storm Drain 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Flail
+- Air Slash
+- Ice Beam
+
+Gyarados @ Leftovers
+Jolly Nature 
+Ability: Intimidate 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Dance
+- Aqua Chomp
+- Crunch
+- Dragon Tail
 
 === TRAINER_WYATT ===
 Name: WYATT
@@ -15553,13 +15769,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Heliolisk @ Life Orb
+Timid Nature 
+Ability: Dry Skin 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Thunderbolt
+- Grass Knot
+- Magnet Rise
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Salazzle @ Lum Berry
+Timid Nature 
+Ability: Corrosion 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Nasty Plot
+- Dragon Pulse
+- Incinerate
+- Sludge Wave
+
+Kecleon @ Assault Vest
+Impish Nature 
+Ability: Protean 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Claw
+- Drain Punch
+- Knock Off
+- Power Up Punch
+
+Dunsparce @ Lum Berry
+Careful Nature 
+Ability: Serene Grace 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Headbutt
+- Coil
+- Glare
+- Roost
 
 === TRAINER_ANGELINA ===
 Name: ANGELINA

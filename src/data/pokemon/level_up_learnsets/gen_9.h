@@ -14156,7 +14156,7 @@ static const struct LevelUpMove sTrubbishLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_POISON_JAB),
     LEVEL_UP_MOVE(42, MOVE_EXPLOSION),
     LEVEL_UP_MOVE(45, MOVE_SMACK_DOWN),
-    LEVEL_UP_MOVE(50, MOVE_SEPTIC_SLAM),
+    LEVEL_UP_MOVE(49, MOVE_SEPTIC_SLAM),
     LEVEL_UP_END
 };
 
@@ -22529,6 +22529,7 @@ static const struct LevelUpMove sPalafinLevelUpLearnset[] = {
 
 #if P_FAMILY_VAROOM
 static const struct LevelUpMove sVaroomLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SHIFT_GEAR),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 1, MOVE_POISON_GAS),
     LEVEL_UP_MOVE( 4, MOVE_SMOG),
@@ -22548,7 +22549,8 @@ static const struct LevelUpMove sVaroomLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sRevavroomLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_SHIFT_GEAR),
+    LEVEL_UP_MOVE( 0, MOVE_GEAR_GRIND),
+    LEVEL_UP_MOVE( 1, MOVE_SHIFT_GEAR),
     LEVEL_UP_MOVE( 1, MOVE_MAGNET_RISE),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 1, MOVE_POISON_GAS),
@@ -22646,6 +22648,8 @@ static const struct LevelUpMove sGlimmoraLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_POWER_GEM),
     LEVEL_UP_MOVE(44, MOVE_ACID_ARMOR),
     LEVEL_UP_MOVE(50, MOVE_SLUDGE_WAVE),
+    LEVEL_UP_MOVE(57, MOVE_DIAMOND_FLASH),
+    LEVEL_UP_MOVE(64, MOVE_GUNK_SHOT),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_GLIMMET

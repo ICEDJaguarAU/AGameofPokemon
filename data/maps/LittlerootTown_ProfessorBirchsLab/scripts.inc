@@ -1,1001 +1,724 @@
-.set LOCALID_AIDE, 1
-.set LOCALID_BIRCH, 2
-.set LOCALID_RIVAL, 3
-.set LOCALID_BALL_CYNDAQUIL, 4
-.set LOCALID_BALL_TOTODILE, 5
-.set LOCALID_BALL_CHIKORITA, 6
-
-LittlerootTown_ProfessorBirchsLab_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, LittlerootTown_ProfessorBirchsLab_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LittlerootTown_ProfessorBirchsLab_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, LittlerootTown_ProfessorBirchsLab_OnFrame
+NewProfessor_MapScripts::
+# 2 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	map_script MAP_SCRIPT_ON_TRANSITION, NewProfessor_EventScript_BallDefault
 	.byte 0
 
-	@ State descriptions for VAR_DEX_UPGRADE_JOHTO_STARTER_STATE
-	@ 1: Beat Elite Four, Dex upgrade ready
-	@ 2: Received National Dex
-	@ 3: Left lab after receiving National Dex
-	@ 4: Entered lab after catching all Hoenn mons
-	@ 5: Birch told player to choose Johto starter
-	@ 6: Chose Johto starter
 
-	@ State descriptions for VAR_BIRCH_LAB_STATE
-	@ 1: Never occurs
-	@ 2: Chose starter
-	@ 3: Received starter in lab
-	@ 4: Defeated rival on Route 103
-	@ 5: Received pokedex
-
-LittlerootTown_ProfessorBirchsLab_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
-	call ProfBirch_EventScript_UpdateLocation
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout
-	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_CheckReadyForJohtoStarter::
-	specialvar VAR_RESULT, HasAllHoennMons
-	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter
-	setobjectmovementtype LOCALID_RIVAL, MOVEMENT_TYPE_WANDER_UP_AND_DOWN
-	setobjectxyperm LOCALID_RIVAL, 5, 10
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetReadyForJohtoStarter::
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetJohtoStarterLayout::
-	setmaplayoutindex LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout::
-	setmaplayoutindex LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE
-	setobjectmovementtype LOCALID_RIVAL, MOVEMENT_TYPE_WANDER_UP_AND_DOWN
-	setobjectxyperm LOCALID_RIVAL, 5, 10
-	end
-
-LittlerootTown_ProfessorBirchsLab_OnWarp:
-	map_script_2 VAR_BIRCH_LAB_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_SetPlayerPosForReceiveStarter
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForDexUpgrade
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForDexUpgrade
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters
-	.2byte 0
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetPlayerPosForReceiveStarter::
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForDexUpgrade::
-	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
-	addobject LOCALID_BIRCH
-	addobject LOCALID_RIVAL
-	turnobject LOCALID_RIVAL, DIR_NORTH
-	setobjectxy LOCALID_RIVAL, 5, 5
-	turnobject LOCALID_BIRCH, DIR_SOUTH
-	setobjectxy LOCALID_BIRCH, 6, 4
-	turnobject LOCALID_AIDE, DIR_EAST
-	setobjectxy LOCALID_AIDE, 10, 10
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject::
-	addobject LOCALID_RIVAL
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters::
-	addobject LOCALID_BALL_CYNDAQUIL
-	addobject LOCALID_BALL_TOTODILE
-	addobject LOCALID_BALL_CHIKORITA
-	addobject LOCALID_RIVAL
-	turnobject LOCALID_BALL_CYNDAQUIL, DIR_SOUTH
-	setobjectxy LOCALID_BALL_CYNDAQUIL, 8, 4
-	turnobject LOCALID_BALL_TOTODILE, DIR_SOUTH
-	setobjectxy LOCALID_BALL_TOTODILE, 9, 4
-	turnobject LOCALID_BALL_CHIKORITA, DIR_SOUTH
-	setobjectxy LOCALID_BALL_CHIKORITA, 10, 4
-	turnobject LOCALID_BIRCH, DIR_SOUTH
-	setobjectxy LOCALID_BIRCH, 6, 4
-	turnobject LOCALID_RIVAL, DIR_EAST
-	setobjectxy LOCALID_RIVAL, 5, 5
-	end
-
-LittlerootTown_ProfessorBirchsLab_OnFrame:
-	map_script_2 VAR_BIRCH_LAB_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent
-	map_script_2 VAR_BIRCH_LAB_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex
-	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_ChooseJohtoStarter
-	.2byte 0
-
-@ The starter is technically given prior to this on Route 101 by special ChooseStarter
-@ This is just where the game tells you its yours and lets you nickname it
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent::
-	lockall
-	bufferleadmonspeciesname STR_VAR_1
-	message LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon
-	waitmessage
-	playfanfare MUS_OBTAIN_ITEM
-	waitfanfare
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_NicknameStarter::
-	setvar VAR_0x8004, 0
-	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou, MSGBOX_DEFAULT
-	clearflag FLAG_HIDE_ROUTE_101_BOY
-	setvar VAR_BIRCH_LAB_STATE, 3
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_DeclineSeeingRival
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
-	waitmovement 0
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
-	end
-
-LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex:
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
-	lockall
-	delay 30
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchRetrievePokedexes
-	waitmovement 0
-	delay 20
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 10
-	playse SE_CLICK
-	delay 20
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterRight
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayUpgradeComment
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment
-	playse SE_PC_ON
-	waitse
-	delay 20
-	applymovement LOCALID_BIRCH, LittlerootTown_ProfessorBirchsLab_Movement_BirchReturnPokedex
-	waitmovement 0
-	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterUp
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
-	waitmovement 0
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone, MSGBOX_DEFAULT
-	playfanfare MUS_OBTAIN_ITEM
-	message LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational
-	waitmessage
-	waitfanfare
-	setflag FLAG_SYS_NATIONAL_DEX
-	special EnableNationalPokedex
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
-	closemessage
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2
-	setvar VAR_SCOTT_BF_CALL_STEP_COUNTER, 0
-	setflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_MayUpgradeComment::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool, MSGBOX_DEFAULT
-	closemessage
+NewProfessor_EventScript_BallDefault::
+# 6 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_REGION, 0
 	return
 
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanUpgradeComment::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe, MSGBOX_DEFAULT
-	closemessage
-	return
 
-LittlerootTown_ProfessorBirchsLab_Movement_BirchRetrievePokedexes:
-	walk_left
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	walk_right
-	walk_in_place_faster_down
-	delay_16
-	delay_16
-	walk_right
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_right
-	walk_right
-	walk_right
-	walk_in_place_faster_up
-	step_end
-
-LittlerootTown_ProfessorBirchsLab_Movement_BirchReturnPokedex:
-	walk_left
-	walk_left
-	walk_left
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_left
-	walk_in_place_faster_down
-	step_end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ChooseJohtoStarter::
-	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForJohtoStarter
-	waitmovement 0
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon, MSGBOX_DEFAULT
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForJohtoStarter:
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	walk_up
-	step_end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_Aide::
+Start_StarterChoose_Sequence::
+# 10 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	lock
+# 11 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, MeetBirch
+# 12 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 13 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox BeginAdventureText
+# 14 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 15 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	closemessage
+# 16 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement 4, ProfMove
+# 17 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 18 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar LITTLEROOT_STATE, 1
+# 19 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	release
+	return
+
+
+Start_StarterChoose_Sequence2::
+# 23 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lock
+# 24 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, MeetBirch2
+# 25 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 26 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto Start_StarterChoose_Sequence
+	return
+
+
+# 29 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MeetBirch:
+# 30 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+# 30 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+# 30 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+# 30 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+	step_end
+
+# 32 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MeetBirch2:
+# 33 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
+	step_end
+
+# 35 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+ProfMove:
+# 36 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+# 37 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_right
+# 37 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_right
+# 38 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+# 39 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	face_down
+	step_end
+
+StopLeaving::
+# 54 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lockall
+# 55 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox StopLeaving_Text_0
+# 56 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, DoNotLeave
+# 57 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 58 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	releaseall
+	return
+
+
+# 61 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+DoNotLeave:
+# 62 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_up
+	step_end
+
+NewProfessor_EventScript_Birch::
+# 66 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_unset FLAG_SYS_POKEMON_GET, NewProfessor_EventScript_Birch_2
+# 89 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_set FLAG_SYS_POKEDEX_GET, NewProfessor_EventScript_Birch_14
+NewProfessor_EventScript_Birch_13:
+# 99 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_Birch_Text_3, MSGBOX_NPC
+NewProfessor_EventScript_Birch_1:
+	end
+
+NewProfessor_EventScript_Birch_2:
+# 67 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lock
+# 68 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	faceplayer
-	goto_if_ge VAR_BIRCH_LAB_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter
-	goto_if_set FLAG_BIRCH_AIDE_MET, LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork, MSGBOX_DEFAULT
-	setflag FLAG_BIRCH_AIDE_MET
+# 69 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	message NewProfessor_EventScript_Birch_Text_0
+# 70 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	multichoice 25, 5, MULTI_STARTER_CHOICE, 0
+# 71 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	closemessage
+# 72 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, 0
+	goto_if_eq NewProfessor_EventScript_Birch_6
+# 76 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq NewProfessor_EventScript_Birch_7
+# 80 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, 2
+	goto_if_eq NewProfessor_EventScript_Birch_8
+NewProfessor_EventScript_Birch_5:
+# 84 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_Birch_Text_1
+# 85 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 86 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	release
-	end
+	goto NewProfessor_EventScript_Birch_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork, MSGBOX_DEFAULT
-	release
-	end
+NewProfessor_EventScript_Birch_6:
+# 73 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call StarterFade
+# 74 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_REGION, 2
+	goto NewProfessor_EventScript_Birch_5
 
-LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo, MSGBOX_DEFAULT
-	release
-	end
+NewProfessor_EventScript_Birch_7:
+# 77 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call StarterFade
+# 78 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_REGION, 1
+	goto NewProfessor_EventScript_Birch_5
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Cyndaquil::
-	release
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	showmonpic SPECIES_CYNDAQUIL, 10, 3
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil
-	end
+NewProfessor_EventScript_Birch_8:
+# 81 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call StarterFade
+# 82 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_REGION, 0
+	goto NewProfessor_EventScript_Birch_5
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Totodile::
-	release
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	showmonpic SPECIES_TOTODILE, 10, 3
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile
-	end
+NewProfessor_EventScript_Birch_12:
+# 90 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_Birch_Text_2, MSGBOX_YESNO
+# 91 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NewProfessor_EventScript_Birch_17
+# 95 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_Birch_Text_3, MSGBOX_NPC
+	goto NewProfessor_EventScript_Birch_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita::
-	release
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter
-	applymovement LOCALID_BIRCH, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	showmonpic SPECIES_CHIKORITA, 10, 3
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita
-	end
+NewProfessor_EventScript_Birch_14:
+# 89 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_unset FLAG_SYS_NATIONAL_DEX, NewProfessor_EventScript_Birch_12
+	goto NewProfessor_EventScript_Birch_13
 
-LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone, MSGBOX_DEFAULT
+NewProfessor_EventScript_Birch_17:
+# 92 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call UpgradeNationalDex
+	goto NewProfessor_EventScript_Birch_1
+
+
+StarterFade::
+# 106 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	fadescreen FADE_TO_BLACK
+# 107 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	delay 20
+# 108 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	fadescreen FADE_FROM_BLACK
+	return
+
+
+NewProfessor_EventScript_PokeballOne::
+# 113 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lockall
+# 114 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar VAR_TEMP_0, 1
+# 115 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_unset FLAG_SYS_POKEMON_GET, NewProfessor_EventScript_PokeballOne_2
+# 133 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_PokeballOne_Text_0
+NewProfessor_EventScript_PokeballOne_1:
+# 135 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 136 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_TakeYourTime::
-	hidemonpic
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable, MSGBOX_DEFAULT
-	releaseall
-	end
+NewProfessor_EventScript_PokeballOne_2:
+# 116 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 0
+	goto_if_eq NewProfessor_EventScript_PokeballOne_5
+# 121 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 1
+	goto_if_eq NewProfessor_EventScript_PokeballOne_6
+# 126 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 2
+	goto_if_eq NewProfessor_EventScript_PokeballOne_7
+	goto NewProfessor_EventScript_PokeballOne_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil::
-	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
-	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL
-	givemon SPECIES_CYNDAQUIL, 5
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC
-	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
-	end
+NewProfessor_EventScript_PokeballOne_5:
+# 117 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_MUDKIP
+# 118 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_MUDKIP
+# 119 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballOne_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToParty::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_CYNDAQUIL
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
-	call Common_EventScript_GetGiftMonPartySlot
-	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SendCyndaquilToPC::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_CYNDAQUIL
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_CyndaquilTransferredToPC::
-	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil::
-	hidemonpic
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveTotodile::
+NewProfessor_EventScript_PokeballOne_6:
+# 122 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	bufferspeciesname STR_VAR_1, SPECIES_TOTODILE
-	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_TOTODILE
-	givemon SPECIES_TOTODILE, 5
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC
-	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
-	end
+# 123 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_TOTODILE
+# 124 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballOne_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToParty::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_TOTODILE
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
-	call Common_EventScript_GetGiftMonPartySlot
-	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
-	end
+NewProfessor_EventScript_PokeballOne_7:
+# 127 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_SQUIRTLE
+# 128 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_SQUIRTLE
+# 129 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballOne_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendTotodileToPC::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_TOTODILE
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC
-	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_TotodileTransferredToPC::
-	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedTotodile::
-	hidemonpic
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveChikorita::
-	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
-	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CHIKORITA
-	givemon SPECIES_CHIKORITA, 5
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty
-	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC
-	hidemonpic
-	goto Common_EventScript_NoMoreRoomForPokemon
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToParty::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_CHIKORITA
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
-	call Common_EventScript_GetGiftMonPartySlot
-	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_SendChikoritaToPC::
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_CHIKORITA
-	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
-	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ChikoritaTransferredToPC::
-	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedChikorita::
-	hidemonpic
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
-	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
-	releaseall
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter::
-	playfanfare MUS_OBTAIN_ITEM
-	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter
+NewProfessor_EventScript_PokeballTwo::
+# 141 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lockall
+# 142 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar VAR_TEMP_0, 2
+# 143 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_unset FLAG_SYS_POKEMON_GET, NewProfessor_EventScript_PokeballTwo_2
+# 161 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_PokeballOne_Text_0
+NewProfessor_EventScript_PokeballTwo_1:
+# 163 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	waitmessage
-	waitfanfare
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_Birch::
-	lock
-	faceplayer
-	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_CanHaveAnyOneOfRarePokemon
-	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_GrassyPatchWaiting
-	goto_if_unset FLAG_HAS_MATCH_CALL, LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister
-	goto_if_unset FLAG_ENABLE_PROF_BIRCH_MATCH_CALL, EventScript_RegisterProfBirch
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_CanHaveAnyOneOfRarePokemon::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon, MSGBOX_DEFAULT
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GrassyPatchWaiting::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2, MSGBOX_DEFAULT
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister::
-	goto_if_unset FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380, ProfBirch_EventScript_RatePokedexOrRegister
-	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, ProfBirch_EventScript_RatePokedexOrRegister
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, ProfBirch_EventScript_RatePokedexOrRegister
-	goto_if_eq VAR_BIRCH_LAB_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome, MSGBOX_DEFAULT
-	release
-	end
-
-EventScript_RegisterProfBirch::
-	msgbox MatchCall_Text_BirchRegisterCall, MSGBOX_DEFAULT
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox MatchCall_Text_RegisteredBirch, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
-	setvar VAR_REGISTER_BIRCH_STATE, 2
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex, MSGBOX_DEFAULT
-	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_RIVAL, LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer
-	waitmovement 0
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-	waitmovement 0
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls
-	setvar VAR_BIRCH_LAB_STATE, 5
-	setflag FLAG_ADVENTURE_STARTED
-	setvar VAR_OLDALE_TOWN_STATE, 1
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 4
-	setvar VAR_LITTLEROOT_TOWN_STATE, 3
+# 164 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
-	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
-	setvar VAR_RESULT, 0
-	return
+NewProfessor_EventScript_PokeballTwo_2:
+# 144 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 0
+	goto_if_eq NewProfessor_EventScript_PokeballTwo_5
+# 149 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 1
+	goto_if_eq NewProfessor_EventScript_PokeballTwo_6
+# 154 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 2
+	goto_if_eq NewProfessor_EventScript_PokeballTwo_7
+	goto NewProfessor_EventScript_PokeballTwo_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
-	giveitem ITEM_POKE_BALL, 5
-	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
-	setvar VAR_RESULT, 1
-	return
+NewProfessor_EventScript_PokeballTwo_5:
+# 145 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_TREECKO
+# 146 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_TREECKO
+# 147 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballTwo_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
-	playfanfare MUS_OBTAIN_ITEM
-	message LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex
-	waitfanfare
-	setflag FLAG_SYS_POKEDEX_GET
-	special SetUnlockedPokedexFlags
-	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
-	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
-	return
+NewProfessor_EventScript_PokeballTwo_6:
+# 150 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_CHIKORITA
+# 151 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_CHIKORITA
+# 152 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballTwo_1
 
-LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait, MSGBOX_DEFAULT
-	release
+NewProfessor_EventScript_PokeballTwo_7:
+# 155 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_BULBASAUR
+# 156 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_BULBASAUR
+# 157 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballTwo_1
+
+
+NewProfessor_EventScript_PokeballThree::
+# 169 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lockall
+# 170 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar VAR_TEMP_0, 3
+# 171 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	goto_if_unset FLAG_SYS_POKEMON_GET, NewProfessor_EventScript_PokeballThree_2
+# 189 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_PokeballOne_Text_0
+NewProfessor_EventScript_PokeballThree_1:
+# 191 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 192 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull, MSGBOX_DEFAULT
+NewProfessor_EventScript_PokeballThree_2:
+# 172 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 0
+	goto_if_eq NewProfessor_EventScript_PokeballThree_5
+# 177 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 1
+	goto_if_eq NewProfessor_EventScript_PokeballThree_6
+# 182 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare STARTER_REGION, 2
+	goto_if_eq NewProfessor_EventScript_PokeballThree_7
+	goto NewProfessor_EventScript_PokeballThree_1
+
+NewProfessor_EventScript_PokeballThree_5:
+# 173 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_TORCHIC
+# 174 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_TORCHIC
+# 175 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballThree_1
+
+NewProfessor_EventScript_PokeballThree_6:
+# 178 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
+# 179 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_CYNDAQUIL
+# 180 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballThree_1
+
+NewProfessor_EventScript_PokeballThree_7:
+# 183 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	bufferspeciesname STR_VAR_1, SPECIES_CHARMANDER
+# 184 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar STARTER_CHOICE, SPECIES_CHARMANDER
+# 185 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NewProfessor_EventScript_GiveStarter
+	goto NewProfessor_EventScript_PokeballThree_1
+
+
+NewProfessor_EventScript_GiveStarter::
+# 198 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	showmonpic STARTER_CHOICE, 10, 3
+# 199 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_GiveStarter_Text_0, MSGBOX_YESNO
+# 200 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NewProfessor_EventScript_GiveStarter_1
+# 227 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	hidemonpic
+# 228 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_NotChosen
 	return
 
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull, MSGBOX_DEFAULT
+NewProfessor_EventScript_GiveStarter_1:
+# 201 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag FLAG_SYS_POKEMON_GET
+# 202 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar LITTLEROOT_STATE, 2
+# 203 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	givemon STARTER_CHOICE, 50, ITEM_MASTER_BALL
+# 204 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PARTY
+	goto_if_eq NewProfessor_EventScript_GiveStarter_5
+# 211 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, MON_GIVEN_TO_PC
+	goto_if_eq NewProfessor_EventScript_GiveStarter_6
+# 220 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	hidemonpic
+# 221 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_GiveStarter_Text_3
+NewProfessor_EventScript_GiveStarter_4:
+# 223 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	closemessage
+# 224 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call InitiatePokedexSequence
 	return
 
-LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer:
-	walk_down
-	walk_in_place_faster_left
+NewProfessor_EventScript_GiveStarter_5:
+# 205 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 206 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_GiveStarter_Text_1
+# 207 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	removeobject VAR_TEMP_0
+# 208 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call SetBallFlag
+# 209 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NicknamePartyMon
+	goto NewProfessor_EventScript_GiveStarter_4
+
+NewProfessor_EventScript_GiveStarter_6:
+# 212 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 213 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_GiveStarter_Text_1
+# 214 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	removeobject VAR_TEMP_0
+# 215 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call SetBallFlag
+# 216 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call NicknameBoxMon
+# 217 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NewProfessor_EventScript_GiveStarter_Text_2
+	goto NewProfessor_EventScript_GiveStarter_4
+
+
+SetBallFlag::
+# 235 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 1
+	goto_if_eq SetBallFlag_2
+# 239 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 2
+	goto_if_eq SetBallFlag_5
+# 243 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 3
+	goto_if_eq SetBallFlag_7
+	return
+
+SetBallFlag_2:
+# 236 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag STARTER_BALL_ONE
+	return
+
+SetBallFlag_5:
+# 240 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag STARTER_BALL_TWO
+	return
+
+SetBallFlag_7:
+# 244 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag STARTER_BALL_THREE
+	return
+
+
+NicknamePartyMon::
+# 250 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 251 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	hidemonpic
+# 252 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NicknamePartyMon_1
+	return
+
+NicknamePartyMon_1:
+# 253 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call Common_EventScript_GetGiftMonPartySlot
+# 254 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call Common_EventScript_NameReceivedPartyMon
+	return
+
+
+NicknameBoxMon::
+# 261 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox NicknamePartyMon_Text_0, MSGBOX_YESNO
+# 262 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	hidemonpic
+# 263 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq NicknameBoxMon_1
+	return
+
+NicknameBoxMon_1:
+# 264 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call Common_EventScript_NameReceivedBoxMon
+	return
+
+
+InitiatePokedexSequence::
+# 273 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lock
+# 274 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	delay 20
+# 275 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, TurnToProf
+# 276 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 1
+	goto_if_eq InitiatePokedexSequence_2
+InitiatePokedexSequence_1:
+# 279 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 2
+	goto_if_eq InitiatePokedexSequence_5
+InitiatePokedexSequence_4:
+# 282 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	compare VAR_TEMP_0, 3
+	goto_if_eq InitiatePokedexSequence_8
+InitiatePokedexSequence_7:
+# 285 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 286 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	delay 20
+# 287 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	call GivePokedex
+# 288 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	release
+	return
+
+InitiatePokedexSequence_2:
+# 277 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement 4, MoveBallOne
+	goto InitiatePokedexSequence_1
+
+InitiatePokedexSequence_5:
+# 280 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement 4, MoveBallTwo
+	goto InitiatePokedexSequence_4
+
+InitiatePokedexSequence_8:
+# 283 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement 4, MoveBallThree
+	goto InitiatePokedexSequence_7
+
+
+GivePokedex::
+# 293 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lock
+# 294 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox TakePokedex, MSGBOX_DEFAULT
+# 295 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 296 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	message GivePokedex_Text_0
+# 297 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitfanfare
+# 298 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	closemessage
+# 299 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag FLAG_SYS_POKEDEX_GET
+# 300 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag FLAG_ADVENTURE_STARTED
+# 301 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	special SetUnlockedPokedexFlags
+# 302 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+# 303 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
+# 304 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
+# 305 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox GivePokedex_Text_1, MSGBOX_DEFAULT
+# 306 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	giveitem ITEM_POKE_BALL, 5
+# 307 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox GivePokedex_Text_2, MSGBOX_DEFAULT
+# 308 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 309 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	release
+	return
+
+
+UpgradeNationalDex::
+# 314 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	lock
+# 315 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 316 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	message LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational
+# 317 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmessage
+# 318 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitfanfare
+# 319 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	setflag FLAG_SYS_NATIONAL_DEX
+# 320 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	special EnableNationalPokedex
+# 321 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	closemessage
+# 322 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	release
+	return
+
+
+# 326 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MoveBallOne:
+# 327 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
+# 327 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
 	step_end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Machine::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine, MSGBOX_SIGN
-	end
+# 329 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MoveBallTwo:
+# 330 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
+	step_end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_Rival::
-	lock
-	faceplayer
-	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_RivalFuturePlans
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, LittlerootTown_ProfessorBirchsLab_EventScript_RivalHaveYouGoneToBattleFrontier
-	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_RivalTakeBreakFromFieldwork
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayWhereShouldIGoNext
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanWhereShouldIGoNext
-	release
-	end
+# 332 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MoveBallThree:
+# 333 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	face_left
+	step_end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_MayWhereShouldIGoNext::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext, MSGBOX_DEFAULT
-	return
+# 335 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+TurnToProf:
+# 336 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	face_right
+	step_end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanWhereShouldIGoNext::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_RivalFuturePlans::
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayWhatNextImStayingHere
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanPreferCollectingSlowly
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_MayWhatNextImStayingHere::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanPreferCollectingSlowly:
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_RivalHaveYouGoneToBattleFrontier::
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayHaveYouGoneToBattleFrontier
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanHaveYouGoneToBattleFrontier
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_MayHaveYouGoneToBattleFrontier::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanHaveYouGoneToBattleFrontier::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_RivalTakeBreakFromFieldwork::
-	checkplayergender
-	call_if_eq VAR_RESULT, MALE, LittlerootTown_ProfessorBirchsLab_EventScript_MayTakeBreakFromFieldwork
-	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanTakeBreakFromFieldwork
-	release
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_MayTakeBreakFromFieldwork::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_BrendanTakeBreakFromFieldwork::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork, MSGBOX_DEFAULT
-	return
-
-LittlerootTown_ProfessorBirchsLab_EventScript_PC::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch, MSGBOX_SIGN
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon, MSGBOX_SIGN
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_Book::
-	msgbox LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead, MSGBOX_SIGN
-	end
-
-LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
+DontTouchThat::
+# 346 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	lockall
-	pokenavcall LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall
-	waitmessage
-	clearflag FLAG_SCOTT_CALL_BATTLE_FRONTIER
+# 347 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	msgbox DontTouchThat_Text_0
+# 348 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, MoveAwayFromThere
+# 349 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	waitmovement 0
+# 350 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	releaseall
-	end
+	return
 
-LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
-	.string "Hunh? PROF. BIRCH?\p"
-	.string "The PROF's away on fieldwork.\n"
-	.string "Ergo, he isn't here.\p"
-	.string "Oh, let me explain what fieldwork is.\p"
-	.string "It is to study things in the natural\n"
-	.string "environment, like fields and mountains,\l"
-	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
 
-LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
-	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
+# 353 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+MoveAwayFromThere:
+# 354 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
+# 354 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	walk_left
+	step_end
 
-LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
-	.string "PROF. BIRCH is studying the habitats\n"
-	.string "and distribution of POKéMON.\p"
-	.string "The PROF enjoys {RIVAL}'s help, too.\n"
-	.string "There's a lot of love there.$"
+StopLeaving_Text_0:
+# 55 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "You Need To Choose a Pokemon$"
 
-LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
-	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the POKéMON you\l"
-	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!$"
+NewProfessor_EventScript_Birch_Text_0:
+# 69 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Would you like to see more?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
-	.string "PROF. BIRCH: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?$"
+NewProfessor_EventScript_Birch_Text_1:
+# 84 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Choose wisely...$"
 
-LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
-	.string "PROF. BIRCH: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
-	.string "My kid, {RIVAL}, is also studying\n"
-	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see {RIVAL}?$"
+NewProfessor_EventScript_Birch_Text_2:
+# 90 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Do you want to upgrade to the National\n"
+	.string "Dex?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
-	.string "PROF. BIRCH: Great!\n"
-	.string "{RIVAL} should be happy, too.\p"
-	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.$"
+NewProfessor_EventScript_Birch_Text_3:
+# 95 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Take care of your Pokemon$"
 
-LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
-	.string "PROF. BIRCH: Oh, don't be that way.\n"
-	.string "You should go meet my kid.$"
+NewProfessor_EventScript_PokeballOne_Text_0:
+# 133 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Don't Take Another$"
 
-LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
-	.string "PROF. BIRCH: {RIVAL}?\n"
-	.string "Gone home, I think.\p"
-	.string "Or maybe that kid's scrabbling around\n"
-	.string "in tall grass again somewhere…\p"
-	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.$"
+NewProfessor_EventScript_GiveStarter_Text_0:
+# 199 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Do you want to choose {STR_VAR_1}?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
-	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat {RIVAL} on\n"
-	.string "your first try. That's excellent!\p"
-	.string "{RIVAL}'s been helping with my research\n"
-	.string "for a long time.\p"
-	.string "{RIVAL} has an extensive history as\n"
-	.string "a TRAINER already.\p"
-	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
-	.string "research, but I think you should have\l"
-	.string "this POKéDEX.$"
+NewProfessor_EventScript_GiveStarter_Text_1:
+# 206 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Recieved {STR_VAR_1}$"
 
-LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
+NewProfessor_EventScript_GiveStarter_Text_2:
+# 217 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Transferred {STR_VAR_1} to PC$"
+
+NewProfessor_EventScript_GiveStarter_Text_3:
+# 221 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "No More Room For Pokemon$"
+
+NicknamePartyMon_Text_0:
+# 250 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Give a nickname?$"
+
+GivePokedex_Text_0:
+# 296 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	.string "{PLAYER} received the POKéDEX!$"
 
-LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+GivePokedex_Text_1:
+# 305 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Also take these with you$"
 
-LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
-	.string "PROF. BIRCH: Countless POKéMON\n"
-	.string "await you!\p"
-	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!$"
+GivePokedex_Text_2:
+# 307 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "These allow you to catch your own\n"
+	.string "Pokemon in tall grass so you can collect\l"
+	.string "research for the Pokedex$"
 
-LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "You got a POKéDEX, too!\p"
-	.string "That's great! Just like me!\n"
-	.string "I've got something for you, too!$"
+DontTouchThat_Text_0:
+# 347 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "DONT TOUCH THAT$"
 
-LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "MAY: It's fun if you can get a lot of\n"
-	.string "POKéMON!\p"
-	.string "I'm going to look all over the place\n"
-	.string "because I want different POKéMON.\p"
-	.string "If I find any cute POKéMON, I'll catch\n"
-	.string "them with POKé BALLS!$"
+BeginAdventureText::
+# 42 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "{COLOR RED}{SHADOW LIGHT_RED}Birch:{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY} Hello {PLAYER}, my name is Prof Birch\n"
+	.string "This is my lab.\p"
+	.string "Today is the day that you will be\n"
+	.string "receiving a Pokemon.\p"
+	.string "{COLOR GREEN}{SHADOW LIGHT_GREEN}Now Choose Wisely,\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}If you would like to see more options\l"
+	.string "come and talk to me.\n$"
 
-LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-	.string "Oh? Your BAG's full.$"
+NewProfessor_NotChosen::
+# 268 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "You did not choose {STR_VAR_1}$"
 
-LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
-	.string "MAY: I wonder where I should go look\n"
-	.string "for POKéMON next?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-	.string "BRENDAN: Huh…\n"
-	.string "So you got a POKéDEX, too.\p"
-	.string "Well then, here.\n"
-	.string "I'll give you these.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of POKéMON.\p"
-	.string "I'm going to explore all over the place\n"
-	.string "to find different POKéMON.\p"
-	.string "If I find any cool POKéMON, you bet\n"
-	.string "I'll try to get them with POKé BALLS.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-	.string "Hey, your BAG's full.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
-	.string "BRENDAN: Where should I look for\n"
-	.string "POKéMON next…$"
-
-LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
-	.string "It's a serious-looking machine.\n"
-	.string "The PROF must use this for research.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
-	.string "It's a PC used for research.\n"
-	.string "Better not mess around with it.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon:
-	.string "It's crammed with books on POKéMON.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead:
-	.string "It's a book that's too hard to read.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
-	.string "PROF. BIRCH: Now…\p"
-	.string "{PLAYER}{KUN} and {RIVAL}, I've had the two\n"
-	.string "of you help me study POKéMON.\p"
-	.string "Thanks to your help, new facts\n"
-	.string "are coming to light.\p"
-	.string "It appears that in the HOENN region,\n"
-	.string "there are also POKéMON from other\l"
-	.string "regions.\p"
-	.string "It goes to show how rich and varied\n"
-	.string "the natural environments of HOENN\l"
-	.string "happen to be.\p"
-	.string "That's why I think it's necessary for\n"
-	.string "me to upgrade your POKéDEX to\l"
-	.string "the NATIONAL Mode.\p"
-	.string "Here, let me see your POKéDEX units.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
-	.string "MAY: Eheheh!\p"
-	.string "It's so cool that even my POKéDEX\n"
-	.string "is getting updated!\p"
-	.string "It's because you went out and caught\n"
-	.string "so many POKéMON, {PLAYER}{KUN}!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
-	.string "BRENDAN: I went out all over HOENN\n"
-	.string "and checked out POKéMON.\p"
-	.string "You can thank me for getting\n"
-	.string "the NATIONAL Mode POKéDEX.\p"
-	.string "Yep, you're lucky, {PLAYER}!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
-	.string "PROF. BIRCH: Okay, all done!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
-	.string "{PLAYER}'s POKéDEX was upgraded\n"
-	.string "to the NATIONAL Mode!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
-	.string "PROF. BIRCH: But listen.\n"
-	.string "You've become the CHAMPION,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
-	.string "MAY: I think I'll take a short break\n"
-	.string "from fieldwork.\p"
-	.string "I think I'll help the PROF here for\n"
-	.string "a while.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
-	.string "BRENDAN: For the time being,\n"
-	.string "I'm taking a break from fieldwork.\p"
-	.string "I'll be helping out the PROF here\n"
-	.string "for a while.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
-	.string "PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
-	.string "Let's have a look at your POKéDEX.\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Yes, there's no doubt about it.\p"
-	.string "You really have completed the HOENN\n"
-	.string "region's POKéDEX.\p"
-	.string "That's more than just impressive.\p"
-	.string "I have a gift for you.\p"
-	.string "Consider it my show of appreciation\n"
-	.string "for the fantastic work you've done.\p"
-	.string "My gift is a rare POKéMON only found\n"
-	.string "in another region!\p"
-	.string "You can have any one of these\n"
-	.string "three POKéMON!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
-	.string "PROF. BIRCH: These are rare POKéMON\n"
-	.string "only found in another region!\p"
-	.string "You can have any one of these\n"
-	.string "three POKéMON!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
-	.string "PROF. BIRCH: The FIRE POKéMON\n"
-	.string "CYNDAQUIL caught your eye!\p"
-	.string "You're as sharp as ever!\p"
-	.string "So the CYNDAQUIL is your choice?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
-	.string "PROF. BIRCH: The WATER POKéMON\n"
-	.string "TOTODILE is your choice!\p"
-	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the TOTODILE?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
-	.string "PROF. BIRCH: The GRASS POKéMON\n"
-	.string "CHIKORITA is your choice!\p"
-	.string "You sure know what you're doing.\p"
-	.string "So, you'll take the CHIKORITA?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
-	.string "PROF. BIRCH: Take your time before\n"
-	.string "you decide.\p"
-	.string "They're all invaluable POKéMON.$"
-
-@ Unused
-LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
-	.string "PROF. BIRCH: I see!\n"
-	.string "You picked a fine POKéMON!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
-	.string "{PLAYER} received the {STR_VAR_1}\n"
-	.string "from PROF. BIRCH!$"
-
-@ Unused
-LittlerootTown_ProfessorBirchsLab_Text_NicknameJohtoStarter:
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_1} you received?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
-	.string "PROF. BIRCH: Listen, {PLAYER}{KUN}.\n"
-	.string "You've completed the HOENN POKéDEX,\l"
-	.string "but your POKéMON journey isn't over.\p"
-	.string "There is no end to the road\n"
-	.string "that is POKéMON.\p"
-	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
-	.string "You received the promised POKéMON.\n"
-	.string "Better leave the others alone.$"
-
-@ Unused
-LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
-	.string "Oh, you don't have any room for\n"
-	.string "this POKéMON.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
-	.string "MAY: {PLAYER}{KUN}, after this…\n"
-	.string "What are you going to do?\p"
-	.string "Are you going to keep battling\n"
-	.string "and sharpening your skills?\p"
-	.string "Or are you going to try filling\n"
-	.string "the NATIONAL POKéDEX?\p"
-	.string "I'm staying here to help the PROF.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
-	.string "BRENDAN: Rather than collecting\n"
-	.string "POKéMON, I prefer slowly and \l"
-	.string "steadily raising the one I chose.$"
-
-LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\n"
-	.string "Have you gone to that place,\l"
-	.string "the BATTLE FRONTIER?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
-	.string "BRENDAN: Hey, {PLAYER}!\n"
-	.string "Have you gone out to that place,\l"
-	.string "the BATTLE FRONTIER?$"
-
-LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hi, hi, {PLAYER}!\n"
-	.string "It's me, SCOTT.\p"
-	.string "I'm aboard the S.S. TIDAL now.\n"
-	.string "It feels great to be on the sea!\p"
-	.string "By the way…\p"
-	.string "There's this place that I'd like to\n"
-	.string "invite you to for a visit.\p"
-	.string "If you're interested, board a ferry\n"
-	.string "at either SLATEPORT or LILYCOVE.\p"
-	.string "I'll fill you in on the details when\n"
-	.string "we meet. I'll be waiting!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+TakePokedex::
+# 339 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
+	.string "Here, {PLAYER}, I ordered this for my\n"
+	.string "research, but I think you should have\l"
+	.string "this POKéDEX.$"

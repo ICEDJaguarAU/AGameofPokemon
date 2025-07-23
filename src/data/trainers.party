@@ -1689,31 +1689,75 @@ Kadabra
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_VITO ===
+=== TRAINER_VITO_FALLABOR_TOWN ===
 Name: VITO
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Dodrio
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Glimmet @ Rocky Helmet
+Bold Nature 
+Ability: Toxic Debris 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Wave
+- Power Gem
+- Stealth Rock
+- Acid Spray
 
-Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Muk @ Black Sludge
+Brave Nature 
+Ability: Poison Touch 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Shadow Punch
+- Toxic 
+- Minimize
 
-Electrode
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Mareanie @ Leftovers
+Calm Nature 
+Ability: Merciless 
+Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Liquidation
+- Recover
+- Ice Spinner
 
-Shiftry
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sneasel_Hisui @ Big Nugget
+Adamant Nature 
+Ability: Pickpocket
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Brick Break
+- Metal Claw
+- Fling
+
+Varoom @ Air Balloon
+Adamant Nature 
+Ability: Overcoat
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spin Out
+- Poison Jab
+- Clear Smog
+- Shift Gear
+
+Garbodor @ Sitrus Berry
+Adamant Nature 
+Ability: Weak Armor
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Septic Slam
+- Smack Down
+- Pain Split
+- Rock Slide
 
 === TRAINER_OWEN ===
 Name: OWEN

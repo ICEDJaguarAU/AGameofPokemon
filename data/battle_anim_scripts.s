@@ -20351,12 +20351,18 @@ gBattleAnimMove_IcyWater::
 	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, 15, -20, 0, 15, 50
 	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
 	delay 10
+	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, -15, -10, 0, 10, 45
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	delay 10	
 	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, 0, -15, 0, 15, 55
 	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
 	delay 10
 	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, 15, -20, 0, 15, 50
 	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
 	delay 10
+	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, -15, -10, 0, 10, 45
+	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
+	delay 10	
 	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, 0, -15, 0, 15, 55
 	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
 	delay 10

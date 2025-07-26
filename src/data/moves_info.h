@@ -21369,6 +21369,31 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_DiamondFlash,
     },    
 
+    [MOVE_COMBAT_SHELL] =
+    {
+        .name = COMPOUND_STRING("Shell Smash"),
+        .description = COMPOUND_STRING(
+            "Raises offensive and defensive\n" 
+            "stats, but harsh lowers speed."),
+        .effect = EFFECT_SHELL_SMASH,
+        .power = 0,
+        .type = TYPE_WATER,
+        .accuracy = 0,
+        .pp = 15,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .zMove = { .effect = Z_EFFECT_RESET_STATS },
+        .snatchAffected = TRUE,
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
+        .contestCategory = CONTEST_CATEGORY_TOUGH,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_Withdraw,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

@@ -51,6 +51,37 @@ FallarborTown_EventScript_MoveTutorSign::
 	msgbox FallarborTown_Text_MoveTutorSign, MSGBOX_SIGN
 	end
 
+FallarborTown_EventScript_Vito::
+	checktrainerflag FLAG_MET_VITO_FALLARBOR
+	trainerbattle_single TRAINER_VITO_FALLARBOR, FallarborTown_Text_VitoIntro, FallarborTown_Text_VitoDefeat
+	msgbox FallarborTown_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
+	delay 50 
+	setfieldeffectargument 0, 1
+	dofieldeffect FLDEFF_NPCFLY_OUT
+	delay 15
+	removeobject VAR_LAST_TALKED
+	waitfieldeffect FLDEFF_NPCFLY_OUT
+	setflag FLAG_MET_VITO_FALLARBOR	
+	end
+
+
+FallarborTown_Text_VitoIntro:
+	.string "My Family live on Route 111.\n"
+	.string "They told me of an impressive\n"
+	.string "trainer who beat them all."
+	.string "Now is my chance to put you\n"
+	.string "to the test.$"
+
+FallarborTown_Text_VitoDefeat:
+	.string "Your Power is Awful!\n"
+	.string "Simply Awful$"
+
+FallarborTown_Text_VitoPostBattle:
+	.string "Well stranger, be sure that\n"
+	.string "we will meet again, I will\p"
+	.string "aim to win back the honour\n"
+	.string "of my family. Farewell$"	
+
 FallarborTown_Text_ShadyCharactersCozmosHome:
 	.string "Something's happening,\n"
 	.string "and I don't like it!\p"

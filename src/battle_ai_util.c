@@ -2336,6 +2336,7 @@ bool32 IsStatRaisingEffect(u32 effect)
     case EFFECT_BULK_UP:
     case EFFECT_GEOMANCY:
     case EFFECT_STOCKPILE:
+    case EFFECT_COMBAT_SHELL:
     case EFFECT_VICTORY_DANCE:
         return TRUE;
     case EFFECT_CHARGE:

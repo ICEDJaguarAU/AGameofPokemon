@@ -21375,7 +21375,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "Raises offensive and defensive\n" 
             "stats, but harsh lowers speed."),
-        .effect = EFFECT_SHELL_SMASH,
+        .effect = EFFECT_COMBAT_SHELL,
         .power = 0,
         .type = TYPE_WATER,
         .accuracy = 0,

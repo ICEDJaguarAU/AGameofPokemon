@@ -1970,6 +1970,66 @@ BattleScript_ShellSmashTrySpeed:
 BattleScript_ShellSmashEnd:
 	goto BattleScript_MoveEnd
 
+BattleScript_EffectCombatShell::
+	attackcanceler
+	attackstring
+	ppreduce
+
+	// Pre-checks: Ensure not at max for Atk/SpAtk/Def/SpDef or min for Speed
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_DEF, MAX_STAT_STAGE, BattleScript_CombatShellStart
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_SPDEF, MAX_STAT_STAGE, BattleScript_CombatShellStart
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_ATK, MAX_STAT_STAGE, BattleScript_CombatShellStart
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_SPATK, MAX_STAT_STAGE, BattleScript_CombatShellStart
+	jumpifstat BS_ATTACKER, CMP_GREATER_THAN, STAT_SPEED, MIN_STAT_STAGE, BattleScript_CombatShellStart
+	goto BattleScript_ButItFailed
+
+BattleScript_CombatShellStart:
+	attackanimation
+	waitanimation
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+
+	// Raise Def +1
+	setstatchanger STAT_DEF, 1, TRUE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR | MOVE_EFFECT_CERTAIN, BattleScript_CombatShellTrySpDef
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_CombatShellTrySpDef
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+
+BattleScript_CombatShellTrySpDef:
+	// Raise SpDef +1
+	setstatchanger STAT_SPDEF, 1, TRUE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR | MOVE_EFFECT_CERTAIN, BattleScript_CombatShellRaiseAtk
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_CombatShellRaiseAtk
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+
+
+BattleScript_CombatShellRaiseAtk:
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	setstatchanger STAT_ATK, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_CombatShellLowerSpeed
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_CombatShellLowerSpeed
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+
+BattleScript_ShellSmashRaiseSpAtk:
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	setstatchanger STAT_SPATK, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_CombatShellLowerSpeed
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_CombatShellLowerSpeed
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+
+BattleScript_CombatShellLowerSpeed:
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	setstatchanger STAT_SPEED, 2, TRUE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_MoveEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_DECREASE, BattleScript_MoveEnd
+	printfromtable gStatDownStringIds
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
+
 BattleScript_EffectLastResort::
 	attackcanceler
 	attackstring

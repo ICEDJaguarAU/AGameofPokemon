@@ -2958,9 +2958,35 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Muk @ Shuca Berry
+Adamant Nature 
+Ability: Poison Touch 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spirit Shackle
+- Poison Jab
+- Acid Armor
+- Ice Punch
+
+Polteageist @ White Herb
+Timid Nature 
+Ability: Cursed Body 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Giga Drain
+- Stored Power
+- Shell Smash
+
+Espathra @ Lum Berry
+Jolly Nature 
+Ability: Synchronize 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Pluck
+- Uproar
+- Dazzling Gleam
 
 === TRAINER_THALIA_1 ===
 Name: THALIA
@@ -4074,13 +4100,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rotom_Heat @ White Herb
+Timid Nature 
+Ability: Levitate 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Thunderbolt
+- Nasty Plot
+- Shadow Ball
 
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Simisear @ Starf Berry
+Hasty Nature 
+Ability: Gluttony 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Focus Blast
+- Acrobatics
+- Substitute
+
+Skuntank @ Charcoal
+Hasty Nature 
+Ability: Aftermath 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Flamethrower
+- Iron Head
+- Glare
+
+Druddigon @ Rocky Helmet
+Sassy Nature 
+Ability: Rough Skin 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Rush
+- Flamethrower
+- Iron Head
+- Glare
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -4248,13 +4306,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gimmighoul @ Light Clay
+Jolly Nature 
+Ability: Rattled 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hex
+- Confuse Ray
+- Reflect
+- Light Screen
 
-Nuzleaf
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rabsca @ Lum Berry
+Jolly Nature 
+Ability: Synchronize 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Psychic
+- NIght Slash
+- Final Gambit
 
 === TRAINER_JUSTIN ===
 Name: JUSTIN
@@ -7465,17 +7535,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Qwilfish @ Focus Sash
+Jolly Nature 
+Ability: Intimidate 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Waterfall
+- Toxic Spikes
+- Aqua Jet
 
-Goldeen
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vaporeon @ Leftovers
+Timid Nature 
+Ability: Hydration 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Ice Beam
+- Baton Pass
+- Substitute
 
-Barboach
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clawitzer @ Iapapa Berry
+Timid Nature 
+Ability: Mega Launcher 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Aura Sphere
+- Dark Pulse
+- Chill Pulse
+
+Quaquaval @ Leftovers
+Brave Nature 
+Ability: Moxie 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Aqua Step
+- Jump Kick
+- Protect
+- Bulk Up
 
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
@@ -7613,9 +7711,25 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Milotic @ Lum Berry
+Bold Nature 
+Ability: Marvel Scale 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald 
+- Ice Beam
+- Mirror Coat
+- Recover
+
+Starmie @ Wise Glasses
+Timid Nature 
+Ability: Analytic 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Psychic
+- Thunderbolt
+- Grass Knot
 
 === TRAINER_BARNY ===
 Name: BARNY
@@ -9978,13 +10092,55 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bronzong @ Iron Ball
+Brave Nature 
+Ability: Levitate 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gyro Ball
+- Earthquake
+- Trick 
+- Zen Headbutt
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eldegoss @ Eject Button
+Bold Nature 
+Ability: Cotton Down 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Storm
+- Pollen Puff
+- Leech Seed
+- Sleep Powder
+
+Sirfetchd @ Leek
+Jolly Nature 
+Ability: Scrappy 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Meteor Assault
+- Brick Break
+- Leaf Blade
+- Night Slash
+
+Drampa @ Lum Berry
+Modest Nature 
+Ability: Berserk 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Dragon Pulse
+- Glare
+- Roost
+
+Dugtrio @ Soft Sand
+Jolly Nature 
+Ability: Arena Trap 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Stone Edge
+- NIght Slash
+- Final Gambit
 
 === TRAINER_MARTHA ===
 Name: MARTHA
@@ -13646,13 +13802,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ferrothorn @ Occa Berry
+Brave Nature 
+Ability: Iron Barbs 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Whip
+- Gyro Ball
+- Knock Off
+- Thunder Wave
 
-Machop
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cradily @ Leftovers
+Bold Nature 
+Ability: Suction Cups 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Gem
+- Earth Power
+- Cosmic Power
+- Rest
+
+Whiscash @ Power Herb
+Jolly Nature 
+Ability: Oblivious 
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Aqua Tail
+- Bounce
+- Dragon Dance
 
 === TRAINER_LUCAS_1 ===
 Name: LUCAS
@@ -13663,13 +13841,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Steelix @ Iapapa Berry
+Brave Nature 
+Ability: Sturdy 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Avalanche
+- Gyro Ball
+- Body Press
+- Stealth Rock
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Relicanth @ Lum Berry
+Jolly Nature 
+Ability: Sturdy 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Liquidation
+- Flail
+- Rock Polish
+
+Gliscor @ Toxic Orb
+Careful Nature 
+Ability: Poison Heal 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Facade
+- Protect
+- Dual Wingbeat
 
 === TRAINER_ALAN ===
 Name: ALAN
@@ -14912,21 +15112,43 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growth
-- Stun Spore
-- Mega Drain
-- Leech Seed
+Klefki @ Occa Berry
+Timid Nature 
+Ability: Prankster 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Foul Play
+- Swagger
 
-Graveler
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Rollout
-- Mud Sport
-- Rock Throw
+Houndoom @ Life Orb
+Timid Nature 
+Ability: Unnerve 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Foul Play
+- Burning Jealousy
+- Sludge Bomb
+- Protect
+
+Grimmsnarl @ Sitrus Berry
+Jolly Nature 
+Ability: Prankster 
+Level: 49
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Foul Play
+- Spirit Break
+- Fake Out
+- Swagger
+
+Pyroar @ Silk Scarf
+Hasty Nature 
+Ability: Unnerve 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Retaliate
+- Hyper Voice
+- Burning Jealousy
+- Protect
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
@@ -15862,13 +16084,35 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Donphan @ Custap Berry
+Adamant Nature 
+Ability: Sturdy 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Stone Edge
+- Knock Off
+- Endeavor
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gallade @ Leftovers
+Jolly Nature 
+Ability: Sharpness 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psycho Cut
+- Hypnosis
+- NIght Slash
+- Sacred Sword
+
+Purugly @ Silk Scarf
+Jolly Nature 
+Ability: Defiant 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Double-Edge
+- Stomping Tantrum
+- Super Fang
+- Hypnosis
 
 === TRAINER_KAI ===
 Name: KAI
@@ -15879,9 +16123,46 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Leftovers
+Bold Nature 
+Ability: Drizzle 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Psychic
+- Protect
+- Toxic
+
+Barraskewda @ Mystic Water
+Adamant Nature 
+Ability: Swift Swim 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Liquidation
+- Flip Turn
+- Aqua Jet
+- CLose Combat
+
+Armaldo @ Lum Berry
+Jolly Nature 
+Ability: Swift Swim 
+Level: 47
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- X-Scissor
+- Liquidation
+- Swords Dance
+
+Golisopod @ Silver Powder
+Adamant Nature 
+Ability: Emergency Exit 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- First Impression
+- Liquidation
+- Leech Life
+- Aqua Jet
+
 
 === TRAINER_CHARLOTTE ===
 Name: CHARLOTTE
@@ -15892,9 +16173,30 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dodrio @ Choice Band
+Jolly Nature 
+Ability: Tangled Feet 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brave Bird
+- Double-Edge
+
+Ditto @ Focus Sash
+Bashful Nature 
+Ability: Imposter 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Transform
+
+Leafeon @ Leftovers
+Jolly Nature 
+Ability: Leaf Guard 
+Level: 48
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Knock Off
+- Grass Whistle
+- Swords Dance
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE

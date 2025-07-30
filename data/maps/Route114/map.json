@@ -212,7 +212,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route114_EventScript_Nolan",
+      "script": "Route114_EventScript_Kai",
       "flag": "0"
     },
     {
@@ -368,7 +368,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route114_EventScript_Kai",
+      "script": "Route114_EventScript_Nolan",
       "flag": "0"
     }
   ],

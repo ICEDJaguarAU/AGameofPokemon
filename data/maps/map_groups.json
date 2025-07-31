@@ -443,7 +443,10 @@
     "PetalburgWoodsWest",
     "PetalburgWoodsEast",
     "Upper_RusturfTunnel",
-    "Mt_Rusturf"
+    "Mt_Rusturf",
+    "DrakeLakeCave",
+    "ElectroRockCave",
+    "ContinentalCave"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

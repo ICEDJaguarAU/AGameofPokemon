@@ -4550,6 +4550,36 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111South/border.bin",
       "blockdata_filepath": "data/layouts/Route111South/map.bin"
+    },
+    {
+      "id": "LAYOUT_DRAKE_LAKE_CAVE",
+      "name": "DrakeLakeCave_Layout",
+      "width": 17,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/DrakeLakeCave/border.bin",
+      "blockdata_filepath": "data/layouts/DrakeLakeCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ELECTRO_ROCK_CAVE",
+      "name": "ElectroRockCave_Layout",
+      "width": 17,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/ElectroRockCave/border.bin",
+      "blockdata_filepath": "data/layouts/ElectroRockCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_CONTINENTAL_CAVE",
+      "name": "ContinentalCave_Layout",
+      "width": 17,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/ContinentalCave/border.bin",
+      "blockdata_filepath": "data/layouts/ContinentalCave/map.bin"
     }
   ]
 }

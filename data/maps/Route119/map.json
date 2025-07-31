@@ -599,6 +599,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE119_HOUSE",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 71,
+      "elevation": 0,
+      "dest_map": "MAP_CONTINENTAL_CAVE",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

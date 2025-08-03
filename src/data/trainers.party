@@ -90,9 +90,35 @@ Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Glimmora @ Sitrus Berry
+Quiet Nature 
+Ability: Corrosion 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Toxic
+- Toxic Spikes
+- Stealth Rock
+- Venoshock
+
+Clodsire @ Sitrus Berry
+Quiet Nature 
+Ability: Water Absorb 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Venoshock
+- Earthquake
+- Slam
+- Yawn
+
+Toedscruel @ Sitrus Berry
+Quiet Nature 
+Ability: Mycelium MIght 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hex
+- Giga Drain
+- Earth Power
+- Spore
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
 Name: GRUNT
@@ -2588,9 +2614,26 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Greavard @ Sitrus Berry
+Quiet Nature 
+Ability: Fluffy 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Play Rough
+- Phantom Force
+- Double-Edge
+- Crunch
+
+Klawf @ Sitrus Berry
+Quiet Nature 
+Ability: Anger Shell 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Slide
+- High Horsepower
+- Iron Defense 
+- X-Scissor
+
 
 === TRAINER_SHEILA ===
 Name: SHEILA
@@ -2601,9 +2644,25 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scovillain @ Sitrus Berry
+Quiet Nature 
+Ability: Chlorophyll 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spicy Extract
+- Sunny Day
+- Flamethrower
+- Solar Beam
+
+Dachsbun @ Sitrus Berry
+Quiet Nature 
+Ability: Well Baked Body 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Last Resort
+- Crunch
+- Play Rough
+- Work Up
 
 === TRAINER_SHIRLEY ===
 Name: SHIRLEY
@@ -2614,9 +2673,27 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skeledirge @ Throat Spray
+Quiet Nature 
+Ability: Unaware 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Torch Song
+- Hyper Voice
+- Snarl
+- Substitute
+
+Dipplin @ Sitrus Berry
+Quiet Nature 
+Ability: Supersweet Syrup 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Syrup Bomb
+- Dragon Pulse
+- Recover
+- Substitute
+
+
 
 === TRAINER_JESSICA_1 ===
 Name: JESSICA
@@ -3027,9 +3104,25 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor @ Focus Sash
+Timid Nature 
+Ability: Unburden 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Struggle Bug
+- Acid Spray
+- Encore
+
+Sawk @ Weakness Policy
+Jolly Nature 
+Ability: Sturdy 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Reversal
+- Zen Headbutt
+- Throat Chop
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -6742,13 +6835,25 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Meditite
-Level: 21
+Arboliva @ Sitrus Berry
+Jolly Nature 
+Ability: Seed Sower 
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leech Seed
+- Terrain Pulse
+- Flail
+- Alluring Voice
 
-Makuhita
-Level: 21
+Garganacl @ Sitrus Berry
+Jolly Nature 
+Ability: Purifying Salt 
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Earthquake
+- Heavy Slam
+- Hammer Arm
 
 === TRAINER_SHELBY_2 ===
 Name: SHELBY
@@ -12637,9 +12742,23 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Indeedee-F (F) @ Wise Glasses
+Timid Nature 
+Ability: Psychic Surge 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Expanding Force
+
+Meowstic-F (F) @ Pixie Plate
+Timid Nature 
+Ability: Competitive 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Expanding Force
+- Thunderbolt
+- Dazzling Gleam
+- Shadow Ball
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -12935,21 +13054,55 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Torkoal @ White Herb
+Quiet Nature 
+Ability: Drought 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Solar Beam
+- Earth Power
+- Shell Smash
 
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Armaldo @ Leftovers
+Careful Nature 
+Ability: Battle Armor 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Leech Life
+- Earthquake
+- Stealth Rock
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Espeon @ Life Orb
+Timid Nature 
+Ability: Synchronize 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Dazzling Gleam
+- Weather Ball
+- Morning Sun
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Victreebel @ Lum Berry
+Lonely Nature 
+Ability: Chlorophyll 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Solar Blade
+- Weather Ball
+- Sleep Powder
+- Septic Slam
+
+Aggron @ Aggronite
+Adamant Nature 
+Ability: Heavy Metal 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Body Press
+- Heavy Slam
+- Heat Crash
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -13079,17 +13232,65 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Crustle @ Red Card
+Jolly Nature 
+Ability: Sturdy 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Earthquake
+- Spikes
+- Stealth Rock
 
-Zubat
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Wobbuffet @ Iapapa Berry
+Timid Nature 
+Ability: Shadow Tag 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Counter
+- Mirror Coat
+- Destiny Bond
+- Encore
 
-Camerupt
-Level: 25
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Aerodactyl @ Black Glasses
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Dual Wingbeat
+- Aqua Chomp
+- Crunch
+
+Kommo-O @ Leftovers
+Jolly Nature 
+Ability: Overcoat 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Body Press
+- Dragon Tail
+- Poison Jab
+- Iron Defense
+
+Zarude @ Assault Vest
+Jolly Nature 
+Ability: Leaf Guard 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Whip
+- Darkest Lariat
+- U-Turn
+- Low Kick
+
+Camerupt @ Cameruptite
+Quiet Nature 
+Ability: Own Tempo 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earth Power
+- Lava Plume
+- Power Gem
+- Substitute
 
 === TRAINER_TIANA ===
 Name: TIANA

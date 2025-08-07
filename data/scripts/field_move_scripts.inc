@@ -382,6 +382,7 @@ EventScript_UseDig::
 	goto EventScript_DigCommon
 
 
+
 EventScript_CutGrassCommon:
 	isfollowerfieldmoveuser VAR_0x8004
 	setfieldeffectargument 3, VAR_0x8004 @ skip pose if true
@@ -418,3 +419,7 @@ EventScript_FailSweetScent::
 
 Text_FailSweetScent:
 	.string "Looks like there's nothing here…$"
+
+gText_PocketJenny::
+	.string "Your Party is back to full health!$"
+	

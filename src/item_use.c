@@ -61,6 +61,7 @@ static void Task_OpenRegisteredPokeblockCase(u8);
 static void Task_AccessPokemonBoxLink(u8);
 static void ItemUseOnFieldCB_Bike(u8);
 static void ItemUseOnFieldCB_Rod(u8);
+static void Task_PocketJoy(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
 static void ItemUseOnFieldCB_Berry(u8);
 static void ItemUseOnFieldCB_WailmerPailBerry(u8);
@@ -334,6 +335,9 @@ static void ItemUseOnFieldCB_Rod(u8 taskId)
     StartFishing(ItemId_GetSecondaryId(gSpecialVar_ItemId));
     DestroyTask(taskId);
 }
+
+
+
 
 void ItemUseOutOfBattle_Itemfinder(u8 var)
 {
@@ -715,6 +719,20 @@ static void Task_AccessPokemonBoxLink(u8 taskId)
     DestroyTask(taskId);
 }
 
+extern const u8 Common_EventScript_OutOfCenterPartyHeal[];
+void ItemUseOutOfBattle_PocketJoy(u8 taskId)
+{
+    sItemUseOnFieldCB = Task_PocketJoy;
+    SetUpItemUseOnFieldCallback(taskId);
+}
+
+static void Task_PocketJoy(u8 taskId)
+{
+    ScriptContext_SetupScript(Common_EventScript_OutOfCenterPartyHeal);
+    DestroyTask(taskId);
+}
+
+
 void ItemUseOutOfBattle_CoinCase(u8 taskId)
 {
     ConvertIntToDecimalStringN(gStringVar1, GetCoins(), STR_CONV_MODE_LEFT_ALIGN, 4);
@@ -903,6 +921,7 @@ static void Task_ShowTMHMContainedMessage(u8 taskId)
         DisplayItemMessage(taskId, FONT_NORMAL, gStringVar4, UseTMHMYesNo);
     }
 }
+
 
 static void UseTMHMYesNo(u8 taskId)
 {

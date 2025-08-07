@@ -12358,6 +12358,22 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_AcroBike,
     },
 
+    [ITEM_POCKET_JOY] =
+    {
+        .name = _("Pocket Joy"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Heal your party\n"
+            "like Nurse Joy."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_PocketJoy,
+        .iconPic = gItemIcon_PokeBall,
+        .iconPalette = gItemIconPalette_PokeBall,
+    },
+
+    
     [ITEM_OLD_ROD] =
     {
         .name = _("Old Rod"),

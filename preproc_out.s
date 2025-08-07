@@ -94648,6 +94648,7 @@ EventScript_AccessPokemonBoxLink: ; .global EventScript_AccessPokemonBoxLink
 	end
 # 694 "data/event_scripts.s"
 
+
                                                                     
 Common_EventScript_ShowPokemartSign: ; .global Common_EventScript_ShowPokemartSign
 	msgbox gText_PokemartSign, MSGBOX_SIGN

@@ -24,6 +24,8 @@ MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_X_DEFENSE
 	.2byte ITEM_GUARD_SPEC
 	.2byte ITEM_MEGA_RING
+	.2byte ITEM_POCKET_JOY
+	.2byte ITEM_POKEMON_BOX_LINK
 	.2byte ITEM_X_ACCURACY
 	pokemartlistend
 

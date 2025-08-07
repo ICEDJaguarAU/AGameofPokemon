@@ -4894,6 +4894,37 @@ gBattleAnimMove_ShellSmash::
 	waitforvisualfinish
 	end
 
+gBattleAnimMove_CombatShell::
+		loadspritegfx ANIM_TAG_SHELL_RIGHT
+	loadspritegfx ANIM_TAG_SHELL_LEFT
+	loadspritegfx ANIM_TAG_IMPACT
+	loadspritegfx ANIM_TAG_ROCKS
+	loadspritegfx ANIM_TAG_HANDS_AND_FEET
+	playsewithpan SE_M_SCRATCH, SOUND_PAN_ATTACKER
+	playsewithpan SE_M_HEADBUTT, SOUND_PAN_ATTACKER
+	createvisualtask AnimTask_Withdraw, 5
+	waitforvisualfinish	
+	createsprite gShellSmashRightShellSpriteTemplate, ANIM_ATTACKER, 2, 0xffd7, 0x0, 0x2, 0x333, 0x0, 10, 30
+	createsprite gShellSmashLeftShellSpriteTemplate, ANIM_ATTACKER, 2, 0x20, 0x0, 0x6, 0xfccd, 0x0, 10, 30
+	delay 10
+	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0x1, 0x1
+	createsprite gFistFootSpriteTemplate, ANIM_ATTACKER, 3, 0x0, 0x0, 0x8, 0x1, 0x0
+	playsewithpan SE_M_ICY_WIND, SOUND_PAN_TARGET
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 3, 0, 5, 1
+	waitforvisualfinish
+	playsewithpan SE_M_BUBBLE, SOUND_PAN_TARGET
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0x14, 0x18, 0xe, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x5, 0x0, 0xffec, 0x18, 0xe, 0x1
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x5, 0x14, 0xffe8, 0xe, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0xfffb, 0x0, 0xffec, 0xffe8, 0xe, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0xfffb, 0x1e, 0x12, 0x8, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0x1e, 0xffee, 0x8, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0xffe2, 0x12, 0x8, 0x2
+	createsprite gShellSmashPurpleRocksSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x0, 0xffe2, 0xffee, 0x8, 0x2
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 0, 3, 7, 1
+	waitforvisualfinish
+	end
+
 gBattleAnimMove_HealPulse::
 	loadspritegfx ANIM_TAG_GREEN_SPARKLE
 	loadspritegfx ANIM_TAG_BLUE_STAR

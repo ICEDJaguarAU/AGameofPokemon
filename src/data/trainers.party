@@ -1077,13 +1077,44 @@ Music: Interviewer
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnemite
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Butterfree @ Choice Scarf
+Jolly Nature 
+Ability: Compound Eyes 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Air Slash
 
-Whismur
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Beedrill @ Scope Lens 
+Jolly Nature 
+Ability: Sniper 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- X-Scissor
+- Poison Jab
+- Focus Energy
+- Agility
+
+Ribombee @ Leftovers
+Jolly Nature 
+Ability: Sweet Veil 
+Level: 44
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dazzling Gleam
+- Bug Buzz
+- Pollen Puff
+- Quiver Dance
+
+Vibrava @ Expert Belt
+Jolly Nature 
+Ability: Levitate 
+Level: 45
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earth Power
+- Silver Wind
+- Crunch
+- Scorching Sands
 
 === TRAINER_GABBY_AND_TY_2 ===
 Name: GABBY & TY

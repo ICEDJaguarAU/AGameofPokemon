@@ -4580,6 +4580,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ContinentalCave/border.bin",
       "blockdata_filepath": "data/layouts/ContinentalCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE111NORTH",
+      "name": "Route111North_Layout",
+      "width": 40,
+      "height": 108,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/Route111North/border.bin",
+      "blockdata_filepath": "data/layouts/Route111North/map.bin"
     }
   ]
 }

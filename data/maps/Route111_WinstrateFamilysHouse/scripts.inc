@@ -7,16 +7,14 @@ Route111_WinstrateFamilysHouse_MapScripts::
 	.byte 0
 
 Route111_WinstrateFamilysHouse_EventScript_Victor::
-	lock
-	faceplayer
-	setvar VAR_0x8008, LOCALID_VICTOR
-	msgbox Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou, MSGBOX_DEFAULT
-	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
+	trainerbattle_single TRAINER_VICTOR, Route111_WinstrateFamilysHouse_Text_BattleOurFamily, Route111_WinstrateFamilysHouse_Text_VictorDefeat
+	msgbox Route111WinstrateFamilyHouse_text_VictorPostBattle, MSGBOX_AUTOCLOSE
+	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection	
 	end
 
 Route111_WinstrateFamilysHouse_EventScript_Victoria::
-	lock
-	faceplayer
+	trainerbattle_single TRAINER_VICTORIA, Route111_WinstrateFamilysHouse__Text_VictoriaIntro, Route111_WinstrateFamilysHouse_Text_VictoriaDefeat
+	msgbox Route111WinstrateFamilyHouse_text_VictorPostBattle, MSGBOX_AUTOCLOSE
 	setvar VAR_0x8008, LOCALID_VICTORIA
 	goto_if_set FLAG_RECEIVED_MACHO_BRACE, Route111_WinstrateFamilysHouse_EventScript_ReceivedMachoBrace
 	msgbox Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace, MSGBOX_DEFAULT
@@ -32,6 +30,8 @@ Route111_WinstrateFamilysHouse_EventScript_ReceivedMachoBrace::
 	end
 
 Route111_WinstrateFamilysHouse_EventScript_Vivi::
+	trainerbattle_single TRAINER_VIVI, Route111_WinstrateFamilysHouse_Text_ViviIntro, Route111_WinstrateFamilysHouse_Text_ViviDefeat
+	msgbox Route111_WinstrateFamilysHouse_Text_ViviPostBattle, MSGBOX_AUTOCLOSE	
 	lock
 	faceplayer
 	setvar VAR_0x8008, LOCALID_VIVI
@@ -40,6 +40,8 @@ Route111_WinstrateFamilysHouse_EventScript_Vivi::
 	end
 
 Route111_WinstrateFamilysHouse_EventScript_Vicky::
+	trainerbattle_single TRAINER_VIVI, Route111_WinstrateFamilysHouse_Text_VickyIntro, Route111_WinstrateFamilysHouse_Text_VickyDefeat
+	msgbox Route111_WinstrateFamilysHouse_Text_VickyPostBattle, MSGBOX_AUTOCLOSE	
 	lock
 	faceplayer
 	setvar VAR_0x8008, LOCALID_VICKY
@@ -104,4 +106,75 @@ Route111_WinstrateFamilysHouse_Text_GrandsonStrongShort:
 	.string "POKéMON LEAGUE CHAMPION by now.\p"
 	.string "Knowing my grandson, he could be the\n"
 	.string "CHAMPION already!$"
+
+Route111_WinstrateFamilysHouse_Text_BattleOurFamily:
+	.string "Hello! I take it you're a traveler.\p"
+	.string "Some trainer just came buy, and really\n"
+	.string "demolished us. We are licking our wounds\l"
+	.string "but I think we are ready to take you on!$"
+
+Route111WinstrateFamilyHouse_text_VictorPostBattle:
+	.string "Hey, all!\n"
+	.string "I've found a pretty strong TRAINER!$"	
+
+Route111South_Text_IsThatSo:
+	.string "Is that so?\n"
+	.string "Drop in, if you change your mind!$"
+
+Route111South_Text_VictorIntro:
+	.string "That's the spirit! I like you!$"
+
+Route111_WinstrateFamilysHouse_Text_VictorDefeat:
+	.string "Aiyah!\n"
+	.string "You're a lot tougher than I expected!$"
+
+
+
+Route111_WinstrateFamilysHouse__Text_VictoriaIntro:
+	.string "Oh, my goodness! Aren't you young?\p"
+	.string "You must be quite the TRAINER to beat\n"
+	.string "my husband, though.\p"
+	.string "It's my turn to battle now!$"
+
+Route111_WinstrateFamilysHouse_Text_VictoriaDefeat:
+	.string "Oh, gosh!\n"
+	.string "I can't get over how strong you are!$"
+
+Route111_WinstrateFamilysHouse_Text_VictoriaPostBattle:
+	.string "There's a strong TRAINER here!\n"
+	.string "This one's really strong!$"
+
+Route111_WinstrateFamilysHouse_Text_ViviIntro:
+	.string "You're stronger than Mommy? Wow!\p"
+	.string "But I'm strong, too!\n"
+	.string "Really! Honestly!$"
+
+Route111_WinstrateFamilysHouse_Text_ViviDefeat:
+	.string "Huh? Did I just lose?$"
+
+Route111_WinstrateFamilysHouse_Text_ViviPostBattle:
+	.string "This stinks…\p"
+	.string "…Snivel… Grandma!$"
+
+Route111_WinstrateFamilysHouse_Text_VickyIntro:
+	.string "How dare you make my granddaughter\n"
+	.string "cry!\p"
+	.string "For that, I'm going to smack you!\n"
+	.string "Prepare to lose!$"
+
+Route111_WinstrateFamilysHouse_Text_VickyDefeat:
+	.string "Kwah! You are strong…\n"
+	.string "My granddaughter was right…$"
+
+Route111_WinstrateFamilysHouse_Text_VickyPostBattle:
+	.string "If you're not in any hurry,\n"
+	.string "visit with us awhile.$"
+	
+Route111_WinstrateFamilysHouse_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
+	.string "We use this MACHO BRACE to more\n"
+	.string "effectively strengthen our POKéMON\l"
+	.string "in training.\p"
+	.string "Since you've beaten all of us here,\n"
+	.string "I don't know if you need it, but we\l"
+	.string "would like you to have our MACHO BRACE.$"
 

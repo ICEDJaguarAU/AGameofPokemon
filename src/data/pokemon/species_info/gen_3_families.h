@@ -7590,10 +7590,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_FLYGON_MEGA] =
     {
         .baseHP        = 80,
-        .baseAttack    = 105,
+        .baseAttack    = 95,
         .baseDefense   = 90,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 125,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 130,
         .baseSpDefense = 110,
         .types = MON_TYPES(TYPE_BUG, TYPE_DRAGON),
         .catchRate = 45,

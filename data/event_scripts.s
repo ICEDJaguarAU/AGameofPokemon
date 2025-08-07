@@ -1189,3 +1189,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ElectroRockCave/scripts.inc"
 
 	.include "data/maps/ContinentalCave/scripts.inc"
+
+	.include "data/maps/Route111North/scripts.inc"

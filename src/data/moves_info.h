@@ -21371,10 +21371,10 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_COMBAT_SHELL] =
     {
-        .name = COMPOUND_STRING("Shell Smash"),
+        .name = COMPOUND_STRING("Combat Shell"),
         .description = COMPOUND_STRING(
-            "Raises offensive and defensive\n" 
-            "stats, but harsh lowers speed."),
+            "Raises ATK, SPATK, DEF, SPDEF\n" 
+            "but harsh lowers SPEED."),
         .effect = EFFECT_COMBAT_SHELL,
         .power = 0,
         .type = TYPE_WATER,
@@ -21391,7 +21391,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
-        .battleAnimScript = gBattleAnimMove_Withdraw,
+        .battleAnimScript = gBattleAnimMove_ShellSmash,
     },
 
     // Z-Moves

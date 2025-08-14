@@ -1,3 +1,5 @@
+.set LOCALID_VITO, 5
+
 FallarborTown_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FallarborTown_OnTransition
 	.byte 0
@@ -6,6 +8,10 @@ FallarborTown_OnTransition:
 	setflag FLAG_VISITED_FALLARBOR_TOWN
 	setvar VAR_CONTEST_HALL_STATE, 0
 	clearflag FLAG_CONTEST_SKETCH_CREATED
+	end
+
+FallarborTown_EventScript_Vito_End::
+	release
 	end
 
 FallarborTown_EventScript_ExpertM::
@@ -52,23 +58,36 @@ FallarborTown_EventScript_MoveTutorSign::
 	end
 
 FallarborTown_EventScript_Vito::
+	lock
+	faceplayer
 	checktrainerflag FLAG_MET_VITO_FALLARBOR
+	goto_if_set FLAG_MET_VITO_FALLARBOR, FallarborTown_EventScript_Vito_End
 	trainerbattle_single TRAINER_VITO_FALLARBOR, FallarborTown_Text_VitoIntro, FallarborTown_Text_VitoDefeat
 	msgbox FallarborTown_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
 	delay 50 
-	setfieldeffectargument 0, 1
-	dofieldeffect FLDEFF_NPCFLY_OUT
-	delay 15
-	removeobject VAR_LAST_TALKED
-	waitfieldeffect FLDEFF_NPCFLY_OUT
-	setflag FLAG_MET_VITO_FALLARBOR	
+	applymovement LOCALID_VITO, FallarborTown_Movement_VitoLeavePostBattle
+	waitmovement 0
+	removeobject LOCALID_VITO
+	delay 20
+	setflag FLAG_MET_VITO_FALLARBOR
+	release
 	end
 
+FallarborTown_Movement_VitoLeavePostBattle:
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
 
 FallarborTown_Text_VitoIntro:
 	.string "My Family live on Route 111.\n"
-	.string "They told me of an impressive\n"
-	.string "trainer who beat them all."
+	.string "They told me of an impressive\p"
+	.string "trainer who beat them all.\p"
 	.string "Now is my chance to put you\n"
 	.string "to the test.$"
 

@@ -23531,10 +23531,6 @@ gBattleAnimMove_Crunch::
 	loadspritegfx ANIM_TAG_SHARP_TEETH
 	loadspritegfx ANIM_TAG_IMPACT
 	loadspritegfx ANIM_TAG_SMALL_BUBBLES	
-	monbg ANIM_TARGET
-	fadetobg BG_DARK
-	waitbgfadein
-	setalpha 12, 8
 	playsewithpan SE_M_BITE, SOUND_PAN_TARGET
 	createsprite gSharpTeethSpriteTemplate, ANIM_ATTACKER, 2, -32, -32, 1, 819, 819, 10
 	createsprite gSharpTeethSpriteTemplate, ANIM_ATTACKER, 2, 32, 32, 5, -819, -819, 10
@@ -23566,11 +23562,8 @@ gBattleAnimMove_Crunch::
 	createsprite gWaterGunDropletSpriteTemplate, ANIM_ATTACKER, 2, -15, -10, 0, 10, 45
 	playsewithpan SE_M_CRABHAMMER, SOUND_PAN_TARGET
 	waitforvisualfinish
-	clearmonbg ANIM_TARGET
 	blendoff
 	delay 1
-	restorebg
-	waitbgfadein
 	end
 
 gBattleAnimMove_Clamp::

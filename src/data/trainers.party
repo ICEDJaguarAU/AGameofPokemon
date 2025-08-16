@@ -4198,9 +4198,55 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Cinderace @ Wide Lens
+Jolly Nature 
+Ability: Libero 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Pyro Ball
+- High Jump Kick
+- High Horsepower
+- Zen Headbutt
+
+Talonflame @ Muscle Band
+Jolly Nature 
+Ability: Flame Body 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Dual Wingbeat
+- Will O Wisp
+- Roost
+
+Rotom_Heat @ Leftovers
+Bold Nature 
+Ability: Levitate 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Thunderbolt
+- Will O Wisp
+- Nasty Plot
+
+Chandelure @ Choice Scarf
+Timid Nature 
+Ability: Shadow Tag 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Shadow Ball
+- Hex
+- Psychic
+
+Skeledirge @ Throat Spray
+Modest Nature 
+Ability: Unaware 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Torch Song
+- Hyper Voice
+- Shadow Ball
+- Snarl
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
@@ -4472,13 +4518,25 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bouffalant @ Chople Berry
+Adamant Nature 
+Ability: Reckless 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Head Charge
+- Megahorn
+- Zen Headbutt
+- Revenge
 
-Taillow
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Togekiss @ Scope Lens
+Timid Nature 
+Ability: Super Luck 
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Air Cutter
+- Dazzling Gleam
+- Aura Sphere
+- Substitute
 
 === TRAINER_AUTUMN ===
 Name: AUTUMN
@@ -4489,9 +4547,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ferrothorn @ Rocky Helmet
+Brave Nature 
+Ability: Iron Barbs 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Power Whip
+- Gyro Ball
+- Thunder Wave
+- Stealth Rock
+
+Serperior @ Choice Scarf
+MOdest Nature 
+Ability: Contrary 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Storm
+
+Boltund @ Life Orb
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Fang
+- Psychic Fangs
+- Crunch
+- Snarl
 
 === TRAINER_TRAVIS ===
 Name: TRAVIS
@@ -10304,17 +10385,45 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Assault Vest
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grassy Glide
+- Knock Off
+- Body Slam
+- High Horsepower
 
-Oddish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wigglytuff @ Life Orb
+Rash Nature 
+Ability: Competitive 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Moonblast
+- Grass Knot
+- Sing
+- Hyper Voice
 
-Swablu
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arcanine @ Leftovers
+Jolly Nature 
+Ability: Intimidate 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Wild Charge
+- CLose Combat
+- Howl
+
+Thievul @ Grassy Seed
+MOdest Nature 
+Ability: Unburden 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dark Pulse
+- Burning Jealousy
+- Grass Knot
+- Nasty Plot
 
 === TRAINER_CEDRIC ===
 Name: CEDRIC
@@ -12454,9 +12563,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zebstrika @ Shuca Berry
+Hasty Nature 
+Ability: Sap Sipper 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Zing Zap
+- Overheat
+- Low Kick
+- Light Screen
+
+Bibarel @ Quick Claw
+Careful Nature 
+Ability: Simple 
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Body Slam
+- Wave Crash
+- Stomping Tantrum
+- Curse
+
+Klinklang @ Lum Berry
+Adamant Nature 
+Ability: Clear Body 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gear Grind
+- Return
+- Wild Charge
+- Shift Gear
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
 Name: GRUNT
@@ -12518,13 +12653,36 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Mightyena 
+Bashful Nature 
+Ability: Intimidate 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Crobat
+Bashful Nature 
+Ability: Inner Focus 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Camerupt 
+Bashful Nature 
+Ability: Magma Armor 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Claydol 
+Bashful Nature 
+Ability: Levitate 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Shiftry
+Bashful Nature 
+Ability: Chlorophyll 
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
 
 === TRAINER_MARC ===
 Name: MARC
@@ -14172,13 +14330,25 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gliscor @ Sharp Beak
+Jolly Nature 
+Ability: Hyper Cutter 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- High Horsepower
+- Dual Wingbeat
+- Knock Off
+- Roost
 
-Baltoy
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Stonjourner @ Focus Sash
+Jolly Nature 
+Ability: Power Spot 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Heavy Slam
+- Stomping Tantrum
+- Mega Kick
 
 === TRAINER_LUCAS_2 ===
 Name: LUCAS

@@ -434,7 +434,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "A 2-turn move that strikes\n"
             "the foe on the 2nd turn."),
         .effect = EFFECT_TWO_TURNS_ATTACK,
-        .power = 110,
+        .power = 140,
         .type = TYPE_FLYING,
         .accuracy = 100,
         .criticalHitStage = 1,

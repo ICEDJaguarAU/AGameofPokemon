@@ -2824,12 +2824,12 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_BRAMBLIN"
               },
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_SHROODLE"
               },
               {
                 "min_level": 21,
@@ -2839,22 +2839,22 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MACHOP"
+                "species": "SPECIES_BRAMBLIN"
               },
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_SHROODLE"
               },
               {
                 "min_level": 22,
@@ -2864,22 +2864,22 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_VIRIZION"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_IRON_LEAVES"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_IRON_LEAVES"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_VIRIZION"
               }
             ]
           }
@@ -12815,12 +12815,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_UXIE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_POLIWHIRL"
+                "species": "SPECIES_UXIE"
               }
             ]
           }
@@ -14353,12 +14353,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PINCURCHIN"
+                "species": "SPECIES_MESPRIT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PINCURCHIN"
+                "species": "SPECIES_MESPRIT"
               }
             ]
           }

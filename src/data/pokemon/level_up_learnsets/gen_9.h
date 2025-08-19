@@ -17823,6 +17823,7 @@ static const struct LevelUpMove sTorracatLevelUpLearnset[] = {
 
 static const struct LevelUpMove sIncineroarLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DARKEST_LARIAT),
+    LEVEL_UP_MOVE( 0, MOVE_CIRCLE_THROW),
     LEVEL_UP_MOVE( 0, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),

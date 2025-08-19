@@ -4155,9 +4155,55 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Torkoal @ Iapapa Berry
+Quiet Nature 
+Ability: Drought 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Solar Beam
+- Scorching Sands
+- Stealth Rock
+
+Octillery @ Scope Lens
+Quiet Nature 
+Ability: Sniper 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Gunk Shot
+- Psychic
+- Thunder Wave
+
+Weezing_Galar @ Lum Berry
+Brave Nature 
+Ability: Levitate 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Wave
+- Payback
+- Overheat
+- Strange Steam
+
+Magmortar @ Sitrus Berry
+Hasty Nature 
+Ability: Mega Launcher 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Solar Beam
+- Flash Cannon
+- Sludge Bomb
+
+Turtonator @ Lum Berry
+Hasty Nature 
+Ability: Shell Armor 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Dragon Claw
+- Heat Crash
+- Shell Smash
 
 === TRAINER_JEFF ===
 Name: JEFF
@@ -4168,13 +4214,55 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Turtonator @ Custap Berry
+Relaxed Nature 
+Ability: Drought 
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dragon Pulse
+- Earth Power
+- Body Press
+- Shell Trap
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Lickilicky @ Assault Vest
+Brave Nature 
+Ability: Oblivious 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Body Slam
+- Fire Blast
+- Power Whip
+- Knock Off
+
+Skuntank @ Lum Berry
+Hasty Nature 
+Ability: Aftermath 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
+- Knock Off
+- Fire Blast
+- Clear Smog
+
+Flareon @ Toxic Orb
+Hasty Nature 
+Ability: Guts 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Facade
+- Stomping Tantrum
+- Poison Fang
+
+Scovillain @ Expert Belt
+Brave Nature 
+Ability: Chlorophyll 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- Spicy Extract
+- Overheat
+- Solar Blade
 
 === TRAINER_AXLE ===
 Name: AXLE
@@ -4185,9 +4273,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Infernape @ Wide Lens
+Timid Nature 
+Ability: Blaze 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Focus Blast
+- Grass Knot
+- Fake Out
+
+Houndoom @ Lum Berry
+Hasty Nature 
+Ability: Unnerve 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Blast
+- Dark Pulse
+- Sunny Day
+- Destiny Bond
+
+Centiskorch @ Charti Berry
+Jolly Nature 
+Ability: White Smoke 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fire Lash
+- Leech Life
+- Thunder Fang
+- Coil
+
+Ceruledge @ Expert Belt
+Brave Nature 
+Ability: Weak Armor 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bitter Blade
+- Shadow Claw
+- Psycho Cut
+- Solar Blade
 
 === TRAINER_JACE ===
 Name: JACE
@@ -4257,9 +4381,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 23
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Rapidash_Galar @ Life Orb
+Hasty Nature 
+Ability: Pastel Veil 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- PLay Rough
+- Zen Headbutt
+- Mystical Fire
+- Will O Wisp
+
+Blissey @ Chople Berry
+Modest Nature 
+Ability: Serene Grace 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Fire Blast
+- Psychic
+- Counter
+
+Darmanitan @ Life Orb
+Jolly Nature 
+Ability: Sheer Force 
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Zen Headbutt
+- Rock Slide
+- Earthquake
 
 === TRAINER_BERNIE_1 ===
 Name: BERNIE
@@ -5709,7 +5859,7 @@ Nosepass @ Chesto Berry
 Level: 17
 Bashful Nature
 Ability: Sand Force
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rest
 - Thunder Wave
 - Spark
@@ -5829,7 +5979,7 @@ Vikavolt @ Sitrus Berry
 Brave Nature
 Ability: Levitate
 Level: 34
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Volt Switch
 - Leech Life
 - Mud Shot
@@ -5862,40 +6012,66 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
-
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
-
-Camerupt
-Level: 26
+Charizard @ Charizardite Y
+Timid Nature 
+Ability: Blaze 
+Level: 57
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
-- Attract
+- Heat Wave
+- Scorching Sands
+- Air Slash
+- Solar Beam
 
-Torkoal @ White Herb
-Level: 29
+Walking Wake @ Choice Scarf
+MOdest Nature 
+Ability: Protosynthesis 
+Level: 57
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Hydro Steam
+
+
+Entei @ Muscle Band
+Jolly Nature 
+Ability: Flash Fire 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sacred Fire
+- Trailblaze
+- Stone Edge
+- Extreme Speed
+
+Gouging Fire @ Life Orb
+Adamant Nature 
+Ability: Protosynthesis 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Lava Plume
+- Burning Bulwark
+- Raging Fury
+- Dragon Rush
+
+Incineroar @ Assault Vest
+Sassy Nature 
+Ability: Intimidate 
+Level: 57
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Fake Out
+- Blaze Kick
+- Darkest Lariat
+- Circle Throw
+
+Typhlosion_Hisui @ Expert Belt
+Timid Nature 
+Ability: Blaze 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Eruption
+- Infernal Parade
 - Overheat
-- Sunny Day
-- Body Slam
-- Attract
+- Quick Attack
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -11013,9 +11189,55 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Drampa @ Iapapa Berry
+MOdest Nature 
+Ability: Berserk 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Voice
+- Dragon Pulse
+- Fire Blast
+- Roost
+
+Nidoking @ Black Sludge
+Timid Nature 
+Ability: Sheer Force 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Sludge Bomb
+- Earth Power
+- Fire Blast
+- Substitute
+
+Rhyperior @ Passho Berry
+Careful Nature 
+Ability: Solid Rock 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Stone Edge
+- Heat Crash
+- Stealth Rock
+
+Arcanine @ Muscle Band
+Naive Nature 
+Ability: Intimidate 
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Psychic Fangs
+- Will O Wisp
+- Flare Blitz
+
+Delphox @ Life Orb
+Timid Nature 
+Ability: Magic Guard 
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Psychic
+- Grass Knot
+- Hypnosis
 
 === TRAINER_ANNIKA ===
 Name: ANNIKA
@@ -14649,13 +14871,47 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Kecleon
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ninetales @ Focus Sash
+Timid Nature 
+Ability: Drought 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flamethrower
-- Fury Swipes
-- Feint Attack
-- Bind
+- Psychic
+- Hypnosis
+- Nasty Plot
+
+Solrock @ Charcoal
+Lonely Nature 
+Ability: Levitate 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Zen Headbutt
+- Overheat
+- Rock Slide
+- Rock Polish
+
+Toucannon @ Charcoal
+Naive Nature 
+Ability: Skill Link 
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brave Bird
+- Overheat
+- Bullet Seed
+- Rock Blast
+
+Armarouge @ Choice Scarf
+Timid Nature 
+Ability: Weak Armor 
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flamethrower
+- Psychic
+- Scorching Sands
+- Aura Sphere
+
+
 
 === TRAINER_VIVIAN ===
 Name: VIVIAN
@@ -14725,13 +14981,55 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
+Slowking_Galar @ Assault Vest
+Bold Nature 
+Ability: Regenerator 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
+- Fire Blast
+- Scald
+- SLudge Wave
+
+Golurk @ Leftovers
+Adamant Nature 
+Ability: Iron Fist 
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Punch
+- Earthquake
 - Fire Punch
+- Block
+
+Emboar @ Choice Scarf
+Jolly Nature 
+Ability: Reckless
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Meteor Mash
+- Head Smash
+- Wild Charge
+
+Blaziken @ White Herb
+Lonely Nature 
+Ability: Speed Boost 
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Blaze Kick
+- Sky Uppercut
+- Knock Off
+- Brave Bird
+
+Flygon @ Life Orb
+Lonely Nature 
+Ability: Levitate 
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Bug Buzz
+- Scale Shot
+- Scorching Sands
+- Giga Drain
 
 === TRAINER_HIDEO ===
 Name: HIDEO

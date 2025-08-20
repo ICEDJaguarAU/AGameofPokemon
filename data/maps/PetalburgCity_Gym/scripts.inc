@@ -91,6 +91,10 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	delay 30
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
+	giveitem ITEM_POCKET_JOY
+	giveitem ITEM_POKEMON_BOX_LINK
+	setflag FLAG_RECEIVED_POCKET_JOY
+	setflag FLAG_RECEIVED_POKEMON_BOX_LINK
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	releaseall
@@ -1229,7 +1233,15 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Of course, I'm a GYM LEADER, too.\n"
 	.string "We'll battle one day, {PLAYER}.\p"
 	.string "But that's only after you become\n"
-	.string "stronger.$"
+	.string "stronger. Oh, take these also,\p"
+	.string "they will help you in your quest.\n"
+	.string "The Box link will allow you to\p"
+	.string "access your Pokemon storage while\n"
+	.string "you are in the field. The Pocket\p"
+	.string "Joy will allow you to heal your\n"
+	.string "Pokemon while out in the field\p"
+	.string "{PLAYER}, I love you and am\n"
+	.string "very proud of you, now go!$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "DAD: Hm? Aren't you going to the\n"

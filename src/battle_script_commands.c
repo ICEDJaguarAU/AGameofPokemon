@@ -610,7 +610,7 @@ const u16 sLevelCapFlags[NUM_SOFT_CAPS] =
     FLAG_BADGE04_GET, FLAG_BADGE05_GET, FLAG_HIDE_ROUTE_119_RIVAL, FLAG_BADGE06_GET, FLAG_HIDE_LILYCOVE_CITY_RIVAL, FLAG_BADGE07_GET, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, FLAG_BADGE08_GET,
 };
 
-const u16 sLevelCaps[NUM_SOFT_CAPS] = { 10, 18, 25, 32, 35, 48, 55, 57, 65, 70, 77, 86, 92, 100 };
+const u16 sLevelCaps[NUM_SOFT_CAPS] = { 10, 18, 25, 32, 35, 48, 59, 63, 65, 70, 77, 86, 92, 100 };
 const double sLevelCapReduction[7] = { .25, .20, .15, .10, .05, .02, .01 };
 const double sRelativePartyScaling[27] =
 {

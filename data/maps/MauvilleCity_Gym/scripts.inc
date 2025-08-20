@@ -124,7 +124,11 @@ MauvilleCity_Gym_EventScript_GiveShockWave::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_VOLT_SWITCH
-	return
+	giveitem ITEM_MEGA_RING
+	setflag FLAG_RECEIVED_MEGA_RING
+	release
+	end
+	
 
 MauvilleCity_Gym_EventScript_CompletedNewMauville::
 	msgbox MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor, MSGBOX_DEFAULT
@@ -367,6 +371,9 @@ MauvilleCity_Gym_Text_ExplainShockWave:
 	.string "That TM34 there contains Volt Switch.\p"
 	.string "It's a great move that lets\n"
 	.string "the user swap out after attacking!\p"
+	.string "Here take this too, you have proven\n"
+	.string "yourself capable of enabling\p"
+	.string "your Pokemon to their full power!\n"
 	.string "… … … … … …$"
 
 MauvilleCity_Gym_Text_RegisteredWattson:

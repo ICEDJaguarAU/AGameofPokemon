@@ -826,6 +826,7 @@ static const struct LevelUpMove sNidorinoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(71, MOVE_GUNK_SHOT),
     LEVEL_UP_MOVE(77, MOVE_HORN_DRILL),
 	LEVEL_UP_MOVE(84, MOVE_DRILL_RUN),
+    LEVEL_UP_MOVE(87, MOVE_SEPTIC_SLAM),
     LEVEL_UP_MOVE(90, MOVE_HYPER_DRILL),
     LEVEL_UP_END
 };
@@ -18734,6 +18735,7 @@ static const struct LevelUpMove sPalossandLevelUpLearnset[] = {
     LEVEL_UP_MOVE(54, MOVE_EARTH_POWER),
     LEVEL_UP_MOVE(61, MOVE_SHORE_UP),
     LEVEL_UP_MOVE(68, MOVE_SANDSTORM),
+    LEVEL_UP_MOVE(73, MOVE_MUDDY_WATER),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SANDYGAST

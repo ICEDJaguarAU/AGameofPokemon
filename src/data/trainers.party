@@ -934,13 +934,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Drakloak @ Light Clay
+Timid Nature 
+Ability: Cursed Body 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Breath
+- Hex
+- Light Screen
+- Reflect
+
+Krookodile @ Weakness Policy
+Jolly Nature 
+Ability: Intimidate 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Power Trip
+- Rock Slide
+- Bulk Up
+
+Cloyster @ Lum Berry
+Naughty Nature 
+Ability: Overcoat 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Liquidation
+- Frost Breath
+- Weather Ball
+- Shell Smash
+
+Shelgon @ Eviolite
+Careful Nature 
+Ability: Overcoat 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Rush
+- Brick Break
+- Facade
+- Dragon Dance
 
 === TRAINER_CHIP ===
 Name: CHIP
@@ -3735,9 +3767,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Mienshao @ LIFe Orb
+Timid Nature 
+Ability: Inner Focus 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Grass Knot
+- Aura Sphere
+- Vacuum Wave
+- U-Turn
+
+Bewear @ Sitrus Berry
+Adamant Nature 
+Ability: Fluffy 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Hammer Arm
+- Body Slam
+- Retaliate
+- Counter
+
+Flamigo @ Muscle Band
+Brave Nature 
+Ability: Costar 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Kick
+- Wing Attack
+- Throat Chop
+- Roost
 
 === TRAINER_SLATEPORTCITY_LEAF ===
 Name: LEAF
@@ -9708,13 +9766,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Grapploct @ Leftovers
+Impish Nature 
+Ability: Limber 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Drain Punch
+- Skitter Smack
+- Octolock
+- Protect
 
-Makuhita
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Breloom @ Toxic Orb
+Jolly Nature 
+Ability: POison Heal 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Drain Punch
+- Facade
+- Bulk Up
+- Protect
+
+Hitmontop @ Life Orb
+Adamant Nature 
+Ability: Technician 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Mach Punch
+- Bullet Punch
+- Fake Out
+- Triple Axel
 
 === TRAINER_CORA ===
 Name: CORA
@@ -10396,21 +10476,65 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Dig
-- Sand Attack
-- Poison Sting
-- Slash
+Nidoqueen @ Life Orb
+Timid Nature 
+Ability: Sheer Force 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earth Power
+- Sludge Wave
+- Flamethrower
+- Ice Beam
 
-Baltoy
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+Golem @ Bright Powder
+Adamant Nature 
+Ability: Sand Veil 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Rock SLide
+- Focus Punch
+- Seismic Toss
+
+Cacturne @ Bright Powder
+Adamant Nature 
+Ability: Sand Veil 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Seed Bomb
+- Leech Seed
+- Focus Punch
+- Substitute
+
+Probopass @ Focus Sash
+Quiet Nature 
+Ability: Sand Force 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flash Cannon
+- Power Gem
+- Zap Cannon
+- Rock Polish
+
+Palossand @ Bright Powder
+MOdest Nature 
+Ability: Sand Veil 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Scorching Sands
+- Hex
+- Ancient Power
+- Muddy Water
+
+Perrserker @ Assault Vest
+Careful Nature 
+Ability: Steely Spirit 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Iron Tail
+- Bullet Punch
+- Close COmbat
+- Septic Slam
 
 === TRAINER_BECKY ===
 Name: BECKY
@@ -10421,21 +10545,45 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Poison Sting
-- Slash
-- Dig
+Hippowdon @ Lum Berry
+Careful Nature 
+Ability: Sand Force 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Rock Slide
+- Curse
+- Slack off
 
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rollout
-- Bubble Beam
-- Tail Whip
-- Defense Curl
+Gogoat @ Leftovers
+Impish Nature 
+Ability: Sap Sipper 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Horn Leech
+- Earthquake
+- Rock Slide
+- Leech Seed
+
+Golem_Alola @ Lum Berry
+Jolly Nature 
+Ability: Galvanize 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Stone Edge
+- Earthquake
+- Rock Polish
+- Double-Edge
+
+Excadrill @ Air Balloon
+Adamant Nature 
+Ability: Sand Force 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Rock Polish
 
 === TRAINER_CAROL ===
 Name: CAROL
@@ -11460,13 +11608,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Zangoose
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Heatmor @ Expert Belt
+Hasty Nature 
+Ability: White SMoke 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Inferno
+- Discharge
+- Focus Blast
+- Grass Knot
 
-Seviper
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Durant @ Lum Berry
+JOlly Nature 
+Ability: Hustle 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Iron HEad
+- X Scissor
+- Rock SLide
+- Hone Claws
+
+Slowking @ Leftovers
+Modest Nature 
+Ability: Regenerator 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Scald
+- Slack Off
+- Toxic
+
+Zangoose @ Toxic Orb
+Jolly Nature 
+Ability: Toxic Boost 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Facade
+- Close Combat
+- NIght Slash
+- Detect
 
 === TRAINER_TABITHA_MOSSDEEP ===
 Name: TABITHA
@@ -17341,13 +17521,32 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidoking @ Lum Berry
+Hasty Nature 
+Ability: Sheer Force 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earth Power
+- Gunk Shot
+- Thunderbolt
+- Flamethrower
 
-Lombre
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastrodon @ Rindo Berry
+Bold Nature 
+Ability: Storm Drain 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Muddy Water
+- Surf
+- Ice Beam
+- Recover
+
+Copperajah @ Choice Scarf
+Adamant Nature 
+Ability: Heavy Metal 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Heavy Slam
 
 === TRAINER_BRYAN ===
 Name: BRYAN
@@ -17358,13 +17557,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gigalith @ Sitrus Berry
+Adamant Nature 
+Ability: Clear Body 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Stone Edge
+- Rock Slide
+- Body Press
+- Sand Tomb
 
-Sandslash
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Maractus @ Sitrus Berry
+Timid Nature 
+Ability: Storm Drain 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Energy Ball
+- Weather Ball
+- Spiky Shield
+- Pin Missile
+
+Steinulfur @ Choice Band
+Adamant Nature 
+Ability: Tough Claws 
+Level: 59
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Accelerock
+- Shadow Bone
+- Play Rough
+- Ice Fang
 
 === TRAINER_BRANDEN ===
 Name: BRANDEN
@@ -17375,13 +17596,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Taillow
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ Red Card
+Jolly Nature 
+Ability: Sturdy 
+Level: 57
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dual Wingbeat
+- Body Press
+- Spikes
+- Stealth Rock
 
-Nuzleaf
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Torterra @ Leftovers
+Jolly Nature 
+Ability: Shell Armor 
+Level: 57
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Wood Hammer
+- Earthquake
+- Leech Seed
+- Protect
+
+Bewear @ Leftovers
+Jolly Nature 
+Ability: Fluffy 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Body Slam
+- Drain Punch
+- Zen Headbutt
+- Payback
+
+Rhyperior @ Leftovers
+Careful Nature 
+Ability: Solid Rock 
+Level: 58
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Drill Run
+- Avalanche
+- Dragon Tail
+- Protect
 
 === TRAINER_BRYANT ===
 Name: BRYANT
@@ -17518,13 +17771,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mr Rime @ Lum Berry
+Timid Nature 
+Ability: Screen Cleaner 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ice Beam
+- Psyshock
+- Teeter Dance
+- Thunder Wave
 
-Spoink
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cofagrigus @ Leftovers
+Bold Nature 
+Ability: Mummy 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Hex
+- Body Press
+- Will O Wisp
+- Rest
+
+Veluza @ Life Orb
+Adamant Nature 
+Ability: Sharpness 
+Level: 60
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Aqua Cutter
+- Psycho Cut
+- Night Slash
+- Slash
 
 === TRAINER_DEVAN ===
 Name: DEVAN

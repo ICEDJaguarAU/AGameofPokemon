@@ -778,13 +778,45 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gourgeist_Super @ Lum Berry
+Brave Nature 
+Ability: Insomnia 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Shadow Claw
+- Trick Room
+- Trick or Treat
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lurantis @ Assault Vest
+Relaxed Nature 
+Ability: Contrary 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Superpower
+- Leaf Blade
+- Facade
+
+Exeggutor_Alola @ Sitrus Berry
+Brave Nature 
+Ability: Harvest 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Dragon Hammer
+- Sleep Powder
+- Trick Room
+
+Florges @ Leftovers
+Relaxed Nature 
+Ability: Flower Veil 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Psychic
+- Giga Drain
+- Synthesis
 
 === TRAINER_ROSE_1 ===
 Name: ROSE
@@ -6499,7 +6531,7 @@ Lopunny @ Lopunnite
 Adamant Nature 
 Ability: Cute Charm 
 Level: 64
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Jump Kick
 - Fake Out
 - Double-Edge
@@ -7112,9 +7144,35 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Skitty @ Oran Berry
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dedenne @ Focus Sash
+Timid Nature 
+Ability: Cheek Pouch 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Moonblast
+- Super Fang
+- Electric Terrain
+
+Togedemaru @ Rocky Helmet
+Jolly Nature 
+Ability: Iron Barbs 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Steel Roller
+- Iron Head
+- Zing Zap
+- Magnet Rise
+
+Mimikyu @ Lum Berry
+Jolly Nature 
+Ability: Disguise 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Shadow Sneak
+- Drain Punch
+- Swords Dance
 
 === TRAINER_COLTON ===
 Name: COLTON
@@ -8249,17 +8307,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Jellicent @ Lum Berry
+Calm Nature 
+Ability: Cursed Body 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Shadow Ball
+- Rain Dance
+- Strength Sap
 
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barraskewda @ Muscle Band
+Jolly Nature 
+Ability: Swift Swim 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- Drill Run
+- Throat Chop
+- Ice Fang
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bruxish @ Expert Belt
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic Fangs
+- Crunch
+- Poison Fang
+- Aqua Chomp
+
+Dhelmise @ Lagging Tail
+Adamant Nature 
+Ability: Steelworker 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Grassy Glide
+- Shadow Claw
+- Iron Head
+- Switcheroo
 
 === TRAINER_IVAN ===
 Name: IVAN
@@ -11231,13 +11317,54 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gengar @ Black Sludge
+Timid Nature 
+Ability: Prankster 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hypnosis
+- Hex
+- Substitute
+- Dream Eater
 
-Minun
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corviknight @ LIght Clay
+Bold Nature 
+Ability: Unnerve 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pluck
+- Light Screen
+- Reflect
+- Roost
+
+Persian @ Focus Sash
+Hasty Nature 
+Ability: Unnerve 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Flail
+- Dream Eater
+- Hypnosis
+
+Frostkwen @ Lum Berry
+Timid Nature 
+Ability: Hydration 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Lovely Kiss
+- Nightmare
+- Dream Eater
+- Ice Beam
+
+Hypno @ Leftovers
+Timid Nature 
+Ability: Bad Dreams 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dark Void
+- Nightmare
+- Dream Eater
 
 === TRAINER_AMY_AND_LIV_2 ===
 Name: AMY & LIV
@@ -16938,9 +17065,25 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Crobat @ Lum Berry
+Modest Nature 
+Ability: Inner Focus 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Air Slash
+- Gunk Shot
+- Hypnosis
+- Tailwind
+
+Noivern @ Lum Berry
+Timid Nature 
+Ability: Infiltrator 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Clanging Scales
+- Air Slash
+- Flamethrower
+- Tailwind
 
 === TRAINER_RHETT ===
 Name: RHETT
@@ -16951,9 +17094,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Makuhita
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Crabominable @ Lum Berry
+Jolly Nature 
+Ability: Hyper Cutter 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hammer Arm
+- Ice Hammer
+- Crabhammer
+- Protect
+
+Heracross @ Flame Orb
+Jolly Nature 
+Ability: Guts 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Life
+- Brick Break
+- Facade
+- Protect
+
+Poliwrath @ Sitrus Berry
+Jolly Nature 
+Ability: Water Absorb 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Drain Punch
+- Ice Punch
+- Belly Drum
+- Wave Crash
 
 === TRAINER_TYRON ===
 Name: TYRON
@@ -17721,9 +17890,25 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tatsugiri_Stretchy @ Lum Berry
+Timid Nature 
+Ability: Commander 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Muddy Water
+- Nasty Plot
+- Dragon Pulse
+- Helping Hand
+
+Wugtrio @ Muscle Band
+Adamant Nature 
+Ability: Gooey 
+Level: 64
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Triple Dive
+- Liquidation
+- Sucker Punch
+- Throat Chop
 
 === TRAINER_ISABELLE ===
 Name: ISABELLE
@@ -17734,9 +17919,26 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palafin @ Leftovers
+Jolly Nature 
+Ability: Zero to Hero 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flip Turn
+- Jet Punch
+- Drain Punch
+- Throat Chop
+
+Dondozo @ Sitrus Berry
+Adamant Nature 
+Ability: Water Veil 
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wave Crash
+- Order Up
+- Heavy Slam
+- Body Slam
+
 
 === TRAINER_ANDRES_1 ===
 Name: ANDRES

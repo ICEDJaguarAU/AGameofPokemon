@@ -3010,6 +3010,7 @@ static const struct LevelUpMove sVoltorbHisuiLevelUpLearnset[] = {
     LEVEL_UP_MOVE(46, MOVE_GYRO_BALL),
     LEVEL_UP_MOVE(50, MOVE_GRASSY_TERRAIN),
     LEVEL_UP_MOVE(56, MOVE_CHLOROBLAST),
+    LEVEL_UP_MOVE(60, MOVE_VOLT_TACKLE),
     LEVEL_UP_END
 };
 
@@ -3035,6 +3036,7 @@ static const struct LevelUpMove sElectrodeHisuiLevelUpLearnset[] = {
     LEVEL_UP_MOVE(46, MOVE_GYRO_BALL),
     LEVEL_UP_MOVE(50, MOVE_GRASSY_TERRAIN),
     LEVEL_UP_MOVE(56, MOVE_CHLOROBLAST),
+    LEVEL_UP_MOVE(60, MOVE_VOLT_TACKLE),
     LEVEL_UP_END
 };
 #endif //P_HISUIAN_FORMS
@@ -16434,6 +16436,7 @@ static const struct LevelUpMove sFlabebeLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_PETAL_DANCE),
     LEVEL_UP_MOVE(48, MOVE_SOLAR_BEAM),
     LEVEL_UP_MOVE(55, MOVE_STRANGE_STEAM),
+    LEVEL_UP_MOVE(62, MOVE_LIGHT_OF_RUIN),
     LEVEL_UP_END
 };
 
@@ -16453,7 +16456,7 @@ static const struct LevelUpMove sFloetteLevelUpLearnset[] = {
     LEVEL_UP_MOVE(51, MOVE_PETAL_DANCE),
     LEVEL_UP_MOVE(58, MOVE_SOLAR_BEAM),
     LEVEL_UP_MOVE(64, MOVE_STRANGE_STEAM),
-    LEVEL_UP_MOVE(77, MOVE_FLEUR_CANNON),
+    LEVEL_UP_MOVE(77, MOVE_LIGHT_OF_RUIN),
     LEVEL_UP_END
 };
 
@@ -16474,7 +16477,7 @@ static const struct LevelUpMove sFloetteEternalLevelUpLearnset[] = {
     LEVEL_UP_MOVE(51, MOVE_PETAL_DANCE),
     LEVEL_UP_MOVE(58, MOVE_SOLAR_BEAM),
     LEVEL_UP_MOVE(64, MOVE_STRANGE_STEAM),
-    LEVEL_UP_MOVE(77, MOVE_FLEUR_CANNON),
+    LEVEL_UP_MOVE(77, MOVE_LIGHT_OF_RUIN),
     LEVEL_UP_END
 };
 
@@ -16492,6 +16495,7 @@ static const struct LevelUpMove sFlorgesLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_MISTY_TERRAIN),
     LEVEL_UP_MOVE( 5, MOVE_MOONBLAST),
     LEVEL_UP_MOVE(64, MOVE_STRANGE_STEAM),
+    LEVEL_UP_MOVE(72, MOVE_LIGHT_OF_RUIN),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_FLABEBE

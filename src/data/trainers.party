@@ -1513,12 +1513,55 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
+Ninjask @ Power Herb
+Adamant Nature 
+Ability: Speed Boost 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- X Scissor
+- Dual Wingbeat
+- Dig
+- Swords Dance
+
+Scolipede @ Muscle Band
+Adamant Nature 
+Ability: Speed Boost 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Megahorn
+- Septic Slam
+- Aqua Tail
+- Rock Slide
+
+Yanmega @ Wise Glasses
+MOdest Nature 
+Ability: Speed Boost 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Bug Buzz
+- Air Slash
+- Giga Drain
+- Detect
+
+Sharpedo @ Life Orb
+Adamant Nature 
+Ability: Speed Boost 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Wave Crash
+- Foul Play
+- Protect
+- Close Combat
+
+Blaziken @ Blazikenite
+Adamant Nature 
+Ability: Blaze 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Blaze Kick
+- Sky Uppercut
+- Thunder Punch
+- Bounce
 
 === TRAINER_PARKER ===
 Name: PARKER
@@ -1530,12 +1573,55 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Spinda
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Dizzy Punch
-- Focus Punch
+Barbaracle @ Scope Lens
+Jolly Nature 
+Ability: Sniper 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Stone Edge
+- Razor Shell
+- Cross Chop
+- Shadow Claw
+
+Honchkrow @ Scope Lens
+Hasty Nature 
+Ability: Super Luck 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Night Slash
+- Sucker Punch
+- Air Cutter
+- Heat Wave
+
+Inteleon @ Lum Berry
+Timid Nature 
+Ability: Sniper 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Snipe Shot
+- Gunk Shot
+- Ice Beam
+- Laser Focus
+
+Octillery @ Scope Lens
+Hasty Nature 
+Ability: Sniper 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- OCtazooka
+- Fire Blast
+- Bullet Seed
+- Focus ENergy
+
+Drapion @ Scope Lens
+Jolly Nature 
+Ability: Sniper 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Cross Poison
+- Night Slash
+- Earthquake
+- Aqua Tail
 
 === TRAINER_GEORGE ===
 Name: GEORGE
@@ -1544,15 +1630,61 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Slakoth @ Sitrus Berry
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Rillaboom @ Leftovers
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Grassy Glide
+- Body Slam
+- U-Turn
+- Protect
+
+Ludicolo @ Big Root
+Calm Nature 
+Ability: Rain Dish 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Rain Dance
+- Aqua Ring
+- Giga Drain
+- Leech Seed
+
+Starmie @ Leftovers
+Timid Nature 
+Ability: Natural Cure 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psyshock
+- Water Pulse
+- Grass Knot
+- Recover
+
+Slowking_Galar @ Black Sludge
+Bold Nature 
+Ability: Regenerator 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Sludge Wave
+- Protect
 - Slack Off
-- Counter
-- Shadow Ball
+
+Clefable @ Leftovers
+Bold Nature 
+Ability: Magic Guard 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Moonblast
+- Flamethrower
+- Calm Mind
+- Soft Boiled
+
+
+
 
 === TRAINER_BERKE ===
 Name: BERKE
@@ -1564,11 +1696,65 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Vigoroth
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
-- Slash
+Basculin_Blue_striped @ Lum Berry
+Jolly Nature 
+Ability: Rock Head 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Wave Crash
+- DOuble-Edge
+- Head Smash
+- Flip Turn
+
+Electrode_Hisui @ Wise Glasses
+Modest Nature 
+Ability: Static 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Chloroblast
+- VOlt Tackle
+- Volt Switch
+- Light Screen
+
+Lucario @ Sitrus Berry
+Hasty Nature 
+Ability: Inner Focus 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Steel Beam
+- Aura Sphere
+- Vacuum Wave
+- Stone Edge
+
+Staraptor @ Lum Berry
+Jolly Nature 
+Ability: Reckless 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Brave Bird
+- Double-Edge
+- Quick Attack
+- Endeavor
+
+Bouffalant @ Custap Berry
+Jolly Nature 
+Ability: Reckless 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Head CHarge
+- WIld CHarge
+- Lash Out
+- Reversal
+
+Emboar @ Choice Scarf
+Jolly Nature 
+Ability: Reckless 
+Level: 63
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flare Blitz
+- WIld CHarge
+- Head Smash
+- Double-Edge
 
 === TRAINER_BRAXTON ===
 Name: BRAXTON
@@ -1986,11 +2172,45 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Delcatty
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+Doublade @ Eviolite
+Brave Nature 
+Ability: No Guard 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Swords Dance
+- Protect
+- Spirit Shackle
+- Anchor Shot
+
+Golurk @ Lum Berry
+Jolly Nature 
+Ability: No Guard 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Stone Edge 
+- Mega Kick
+- Dynamic Punch
+
+Machamp @ Leftovers
+Careful Nature 
+Ability: No Guard 
+Level: 61
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dynamic Punch
+- Mega Kick
+- Stone Edge
+- Bulk Up
+
+Pidgeot @ Pidgeotite
+Timid Nature 
+Ability: Keen Eye 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Hurricane
+- Heat Wave
+- Hyper Beam
+- Steel Wing
 
 === TRAINER_ALEXIA ===
 Name: ALEXIA
@@ -2002,12 +2222,55 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Wigglytuff
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
+Mudsdale @ Sitrus Berry
+Careful Nature 
+Ability: Stamina 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- High Horsepower
+- Body Press
+- Iron Defense
+- Stealth Rock
+
+Ferrothorn @ Leftovers
+Careful Nature 
+Ability: Iron Barbs 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Power Whip
+- Body Press
+- Leech Seed
+- Iron Defense
+
+Blastoise @ Leftovers
+Bold Nature 
+Ability: Drizzle 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Combat Shell
+- Body Press
+- Protect
+- Scald
+
+Corviknight @ Lum Berry
+Jolly Nature 
+Ability: Unnerve 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Iron Head
+- Dual Wingbeat
+- Body Press
+- Bulk Up
+
+Claydol @ Weakness Policy
+Relaxed Nature 
+Ability: Levitate 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Drill Run
+- Stored Power
+- Body Press
+- Cosmic Power
 
 === TRAINER_JODY ===
 Name: JODY
@@ -2016,14 +2279,55 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Zangoose
-Level: 26
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+Rampardos @ Life Orb
+Jolly Nature 
+Ability: Sheer Force 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Rock Slide
+- Crunch
+- Zen Headbutt
+- Fire Punch
+
+Slaking @ Choice Band
+Jolly Nature 
+Ability: Truant 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Giga Impact
+
+Medicham @ Focus Sash
+Jolly Nature 
+Ability: Pure Power 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- High Jump Kick
+- Zen HEadbutt
+- Reversal
+- Counter
+
+Conkeldurr @ Lum Berry
+Adamant Nature 
+Ability: Iron Fist 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Mega Punch
+- Bullet Punch
+- Thunder Punch
+- Ice Punch
+
+Marowak @ Thick Club
+Jolly Nature 
+Ability: Rock Head 
+Level: 63
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Bonemerang
+- Double-Edge
+- Retaliate
+- Knock Off
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -6138,40 +6442,69 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
-
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
-
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
-
-Slaking @ Sitrus Berry
-Level: 31
+Jigglypuff @ Eviolite
+Timid Nature 
+Ability: Friend Guard 
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+- Skill Swap
+- Heal Pulse
+- Wish
+- Alluring Voice
+
+Regigigas @ Assault Vest
+Jolly Nature 
+Ability: Slow Start 
+Level: 62
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Crush Claw
+- Drain Punch
+- Knock OFf
+- Body Press
+
+Porygon Z @ Choice Scarf
+Timid Nature 
+Ability: Download 
+Level: 63
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Tri Attack
+- Discharge
+- Recover
+- Thunder Wave
+
+Zoroark @ Life orb
+Timid Nature 
+Ability: Illusion 
+Level: 63
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Bitter Malice
+- Nasty Plot
+- Night Daze
+- Hyper Voice
+
+Meloetta @ Lum Berry
+Jolly Nature 
+Ability: Serene Grace 
+Level: 63
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Relic Song
+- Protect
+- Body Slam
+- Zen Headbutt
+
+Lopunny @ Lopunnite
+Adamant Nature 
+Ability: Cute Charm 
+Level: 64
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- High Jump Kick
+- Fake Out
+- Double-Edge
+- Drain Punch
+
 
 === TRAINER_WINONA_1 ===
 Name: WINONA

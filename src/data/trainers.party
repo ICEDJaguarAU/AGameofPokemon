@@ -5680,10 +5680,45 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Abra
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
+Venomoth @ Lum Berry
+Timid Nature 
+Ability: Tinted Lens 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- BuG buzz
+- Sludge Bomb
+- Energy Ball
+- Psychic
+
+Xatu @ Sitrus Berry
+Hasty Nature 
+Ability: Magic Bounce 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extrasensory
+- Drill Peck
+- Heat Wave
+- Light Screen
+
+Grumpig @ Salac Berry
+Modest Nature 
+Ability: Gluttony 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extrasensory
+- Focus Blast
+- Power Gem
+- Reflect
+
+Gallade @ Lum Berry
+Careful Nature 
+Ability: Sharpness 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psycho Cut
+- Bulk Up
+- X-Scissor
+- Aqua Cutter
 
 === TRAINER_HANNAH ===
 Name: HANNAH
@@ -8786,17 +8821,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 6
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Floatzel @ Life Orb
+Hasty Nature 
+Ability: Water Veil 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wave Crash
+- Aqua Jet
+- Crunch
+- Ice Fang
 
-Voltorb
-Level: 6
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Sawsbuck @ Power Herb
+Jolly Nature 
+Ability: Serene Grace 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Headbutt
+- Jump Kick
+- Trop Kick
+- Swords Dance
 
-Magnemite
-Level: 14
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Salazzle @ Black Sludge
+Timid Nature 
+Ability: Corrosion 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Venoshock
+- Protect
+- Toxic
 
 === TRAINER_ANTHONY ===
 Name: ANTHONY
@@ -8807,13 +8860,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luxray @ Lum Berry
+Adamant Nature 
+Ability: Intimidate 
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Zing Zap
+- Play Rough
+- Crunch
+- Agility
 
-Magnemite
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sharpedo @ Expert Belt
+Rash Nature 
+Ability: Speed Boost
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Dark Pulse
+- Ice Beam
+- Psychic Fangs
+
+Braviary_Hisui @ Sitrus Berry
+Adamant Nature 
+Ability: Tinted Lens 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Esper Wing
+- Dual Wingbeat
+- Crush Claw
+- Hone CLaws
 
 === TRAINER_BENJAMIN_1 ===
 Name: BENJAMIN
@@ -8824,9 +8899,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pachirisu @ Light CLay
+Timid Nature 
+Ability: VOlt Absorb 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Nuzzle
+- Super Fang
+- Light Screen
+- Reflect
+
+Unfezant @ Lum Berry
+Jolly Nature 
+Ability: Super Luck 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dual Wingbeat
+- Quick Attack
+- Night Slash
+- Focus Energy
+
+Raticate @ Flame Orb
+JOlly Nature 
+Ability: Guts 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Facade
+- Quick Attack
+- Stomping Tantrum
+- Swords Dance
+
+Jumpluff @ Red Card
+JOlly Nature 
+Ability: Infiltrator 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Acrobatics
+- Spore
+- Swords Dance
 
 === TRAINER_BENJAMIN_2 ===
 Name: BENJAMIN
@@ -8889,9 +9000,42 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mienshao @ Wide Lens
+Jolly Nature 
+Ability: Regenerator 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Focus Blast
+- U-Turn
+- Dragon Pulse
+- Shadow Ball
+
+Ninjask @ Choice Band
+Adamant Nature 
+Ability: Infiltrator 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- U-Turn
+
+Dugtrio @ Life Orb
+JOlly Nature 
+Ability: Arena Trap 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Night Slash
+- Swagger
+
+Magneton @ Eviolite
+Timid Nature 
+Ability: Magnet Pull 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flash Cannon
+- Screech
+- Tri Attack
 
 === TRAINER_JASMINE ===
 Name: JASMINE
@@ -8902,17 +9046,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 14
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Rapidash_Galar @ Lum Berry
+Jolly Nature 
+Ability: Pastel Veil 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Zen Headbutt
+- Hypnosis
+- Will O Wisp
 
-Magnemite
-Level: 14
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Zoroark @ Wise Glasses
+Hasty Nature 
+Ability: Illusion 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Daze
+- Shadow Ball
+- Flamethrower
+- Sludge Bomb
 
-Voltorb
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sirfetchd @ Choice Scarf
+Adamant Nature 
+Ability: Scrappy 
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
 
 === TRAINER_ABIGAIL_2 ===
 Name: ABIGAIL
@@ -17052,9 +17211,26 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Absol @ Focus Sash
+Jolly Nature 
+Ability: Super Luck 
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Spinner
+- Extreme Speed
+- Knock Off
+- Swords Dance
+
+Meowstic @ Wise Glasses
+Timid Nature 
+Ability: Competitive 
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psyshock
+- Thunderbolt
+- Shadow Ball
+- Signal Beam
+
 
 === TRAINER_MARCOS ===
 Name: MARCOS

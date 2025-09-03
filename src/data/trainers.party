@@ -827,17 +827,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arboliva @ Big Root
+Timid Nature 
+Ability: Seed Sower 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Seed
+- Giga Drain
+- Hyper Voice
+- Sunny Day
 
-Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scovillain @ White Herb
+Timid Nature 
+Ability: Chlorophyll 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Overheat
+- Spicy Extract
+- Leech Seed
 
-Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toedscruel @ Lum Berry
+Adamant Nature 
+Ability: Mycelium Might 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Earthquake
+- Supersonic
+- Poison Powder
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -4448,13 +4466,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rillaboom @ Choice Band
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Grassy Glide
+- Double-Edge
+- U-Turn
 
-Whismur
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toxtricity @ Black Sludge
+Timid Nature 
+Ability: Punk Rock 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Overdrive
+- Nuzzle
+- Substitute
+- Terrain Pulse
+
+Swellow @ Toxic Orb
+Jolly Nature 
+Ability: Guts 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Brave Bird
+- Facade
+- Endeavor
+- Protect
 
 === TRAINER_DALTON_2 ===
 Name: DALTON
@@ -8662,9 +8702,35 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Admiratross @ Assault Vest
+Timid Nature 
+Ability: Drizzle 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Polar Vortex
+- Hydro Pump
+- Thunder
+- Quick Attack
+
+Kilowattrel @ Expert Belt
+Timid Nature 
+Ability: Wind Power 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Volt Switch
+- Hurricane
+- Tailwind
+
+Brambleghast @ Lum Berry
+Quiet Nature 
+Ability: Wind Rider 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Pain Split
+- Leech Seed
+- Jealous Fit
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -17765,17 +17831,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pawmot @ Sitrus Berry
+Adamant Nature 
+Ability: Iron Fist 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Volt Switch
+- Thunder Punch
+- Drain Punch
+- Revival Blessing
 
-Aron
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bellibolt @ Assault Vest
+TImid Nature 
+Ability: Electromorphosis 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Discharge
+- HYdro Pump
+- Weather Ball
+- Sucker Punch
 
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grafaiai @ Leftovers
+Adamant Nature 
+Ability: Prankster 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Knock Off
+- Substitute
+- Septic Slam
+- Toxic
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: GRUNT
@@ -21650,7 +21734,7 @@ Wobbuffet
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_RED ===
+=== TRAINER_WALLY_NEW_MAUVILLE ===
 Name: RED
 Class: Rival
 Pic: Red
@@ -21658,9 +21742,65 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-Charmander
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Primeape @ Choice Scarf
+Adamant Nature 
+Ability: Defiant 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rage Fist
+- Close Combat
+- U-Turn
+- Final Gambit
+
+Hakamo-o @ Throat Spray
+TImid Nature 
+Ability: Overcoat 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Noble Roar
+- Clanging Scales
+- Vacuum Wave
+- Focus Blast
+
+Chesnaught @ Leftovers
+Adamant Nature 
+Ability: Bulletproof 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Seed
+- Spiky Shield
+- Circle Throw
+- Seed Bomb
+
+Lucario @ Choice Specs
+Modest Nature 
+Ability: Inner Focus 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Aura Sphere
+- Flash Cannon
+- Extreme Speed
+
+Sneasler @ Expert Belt 
+Adamant Nature 
+Ability: Poison Touch 
+Level: 67
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close COmbat
+- Dire Claw
+- Fake Out
+- Metal Claw
+
+Gallade @ Life Orb
+Jolly Nature 
+Ability: Steadfast 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Smelling Salts
+- Play Rough
+- Close Combat
+- Swords Dance
 
 === TRAINER_LEAF_1 ===
 Name: LEAF

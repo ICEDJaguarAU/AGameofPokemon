@@ -1,3 +1,5 @@
+.set LOCALID_WALLY, 1
+
 NewMauville_Entrance_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, NewMauville_Entrance_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, NewMauville_Entrance_OnTransition
@@ -39,12 +41,56 @@ NewMauville_Entrance_EventScript_Door::
 	special DrawWholeMapView
 	playse SE_BANG
 	setvar VAR_NEW_MAUVILLE_STATE, 1
+	clearflag FLAG_HIDE_NEW_MAUVILLE_WALLY
+	addobject LOCALID_WALLY
+	applymovement LOCALID_WALLY, NewMauville_Entrance_Movement_WallyApproach
+	waitmovement 0
+	delay 30
+	trainerbattle_single TRAINER_WALLY_NEW_MAUVILLE, NewMauville_Entrance_Text_WallyIntro, NewMauville_Entrance_Text_WallyDefeat
+	msgbox NewMauville_Entrance_Text_WallyPostBattle, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_WALLY, NewMauville_Entrance_Movement_WallyDepart
+	removeobject LOCALID_WALLY
+	setflag FLAG_HIDE_NEW_MAUVILLE_WALLY
+	setflag FLAG_DEFEATED_WALLY_NEW_MAUVILLE
 	releaseall
 	end
 
 NewMauville_Entrance_EventScript_DontOpenDoor::
 	releaseall
 	end
+
+NewMauville_Entrance_Movement_WallyApproach:
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+NewMauville_Entrance_Movement_WallyDepart:
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+		
+NewMauville_Entrance_Text_WallyIntro:
+	.string "{PLAYER}, I thought I saw you\p"
+	.string "come in here. I am on my way\n"
+	.string "back to Petalburg City, to\p"
+	.string "battle your Dad! But seeing as\n"
+	.string "we are here now, Let us test\p"
+	.string "in battle again!$"
+
+NewMauville_Entrance_Text_WallyDefeat:
+	.string "Wow, I was sure that I had learnt,\p"
+	.string "and improved since we dueled last.\n"
+	.string "It seems I still have a way to go.$"
+	
+NewMauville_Entrance_Text_WallyPostBattle:
+	.string "Well, I am sure that if I can't \p"
+	.string "best you, I still have some work \n"
+	.string "left to do. I had better apply \p"
+	.string "myself on my way home before I face\n"
+	.string "your Dad. Until next time, {PLAYER}.$"
 
 NewMauville_Entrance_Text_DoorIsLocked:
 	.string "The door is locked.$"

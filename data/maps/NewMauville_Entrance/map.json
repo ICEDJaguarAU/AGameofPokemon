@@ -12,12 +12,26 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WALLY",
+      "x": 4,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_NEW_MAUVILLE_WALLY"
+    }
+  ],
   "warp_events": [
     {
       "x": 4,
-      "y": 6,
+      "y": 10,
       "elevation": 3,
       "dest_map": "MAP_ROUTE110",
       "dest_warp_id": "0"
@@ -41,5 +55,7 @@
       "script": "NewMauville_Entrance_EventScript_Door"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+
+  ]
 }

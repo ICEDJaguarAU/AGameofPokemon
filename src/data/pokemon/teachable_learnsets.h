@@ -25048,10 +25048,6 @@ static const u16 sMienshaoTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_UNAVAILABLE,
-    MOVE_SHADOW_BALL,
-    MOVE_PSYCHIC,
-    MOVE_DARK_PULSE,
-    MOVE_DRAGON_PULSE,
 };
 #endif //P_FAMILY_MIENFOO
 

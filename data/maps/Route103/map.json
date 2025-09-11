@@ -12,18 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_ROUTE110",
-      "offset": -60,
-      "direction": "right"
-    },
-    {
-      "map": "MAP_ROUTE103WEST",
-      "offset": 0,
-      "direction": "left"
-    }
-  ],
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",

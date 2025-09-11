@@ -326,6 +326,7 @@ static const u16 sIgglybuffEggMoveLearnset[] = {
     MOVE_MISTY_TERRAIN,
     MOVE_HEAL_PULSE,
     MOVE_UNAVAILABLE,
+    MOVE_ENTRAINMENT,
 };
 #endif //P_GEN_2_CROSS_EVOS
 #endif //P_FAMILY_JIGGLYPUFF

@@ -40,16 +40,34 @@ NewMauville_Entrance_EventScript_Door::
 	setmetatile 5, 1, METATILE_Facility_NewMauvilleDoor_Open_Tile5, TRUE
 	special DrawWholeMapView
 	playse SE_BANG
+	goto NewMauville_Entrance_EventScript_WallyApproach 
+	end
+
+NewMauville_Entrance_EventScript_WallyApproach::	
 	setvar VAR_NEW_MAUVILLE_STATE, 1
 	clearflag FLAG_HIDE_NEW_MAUVILLE_WALLY
 	addobject LOCALID_WALLY
 	applymovement LOCALID_WALLY, NewMauville_Entrance_Movement_WallyApproach
 	waitmovement 0
 	delay 30
-	trainerbattle_single TRAINER_WALLY_NEW_MAUVILLE, NewMauville_Entrance_Text_WallyIntro, NewMauville_Entrance_Text_WallyDefeat
+	goto NewMauville_Entrance_EventScript_BattleWally
+	end
+
+NewMauville_Entrance_EventScript_BattleWally::	
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_SOUTH
+	msgbox NewMauville_Entrance_Text_WallyIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_WALLY_NEW_MAUVILLE, NewMauville_Entrance_Text_WallyDefeat
+	goto NewMauville_Entrance_EventScript_WallyDefeated
+	end
+
+NewMauville_Entrance_EventScript_WallyDefeated::
 	msgbox NewMauville_Entrance_Text_WallyPostBattle, MSGBOX_DEFAULT
-	closemessage
+	goto NewMauville_Entrance_EventScript_WallyDepart
+	end
+
+NewMauville_Entrance_EventScript_WallyDepart::	
 	applymovement LOCALID_WALLY, NewMauville_Entrance_Movement_WallyDepart
+	waitmovement 0
 	removeobject LOCALID_WALLY
 	setflag FLAG_HIDE_NEW_MAUVILLE_WALLY
 	setflag FLAG_DEFEATED_WALLY_NEW_MAUVILLE
@@ -64,6 +82,10 @@ NewMauville_Entrance_Movement_WallyApproach:
 	walk_up
 	walk_up
 	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 NewMauville_Entrance_Movement_WallyDepart:
@@ -71,7 +93,11 @@ NewMauville_Entrance_Movement_WallyDepart:
 	walk_down
 	walk_down
 	walk_down
-		
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
 NewMauville_Entrance_Text_WallyIntro:
 	.string "{PLAYER}, I thought I saw you\p"
 	.string "come in here. I am on my way\n"

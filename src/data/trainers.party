@@ -1207,13 +1207,65 @@ Music: Interviewer
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Venomoth @ Focus Sash
+Jolly Nature 
+Ability: Shield Dust 
+Level: 69
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Gunk Shot
+- Quiver Dance
+- Bug Buzz
+- Psychic
 
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Masquerain @ Choice Scarf 
+Modest Nature 
+Ability: Drizzle 
+Level: 69
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hurricane
+- Weather Ball
+- Bug Buzz
+- U-Turn
+
+Volcarona @ Choice Specs 
+Timid Nature 
+Ability: Flame Body 
+Level: 69
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fiery Dance
+- Weather Ball
+- Bug Buzz
+- Heat Wave
+
+Ribombee @ Leftovers
+Jolly Nature 
+Ability: Sweet Veil 
+Level: 69
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dazzling Gleam
+- Bug Buzz
+- Pollen Puff
+- Quiver Dance
+
+Flygon @ Expert Belt
+Timid Nature 
+Ability: Levitate 
+Level: 70
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earth Power
+- Bug Buzz
+- Boomburst
+- Clanging Scales
+
+Pinsir @ Pinsirite
+Adamant Nature 
+Ability: Hyper Cutter 
+Level: 69
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Facade
+- Thrash
+- Swords Dance
+- Megahorn
 
 === TRAINER_GABBY_AND_TY_3 ===
 Name: GABBY & TY
@@ -6557,7 +6609,7 @@ Timid Nature
 Ability: Friend Guard 
 Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Skill Swap
+- Entrainment
 - Heal Pulse
 - Wish
 - Alluring Voice
@@ -6582,7 +6634,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Recover
 - Thunder Wave
 
-Zoroark @ Life orb
+Zoroark_Hisui @ Life orb
 Timid Nature 
 Ability: Illusion 
 Level: 63
@@ -8685,13 +8737,33 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Admiratross @ Focus Sash
+Quiet Nature 
+Ability: Drizzle 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Polar Vortex
+- U-Turn
+- Knock Off
+- Thunder
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Basculin @ Choice Band
+Jolly Nature 
+Ability: Adaptability 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- Flip Turn
+
+Beartic @ Lum Berry
+Adamant Nature 
+Ability: Swift Swim 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Icicle Crash
+- Liquidation
+- Low Kick
+- Swords Dance
 
 === TRAINER_WADE ===
 Name: WADE
@@ -21735,9 +21807,9 @@ Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLY_NEW_MAUVILLE ===
-Name: RED
+Name: WALLY
 Class: Rival
-Pic: Red
+Pic: Wally
 Gender: Male
 Music: Male
 Double Battle: No

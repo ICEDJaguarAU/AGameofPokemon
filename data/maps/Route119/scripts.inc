@@ -58,7 +58,7 @@ Route119_EventScript_RivalEncounter::
 	addobject LOCALID_RIVAL
 	delay 30
 	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, Route119_EventScript_BattleMay
+	goto_if_eq VAR_RESULT, MALE,  
 	goto_if_eq VAR_RESULT, FEMALE, Route119_EventScript_BattleBrendan
 	releaseall
 	end

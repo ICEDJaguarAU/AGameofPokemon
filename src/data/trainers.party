@@ -433,13 +433,55 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drampa @ Focus Band
+Modest Nature 
+Ability: Berserk 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Hyper Voice
+- Surf
+- Roost
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ferrothorn @ Quick Claw
+Adamant Nature 
+Ability: Iron Barbs 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Iron Head
+- Bulldoze
+- Leech Seed
+
+Exeggutor_Alola @ Sitrus Berry
+Jolly Nature 
+Ability: Harvest 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Hammer
+- Low Kick
+- Wood Hammer
+- Protect
+
+Omastar @ Bright Powder
+Modest Nature 
+Ability: Swift Swim 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Muddy Water
+- Rain Dance
+- Diamond Flash
+- Earth Power
+
+Walrein @ Leftovers
+Relaxed Nature 
+Ability: Oblivious 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wave Crash
+- Freeze Dry
+- Body PRess
+- Avalanche
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
 Name: GRUNT
@@ -450,13 +492,25 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales_Alola @ Light Clay
+Timid Nature 
+Ability: Snow Warning 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dazzling Gleam
+- Aurora Veil
+- Blizzard
+- Freeze Dry
 
-Carvanha
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Liepard @ Life Orb
+JOlly Nature 
+Ability: Prankster 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Assurance
+- Fake Tears
+- Psycho Cut
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
 Name: GRUNT
@@ -467,17 +521,45 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Porygon_Z @ Chople Berry
+Timid Nature 
+Ability: Download 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tri Attack
+- Dark Pulse
+- Ice Beam
+- Volt Switch
 
-Zubat
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro_Galar @ Quick Claw
+Quiet Nature 
+Ability: Quick Draw 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shell Side Arm
+- Flamethrower
+- Scald
+- Slack Off
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Haxorus @ Muscle Band
+JOlly Nature 
+Ability: Unnerve 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dual Chop
+- Aqua Tail
+- Iron Head
+- Dragon Dance
+
+Weavile @ Expert Belt
+Jolly Nature 
+Ability: Inner Focus 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- KNock OFf
+- Pursuit
+- Triple Axel
+- Psycho Cut
 
 === TRAINER_GRUNT_MUSEUM_1 ===
 Name: GRUNT
@@ -622,9 +704,55 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barbaracle @ Bright Powder
+Adamant Nature 
+Ability: Tough Claws 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Liquidation
+- Stealth Rock
+- Aerial Ace
+
+Breloom @ Bright Powder
+Adamant Nature 
+Ability: Technician 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mach Punch
+- Bullet Seed
+- Smack Down
+- Spore
+
+Malamar @ Quick Claw
+Adamant Nature 
+Ability: Contrary 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Psycho Cut
+- Superpower
+- Hypnosis
+
+Scolipede @ Kings Rock
+Adamant Nature 
+Ability: Speed Boost 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pin Missile
+- Rock Slide
+- Smart Strike
+- Swords Dance
+
+Starmie @ Life Orb
+Timid Nature 
+Ability: Regenerator 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Water Pulse
+- Thunderbolt
+- Ice Beam
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
 Name: GRUNT
@@ -706,16 +834,68 @@ Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Carvanha
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Chien Pao @ Lum Berry
+Jolly Nature 
+Ability: Sword of Ruin 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Throat Chop
+- Ice Spinner
+- Sacred Sword
+- Swords Dance
 
-Mightyena
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tornadus @ Sitrus Berry
+Adamant Nature 
+Ability: Defiant 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Knock Off
+- Heat Wave
+- Acrobatics
+- U-Turn
+
+Lanturn @ Assault Vest
+Relaxed Nature 
+Ability: Volt Absorb 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Scald
+- Volt Switch
+- Ice Beam
+
+Dragonite @ Choice Band
+Jolly Nature 
+Ability: Multiscale 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dual Wingbeat
+- Extreme Speed
+- Dragon Hammer
+- Wave Crash
+
+Banette @ Leftovers
+Brave Nature 
+Ability: Prankster 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trick Room
+- Will O Wisp
+- Jealous Fit
+- Knock OFf
+
+Blastoise @ Blastoisinite Y
+Modest Nature 
+Ability: Drizzle 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Combat Shell
+- Aqua Ring
+- Origin Pulse
+- Flash Cannon
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
 Name: SHELLY
@@ -5334,9 +5514,35 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Surskit
-Level: 26
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Wormadam_Plant @ White Herb
+Modest Nature 
+Ability: Overcoat 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Bug Buzz
+- Psychic
+- Giga Drain
+
+Wormadam_Trash @ Leftovers
+Impish Nature 
+Ability: Overcoat 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron HEad
+- Infestation
+- Protect
+- Metal Burst
+
+Wormadam_Sandy @ Muscle Band
+Adamant Nature 
+Ability: Overcoat 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Rock Blast
+- Infestation
+- Fissure
 
 === TRAINER_DONALD ===
 Name: DONALD
@@ -5347,17 +5553,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ludicolo @ Focus Sash
+Quiet Nature 
+Ability: Swift Swim 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Energy Ball
+- Weather Ball
+- Flail
+- Counter
 
-Silcoon
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Turtonator @ Air Balloon
+Careful Nature 
+Ability: Shell Armor 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Heavy Slam
+- Curse
+- Clear Smog
 
-Beautifly
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sceptile @ Sceptilite
+Adamant Nature 
+Ability: Overgrow 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Blade
+- Dual Chop
+- Swords Dance
+- Cut
+
+Excadrill @ Scope Lens
+Adamant Nature 
+Ability: Mold Breaker 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- High Horsepower
+- Iron Head
+- Rock Slide
+- Rock Polish
 
 === TRAINER_TAYLOR ===
 Name: TAYLOR
@@ -5368,17 +5602,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Escavalier @ Assault Vest
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Close COmbat
+- Razor Shell
+- Metal Burst
 
-Cascoon
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Parasect @ Bright Powder
+Adamant Nature 
+Ability: Dry Skin 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Life
+- Knock OFf
+- Double Team
+- Spore
 
-Dustox
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Shiinotic @ Kebia Berry
+Modest Nature 
+Ability: Rain Dish 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Pollen Puff
+- Spore
+- Strength Sap
+
+Kabutops @ Life orb
+Jolly Nature 
+Ability: Swift Swim 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Aqua Cutter
+- Aqua Jet
+- Leech Life
 
 === TRAINER_JEFFREY_1 ===
 Name: JEFFREY
@@ -8747,6 +9009,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Knock Off
 - Thunder
 
+Frostkwen @ Choice SPecs
+Timid Nature 
+Ability: Liquid Voice 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+
 Basculin @ Choice Band
 Jolly Nature 
 Ability: Adaptability 
@@ -9822,9 +10091,25 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vikavolt @ Charti Berry
+Timid Nature 
+Ability: Levitate 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Bug Buzz
+- Electroweb
+- Energy Ball
+
+Flygon @ Yache Berry
+Adamant Nature 
+Ability: Levitate 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Dragon Claw
+- Dragon Dance
+- Megahorn
 
 === TRAINER_HUGH ===
 Name: HUGH
@@ -9835,13 +10120,46 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ White Herb
+Jolly Nature 
+Ability: Sturdy 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Brave Bird
+- Whirlwind
+- Spikes
+- Stealth Rock
 
-Tropius
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mantine @ Sharp Beak
+MOdest Nature 
+Ability: Swift Swim 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hurricane
+- Scald
+- Roost
+- Ice Beam
+
+Flapple @ Liechi Berry
+Jolly Nature 
+Ability: Ripen 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Rush
+- Grav Apple
+- Dragon Dance
+- Substitute
+
+
+Pawmot @ Life Orb
+Adamant Nature 
+Ability: Natural Cure 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- VOlt Switch
+- Double SHock
+- Close Combat
+- Revival Blessing
 
 === TRAINER_PHIL ===
 Name: PHIL
@@ -9852,9 +10170,45 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kingdra @ Lum Berry
+Mild Nature 
+Ability: Swift Swim 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- Dragon Rush
+- Octazooka
+- Hurricane
+
+Milotic @ Leftovers
+Relaxed Nature 
+Ability: Marvel Scale 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Flip Turn
+- Hypnosis
+- Recover
+
+Heliolisk @ Expert Belt
+Timid Nature 
+Ability: Dry Skin 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Dragon Pulse
+- Weather Ball
+- Grass Knot
+
+Dragalge @ White Herb
+Quiet Nature 
+Ability: Adaptability 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Sludge Wave
+- Muddy Water
+- Flip Turn
 
 === TRAINER_JARED ===
 Name: JARED
@@ -9984,13 +10338,25 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fearow @ Scope Lens
+Jolly Nature 
+Ability: Sniper 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double-Edge
+- Brave Bird
+- Drill Run
+- Focus Energy
 
-Swellow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Honchkrow @ Scope Lens
+Jolly Nature 
+Ability: Super Luck 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dual Wingbeat
+- Night Slash
+- Sucker Punch
+- Superpower
 
 === TRAINER_ROBERT_2 ===
 Name: ROBERT
@@ -10112,13 +10478,25 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Oranguru @ Colbur Berry
+Quiet Nature 
+Ability: Telepathy 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- PsyShock
+- Focus Blast
+- Thunder
+- trick Room
 
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gardevoir @ Choice Specs
+Quiet Nature 
+Ability: Telepathy 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Dazzling Gleam
+- Energy Ball
+- Revival Blessing
 
 === TRAINER_DIANNE ===
 Name: DIANNE
@@ -12615,17 +12993,65 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rillaboom @ Expert Belt
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Protect
+- DOuble-Edge
+- Knock Off
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Baxcalibur @ Leftovers
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Mantine @ Life Orb
+Modest Nature 
+Ability: Swift Swim 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Hurricane
+- Surf
+- Helping Hand
+
+Raichu @ Focus Sash
+Quiet Nature 
+Ability: Lightning Rod 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Quick Attack
+- Fake Out
+- Endeavor
+
+Goodra_Hisui @ Assault Vest
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Hammer
+- Iron Head
+- SLudge Wave
+- Muddy Water
+
+Tyranitar @ Tyranitarite
+Timid Nature 
+Ability: Sand Stream 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Diamond Flash
+- Dark Pulse
+- Earth Power
+- Smack Down
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
@@ -12698,9 +13124,15 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Cinderace @ Expert Belt
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
 
 Lombre
 Level: 29
@@ -12864,17 +13296,65 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rillaboom @ Expert Belt
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Protect
+- DOuble-Edge
+- Knock Off
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Baxcalibur @ Leftovers
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Ice Shard
 
-Grovyle
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Mantine @ Life Orb
+Modest Nature 
+Ability: Swift Swim 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Hurricane
+- Surf
+- Helping Hand
+
+Raichu @ Focus Sash
+Quiet Nature 
+Ability: Lightning Rod 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Quick Attack
+- Fake Out
+- Endeavor
+
+Goodra_Hisui @ Assault Vest
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Hammer
+- Iron Head
+- SLudge Wave
+- Muddy Water
+
+Tyranitar @ Tyranitarite
+Timid Nature 
+Ability: Sand Stream 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Diamond Flash
+- Dark Pulse
+- Earth Power
+- Smack Down
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
 Name: MAY
@@ -13483,9 +13963,35 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Breloom
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Morpeko @ Shuca Berry
+Jolly Nature 
+Ability: Hunger Switch 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Wheel
+- Seed Bomb
+- Stomping Tantrum
+- Super Fang
+
+Ambipom @ Silk Scarf
+Jolly Nature 
+Ability: Technician 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tail Slap
+- Low Kick
+- Fake Out
+- Covet
+
+Kingler @ Assault Vest
+Jolly Nature 
+Ability: Hyper Cutter 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crabhammer
+- High Horsepower
+- X Scissor
+- KNock Off
 
 === TRAINER_LORENZO ===
 Name: LORENZO
@@ -13593,13 +14099,43 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Gloom
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Mr Mime_Galar @ Light Clay
+Timid Nature 
+Ability: Vital Spirit 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze Dry
+- Hypnosis
+- Light Screen
+- Reflect
 
-Roselia
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Linoone @ Sitrus Berry
+Adamant Nature 
+Ability: Quick Feet 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Extreme Speed
+- Stomping Tantrum
+- Throat Chop
+- Belly Drum
+
+Decidueye @ Assault Vest
+Jolly Nature 
+Ability: Long Reach 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poltergeist
+- Leaf Blade
+- Sucker Punch
+- Dual Wingbeat
+
+Sylveon @ Choice SPecs
+Mild Nature 
+Ability: Pixilate 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+
 
 === TRAINER_JENNA ===
 Name: JENNA
@@ -14385,13 +14921,25 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arctozolt @ Lum Berry
+Lonely Nature 
+Ability: Slush Rush 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Bolt Beak
+- Icicle Crash
+- Low Kick
 
-Poochyena
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arctovish @ Lum Berry
+Modest Nature 
+Ability: Slush Rush 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Muddy Water
+- Freeze Dry
+- Ancient Power
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
 Name: TABITHA
@@ -15079,13 +15627,43 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nincada
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shuckle @ Custap Berry
+Bold Nature 
+Ability: Sturdy 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sand Tomb
+- Rock Tomb
+- Final Gambit
+- Sticky Web
 
-Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mothim @ Choice Scarf
+Modest Nature 
+Ability: Tinted Lens 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Air Slash
+- Giga Drain
+- Infestation
+- Bug Buzz
+
+Masquerain @ Leftovers
+Timid Nature 
+Ability: Intimidate 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Whirlpool
+- Air Slash
+- Silver Wind
+- Infestation
+
+Illumise @ Choice Specs
+Modest Nature 
+Ability: Tinted Lens 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bug Buzz
+
 
 === TRAINER_GREG ===
 Name: GREG
@@ -15096,13 +15674,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Volbeat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Galvantula @ Expert Belt
+Timid Nature 
+Ability: Compound Eyes 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Bug Buzz
+- Disable
+- Sticky Web
 
-Illumise
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frosmoth @ Leftovers
+Timid Nature 
+Ability: Ice Scales 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Hurricane
+- Weather Ball
+- Substitute
+
+Beedrill @ Scope Lens
+Jolly Nature 
+Ability: Sniper 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- X-Scissor
+- Drill Run
+- KNock Off
+- Focus Energy
 
 === TRAINER_KENT ===
 Name: KENT
@@ -15113,9 +15713,35 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ninjask
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Beautifly @ Focus Sash
+Timid Nature 
+Ability: Swarm 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bug Buzz
+- Air Slash
+- Quiver Dance
+- Stun Spore
+
+Araquanid @ Leftovers
+Relaxed Nature 
+Ability: Water Bubble 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Iron Defense
+- Protect
+- Mirror Coat
+
+Scizor @ Life Orb
+Adamant Nature 
+Ability: Technician 
+Level: 68
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bullet Punch
+- Dual Wingbeat
+- Roost
+- Swords Dance
 
 === TRAINER_JAMES_1 ===
 Name: JAMES
@@ -17065,21 +17691,36 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc @ Choice Specs
+Modest Nature 
+Ability: Swift Swim 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
 
-Tentacool
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola @ Leftovers
+Bold Nature 
+Ability: Regenerator 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flip Turn
+- Whirlpool
+- Recover
+- Scald
 
-Feebas
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Magikarp @ Choice Band
+Adamant Nature 
+Ability: Swift Swim 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Splash
 
-Carvanha
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feebas @ Wide Lens
+Adamant Nature 
+Ability: Swift Swim 
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Splash
 
 === TRAINER_DAWSON ===
 Name: DAWSON
@@ -18893,13 +19534,24 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shiftry @ Expert Belt
+Quiet Nature 
+Ability: Early Bird 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Night Slash
+- Solar Blade
+- Swagger
 
-Numel
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailord @ Choice Scarf
+Quiet Nature 
+Ability: Oblivious 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Spout
+
+
 
 === TRAINER_RACHEL ===
 Name: RACHEL
@@ -18910,9 +19562,57 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barraskewda @ Muscle Band
+Adamant Nature 
+Ability: Swift Swim 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- Flip Turn
+- CLose Combat
+- Psychic Fangs
+
+Roserade @ Black Sludge
+Timid Nature 
+Ability: Technician 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Grass Knot
+- Weather Ball
+- Sleep Powder
+
+Rotom_Wash @ Wide Lens
+Timid Nature 
+Ability: Levitate 
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Thunder
+- Volt Switch
+- Will O Wisp
+
+Frostkwen @ Life Orb
+Timid Nature 
+Ability: Hydration 
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze Dry
+- Lovely Kiss
+- Substitute
+- Strange Steam
+
+Goodra @ Leftovers
+Impish Nature 
+Ability: Hydration 
+Level: 71
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Aqua Tail
+- Curse
+- Rest
+
+
 
 === TRAINER_LEONEL ===
 Name: LEONEL

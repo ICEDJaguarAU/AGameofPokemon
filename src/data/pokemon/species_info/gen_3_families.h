@@ -2773,8 +2773,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backPicSize = MON_COORDS_SIZE(64, 56),
         .backPicYOffset = 6,
         .backAnimId = BACK_ANIM_CONVEX_DOUBLE_ARC,
-        .palette = gMonPalette_Pelipper,
-        .shinyPalette = gMonShinyPalette_Pelipper,
+        .palette = gMonPalette_Admiratross,
+        .shinyPalette = gMonShinyPalette_Admiratross,
         .iconSprite = gMonIcon_Pelipper,
         .iconPalIndex = P_GBA_STYLE_SPECIES_ICONS ? 0 : 2,
         SHADOW(-1, 17, SHADOW_SIZE_M)

@@ -1003,12 +1003,20 @@
 #define ITEM_FROSTIRIZER 836
 #define ITEM_GARBODORITE 837
 #define ITEM_POCKET_JOY 838
+#define ITEM_GRENINJARITE 839
+#define ITEM_RAICHUNITE_X 840
+#define ITEM_RAICHUNITE_Y 841
+#define ITEM_VICTREEBELITE 842
+#define ITEM_HAWLUCHANITE 843
+#define ITEM_MALAMARITE 844
+#define ITEM_CHESNAUGHTITE 845
+#define ITEM_DELPHOXITE 846
 
 
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 839
+#define ITEMS_COUNT 847
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

@@ -20236,6 +20236,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sDragoniteLevelUpLearnset,
         .teachableLearnset = sDragoniteTeachableLearnset,
     },
+
+    
 #endif //P_FAMILY_DRATINI
 
 #if P_FAMILY_MEWTWO

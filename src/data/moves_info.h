@@ -21395,6 +21395,30 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_ShellSmash,
     },
 
+        [MOVE_WATER_PRESSURE] =
+    {
+        .name = COMPOUND_STRING("Water Pressure"),
+        .description = COMPOUND_STRING(
+            "Does more damage the\n"
+            "higher the user's Sp Def."),
+        .effect = EFFECT_BODY_PRESS,
+        .power = 80,
+        .type = TYPE_WATER,
+        .accuracy = 100,
+        .pp = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .makesContact = TRUE,
+        .metronomeBanned = TRUE,
+        .skyBattleBanned = B_EXTRAPOLATED_MOVE_FLAGS,
+        .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_WaterPledge,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

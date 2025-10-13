@@ -222,6 +222,8 @@ static const struct FormChange sSnorlaxFormChangeTable[] = {
 };
 #endif //P_FAMILY_SNORLAX
 
+
+
 #if P_FAMILY_MEWTWO
 static const struct FormChange sMewtwoFormChangeTable[] = {
 #if P_MEGA_EVOLUTIONS

@@ -160,6 +160,7 @@ static const struct LevelUpMove sSquirtleLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_CRUNCH),
     LEVEL_UP_MOVE(42, MOVE_AQUA_CHOMP),
     LEVEL_UP_MOVE(46, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),
     LEVEL_UP_END 
 };
 
@@ -182,6 +183,7 @@ static const struct LevelUpMove sWartortleLevelUpLearnset[] = {
     LEVEL_UP_MOVE(53, MOVE_CRUNCH),
     LEVEL_UP_MOVE(56, MOVE_AQUA_CHOMP),
     LEVEL_UP_MOVE(59, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -209,6 +211,7 @@ static const struct LevelUpMove sBlastoiseLevelUpLearnset[] = {
     LEVEL_UP_MOVE(54, MOVE_CRUNCH),
     LEVEL_UP_MOVE(58, MOVE_AQUA_CHOMP),
     LEVEL_UP_MOVE(62, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(64, MOVE_WATER_PRESSURE),    
     LEVEL_UP_MOVE(67, MOVE_HEAVY_SLAM),
     LEVEL_UP_MOVE(72, MOVE_ORIGIN_PULSE),
     LEVEL_UP_END
@@ -1974,6 +1977,7 @@ static const struct LevelUpMove sTentacoolLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(48, MOVE_GUNK_SHOT),
     LEVEL_UP_MOVE(56, MOVE_WATER_SPOUT),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -1996,6 +2000,7 @@ static const struct LevelUpMove sTentacruelLevelUpLearnset[] = {
     LEVEL_UP_MOVE(56, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(60, MOVE_GUNK_SHOT),
     LEVEL_UP_MOVE(66, MOVE_WATER_SPOUT),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_TENTACOOL
@@ -2285,6 +2290,7 @@ static const struct LevelUpMove sSlowkingLevelUpLearnset[] = {
     LEVEL_UP_MOVE(51, MOVE_ICE_PUNCH),
     LEVEL_UP_MOVE(57, MOVE_PSYSHOCK),
     LEVEL_UP_MOVE(62, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_GEN_2_CROSS_EVOS
@@ -2308,6 +2314,7 @@ static const struct LevelUpMove sSlowpokeGalarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_PSYCH_UP),
     LEVEL_UP_MOVE(42, MOVE_RAIN_DANCE),
     LEVEL_UP_MOVE(45, MOVE_HEAL_PULSE),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -2579,6 +2586,7 @@ static const struct LevelUpMove sDewgongLevelUpLearnset[] = {
     LEVEL_UP_MOVE(61, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(65, MOVE_HAIL),
     LEVEL_UP_MOVE(69, MOVE_WAVE_CRASH),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SEEL
@@ -3601,6 +3609,7 @@ static const struct LevelUpMove sHorseaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(50, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE(55, MOVE_RAIN_DANCE),
+    LEVEL_UP_MOVE(57, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -3620,6 +3629,7 @@ static const struct LevelUpMove sSeadraLevelUpLearnset[] = {
     LEVEL_UP_MOVE(51, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(58, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE(65, MOVE_RAIN_DANCE),
+    LEVEL_UP_MOVE(68, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -3645,6 +3655,7 @@ static const struct LevelUpMove sKingdraLevelUpLearnset[] = {
     LEVEL_UP_MOVE(58, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE(61, MOVE_POLAR_VORTEX),
     LEVEL_UP_MOVE(65, MOVE_RAIN_DANCE),
+    LEVEL_UP_MOVE(69, MOVE_WATER_PRESSURE),    
     LEVEL_UP_MOVE(72, MOVE_WAVE_CRASH),
     LEVEL_UP_MOVE(77, MOVE_WATER_SPOUT),
     LEVEL_UP_MOVE(83, MOVE_DRACO_METEOR),
@@ -4301,6 +4312,7 @@ static const struct LevelUpMove sLaprasLevelUpLearnset[] = {
     LEVEL_UP_MOVE(65, MOVE_SHEER_COLD),
     LEVEL_UP_MOVE(69, MOVE_BLIZZARD),
     LEVEL_UP_MOVE(74, MOVE_CLANGING_SCALES),
+    LEVEL_UP_MOVE(81, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_LAPRAS
@@ -5520,6 +5532,7 @@ static const struct LevelUpMove sChinchouLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_FLAIL),
     LEVEL_UP_MOVE(40, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(44, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -5541,6 +5554,7 @@ static const struct LevelUpMove sLanturnLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_FLAIL),
     LEVEL_UP_MOVE(48, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(54, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_CHINCHOU
@@ -9124,6 +9138,7 @@ static const struct LevelUpMove sWailmerLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(48, MOVE_WATER_SPOUT),
     LEVEL_UP_MOVE(52, MOVE_HEAVY_SLAM),
+    LEVEL_UP_MOVE(58, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -9147,6 +9162,7 @@ static const struct LevelUpMove sWailordLevelUpLearnset[] = {
     LEVEL_UP_MOVE(49, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(54, MOVE_WATER_SPOUT),
     LEVEL_UP_MOVE(60, MOVE_HEAVY_SLAM),
+    LEVEL_UP_MOVE(64, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_WAILMER
@@ -9811,6 +9827,7 @@ static const struct LevelUpMove sMiloticLevelUpLearnset[] = {
     LEVEL_UP_MOVE(64, MOVE_CLANGING_SCALES),
     LEVEL_UP_MOVE(72, MOVE_WATER_SPOUT),
     LEVEL_UP_MOVE(76, MOVE_BOOMBURST),
+    LEVEL_UP_MOVE(80, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_FEEBAS
@@ -10168,6 +10185,7 @@ static const struct LevelUpMove sSphealLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_BLIZZARD),
     LEVEL_UP_MOVE(48, MOVE_HAIL),
     LEVEL_UP_MOVE(52, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -10191,6 +10209,7 @@ static const struct LevelUpMove sSealeoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(58, MOVE_HAIL),
     LEVEL_UP_MOVE(64, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(69, MOVE_SHEER_COLD),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -10217,6 +10236,7 @@ static const struct LevelUpMove sWalreinLevelUpLearnset[] = {
     LEVEL_UP_MOVE(77, MOVE_SHEER_COLD),
     LEVEL_UP_MOVE(84, MOVE_WATER_SPOUT),
     LEVEL_UP_MOVE(90, MOVE_HEAVY_SLAM),
+    LEVEL_UP_MOVE(91, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SPHEAL
@@ -10228,6 +10248,7 @@ static const struct LevelUpMove sClamperlLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_IRON_DEFENSE),
     LEVEL_UP_MOVE(50, MOVE_SHELL_SMASH),
     LEVEL_UP_MOVE(50, MOVE_COMBAT_SHELL),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -10319,6 +10340,7 @@ static const struct LevelUpMove sLuvdiscLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_SOAK),
     LEVEL_UP_MOVE(46, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(49, MOVE_SAFEGUARD),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_LUVDISC
@@ -10569,6 +10591,7 @@ static const struct LevelUpMove sKyogreLevelUpLearnset[] = {
     LEVEL_UP_MOVE(50, MOVE_ORIGIN_PULSE),
     LEVEL_UP_MOVE(54, MOVE_AQUA_RING),
     LEVEL_UP_MOVE(62, MOVE_DIVE),
+    LEVEL_UP_MOVE(67, MOVE_WATER_PRESSURE),    
     LEVEL_UP_MOVE(72, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(81, MOVE_BOOMBURST),
     LEVEL_UP_MOVE(86, MOVE_THUNDER),
@@ -10593,6 +10616,7 @@ static const struct LevelUpMove sGroudonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(50, MOVE_PRECIPICE_BLADES),
     LEVEL_UP_MOVE(54, MOVE_REST),
     LEVEL_UP_MOVE(62, MOVE_DIG),
+    LEVEL_UP_MOVE(67, MOVE_BODY_PRESS),    
     LEVEL_UP_MOVE(72, MOVE_FIRE_BLAST),
     LEVEL_UP_MOVE(81, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(86, MOVE_SOLAR_BLADE),
@@ -11436,6 +11460,7 @@ static const struct LevelUpMove sShellosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_MEMENTO),
     LEVEL_UP_MOVE(52, MOVE_RECOVER),
     LEVEL_UP_MOVE(60, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(64, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -11453,6 +11478,7 @@ static const struct LevelUpMove sGastrodonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(53, MOVE_MEMENTO),
     LEVEL_UP_MOVE(60, MOVE_RECOVER),
     LEVEL_UP_MOVE(68, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(73, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_SHELLOS
@@ -14762,6 +14788,7 @@ static const struct LevelUpMove sAlomomolaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(49, MOVE_WHIRLPOOL),
     LEVEL_UP_MOVE(55, MOVE_WAVE_CRASH),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_ALOMOMOLA
@@ -15704,6 +15731,7 @@ static const struct LevelUpMove sHydreigonLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_BODY_SLAM),
     LEVEL_UP_MOVE(48, MOVE_HYPER_VOICE),
     LEVEL_UP_MOVE(54, MOVE_DRAGON_RUSH),
+    LEVEL_UP_MOVE(57, MOVE_DARK_PULSE),
     LEVEL_UP_MOVE(60, MOVE_NASTY_PLOT),
     LEVEL_UP_MOVE(64, MOVE_CLANGING_SCALES),
     LEVEL_UP_MOVE(68, MOVE_OUTRAGE),
@@ -16850,6 +16878,7 @@ static const struct LevelUpMove sInkayLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_TOPSY_TURVY),
     LEVEL_UP_MOVE(39, MOVE_SUPERPOWER),
     LEVEL_UP_MOVE(45, MOVE_OCTAZOOKA),
+    LEVEL_UP_MOVE(51, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 
@@ -16871,6 +16900,7 @@ static const struct LevelUpMove sMalamarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_TOPSY_TURVY),
     LEVEL_UP_MOVE(47, MOVE_SUPERPOWER),
     LEVEL_UP_MOVE(52, MOVE_OCTAZOOKA),
+    LEVEL_UP_MOVE(61, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_INKAY
@@ -18761,6 +18791,7 @@ static const struct LevelUpMove sPyukumukuLevelUpLearnset[] = {
     LEVEL_UP_MOVE(50, MOVE_SOAK),
     LEVEL_UP_MOVE(55, MOVE_TOXIC),
     LEVEL_UP_MOVE(60, MOVE_MEMENTO),
+    LEVEL_UP_MOVE(65, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_PYUKUMUKU
@@ -20637,6 +20668,7 @@ static const struct LevelUpMove sPincurchinLevelUpLearnset[] = {
     LEVEL_UP_MOVE(50, MOVE_ZING_ZAP),
     LEVEL_UP_MOVE(55, MOVE_ACUPRESSURE),
     LEVEL_UP_MOVE(60, MOVE_DISCHARGE),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_PINCURCHIN
@@ -22826,6 +22858,7 @@ static const struct LevelUpMove sDondozoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(55, MOVE_HEAVY_SLAM),
     LEVEL_UP_MOVE(60, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(65, MOVE_WAVE_CRASH),
+    LEVEL_UP_MOVE(71, MOVE_WATER_PRESSURE),    
     LEVEL_UP_END
 };
 #endif //P_FAMILY_DONDOZO

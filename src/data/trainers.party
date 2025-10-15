@@ -1213,29 +1213,45 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Psybeam
-- Self Destruct
-- Sandstorm
-- Ancient Power
+Armaldo @ Iapapa Berry 
+Jolly Nature 
+Ability: Battle Armor 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leech Life
+- Rock Slide
+- KNock Off 
+- Stealth Rock
 
-Sandshrew
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Cradily @ Leftovers 
+Careful Nature 
+Ability: Suction Cups 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Ingrain
+- Giga Drain
+- Power Gem 
+- Rest
 
-Sandslash
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Tyrantrum @ Sitrus Berry 
+Jolly Nature 
+Ability: Rock Head 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Substitute
+- Head Smash
+- Scale Shot 
+- Double-Edge
+
+Aurorus @ Choice Scarf 
+Timid Nature 
+Ability: Refrigerate 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hyper Beam
+- Freeze Dry
+- Diamond Flash 
+- Earth Power
 
 === TRAINER_FOSTER ===
 Name: FOSTER
@@ -5722,24 +5738,42 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_JEFFREY_1 ===
 Name: JEFFREY
-Class: Bug Maniac
-Pic: Bug Maniac
+Class: Collector
+Pic: Collector
 Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Steinulfur @ Life Orb 
+Adamant Nature 
+Ability: Tough Claws 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stealth Rock
+- Shadow Bone
+- Sand Dash 
+- Accelerock
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vargkoenig @ Choice Band 
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Crunch
+- Aqua Chomp
+- Poison Fang 
+- Psychic Fangs
 
-Surskit
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dewgong @ Choice Scarf 
+Timid Nature 
+Ability: Thick Fat 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Cosmic Power
+- Water Pressure
+- Ice Beam 
+- Alluring Voice
 
 === TRAINER_DEREK ===
 Name: DEREK
@@ -17200,21 +17234,45 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Self Destruct
-- Sludge
-- Smokescreen
+Lickilicky @ Chople Berry 
+Adamant Nature 
+Ability: Own Tempo 
+Level: 74
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Body Slam
+- Power Whip
+- Knock Off 
+- Wring OUt
 
-Ninjask
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Double Team
-- Fury Cutter
-- Swords Dance
+Cursola @ Custap Berry 
+Quiet Nature 
+Ability: Perish Body 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shadow Ball
+- Hydro Pump
+- Endure 
+- Aqua Ring
+
+Glalie @ Leftovers 
+Hasty Nature 
+Ability: Moody 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Freeze Dry
+- Crunch
+- Protect 
+- Icy Water
+
+Zoroark @ Life Orb 
+Timid Nature 
+Ability: Illusion 
+Level: 75
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Night Daze
+- Flamethrower
+- Aura Sphere 
+- Nasty Plot
 
 === TRAINER_RILEY ===
 Name: RILEY

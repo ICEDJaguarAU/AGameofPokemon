@@ -1191,3 +1191,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ContinentalCave/scripts.inc"
 
 	.include "data/maps/Route111North/scripts.inc"
+
+	.include "data/maps/SafariZone_NewSouthEast/scripts.inc"
+
+	.include "data/maps/SafariZone_NewNorthEast/scripts.inc"

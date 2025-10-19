@@ -4590,6 +4590,26 @@
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111North/border.bin",
       "blockdata_filepath": "data/layouts/Route111North/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_ZONE_NEW_SOUTH_EAST",
+      "name": "SafariZone_NewSouthEast_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/SafariZone_NewSouthEast/border.bin",
+      "blockdata_filepath": "data/layouts/SafariZone_NewSouthEast/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFARI_ZONE_NEW_NORTH_EAST",
+      "name": "SafariZone_NewNorthEast_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/SafariZone_NewNorthEast/border.bin",
+      "blockdata_filepath": "data/layouts/SafariZone_NewNorthEast/map.bin"
     }
   ]
 }

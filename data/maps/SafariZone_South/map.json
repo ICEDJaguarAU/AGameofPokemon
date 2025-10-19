@@ -27,6 +27,16 @@
       "map": "MAP_SAFARI_ZONE_SOUTHEAST",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_SAFARI_ZONE_NEW_SOUTH_EAST",
+      "offset": 0,
+      "direction": "emerge"
+    },
+    {
+      "map": "MAP_SAFARI_ZONE_NEW_SOUTH_EAST",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [

@@ -1195,3 +1195,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SafariZone_NewSouthEast/scripts.inc"
 
 	.include "data/maps/SafariZone_NewNorthEast/scripts.inc"
+
+	.include "data/maps/Route134South/scripts.inc"
+
+	.include "data/maps/Route129East/scripts.inc"

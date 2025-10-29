@@ -4610,6 +4610,26 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_NewNorthEast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_NewNorthEast/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE134SOUTH",
+      "name": "Route134South_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Route134South/border.bin",
+      "blockdata_filepath": "data/layouts/Route134South/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE129EAST",
+      "name": "Route129East_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mossdeep",
+      "border_filepath": "data/layouts/Route129East/border.bin",
+      "blockdata_filepath": "data/layouts/Route129East/map.bin"
     }
   ]
 }

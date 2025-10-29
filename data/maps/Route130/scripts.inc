@@ -22,7 +22,7 @@ Route130_OnTransition:
 	setflag FLAG_TEMP_1D
 	setflag FLAG_TEMP_1E
 	setflag FLAG_TEMP_1F
-	setmaplayoutindex LAYOUT_ROUTE130
+	setmaplayoutindex LAYOUT_ROUTE130_MIRAGE_ISLAND
 	end
 
 Route130_EventScript_SetMirageIslandLayout::

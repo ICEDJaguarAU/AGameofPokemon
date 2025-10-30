@@ -1652,9 +1652,37 @@
 #define SPECIES_AETHELWULF                              1536
 #define SPECIES_VARGKOENIG                              1537
 #define SPECIES_GARBODOR_MEGA                           1538
+#define SPECIES_CLEFABLE_MEGA                           1539
+#define SPECIES_VICTREEBEL_MEGA                         1540
+#define SPECIES_STARMIE_MEGA                            1541
+#define SPECIES_DRAGONITE_MEGA                          1542
+#define SPECIES_MEGANIUM_MEGA                           1543
+#define SPECIES_FERALIGATR_MEGA                         1544
+#define SPECIES_SKARMORY_MEGA                           1545
+#define SPECIES_FROSLASS_MEGA                           1546
+#define SPECIES_EMBOAR_MEGA                             1547
+#define SPECIES_EXCADRILL_MEGA                          1548
+#define SPECIES_SCOLIPEDE_MEGA                          1549
+#define SPECIES_SCRAFTY_MEGA                            1550
+#define SPECIES_EELEKTROSS_MEGA                         1551
+#define SPECIES_CHANDELURE_MEGA                         1552
+#define SPECIES_CHESNAUGHT_MEGA                         1553
+#define SPECIES_DELPHOX_MEGA                            1554
+#define SPECIES_GRENINJA_MEGA                           1555
+#define SPECIES_PYROAR_MEGA                             1556
+#define SPECIES_FLOETTE_MEGA                            1557
+#define SPECIES_MALAMAR_MEGA                            1558
+#define SPECIES_BARBARACLE_MEGA                         1559
+#define SPECIES_DRAGALGE_MEGA                           1560
+#define SPECIES_HAWLUCHA_MEGA                           1561
+#define SPECIES_ZYGARDE_MEGA                            1562
+#define SPECIES_DRAMPA_MEGA                             1563
+#define SPECIES_FALINKS_MEGA                            1564
+#define SPECIES_RAICHU_MEGA_X                           1565
+#define SPECIES_RAICHU_MEGA_Y                           1566
 
 
-#define SPECIES_EGG                                     (SPECIES_GARBODOR_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_RAICHU_MEGA_Y + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

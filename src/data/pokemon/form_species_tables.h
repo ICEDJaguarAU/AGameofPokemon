@@ -186,6 +186,16 @@ static const u16 sDugtrioFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_DIGLETT
 
+#if P_FAMILY_CLEFAIRY
+static const u16 sClefableFormSpeciesIdTable[] = {
+    SPECIES_CLEFABLE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CLEFABLE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_CLEFAIRY
+
 #if P_FAMILY_MEOWTH
 static const u16 sMeowthFormSpeciesIdTable[] = {
     SPECIES_MEOWTH,

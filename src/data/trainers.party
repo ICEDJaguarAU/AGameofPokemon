@@ -3052,13 +3052,25 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Duskull
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slaking @ Lum Berry
+Jolly Nature 
+Ability: Truant 
+Level: 74
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Return
+- Earthquake
+- Fire Punch
+- Knock Off
 
-Shuppet
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Archeops @ Life Orb
+Jolly Nature 
+Ability: Defeatist 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- Dual Wingbeat
+- Earthquake
+- Rock Slide
 
 === TRAINER_VALERIE_1 ===
 Name: VALERIE
@@ -3447,13 +3459,15 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Kecleon
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bind
-- Lick
-- Fury Swipes
-- Feint Attack
+Froslass @ Life Orb
+Jolly Nature 
+Ability: Defeatist 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- Dual Wingbeat
+- Earthquake
+- Rock Slide
 
 Seviper
 Level: 29
@@ -20405,13 +20419,25 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dustox
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weezing_Galar @ Air Balloon
+Sassy Nature 
+Ability: Neutralizing Gas 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Strange Steam
+- Assurance
+- Protect
 
-Beautifly
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weezing @ Black Sludge
+Hasty Nature 
+Ability: Neutralizing Gas 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trick
+- Sludge Wave
+- Fire Blast
+- Protect
 
 === TRAINER_MYLES ===
 Name: MYLES

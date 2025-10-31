@@ -258,6 +258,16 @@ static const u16 sMachampFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_MACHOP
 
+#if P_FAMILY_BELLSPROUT
+static const u16 sVictreebelFormSpeciesIdTable[] = {
+    SPECIES_VICTREEBEL,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_VICTREEBEL_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_BELLSPROUT
+
 #if P_FAMILY_GEODUDE
 static const u16 sGeodudeFormSpeciesIdTable[] = {
     SPECIES_GEODUDE,
@@ -454,6 +464,16 @@ static const u16 sKangaskhanFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_KANGASKHAN
+
+#if P_FAMILY_STARYU
+static const u16 sStarmieFormSpeciesIdTable[] = {
+    SPECIES_STARMIE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_STARMIE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_STARYU
 
 #if P_FAMILY_MR_MIME
 static const u16 sMrMimeFormSpeciesIdTable[] = {

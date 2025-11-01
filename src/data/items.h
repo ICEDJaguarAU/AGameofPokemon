@@ -6315,9 +6315,9 @@ const struct Item gItemsInfo[] =
     },    
 
 
-    [ITEM_FROSSLASSITE] =
+    [ITEM_FROSLASSITE] =
     {
-        .name = _("Frosslassite"),
+        .name = _("Froslassite"),
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(

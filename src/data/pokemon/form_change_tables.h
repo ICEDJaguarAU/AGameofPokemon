@@ -491,6 +491,14 @@ static const struct FormChange sGlalieFormChangeTable[] = {
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
+#if P_GEN_4_CROSS_EVOS
+static const struct FormChange sFroslassFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_FROSLASS_MEGA, ITEM_FROSLASSITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_GEN_4_CROSS_EVOS
 #endif //P_FAMILY_SNORUNT
 
 #if P_FAMILY_CASTFORM

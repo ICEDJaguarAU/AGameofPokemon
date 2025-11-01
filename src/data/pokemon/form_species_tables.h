@@ -998,6 +998,15 @@ static const u16 sGlalieFormSpeciesIdTable[] = {
 #endif
     FORM_SPECIES_END,
 };
+#if P_GEN_4_CROSS_EVOS
+static const u16 sFroslassFormSpeciesIdTable[] = {
+    SPECIES_FROSLASS,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FROSLASS_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_GEN_4_CROSS_EVOS
 #endif //P_FAMILY_SNORUNT
 
 #if P_FAMILY_BAGON
@@ -1164,6 +1173,8 @@ static const u16 sAbomasnowFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_SNOVER
+
+
 
 #if P_FAMILY_ROTOM
 static const u16 sRotomFormSpeciesIdTable[] = {

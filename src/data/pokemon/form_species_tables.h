@@ -761,6 +761,16 @@ static const u16 sCorsolaFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_CORSOLA
 
+#if P_FAMILY_SKARMORY
+static const u16 sSkarmoryFormSpeciesIdTable[] = {
+    SPECIES_SKARMORY,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_SKARMORY_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_SKARMORY
+
 #if P_FAMILY_HOUNDOUR
 static const u16 sHoundoomFormSpeciesIdTable[] = {
     SPECIES_HOUNDOOM,

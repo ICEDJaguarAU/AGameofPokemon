@@ -1264,6 +1264,16 @@ static const u16 sSamurottFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_OSHAWOTT
 
+#if P_FAMILY_DRILBUR
+static const u16 sExcadrillFormSpeciesIdTable[] = {
+    SPECIES_EXCADRILL,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_EXCADRILL_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_DRILBUR
+
 #if P_FAMILY_AUDINO
 static const u16 sAudinoFormSpeciesIdTable[] = {
     SPECIES_AUDINO,
@@ -1273,6 +1283,16 @@ static const u16 sAudinoFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_AUDINO
+
+#if P_FAMILY_VENIPEDE
+static const u16 sScolipedeFormSpeciesIdTable[] = {
+    SPECIES_SCOLIPEDE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_SCOLIPEDE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_VENIPEDE
 
 #if P_FAMILY_PETILIL
 static const u16 sLilligantFormSpeciesIdTable[] = {

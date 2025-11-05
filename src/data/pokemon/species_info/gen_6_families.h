@@ -1869,7 +1869,93 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sPyroarLevelUpLearnset,
         .teachableLearnset = sPyroarTeachableLearnset,
+        .formSpeciesIdTable = sPyroarFormSpeciesIdTable,
+        .formChangeTable = sPyroarFormChangeTable,
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_PYROAR_MEGA] =
+    {
+        .baseHP        = 86,
+        .baseAttack    = 88,
+        .baseDefense   = 92,
+        .baseSpeed     = 126,
+        .baseSpAttack  = 129,
+        .baseSpDefense = 86,
+        .types = MON_TYPES(TYPE_FIRE, TYPE_NORMAL),
+        .catchRate = 65,
+        .expYield = 177,
+        .evYield_SpAttack = 2,
+        .genderRatio = PERCENT_FEMALE(87.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_MOXIE, ABILITY_MOXIE, ABILITY_MOXIE },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Pyroar"),
+        .cryId = CRY_PYROAR,
+        .natDexNum = NATIONAL_DEX_PYROAR,
+        .categoryName = _("Royal"),
+        .height = 15,
+        .weight = 933,
+        .description = COMPOUND_STRING(
+            "The male with the largest mane of fire\n"
+            "is the leader of the pride. The females\n"
+            "protect the pride's cubs. They viciously\n"
+            "threaten any challenger."),
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Pyroar,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 45),
+            ANIMCMD_FRAME(0, 5),
+        ),
+        .frontAnimId = ANIM_V_SHAKE,
+        .backPic = gMonBackPic_Pyroar,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 3,
+        .backAnimId = BACK_ANIM_H_STRETCH,
+        .palette = gMonPalette_Pyroar,
+        .shinyPalette = gMonShinyPalette_Pyroar,
+        .iconSprite = gMonIcon_Pyroar,
+        .iconPalIndex = 2,
+#if P_GENDER_DIFFERENCES
+        .frontPicFemale = gMonFrontPic_PyroarF,
+        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64),
+        .backPicFemale = gMonBackPic_PyroarF,
+        .backPicSizeFemale = MON_COORDS_SIZE(64, 64),
+        .iconSpriteFemale = gMonIcon_PyroarF,
+        .iconPalIndexFemale = 2,
+#endif //P_GENDER_DIFFERENCES
+        SHADOW(-2, 11, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Pyroar)
+        OVERWORLD(
+            sPicTable_Pyroar,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Pyroar,
+            gShinyOverworldPalette_Pyroar
+        )
+        OVERWORLD_FEMALE(
+            sPicTable_PyroarF,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sPyroarLevelUpLearnset,
+        .teachableLearnset = sPyroarTeachableLearnset,
+        .formSpeciesIdTable = sPyroarFormSpeciesIdTable,
+        .formChangeTable = sPyroarFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS      
 #endif //P_FAMILY_LITLEO
 
 #if P_FAMILY_FLABEBE
@@ -3471,7 +3557,80 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sMalamarLevelUpLearnset,
         .teachableLearnset = sMalamarTeachableLearnset,
+        .formSpeciesIdTable = sMalamarFormSpeciesIdTable,
+        .formChangeTable = sMalamarFormChangeTable,         
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_MALAMAR_MEGA] =
+    {
+        .baseHP        = 86,
+        .baseAttack    = 102,
+        .baseDefense   = 88,
+        .baseSpeed     = 88,
+        .baseSpAttack  = 98,
+        .baseSpDefense = 120,
+        .types = MON_TYPES(TYPE_DARK, TYPE_PSYCHIC),
+        .catchRate = 80,
+        .expYield = 169,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_WATER_2),
+        .abilities = { ABILITY_CONTRARY, ABILITY_CONTRARY, ABILITY_CONTRARY },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Malamar"),
+        .cryId = CRY_MALAMAR,
+        .natDexNum = NATIONAL_DEX_MALAMAR,
+        .categoryName = _("Overturning"),
+        .height = 29,
+        .weight = 698,
+        .description = COMPOUND_STRING(
+            "It lures prey close with hypnotic motions,\n"
+            "then wraps its tentacles around it before\n"
+            "finishing it off with digestive fluids. It\n"
+            "forces others to do whatever it wants."),
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Malamar,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 10),
+            ANIMCMD_FRAME(0, 10),
+            ANIMCMD_FRAME(1, 10),
+            ANIMCMD_FRAME(0, 20),
+        ),
+        .frontAnimId = ANIM_CIRCULAR_STRETCH_TWICE,
+        .backPic = gMonBackPic_Malamar,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 8,
+        .backAnimId = BACK_ANIM_V_STRETCH,
+        .palette = gMonPalette_Malamar,
+        .shinyPalette = gMonShinyPalette_Malamar,
+        .iconSprite = gMonIcon_Malamar,
+        .iconPalIndex = 2,
+        SHADOW(5, 14, SHADOW_SIZE_M)
+        FOOTPRINT(Malamar)
+        OVERWORLD(
+            sPicTable_Malamar,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Malamar,
+            gShinyOverworldPalette_Malamar
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sMalamarLevelUpLearnset,
+        .teachableLearnset = sMalamarTeachableLearnset,
+        .formSpeciesIdTable = sMalamarFormSpeciesIdTable,
+        .formChangeTable = sMalamarFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS    
 #endif //P_FAMILY_INKAY
 
 #if P_FAMILY_BINACLE
@@ -3610,7 +3769,79 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sBarbaracleLevelUpLearnset,
         .teachableLearnset = sBarbaracleTeachableLearnset,
+        .formSpeciesIdTable = sBarbaracleFormSpeciesIdTable,
+        .formChangeTable = sBarbaracleFormChangeTable,        
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_BARBARACLE_MEGA] =
+    {
+        .baseHP        = 72,
+        .baseAttack    = 140,
+        .baseDefense   = 130,
+        .baseSpeed     = 88,
+        .baseSpAttack  = 64,
+        .baseSpDefense = 106,
+        .types = MON_TYPES(TYPE_ROCK, TYPE_FIGHTING),
+        .catchRate = 45,
+        .expYield = 175,
+        .evYield_Attack = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_3),
+        .abilities = { ABILITY_SNIPER, ABILITY_SNIPER, ABILITY_SNIPER },
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = TRUE,
+        .speciesName = _("Barbaracle"),
+        .cryId = CRY_BARBARACLE,
+        .natDexNum = NATIONAL_DEX_BARBARACLE,
+        .categoryName = _("Collective"),
+        .height = 22,
+        .weight = 1000,
+        .description = COMPOUND_STRING(
+            "Barbaracle's legs and hands have minds\n"
+            "of their own, and they will move\n"
+            "independently. But they usually follow\n"
+            "the head's orders."),
+        .pokemonScale = 272,
+        .pokemonOffset = 3,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Barbaracle,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 20),
+            ANIMCMD_FRAME(0, 15),
+        ),
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Barbaracle,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_V_SHAKE_H_SLIDE,
+        .palette = gMonPalette_Barbaracle,
+        .shinyPalette = gMonShinyPalette_Barbaracle,
+        .iconSprite = gMonIcon_Barbaracle,
+        .iconPalIndex = 2,
+        SHADOW(4, 14, SHADOW_SIZE_L)
+        FOOTPRINT(Barbaracle)
+        OVERWORLD(
+            sPicTable_Barbaracle,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Barbaracle,
+            gShinyOverworldPalette_Barbaracle
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sBarbaracleLevelUpLearnset,
+        .teachableLearnset = sBarbaracleTeachableLearnset,
+        .formSpeciesIdTable = sBarbaracleFormSpeciesIdTable,
+        .formChangeTable = sBarbaracleFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS      
 #endif //P_FAMILY_BINACLE
 
 #if P_FAMILY_SKRELP
@@ -3752,7 +3983,80 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         )
         .levelUpLearnset = sDragalgeLevelUpLearnset,
         .teachableLearnset = sDragalgeTeachableLearnset,
+        .formSpeciesIdTable = sDragalgeFormSpeciesIdTable,
+        .formChangeTable = sDragalgeFormChangeTable,        
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_DRAGALGE_MEGA] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 85,
+        .baseDefense   = 105,
+        .baseSpeed     = 44,
+        .baseSpAttack  = 132,
+        .baseSpDefense = 163,
+        .types = MON_TYPES(TYPE_POISON, TYPE_DRAGON),
+        .catchRate = 55,
+        .expYield = 173,
+        .evYield_SpDefense = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Dragalge"),
+        .cryId = CRY_DRAGALGE,
+        .natDexNum = NATIONAL_DEX_DRAGALGE,
+        .categoryName = _("Mock Kelp"),
+        .height = 21,
+        .weight = 1003,
+        .description = COMPOUND_STRING(
+            "Their poison is strong enough to eat\n"
+            "through the hull of a tanker. Tales are\n"
+            "told of ships that wander into seas where\n"
+            "Dragalge live, never to return."),
+        .pokemonScale = 267,
+        .pokemonOffset = 2,
+        .trainerScale = 286,
+        .trainerOffset = 1,
+        .frontPic = gMonFrontPic_Dragalge,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 20),
+            ANIMCMD_FRAME(0, 10),
+            ANIMCMD_FRAME(1, 15),
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_FRONT_FLIP,
+        .backPic = gMonBackPic_Dragalge,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_H_STRETCH,
+        .palette = gMonPalette_Dragalge,
+        .shinyPalette = gMonShinyPalette_Dragalge,
+        .iconSprite = gMonIcon_Dragalge,
+        .iconPalIndex = 5,
+        SHADOW(-3, 14, SHADOW_SIZE_M)
+        FOOTPRINT(Dragalge)
+        OVERWORLD(
+            sPicTable_Dragalge,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Dragalge,
+            gShinyOverworldPalette_Dragalge
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sDragalgeLevelUpLearnset,
+        .teachableLearnset = sDragalgeTeachableLearnset,
+        .formSpeciesIdTable = sDragalgeFormSpeciesIdTable,
+        .formChangeTable = sDragalgeFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS      
 #endif //P_FAMILY_SKRELP
 
 #if P_FAMILY_CLAUNCHER

@@ -1733,6 +1733,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 54,
         .types = MON_TYPES(TYPE_FIRE, TYPE_NORMAL),
         .catchRate = 220,
+        .itemCommon = ITEM_PYROARITE,
         .expYield = 74,
         .evYield_SpAttack = 1,
         .genderRatio = PERCENT_FEMALE(87.5),
@@ -1801,6 +1802,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 66,
         .types = MON_TYPES(TYPE_FIRE, TYPE_NORMAL),
         .catchRate = 65,
+        .itemCommon = ITEM_PYROARITE,
         .expYield = 177,
         .evYield_SpAttack = 2,
         .genderRatio = PERCENT_FEMALE(87.5),
@@ -3432,6 +3434,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 46,
         .types = MON_TYPES(TYPE_DARK, TYPE_PSYCHIC),
         .catchRate = 190,
+        .itemCommon = ITEM_MALAMARITE,
         .expYield = 58,
         .evYield_Attack = 1,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3502,6 +3505,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 75,
         .types = MON_TYPES(TYPE_DARK, TYPE_PSYCHIC),
         .catchRate = 80,
+        .itemCommon = ITEM_MALAMARITE,
         .expYield = 169,
         .evYield_Attack = 2,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3644,6 +3648,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 56,
         .types = MON_TYPES(TYPE_ROCK, TYPE_WATER),
         .catchRate = 120,
+        .itemCommon = ITEM_BARBARACITE,
         .expYield = 61,
         .evYield_Attack = 1,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3715,6 +3720,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 86,
         .types = MON_TYPES(TYPE_ROCK, TYPE_WATER),
         .catchRate = 45,
+        .itemCommon = ITEM_BARBARACITE,
         .expYield = 175,
         .evYield_Attack = 2,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3855,6 +3861,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_POISON, TYPE_DRAGON),
         .catchRate = 225,
+        .itemCommon = ITEM_DRAGALGITE,
         .expYield = 64,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(50),
@@ -3928,6 +3935,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .baseSpDefense = 123,
         .types = MON_TYPES(TYPE_POISON, TYPE_DRAGON),
         .catchRate = 55,
+        .itemCommon = ITEM_DRAGALGITE,
         .expYield = 173,
         .evYield_SpDefense = 2,
         .genderRatio = PERCENT_FEMALE(50),
@@ -4634,6 +4642,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .catchRate = 100,
         .expYield = 175,
         .evYield_Attack = 2,
+        .itemCommon = ITEM_HAWLUCHANITE,
         .itemRare = ITEM_KINGS_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
@@ -4692,7 +4701,84 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sHawluchaLevelUpLearnset,
         .teachableLearnset = sHawluchaTeachableLearnset,
         .eggMoveLearnset = sHawluchaEggMoveLearnset,
+        .formSpeciesIdTable = sHawluchaFormSpeciesIdTable,
+        .formChangeTable = sHawluchaFormChangeTable,         
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_HAWLUCHA_MEGA] =
+    {
+        .baseHP        = 78,
+        .baseAttack    = 137,
+        .baseDefense   = 100,
+        .baseSpeed     = 118,
+        .baseSpAttack  = 74,
+        .baseSpDefense = 93,
+        .types = MON_TYPES(TYPE_FIGHTING, TYPE_FLYING),
+        .catchRate = 100,
+        .expYield = 175,
+        .evYield_Attack = 2,
+        .itemRare = ITEM_KINGS_ROCK,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+    #if P_UPDATED_EGG_GROUPS >= GEN_8
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_HUMAN_LIKE),
+    #else
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
+    #endif
+        .abilities = { ABILITY_LIMBER, ABILITY_LIMBER, ABILITY_LIMBER },
+        .bodyColor = BODY_COLOR_GREEN,
+        .speciesName = _("Hawlucha"),
+        .cryId = CRY_HAWLUCHA,
+        .natDexNum = NATIONAL_DEX_HAWLUCHA,
+        .categoryName = _("Wrestling"),
+        .height = 10,
+        .weight = 250,
+        .description = COMPOUND_STRING(
+            "With its wings, it controls its position in\n"
+            "the air. Its proficient fighting skills\n"
+            "enable it to keep up with big bruisers\n"
+            "like Machamp and Hariyama."),
+        .pokemonScale = 366,
+        .pokemonOffset = 7,
+        .trainerScale = 257,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Hawlucha,
+        .frontPicSize = MON_COORDS_SIZE(64, 56),
+        .frontPicYOffset = 8,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 28),
+            ANIMCMD_FRAME(1, 32),
+            ANIMCMD_FRAME(0, 15),
+        ),
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE_SLOW,
+        .backPic = gMonBackPic_Hawlucha,
+        .backPicSize = MON_COORDS_SIZE(64, 48),
+        .backPicYOffset = 10,
+        .backAnimId = BACK_ANIM_GROW_STUTTER,
+        .palette = gMonPalette_Hawlucha,
+        .shinyPalette = gMonShinyPalette_Hawlucha,
+        .iconSprite = gMonIcon_Hawlucha,
+        .iconPalIndex = 0,
+        SHADOW(3, 6, SHADOW_SIZE_S)
+        FOOTPRINT(Hawlucha)
+        OVERWORLD(
+            sPicTable_Hawlucha,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Hawlucha,
+            gShinyOverworldPalette_Hawlucha
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sHawluchaLevelUpLearnset,
+        .teachableLearnset = sHawluchaTeachableLearnset,
+        .formSpeciesIdTable = sHawluchaFormSpeciesIdTable,
+        .formChangeTable = sHawluchaFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS     
 #endif //P_FAMILY_HAWLUCHA
 
 #if P_FAMILY_DEDENNE
@@ -6808,7 +6894,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sZygardeTeachableLearnset,
         .formSpeciesIdTable = sZygardeFormSpeciesIdTable,
         .formChangeTable = sZygardeCompleteFormChangeTable,
-    },
+    },   
 #endif //P_FAMILY_ZYGARDE
 
 #if P_FAMILY_DIANCIE

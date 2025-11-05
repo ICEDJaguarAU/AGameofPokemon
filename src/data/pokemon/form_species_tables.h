@@ -1707,6 +1707,16 @@ static const u16 sDragalgeFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_SKRELP
 
+#if P_FAMILY_HAWLUCHA
+static const u16 sHawluchaFormSpeciesIdTable[] = {
+    SPECIES_HAWLUCHA,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_HAWLUCHA_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_HAWLUCHA
+
 #if P_FAMILY_GOOMY
 static const u16 sSliggooFormSpeciesIdTable[] = {
     SPECIES_SLIGGOO,

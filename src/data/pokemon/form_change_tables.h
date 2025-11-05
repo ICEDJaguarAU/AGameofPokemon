@@ -1195,6 +1195,15 @@ static const struct FormChange sMimikyuTotemFormChangeTable[] = {
 };
 #endif //P_FAMILY_MIMIKYU
 
+#if P_FAMILY_DRAMPA
+static const struct FormChange sDrampaFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_DRAMPA_MEGA, ITEM_DRAMPANITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_DRAMPA
+
 #if P_FAMILY_NECROZMA
 static const struct Fusion sNecrozmaFusionTable[] = {
     {1, ITEM_N_SOLARIZER,    SPECIES_NECROZMA, SPECIES_SOLGALEO,  SPECIES_NECROZMA_DUSK_MANE,   MOVE_SUNSTEEL_STRIKE, MOVE_CONFUSION},

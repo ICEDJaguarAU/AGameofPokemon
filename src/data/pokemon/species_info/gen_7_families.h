@@ -5065,6 +5065,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .baseSpDefense = 91,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_DRAGON),
         .catchRate = 70,
+        .itemCommon = ITEM_DRAMPANITE,
         .expYield = 170,
         .evYield_SpAttack = 2,
         .itemRare = ITEM_PERSIM_BERRY,
@@ -5120,7 +5121,79 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .levelUpLearnset = sDrampaLevelUpLearnset,
         .teachableLearnset = sDrampaTeachableLearnset,
         .eggMoveLearnset = sDrampaEggMoveLearnset,
+        .formSpeciesIdTable = sDrampaFormSpeciesIdTable,
+        .formChangeTable = sDrampaFormChangeTable,         
     },
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_DRAMPA_MEGA] =
+    {
+        .baseHP        = 78,
+        .baseAttack    = 85,
+        .baseDefense   = 110,
+        .baseSpeed     = 36,
+        .baseSpAttack  = 160,
+        .baseSpDefense = 116,
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_DRAGON),
+        .catchRate = 70,
+        .expYield = 170,
+        .evYield_SpAttack = 2,
+        .itemRare = ITEM_PERSIM_BERRY,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_BERSERK, ABILITY_BERSERK, ABILITY_BERSERK },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Drampa"),
+        .cryId = CRY_DRAMPA,
+        .natDexNum = NATIONAL_DEX_DRAMPA,
+        .categoryName = _("Placid"),
+        .height = 30,
+        .weight = 2405,
+        .description = COMPOUND_STRING(
+            "This Pokémon is friendly to people and\n"
+            "loves children most of all. It comes from\n"
+            "deep in the mountains to play with\n"
+            "children it likes in town."),
+        .pokemonScale = 275,
+        .pokemonOffset = 7,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Drampa,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 50),
+            ANIMCMD_FRAME(0, 50),
+        ),
+        .frontAnimId = ANIM_V_SHAKE_TWICE,
+        .backPic = gMonBackPic_Drampa,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 5,
+        .backAnimId = BACK_ANIM_H_SLIDE,
+        .palette = gMonPalette_Drampa,
+        .shinyPalette = gMonShinyPalette_Drampa,
+        .iconSprite = gMonIcon_Drampa,
+        .iconPalIndex = 0,
+        SHADOW(5, 13, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Drampa)
+        OVERWORLD(
+            sPicTable_Drampa,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Drampa,
+            gShinyOverworldPalette_Drampa
+        )
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sDrampaLevelUpLearnset,
+        .teachableLearnset = sDrampaTeachableLearnset,
+        .formSpeciesIdTable = sDrampaFormSpeciesIdTable,
+        .formChangeTable = sDrampaFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS      
 #endif //P_FAMILY_DRAMPA
 
 #if P_FAMILY_DHELMISE

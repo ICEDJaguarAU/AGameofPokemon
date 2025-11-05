@@ -1953,6 +1953,16 @@ static const u16 sMimikyuFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_MIMIKYU
 
+#if P_FAMILY_DRAMPA
+static const u16 sDrampaFormSpeciesIdTable[] = {
+    SPECIES_DRAMPA,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_DRAMPA_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_DRAMPA
+
 #if P_FAMILY_JANGMO_O
 static const u16 sKommoOFormSpeciesIdTable[] = {
     SPECIES_KOMMO_O,

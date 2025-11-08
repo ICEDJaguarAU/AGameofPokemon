@@ -6393,9 +6393,55 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Manectric
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Granbull @ Iapapa Berry
+Careful Nature 
+Ability: Intimidate 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Low Kick
+- Super Fang
+- Thunder Wave
+
+Bewear @ Leftovers
+Careful Nature 
+Ability: Fluffy 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Drain Punch
+- Payback
+- Bulk Up
+- Protect
+
+Manectric @ Manectite
+Timid Nature 
+Ability: Static 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Ice Fang
+- Thunder Wave
+
+Silvally_Dark @ Dark Memory
+Naive Nature 
+Ability: RKS System 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Multi Attack
+- Pursuit
+- Flamethrower
+- Slash
+
+Azumarill @ Choice Scarf
+Jolly Nature 
+Ability: Huge Power 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flip Turn
+- Play Rough
+- Return
+- Knock Off
 
 === TRAINER_MICAH ===
 Name: MICAH

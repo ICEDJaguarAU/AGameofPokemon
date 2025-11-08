@@ -2238,6 +2238,16 @@ static const u16 sAlcremieFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_MILCERY
 
+#if P_FAMILY_FALINKS
+static const u16 sFalinksFormSpeciesIdTable[] = {
+    SPECIES_FALINKS,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_FALINKS_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_FALINKS
+
 #if P_FAMILY_EISCUE
 static const u16 sEiscueFormSpeciesIdTable[] = {
     SPECIES_EISCUE_ICE,

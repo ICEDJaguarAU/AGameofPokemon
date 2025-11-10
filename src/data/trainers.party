@@ -307,13 +307,55 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Manectric
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Eelektross @ Lum Berry
+Bold Nature 
+Ability: Levitate 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Grass Knot
+- Toxic
 
-Shiftry
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Conkeldurr @ Assault Vest
+Careful Nature 
+Ability: Iron Fist 
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Drain Punch
+- Mach Punch
+- Counter
+- Ice Punch
+
+Jellicent @ Leftovers
+Bold Nature 
+Ability: Cursed Body 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scald
+- Hex
+- Toxic
+- Strength Sap
+
+Scrafty @ Life Orb
+Jolly Nature 
+Ability: Moxie 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Foul Play
+- Poison Jab
+- Swagger
+
+Hydreigon @ Lum Berry
+Timid Nature 
+Ability: Levitate    
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Roost
+- Nasty Plot
+- Dark Pulse
+- Dragon Pulse
 
 === TRAINER_ALBERTO ===
 Name: ALBERTO
@@ -7957,9 +7999,35 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Pikachu @ Oran Berry
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mimikyu @ Iron Ball
+Brave Nature 
+Ability: Disguise 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Trick Room
+- Swords Dance
+- Jealous Fit
+
+Aromatisse @ Expert Belt
+Quiet Nature 
+Ability: Aroma Veil 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Strange Steam
+- Psychic
+- Nasty Plot
+- Trick Room
+
+Reuniclus @ Life Orb
+Quiet Nature 
+Ability: Magic Guard 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psyshock
+- THunder
+- Signal Beam
+- Trick Room
 
 === TRAINER_BETHANY ===
 Name: BETHANY
@@ -20659,13 +20727,45 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Loudred
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hippowdon @ Lum Berry
+Careful Nature 
+Ability: Sand Stream    
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Crunch
+- Stealth Rock
+- Slack Off
 
-Vigoroth
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Tyranitar @ Chople Berry
+Adamant Nature 
+Ability: Unnerve    
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Pursuit
+- Earthquake
+- Counter
+
+Stoutland @ Lum Berry
+Adamant Nature 
+Ability: Sand Rush    
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Return
+- Retaliate
+- Close Combat
+- Play Rough
+
+Dracozolt @ Choice Scarf
+Lonely Nature 
+Ability: Sand Rush    
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Dragon Rush
+- Bolt Beak
+- Earthquake
 
 === TRAINER_MAY_RUSTBORO_TREECKO ===
 Name: MAY

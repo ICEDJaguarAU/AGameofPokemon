@@ -17822,24 +17822,68 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Rillaboom @ Expert Belt
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Boomburst
+- Grassy Glide
+- Knock Off
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Baxcalibur @ Leftovers
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Crunch
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Admiratross @ Sitrus Berry
+Modest Nature 
+Ability: Drizzle 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Polar Vortex
+- Belch
+- Thunder
+- Helping Hand
 
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Electrode_Hisui @ Life Orb
+Modest Nature 
+Ability: Aftermath 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Volt Switch
+- Light Screen
+- Chloroblast
+
+Goodra_Hisui @ Assault Vest
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Hammer
+- Iron Head
+- SLudge Wave
+- Muddy Water
+
+Tyranitar @ Tyranitarite
+Timid Nature 
+Ability: Sand Stream 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Diamond Flash
+- Dark Pulse
+- Earth Power
+- Smack Down
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
 Name: BRENDAN
@@ -17847,24 +17891,68 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Cinderace @ Expert Belt
+Jolly Nature 
+Ability: Libero 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pyro Ball
+- Earthquake
+- Court Change
+- Quick Attack
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydreigon @ Sitrus Berry
+Modest Nature 
+Ability: Levitate 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Clanging Scales
+- Dark Pulse
+- Tri Attack
+- Belch
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ludicolo @ Life Orb
+Rash Nature 
+Ability: Swift Swim 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Energy Ball
+- Rain Dance
+- Weather Ball
+- Fake Out
 
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Salamence @ Salamencite
+Adamant Nature 
+Ability: Intimidate 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Thrash
+- Crunch
+- Tailwind
+
+Toxtricity @ Choice Specs
+Timid Nature 
+Ability: Dry Skin 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Boomburst
+- Overdrive
+- Electric Terrain
+
+Walrein @ Choice Scarf
+Timid Nature 
+Ability: Oblivious 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Flip Turn
+- Water Spout
+- Heavy Slam
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
 Name: BRENDAN
@@ -17872,24 +17960,68 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Inteleon @ Expert Belt
+Modest Nature 
+Ability: Sniper 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Sludge Wave
+- Shadow Ball
+- Vacuum Wave
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Dragonite @ Draconite
+Timid Nature 
+Ability: Levitate 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Clanging Scales
+- Polar Vortex
+- Thunder
+- Extreme Speed
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Kilowattrel @ Choice Specs
+Timid Nature 
+Ability: Competitive 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Hurricane
+- Volt Switch
+- Uproar
 
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Exeggutor_Alola @ Sitrus Berry
+Adamant Nature 
+Ability: Harvest 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Dragon Hammer
+- Psyshock
+- Leech Seed
+
+Dragapult @ Life Orb
+Adamant Nature 
+Ability: Infiltrator 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- U-Turn
+- Dragon Darts
+- Jealous Fit
+- Will O Wisp
+
+Aegislash @ Leftovers
+Impish Nature 
+Ability: Stance Change
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Kings Shield
+- Anchor Shot
+- Sacred Sword
+- Spirit Shackle
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
 Name: MAY
@@ -17897,24 +18029,68 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Rillaboom @ Expert Belt
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Boomburst
+- Grassy Glide
+- Knock Off
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Baxcalibur @ Leftovers
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Glaive Rush
+- Icicle Crash
+- Crunch
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Admiratross @ Sitrus Berry
+Modest Nature 
+Ability: Drizzle 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Polar Vortex
+- Belch
+- Thunder
+- Helping Hand
 
-Grovyle
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Electrode_Hisui @ Life Orb
+Modest Nature 
+Ability: Aftermath 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Volt Switch
+- Light Screen
+- Chloroblast
+
+Goodra_Hisui @ Assault Vest
+Relaxed Nature 
+Ability: Shell Armor 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Hammer
+- Iron Head
+- SLudge Wave
+- Muddy Water
+
+Tyranitar @ Tyranitarite
+Timid Nature 
+Ability: Sand Stream 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Diamond Flash
+- Dark Pulse
+- Earth Power
+- Smack Down
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: MAY
@@ -17922,24 +18098,68 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Cinderace @ Expert Belt
+Jolly Nature 
+Ability: Libero 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pyro Ball
+- Earthquake
+- Court Change
+- Quick Attack
 
-Pelipper
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Hydreigon @ Sitrus Berry
+Modest Nature 
+Ability: Levitate 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Clanging Scales
+- Dark Pulse
+- Tri Attack
+- Belch
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ludicolo @ Life Orb
+Rash Nature 
+Ability: Swift Swim 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Energy Ball
+- Rain Dance
+- Weather Ball
+- Fake Out
 
-Combusken
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Salamence @ Salamencite
+Adamant Nature 
+Ability: Intimidate 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Thrash
+- Crunch
+- Tailwind
+
+Toxtricity @ Choice Specs
+Timid Nature 
+Ability: Dry Skin 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Gunk Shot
+- Boomburst
+- Overdrive
+- Electric Terrain
+
+Walrein @ Choice Scarf
+Timid Nature 
+Ability: Oblivious 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blizzard
+- Flip Turn
+- Water Spout
+- Heavy Slam
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: MAY
@@ -17947,24 +18167,68 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Tropius
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Inteleon @ Expert Belt
+Modest Nature 
+Ability: Sniper 
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Sludge Wave
+- Shadow Ball
+- Vacuum Wave
 
-Ludicolo
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Dragonite @ Draconite
+Timid Nature 
+Ability: Levitate 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Clanging Scales
+- Polar Vortex
+- Thunder
+- Extreme Speed
 
-Slugma
-Level: 32
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Kilowattrel @ Choice Specs
+Timid Nature 
+Ability: Competitive 
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Hurricane
+- Volt Switch
+- Uproar
 
-Marshtomp
-Level: 34
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Exeggutor_Alola @ Sitrus Berry
+Adamant Nature 
+Ability: Harvest 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Dragon Hammer
+- Psyshock
+- Leech Seed
+
+Dragapult @ Life Orb
+Adamant Nature 
+Ability: Infiltrator 
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- U-Turn
+- Dragon Darts
+- Jealous Fit
+- Will O Wisp
+
+Aegislash @ Leftovers
+Impish Nature 
+Ability: Stance Change
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Kings Shield
+- Anchor Shot
+- Sacred Sword
+- Spirit Shackle
 
 === TRAINER_JONAH ===
 Name: JONAH

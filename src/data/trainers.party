@@ -4461,8 +4461,50 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hariyama
-Level: 32
+Krookodile @ Lum Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 74
+- Earthquake
+- Foul Play
+- Close Combat
+- Rock Tomb
+
+Steinulfur @ Assault Vest
+Jolly Nature 
+Ability: Tough Claws 
+Level: 74
+- Accelerock
+- Close COmbat
+- Crunch
+- Stone Edge
+
+Infernape @ Focus Sash
+Timid Nature 
+Ability: Blaze 
+Level: 73
+- Flamethrower
+- Vacuum Wave
+- Grass Knot 
+- Nasty PLot
+
+Quaquaval @ Choice Scarf
+Adamant Nature 
+Ability: Moxie 
+Level: 74
+- Flip Turn
+- High Jump Kick
+- Trop Kick 
+- Blaze Kick
+
+Chesnaught @ Salac Berry
+JOlly Nature 
+Ability: Overgrow 
+Level: 75
+- Wood Hammer
+- Drain Punch
+- Shadow Claw 
+- Swords Dance
 
 === TRAINER_KIRK ===
 Name: KIRK

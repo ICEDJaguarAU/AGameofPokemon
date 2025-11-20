@@ -2915,8 +2915,41 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Sableye
-Level: 32
+Kangaskhan @ Assault Vest
+Jolly Nature 
+Ability: Scrappy 
+Level: 75
+- Earthquake
+- Double Edge
+- Sucker Punch
+- Counter
+
+Mismagius @ Life Orb
+Timid Nature 
+Ability: Prankster 
+Level: 75
+- Nasty Plot
+- Mystical Fire
+- Shadow Ball
+- Destiny Bond
+
+Malamar @ Malamarite
+Jolly Nature 
+Ability: Contrary 
+Level: 74
+- Night Slash
+- Psycho Cut
+- Superpower 
+- Substitute
+
+Wobbuffet @ Lum Berry
+Bold Nature 
+Ability: Shadow Tag 
+Level: 74
+- Counter
+- Mirror Coat
+- Destiny Bond 
+- Encore
 
 === TRAINER_TASHA ===
 Name: TASHA
@@ -11476,12 +11509,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Wobbuffet
-Level: 32
-- Destiny Bond
-- Safeguard
-- Counter
-- Mirror Coat
+Electivire @ Life Orb
+Naive Nature 
+Ability: Opportunist 
+Level: 75
+- Supercell Slam
+- Psychic
+- Ice Punch
+- Drain Punch
+
+Obstagoon @ Roseli Berry
+Jolly Nature 
+Ability: Reckless 
+Level: 73
+- Double-Edge
+- Night Slash
+- Close Combat
+- Bulk Up
+
+Polteageist @ White Herb
+Naive Nature 
+Ability: Cursed Body 
+Level: 74
+- Shadow Ball
+- Stored Power
+- Shell Smash 
+- Substitute
+
+Gothitelle @ Expert Belt
+Timid Nature 
+Ability: Shadow Tag 
+Level: 75
+- Psyshock
+- Energy Ball
+- Thunderbolt 
+- Shadow Ball
 
 === TRAINER_IRENE ===
 Name: IRENE

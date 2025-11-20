@@ -213,23 +213,50 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Skitty
-Level: 26
+Clefable @ Clefablite
+Timid Nature 
+Ability: Magic Guard 
+Level: 75
+- Moonblast
+- Fire Blast
+- Psychic
+- Stealth Rock
 
-Poochyena
-Level: 26
+Breloom @ Focus Sash
+Jolly Nature 
+Ability: Technician 
+Level: 74
+- Force Palm
+- Mach Punch
+- Bullet Seed
+- Swords Dance
 
-Zigzagoon
-Level: 26
+Grimmsnarl @ Icy Rock
+Careful Nature 
+Ability: Prankster 
+Level: 74
+- Play Rough
+- Bulk up
+- Hail 
+- Body Press
 
-Lotad
-Level: 26
+Froslass @ Life Orb
+Timid Nature 
+Ability: Snow Cloak 
+Level: 74
+- Blizzard
+- Night Terror
+- Sing 
+- Light Screen
 
-Seedot
-Level: 26
-
-Taillow
-Level: 26
+Raichu_Alola @ Choice Specs
+Timid Nature 
+Ability: Surge Surfer 
+Level: 74
+- Volt Switch
+- Psychic
+- Grass Knot 
+- Thunder
 
 === TRAINER_GRUNT_PETALBURG_WOODS ===
 Name: GRUNT
@@ -2900,8 +2927,50 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Shuppet
-Level: 32
+Omastar @ Focus Sash
+Timid Nature 
+Ability: Weak Armor 
+Level: 74
+- Hydro Pump
+- Power Gem
+- Spikes
+- Stealth Rock
+
+Muk @ Black Sludge
+Careful Nature 
+Ability: Poison Touch 
+Level: 74
+- Septic Slam
+- Brick Break
+- Curse
+- Spirit Shackle
+
+Carnivine @ Leftovers
+Brave Nature 
+Ability: Rain Dish 
+Level: 74
+- Wave Crash
+- Power Whip
+- Knock Off 
+- Infestation
+
+Spiritomb @ Choice Specs
+Relaxed Nature 
+Ability: Pressure 
+Level: 75
+- Dark Pulse
+- Shadow Ball
+- Psychic 
+- Burning Jealousy
+
+Dusclops @ Eviolite
+Adamant Nature 
+Ability: Cursed Body 
+Level: 75
+- Power Up Punch
+- Pain Split
+- Jealous Fit 
+- Confuse Ray
 
 === TRAINER_VALERIE_2 ===
 Name: VALERIE
@@ -5635,14 +5704,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 26
+Runerigus @ Custap Berry
+Relaxed Nature 
+Ability: Wandering Spirit 
+Level: 75
+- Poltergeist
+- Body Press
+- Destiny Bond
+- Toxic Spikes
 
-Ralts
-Level: 26
+Tentacruel @ Black Sludge
+Timid Nature 
+Ability: Liquid Ooze 
+Level: 74
+- Water Spout
+- Venoshock
+- Hex
+- Toxic
 
-Kirlia
-Level: 26
+Exeggutor @ Sitrus Berry
+Modest Nature 
+Ability: Harvest 
+Level: 74
+- Psyshock
+- Giga Drain
+- Leech Seed 
+- Substitute
+
+Glaceon @ Leftovers
+Timid Nature 
+Ability: Snow Cloak 
+Level: 74
+- Mirror Coat
+- Barrier
+- Freeze Dry
+- Shadow Ball
 
 === TRAINER_JOSHUA ===
 Name: JOSHUA
@@ -5821,14 +5917,41 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Wobbuffet
-Level: 26
+Golduck @ Life Orb
+Timid Nature 
+Ability: Cloud Nine 
+Level: 75
+- Hydro Pump
+- Focus Blast
+- Ice Beam
+- Psychic
 
-Natu
-Level: 26
+Bronzong @ Colbur Berry
+Sassy Nature 
+Ability: Heatproof 
+Level: 74
+- Gyro Ball
+- Body Press
+- Payback
+- Iron Defense
 
-Kadabra
-Level: 26
+Corsola_Galar @ Eviolite
+Bold Nature 
+Ability: Cursed Body 
+Level: 75
+- Night Shade
+- Strength Sap
+- Recover 
+- Will O Wisp
+
+Mandibuzz @ Rocky Helmet
+Careful Nature 
+Ability: Overcoat 
+Level: 75
+- Foul Play
+- Knock Off
+- Infestation
+- Roost
 
 === TRAINER_ALEXIS ===
 Name: ALEXIS

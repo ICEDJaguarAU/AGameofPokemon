@@ -797,8 +797,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hariyama
-Level: 31
+Sawk @ Lum Berry
+Jolly Nature 
+Ability: Sturdy 
+Level: 74
+- Close Combat
+- Reversal
+- Knock Off
+- Counter
+
+Throh @ Leftovers
+Sassy Nature 
+Ability: Guts 
+Level: 74
+- Revenge
+- Payback
+- Bulk Up
+- Recover
+
+Lucario @ Assault Vest
+Hasty Nature 
+Ability: Steadfast 
+Level: 73
+- Focus Blast
+- Flash Cannon
+- Stone Edge
+- Extreme Speed
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -906,8 +930,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Spoink
-Level: 31
+Hariyama @ Flame Orb
+Jolly Nature 
+Ability: Guts 
+Level: 73
+- Close Combat
+- Knock Off
+- Fake Out
+- Heavy Slam
+
+Umbreon @ Leftovers
+Impish Nature 
+Ability: Inner Focus 
+Level: 74
+- Curse
+- Protect
+- Foul PLay
+- Baton Pass
+
+Beheeyem @ Power Herb
+Quiet Nature 
+Ability: Analytic 
+Level: 74
+- Psyshock
+- Meteor Beam
+- Signal Beam
+- Recover
 
 === TRAINER_DAISY ===
 Name: DAISY
@@ -3563,8 +3611,50 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Rhyhorn
-Level: 31
+Cramorant @ Wacan Berry
+Timid Nature 
+Ability: Gulp Missile 
+Level: 73
+- Air Slash
+- Surf
+- Belch
+- Roost
+
+Rhydon @ Eviolite
+Careful Nature 
+Ability: Rock Head 
+Level: 74
+- Head Smash
+- Counter
+- Stealth Rock
+- Earthquake
+
+Hitmonlee @ Muscle Band
+Adamant Nature 
+Ability: Golden Boot 
+Level: 74
+- Fake Out
+- High Jump Kick
+- Axe Kick
+- Blaze Kick
+
+Yanmega @ Expert Belt
+Modest Nature 
+Ability: Speed Boost 
+Level: 73
+- Hypnosis
+- Bug Buzz
+- Ancient Power
+- Air Slash
+
+Delphox @ Delphoxite
+Timid Nature 
+Ability: Magic Guard 
+Level: 74
+- Fire Blast
+- Will O Wisp
+- Calm Mind
+- Stored Power
 
 === TRAINER_GRUNT_MT_CHIMNEY_1 ===
 Name: GRUNT
@@ -15455,11 +15545,50 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Delcatty
-Level: 31
+Perrserker @ Iapapa Berry
+Adamant Nature 
+Ability: Steely Spirit 
+Level: 73
+- Iron Tail
+- Bullet Punch
+- Close COmbat
+- Fake Out
 
-Manectric
-Level: 31
+Meowstic @ Light Clay
+Timid Nature 
+Ability: Prankster 
+Level: 74
+- Light Screen
+- Reflect
+- Psychic
+- SHadow Ball
+
+Arcanine @ Assault Vest
+Hasty Nature 
+Ability: Intimidate 
+Level: 74
+- Burn Up
+- Flare Blitz
+- Wild Charge
+- Extreme Speed
+
+Smeargle @ Leftovers
+Jolly Nature 
+Ability: Moody 
+Level: 74
+- Psywave
+- Dark Void
+- Protect
+- Substitute
+
+Rattata_Alola @ Choice Band
+Jolly Nature 
+Ability: Hustle 
+Level: 74
+- Double-Edge
+- Sucker Punch
+- Zen Headbutt
+- Stomping Tantrum
 
 === TRAINER_LEA_AND_JED ===
 Name: LEA & JED

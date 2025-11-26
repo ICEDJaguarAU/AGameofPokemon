@@ -846,7 +846,7 @@
 #define TRAINER_GABRIELLE_2                 840
 #define TRAINER_GABRIELLE_3                 841
 #define TRAINER_GABRIELLE_4                 842
-#define TRAINER_GABRIELLE_5                 843
+#define TRAINER_ARCHIE_MT_PYRE              843
 #define TRAINER_VITO_VR_2                   844
 #define TRAINER_VITO_VR_3                   845
 #define TRAINER_VITO_VR_4                   846

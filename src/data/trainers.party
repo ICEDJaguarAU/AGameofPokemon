@@ -676,8 +676,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
+Crawdaunt @ Focus Sash
+Jolly Nature 
+Ability: Adaptability 
+Level: 76
+- Crabhammer
+- Knock Off
+- Aqua Jet
+- Brick Break
+
+Kingdra @ Scope Lens
+Hasty Nature 
+Ability: Sniper 
+Level: 74
+- Draco Meteor
+- Hydro Pump
+- Octazooka 
+- Focus Energy
+
+Gumshoos @ Quick Claw
+Adamant Nature 
+Ability: Adaptability 
+Level: 75
+- Frustration
+- Earthquake
+- Crunch 
+- Endeavor
 
 === TRAINER_GRUNT_MT_PYRE_2 ===
 Name: GRUNT
@@ -688,8 +712,41 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 32
+Dragonite @ White Herb
+Hasty Nature 
+Ability: Multiscale 
+Level: 74
+- Draco Meteor
+- Dual Wingbeat
+- Extreme Speed
+- Roost
+
+Avalugg @ Lum Berry
+Adamant Nature 
+Ability: Sturdy 
+Level: 75
+- Avalanche
+- Stone Edge
+- Body Press 
+- Mirror Coat
+
+Floatzel @ Life Orb
+Hasty Nature 
+Ability: Water Veil 
+Level: 74
+- Hydro Pump
+- Wave Crash
+- Ice Beam 
+- Low Kick
+
+Feraligatr @ Feraligite
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 73
+- Aqua Chomp
+- Crunch
+- Scale Shot 
+- Dragon Dance
 
 === TRAINER_GRUNT_MT_PYRE_3 ===
 Name: GRUNT
@@ -700,11 +757,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 30
+Toxicroak @ Focus Band
+Modest Nature 
+Ability: Dry Skin 
+Level: 76
+- Fake Out
+- Sludge Wave
+- Aura Sphere 
+- Helping Hand
 
-Carvanha
-Level: 30
+Raichu @ Focus Band
+Modest Nature 
+Ability: Lightning Rod 
+Level: 76
+- Thunderbolt
+- Grass Knot
+- Fake Out 
+- Helping Hand
+
+Relicanth @ Bright Powder
+Jolly Nature 
+Ability: Rock Head 
+Level: 74
+- Head Smash
+- Wave Crash
+- Earthquake 
+- Dragon Dance
 
 === TRAINER_GRUNT_WEATHER_INST_4 ===
 Name: GRUNT
@@ -13984,11 +14062,30 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
-Level: 30
+Dracovish @ Lum Berry
+Adamant Nature 
+Ability: Strong Jaw 
+Level: 73
+- Dragon Rush
+- Fishious Rend
+- Psychic Fangs 
+- Crunch
 
-Zubat
-Level: 30
+Basculin @ Choice Band
+Adamant Nature 
+Ability: Adaptability 
+Level: 74
+- Liquidation
+
+
+Cloyster @ Kings Rock
+Adamant Nature 
+Ability: Skill Link 
+Level: 75
+- Clamp
+- Icicle Spear
+- Rock Blast 
+- Shell Smash
 
 === TRAINER_GRUNT_JAGGED_PASS ===
 Name: GRUNT
@@ -21791,32 +21888,70 @@ Level: 35
 Swellow
 Level: 35
 
-=== TRAINER_GABRIELLE_5 ===
-Name: GABRIELLE
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
+=== TRAINER_ARCHIE_MT_PYRE ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Aqua
+Items: Super Potion / Super Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Delcatty
-Level: 37
+Urshifu_Rapid_Strike @ Lum Berry
+Adamant Nature 
+Ability: Unseen Fist 
+Level: 76
+- Surging Strikes
+- Poison Jab
+- Detect
+- Triple Kick
 
-Mightyena
-Level: 37
+Hydreigon @ Life Orb
+Modest Nature 
+Ability: Levitate 
+Level: 75
+- Dragon Pulse
+- Dark Pulse
+- Sludge Bomb 
+- Roost
 
-Linoone
-Level: 37
+Rotom_Frost @ Light Clay
+Modest Nature 
+Ability: Levitate 
+Level: 76
+- Blizzard
+- Thunderbolt
+- Light Screen 
+- Reflect
 
-Ludicolo
-Level: 37
+Dragalge @ Black Sludge
+Timid Nature 
+Ability: Adaptability 
+Level: 75
+- Dragon Pulse
+- Sludge Bomb
+- Focus Blast
+- Protect
 
-Shiftry
-Level: 37
+Genesect @ Assault Vest
+Timid Nature 
+Ability: Mega Launcher 
+Level: 76
+- Water Pulse
+- Flash Cannon
+- Zap Cannon 
+- Chill Pulse
 
-Swellow
-Level: 37
+Sharpedo @ Sharpedonite
+Adamant Nature 
+Ability: Speed Boost 
+Level: 77
+- Protect
+- Aqua Chomp
+- Crunch 
+- Psychic Fangs
+
 
 === TRAINER_LEAF_VR_1 ===
 Name: LEAF

@@ -845,7 +845,7 @@
 #define TRAINER_SAWYER_5                    839
 #define TRAINER_GABRIELLE_2                 840
 #define TRAINER_GABRIELLE_3                 841
-#define TRAINER_GABRIELLE_4                 842
+#define TRAINER_LEAF_MT_PYRE                842
 #define TRAINER_ARCHIE_MT_PYRE              843
 #define TRAINER_VITO_VR_2                   844
 #define TRAINER_VITO_VR_3                   845

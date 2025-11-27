@@ -4449,14 +4449,14 @@ Level: 26
 - Swift
 - Charm
 
-Ivysaur @ Miracle Seed
+Bayleef @ Miracle Seed
 Brave Nature 
-Ability: Chlorophyll 
+Ability: Leaf Guard 
 Level: 27
-- Seed Bomb
-- Take Down
-- Sludge
-- Weather Ball
+- Magical Leaf
+- Leech Seed
+- Disarming Voice
+- Body Slam
 
 === TRAINER_UNUSED_1 ===
 Name: NOB
@@ -21861,32 +21861,68 @@ Level: 33
 Taillow
 Level: 33
 
-=== TRAINER_GABRIELLE_4 ===
-Name: GABRIELLE
-Class: Pkmn Breeder
-Pic: Pokemon Breeder F
+=== TRAINER_LEAF_MT_PYRE ===
+Name: LEAF
+Class: Rival
+Pic: Leaf
 Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move / Powerful Status / Ace Pokemon / Smart Switching
 
-Delcatty
-Level: 35
+Brambleghast @ Weakness Policy
+Brave Nature 
+Ability: Wind Rider 
+Level: 77
+- Leech Seed
+- Power Whip
+- Poltergeist
+- Infestation
 
-Mightyena
-Level: 35
+Toedscruel @ Heat Rock
+Modest Nature 
+Ability: Mycelium Might
+Level: 76
+- Earth Power
+- Giga Drain
+- Sunny Day
+- Spore
 
-Linoone
-Level: 35
+Arboliva @ Terrain Extender
+Calm Nature 
+Ability: Seed Sower 
+Level: 76
+- Leech Seed
+- Terrain Pulse
+- Weather Ball
+- Hyper Voice
 
-Lombre
-Level: 35
+Zarude @ Life Orb
+Jolly Nature 
+Ability: Leaf Guard
+Level: 76
+- Lash Out
+- Solar Blade
+- Sunny Day
+- Jungle Healing
 
-Nuzleaf
-Level: 35
+Ogerpon @ Hearthflame Mask
+Adamant Nature 
+Ability: Mold Breaker 
+Level: 76
+- Ivy Cudgel
+- Spiky Shield
+- Leech Seed
+- Wood Hammer
 
-Swellow
-Level: 35
+Meganium @ Leftovers
+Relaxed Nature 
+Ability: Leaf Guard 
+Level: 78
+- Dazzling Gleam
+- Synthesis
+- Solar Beam
+- Weather Ball
 
 === TRAINER_ARCHIE_MT_PYRE ===
 Name: ARCHIE

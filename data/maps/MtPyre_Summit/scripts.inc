@@ -5,6 +5,7 @@
 .set LOCALID_GRUNT_3, 6
 .set LOCALID_GRUNT_4, 7
 .set LOCALID_MAXIE, 8
+.set LOCALID_LEAF, 9
 
 MtPyre_Summit_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Summit_OnTransition
@@ -71,6 +72,8 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
 	releaseall
 	end
+
+
 
 MtPyre_Summit_EventScript_ArchieFacePlayer0::
 	applymovement LOCALID_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer0
@@ -429,6 +432,58 @@ MtPyre_Summit_EventScript_Grunt4::
 	trainerbattle_single TRAINER_GRUNT_MT_PYRE_4, MtPyre_Summit_Text_Grunt4Intro, MtPyre_Summit_Text_Grunt4Defeat
 	msgbox MtPyre_Summit_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
+MtPyre_Summit_EventScript_Leaf::
+	lock
+	faceplayer
+	checktrainerflag FLAG_MET_LEAF_MTPYRE
+	goto_if_set FLAG_MET_LEAF_MTPYRE, MtPyre_Summit_EventScript_Leaf_End
+	trainerbattle_single TRAINER_LEAF_MT_PYRE, MtPyre_Summit_Text_LeafIntro, MtPyre_Summit_Text_LeafDefeat
+	msgbox MtPyre_Summit_Text_LeafPostBattle, MSGBOX_AUTOCLOSE
+	delay 50 
+	applymovement LOCALID_LEAF, MtPyre_Summit_Movement_LeafLeavePostBattle
+	waitmovement 0
+	removeobject LOCALID_LEAF
+	delay 20
+	setflag FLAG_MET_LEAF_MTPYRE
+	release
+	end
+
+
+
+MtPyre_Summit_EventScript_Leaf_End::
+
+MtPyre_Summit_Text_LeafIntro:
+	.string "What was all that noise?\n"
+	.string "I have lost my Mum.\p"
+	.string "Can I not have any peace?$"
+
+MtPyre_Summit_Text_LeafDefeat:
+	.string "I still cannot find peace$"
+
+MtPyre_Summit_Text_LeafPostBattle:
+	.string "I have tried entertainment\n"
+	.string "I have tried escapeism\p"
+	.string "I have tried meditation\n"
+	.string "I think now it is time\p"
+	.string "for some anger driver action.$"
+
+
+MtPyre_Summit_Movement_LeafLeavePostBattle:
+	walk_left
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right	
+	step_end
+
 
 MtPyre_Summit_Text_Grunt1Intro:
 	.string "No! Those TEAM MAGMA goons got\n"

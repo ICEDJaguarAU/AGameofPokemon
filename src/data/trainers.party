@@ -18771,8 +18771,42 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 29
+Kangaskhan @ Silk Scarf
+Jolly Nature 
+Ability: Scrappy 
+Level: 75
+- Fake OUt
+- Low Kick
+- Sing
+- Return
+
+Centiskorch @ Leftovers
+Careful Nature 
+Ability: Flame Body 
+Level: 75
+- Fire Lash
+- Leech Life
+- Coil
+- Protect
+
+Crobat @ Choice Specs
+Modest Nature 
+Ability: Inner Focus 
+Level: 75
+- Hurricane
+- Sludge Bomb
+- Heat wave
+- Leech Life
+
+Toxapex @ Black Sludge
+Relaxed Nature 
+Ability: Merciless 
+Level: 76
+- Liquidation
+- Venoshock
+- Toxic
+- Recover
+
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_11 ===
 Name: GRUNT

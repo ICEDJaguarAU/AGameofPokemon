@@ -18333,8 +18333,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 29
+Torkoal @ Heat Rock
+Quiet Nature 
+Ability: Drought 
+Level: 74
+- Fire Blast
+- Solar Beam
+- Shell Smash
+- Clear Smog
+
+Tauros_Paldea_Blaze @ Life Orb
+Hasty Nature 
+Ability: Intimidate 
+Level: 74
+- Raging Bull
+- Flare Blitz
+- Iron Tail
+- Play Rough
+
+Charizard @ Bright Powder
+Jolly Nature 
+Ability: Solar Power 
+Level: 73
+- Belly Drum
+- Dual Wingbeat
+- Flare Blitz
+- Dragon Claw
+
+Granbull @ Assault Vest
+Careful Nature 
+Ability: Intimidate 
+Level: 74
+- Play Rough
+- Earthquake
+- Fire Punch
+- Payback
+
+Arcanine_Hisui @ Focus Band
+Jolly Nature 
+Ability: Rock Head 
+Level: 73
+- Head SMash
+- Flare Blitz
+- Reversal
+- Howl
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_3 ===
 Name: GRUNT
@@ -18345,8 +18387,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 29
+Aggron @ Focus Band
+Adamant Nature 
+Ability: Sturdy 
+Level: 73
+- Stone Edge
+- Heavy Slam
+- Counter
+- Stealth Rock
+
+Seviper @ Quick Claw
+Lonely Nature 
+Ability: Shed Skin 
+Level: 74
+- Septic Slam
+- Fire Blast
+- Crunch
+- Giga Drain
+
+Electivire @ Scope Lens
+Jolly Nature 
+Ability: Opportunist 
+Level: 75
+- Supercell Slam
+- Ice Punch
+- Magnet Rise
+- Drain Punch
+
+Marowak_Alola @ Thick Club
+Adamant Nature 
+Ability: Rock Head 
+Level: 75
+- Flare Blitz
+- Shadow Bone
+- Bonemerang
+- Substitute
+
+Houndoom @ Choice Scarf
+Modest Nature 
+Ability: Solar Power 
+Level: 75
+- Flamethrower
+- Night Daze
+- Scorching Sands
+- Sludge Bomb
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_4 ===
 Name: GRUNT
@@ -18357,11 +18441,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 28
+Scovillain @ White Herb
+Timid Nature 
+Ability: Moody 
+Level: 76
+- Spicy Extract
+- Overheat
+- Solar Beam
+- Grassy Terrain
 
-Zubat
-Level: 28
+Druddigon @ Roseli Berry
+Brave Nature 
+Ability: Sheer Force 
+Level: 77
+- Dragon Claw
+- Septic Slam
+- Fire Blast
+- Glare
+
+Shiftry @ Bright Powder
+Hasty Nature 
+Ability: Early Bird 
+Level: 75
+- Night Slash
+- Leaf Blade
+- Low Kick
+- Fake Out
+
+Marowak @ Thick Club
+Adamant Nature 
+Ability: Battle Armor 
+Level: 76
+- Bone Rush
+- Stone Edge
+- Knock OFf
+- Thrash
+
+Turtonator @ Quick Claw
+Quiet Nature 
+Ability: Shell Armor 
+Level: 75
+- Dragon Pulse
+- Shell Trap
+- Shell Smash
+- Smog
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
 Name: GRUNT
@@ -18372,11 +18495,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 28
+Manectric @ Life Orb
+Hasty Nature 
+Ability: Intimidate 
+Level: 76
+- Thunderbolt
+- Flamethrower
+- Ice Fang
+- Double Team
 
-Numel
-Level: 28
+Pyroar @ Focus Band
+Timid Nature 
+Ability: Unnerve 
+Level: 75
+- Fire Blast
+- Hyper Voice
+- Fire Spin
+- Yawn
+
+Fearow @ Scope Lens
+Jolly Nature 
+Ability: Sniper 
+Level: 76
+- Night Slash
+- Drill Peck
+- Quick Attack
+- Drill Run
+
+Absol @ Scope Lens
+Hasty Nature 
+Ability: Super Luck 
+Level: 76
+- Night Slash
+- Stone Edge
+- Psycho Cut
+- Icicle Crash
+
+Trapinch @ Eviolite
+Adamant Nature 
+Ability: Arena Trap 
+Level: 80
+- Earthquake
+- Crunch
+- Leech Life
+- Swagger
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
 Name: GRUNT
@@ -18483,8 +18645,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 29
+Nidoking @ Focus Band
+Jolly Nature 
+Ability: Poison Point 
+Level: 74
+- Earthquake
+- Septic Slam
+- Ice Punch
+- Stealth Rock
+
+Camerupt @ Quick Claw
+Quiet Nature 
+Ability: Own Tempo 
+Level: 76
+- Eruption
+- Earthquake
+- Stone Edge
+- Yawn
+
+Aerodactyl @ Kings Rock
+Jolly Nature 
+Ability: Unnerve 
+Level: 75
+- Dual Wingbeat
+- Rock Blast
+- Earthquake
+- Fire Fang
+
+Slaking @ Eject Button
+Jolly Nature 
+Ability: Truant 
+Level: 75
+- Double-Edge
+- Retaliate
+- Earthquake
+- Knock Off
+
+Zoroark @ Life Orb
+Naive Nature 
+Ability: Illusion 
+Level: 75
+- Pursuit
+- Fire Blast
+- Focus Blast
+- Sludge Bomb
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_15 ===
 Name: GRUNT

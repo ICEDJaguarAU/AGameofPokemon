@@ -18321,8 +18321,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 29
+Coalossal @ Quick Claw
+Brave Nature 
+Ability: Steam Engine 
+Level: 74
+- Heat Crash 
+- Rock Slide
+- Stealth Rock
+- Tar Shot
+
+Flareon @ Toxic Orb
+Jolly Nature 
+Ability: Guts 
+Level: 75
+- Flare Blitz
+- Facade
+- Poison Fang
+- Quick Attack
+
+Solrock @ Bright Powder
+Jolly Nature 
+Ability: Levitate 
+Level: 75
+- Stone Edge
+- Zen Headbutt
+- Will O Wisp
+- Flamethrower
+
+Dracozolt @ Life Orb
+Naive Nature 
+Ability: Hustle 
+Level: 75
+- Bolt Beak
+- Dragon Claw
+- Iron Tail
+- Fire Blast
+
+Talonflame @ Focus Band
+JOlly Nature 
+Ability: Flame Body 
+Level: 75
+- Brave Bird
+- Roost
+- Swords Dance
+- Will O Wisp
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_2 ===
 Name: GRUNT
@@ -18549,8 +18591,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 29
+Ninetales @ Heat Rock
+Timid Nature 
+Ability: Drought 
+Level: 78
+- Heat Wave
+- Will O Wisp
+- Scorching Sands 
+- Imprison
+
+Miltank @ Leftovers
+Careful Nature 
+Ability: Thick Fat 
+Level: 76
+- Return
+- Body Press
+- Curse
+- Milk Drink
+
+Donphan @ Iapapa Berry
+Adamant Nature 
+Ability: Sturdy 
+Level: 76
+- High Horsepower
+- Stone Edge
+- Flail
+- Natural Gift
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_7 ===
 Name: GRUNT
@@ -18558,11 +18624,53 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Zubat
-Level: 29
+Togekiss @ Scope Lens
+Timid Nature 
+Ability: Super Luck 
+Level: 75
+- Dazzling Gleam
+- Air Slash
+- Flamethrower 
+- Aura Sphere
+
+Seismitoad @ Bright Powder
+Sassy Nature 
+Ability: Water Absorb 
+Level: 75
+- Lands Wrath
+- Muddy Water
+- Sludge Wave
+- Boomburst
+
+Slowbro @ Quick Claw
+Modest Nature 
+Ability: Regenerator 
+Level: 74
+- Psychic
+- Flamethrower
+- Grass Knot
+- Calm Mind
+
+Electrode @ Bright Powder
+Naive Nature 
+Ability: Static 
+Level: 75
+- Volt Switch
+- Discharge
+- Foul Play
+- Swagger
+
+Dhelmise @ Assault Vest
+Relaxed Nature 
+Ability: Steelworker 
+Level: 76
+- Anchor Shot
+- Spirit Shackle
+- Giga Drain
+- Whirlpool
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_8 ===
 Name: GRUNT
@@ -18573,8 +18681,41 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 29
+Silvally_Fire @ Fire Memory
+Naive Nature 
+Ability: RKS System 
+Level: 76
+- Multi Attack
+- Thunderbolt
+- Grass Pledge
+- Night Slash
+
+Zoroark_Hisui @ Focus Sash
+Timid Nature 
+Ability: Illusion 
+Level: 75
+- Night Daze
+- Bitter Malice
+- Nasty Plot
+- Hyper Voice
+
+Flygon @ Throat Spray
+Timid Nature 
+Ability: Levitate 
+Level: 75
+- Boomburst
+- Bug Buzz
+- Clanging Scales
+- Snarl
+
+Skuntank @ Bright Powder
+Hasty Nature 
+Ability: Aftermath 
+Level: 74
+- Sludge Bomb
+- Dark Pulse
+- Fire Blast
+- Shadow Ball
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_9 ===
 Name: GRUNT
@@ -18699,8 +18840,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 29
+Exeggutor @ Tanga Berry
+Modest Nature 
+Ability: Chlorophyll 
+Level: 77
+- Solar Beam
+- Psyshock
+- Ancient Power 
+- Leech Seed
+
+Jumpluff @ Focus Sash
+Timid Nature 
+Ability: Leaf Guard 
+Level: 78
+- Solar Beam
+- Air Slash
+- Growth
+- Spore
+
+Arcanine @ Iapapa Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 76
+- Flare Blitz
+- Close Combat
+- Wild Charge
+- Howl
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_16 ===
 Name: GRUNT

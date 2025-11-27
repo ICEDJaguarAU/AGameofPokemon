@@ -18723,11 +18723,44 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Zubat
-Level: 29
+Weezing_Galar @ Payapa Berry
+Timid Nature 
+Ability: Misty Surge 
+Level: 77
+- Strange Steam
+- Fire Blast
+- Sludge Wave
+- Toxic
+
+Muk_Alola @ Shuca Berry
+Adamant Nature 
+Ability: Poison Touch 
+Level: 77
+- Septic Slam
+- Knock Off
+- Pursuit
+- Shadow Sneak
+
+Cinderace @ Misty Seed
+Jolly Nature 
+Ability: Libero 
+Level: 76
+- Pyro Ball
+- Acrobatics
+- Low Kick
+- Bulk Up
+
+Drampa @ Drampanite
+Timid Nature 
+Ability: Berserk 
+Level: 75
+- Hyper Voice
+- Dragon Pulse
+- Calm Mind
+- Recover
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_10 ===
 Name: GRUNT
@@ -18876,8 +18909,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 29
+Runerigus @ Bright Powder
+Adamant Nature 
+Ability: Wandering Spirit 
+Level: 75
+- Stone Edge
+- Stealth Rock
+- Toxic Spikes
+- Earthquake
+
+Slowking_Galar @ Black Sludge
+Bold Nature 
+Ability: Regenerator 
+Level: 76
+- Venoshock
+- Fire Blast
+- Grass Knot
+- Protect
+
+Chandelure @ Leftovers
+Timid Nature 
+Ability: Shadow Tag 
+Level: 75
+- Flamethrower
+- Hex
+- Substitute
+- Will o Wisp
+
+Cacturne @ Quick Claw
+Brave Nature 
+Ability: Water Absorb 
+Level: 75
+- Dark Pulse
+- Seed Bomb
+- Drain Punch
+- Spiky Shield
+
+Ninjask @ Focus Band
+Adamant Nature 
+Ability: Speed Boost 
+Level: 76
+- Dual Wingbeat
+- Leech Life
+- Protect
+- Swords Dance
 
 === TRAINER_TABITHA_MAGMA_HIDEOUT ===
 Name: TABITHA

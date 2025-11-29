@@ -126,8 +126,59 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 32
+Persian_Alola @ Bright Powder
+Jolly Nature 
+Ability: Fur Coat 
+Level: 77
+- Fake Out
+- Night Slash
+- Play Rough
+- Hypnosis
+
+Pangoro @ Quick Claw
+Adamant Nature 
+Ability: Scrappy 
+Level: 76
+- Close Combat
+- Foul Play
+- Septic Slam
+- Stone Edge
+
+Tauros_Paldea_Aqua @ Sitrus Berry
+Hasty Nature 
+Ability: Intimidate 
+Level: 78
+- Wave Crash
+- Lash OUt
+- Work up
+- Raging Bull
+
+Grapploct @ Assault Vest
+Adamant Nature 
+Ability: Technician 
+Level: 78
+- Revenge
+- Ice Punch
+- Payback
+- Whirlpool
+
+Floatzel @ Choice Band
+Jolly Nature 
+Ability: Water Veil 
+Level: 77
+- Waterfall
+- Flip Turn
+- Power Up Punch
+- Crunch
+
+Kingler @ Life Orb
+Adamant Nature 
+Ability: Sheer Force 
+Level: 78
+- Crabhammer
+- Ice Hammer
+- X-Scissor
+- Agility
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_2 ===
 Name: GRUNT

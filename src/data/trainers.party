@@ -189,11 +189,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 31
+Omastar @ Focus Sash
+Timid Nature 
+Ability: Weak Armor 
+Level: 80
+- Diamond Flash
+- Earth Power
+- Shell Smash
+- Scald
 
-Carvanha
-Level: 31
+Escavalier @ Quick Claw
+Adamant Nature 
+Ability: Overcoat 
+Level: 78
+- Megahorn
+- Iron Head
+- Drill Run
+- Swords Dance
+
+Lanturn @ Bright Powder
+Bold Nature 
+Ability: Volt Absorb 
+Level: 78
+- Surf
+- Thunder
+- Confuse Ray
+- Thunder Wave
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_3 ===
 Name: GRUNT
@@ -204,8 +225,59 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
+Rillaboom @ Focus Band
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 79
+- Wood Hammer
+- Grassy Glide
+- High Horsepower
+- Endeavor
+
+Wobbuffet @ Leftovers
+Timid Nature 
+Ability: Shadow Tag 
+Level: 80
+- Counter
+- Mirror Coat
+- Destiny Bond
+- Encore
+
+Tentacruel @ Choice Scarf
+Timid Nature 
+Ability: Liquid Ooze 
+Level: 78
+- Water Spout
+- Gunk Shot
+- Giga Drain
+- Toxic SPikes
+
+Ludicolo @ Muscle Band
+Adamant Nature 
+Ability: Own Tempo 
+Level: 78
+- Fake Out
+- Liquidation
+- Grassy Glide
+- Swords Dance
+
+Obstagoon @ Flame Orb
+Jolly Nature 
+Ability: Guts 
+Level: 78
+- Facade
+- Knock off
+- Close COmbat
+- Obstruct
+
+Ampharos @ Quick Claw
+Modest Nature 
+Ability: Static 
+Level: 78
+- Thunderbolt
+- Focus Blast
+- Counter
+- Dragon Pulse
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_4 ===
 Name: GRUNT
@@ -213,11 +285,62 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Carvanha
-Level: 32
+Ninetales_Alola @ Light Clay
+Timid Nature 
+Ability: Snow Warning 
+Level: 79
+- Dazzling Gleam
+- Blizzard
+- Aurora Veil
+- Nasty Plot
+
+Sandslash_Alola @ Scope Lens
+Adamant Nature 
+Ability: Slush Rush 
+Level: 78
+- Iron Head
+- Triple Axel
+- Swords Dance
+- Earthquake
+
+Eiscue @ Scope Lens
+Jolly Nature 
+Ability: Ice Face 
+Level: 78
+- Head Smash
+- Aqua Jet
+- Belly Drum
+- Icicle Crash
+
+Walrein @ Bright Powder
+Modest Nature 
+Ability: Ice Body 
+Level: 78
+- Surf
+- Blizzard
+- Substitute
+- Toxic
+
+Clefable @ Weakness Policy
+Bold Nature 
+Ability: Magic Guard 
+Level: 79
+- Dazzling Gleam
+- Stored Power
+- Cosmic Power
+- Soft Boiled
+
+Poliwrath @ Lum Berry
+Adamant Nature 
+Ability: Swift Swim 
+Level: 79
+- Drain Punch
+- Darkest Lariat
+- Belly Drum
+- Liquidation
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_1 ===
 Name: GRUNT
@@ -898,8 +1021,50 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 32
+Cryogonal @ Focus Band
+Timid Nature 
+Ability: Levitate 
+Level: 78
+- Ice Beam
+- Freeze Dry
+- Reflect
+- Light Screen
+
+Hariyama @ Life Orb
+Jolly Nature 
+Ability: Sheer Force 
+Level: 78
+- Close COmbat
+- Poison Jab
+- Stone Edge    
+- Thunder Punch
+
+Serperior @ Bright Powder
+Timid Nature 
+Ability: Contrary 
+Level: 77
+- Leaf Storm
+- Dragon Pulse
+- Glare
+- Leech Seed
+
+Alomomola @ Rocky Helmet
+Sassy Nature 
+Ability: Regenerator 
+Level: 79
+- Flip Turn
+- Scald
+- Toxic
+- Whirlpool
+
+Eelektross @ Leftovers
+Careful Nature 
+Ability: Levitate 
+Level: 79
+- Wild CHarge
+- Aqua Tail
+- Knock Off
+- Coil
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_6 ===
 Name: GRUNT
@@ -910,8 +1075,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
+Starmie @ Starminite
+Calm Nature 
+Ability: Analytic 
+Level: 80
+- Psychic
+- Ice Beam
+- Thunderbolt
+- Waterfall
+
+Gogoat @ Assault Vest
+Adamant Nature 
+Ability: Sap Sipper 
+Level: 80
+- Horn Leech
+- Earthquake
+- Iron Tail
+- Rock Slide
+
+Raichu_Alola @ Focus Band
+Timid Nature 
+Ability: Surge Surfer 
+Level: 79
+- Psychic
+- Discharge
+- Grass Knot
+- Nasty Plot
 
 === TRAINER_FREDRICK ===
 Name: FREDRICK
@@ -935,14 +1124,59 @@ Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
 Items: Super Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Mightyena
-Level: 34
+Dracovish @ Choice Scarf
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 80
+- Fishious Rend
 
-Golbat
-Level: 34
+Dragapult @ Expert Belt
+Naive Nature 
+Ability: Clear Body 
+Level: 81
+- Shadow Ball
+- Dragon Pulse
+- Hydro Pump
+- Dark Pulse
+
+Ogerpon @ Wellspring Mask
+Jolly Nature 
+Ability: Water Absorb 
+Level: 81
+- Ivy Cudgel
+- Leech Seed
+- Spiky Shield
+- Wood Hammer
+
+Raikou @ Life Orb
+Timid Nature 
+Ability: Inner Focus 
+Level: 82
+- Thunderbolt
+- Scald
+- Signal beam
+- Calm Mind
+
+Mamoswine @ Focus Sash
+Jolly Nature 
+Ability: Oblivious 
+Level: 80
+- Earthquake
+- Icicle Crash
+- Ice Shard
+- Shadow Bone
+
+Gyarados @ Gyaradosite
+Jolly Nature 
+Ability: Intimidate 
+Level: 82
+- Aqua Chomp
+- Crunch
+- Dragon Dance
+- Scale Shot
 
 === TRAINER_ZANDER ===
 Name: ZANDER
@@ -4722,11 +4956,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 31
+Politoed @ Damp Rock
+Timid Nature 
+Ability: Drizzle 
+Level: 80
+- Ice Beam
+- Earth Power
+- Weather Ball
+- Hypnosis
 
-Zubat
-Level: 31
+Ferrothorn @ Leftovers
+Brave Nature 
+Ability: Iron Barbs 
+Level: 80
+- Gyro Ball
+- Body Press
+- Curse
+- Leech Seed
+
+Heliolisk @ Bright Powder
+Timid Nature 
+Ability: Dry Skin 
+Level: 78
+- Discharge
+- Hyper Voice
+- Weather Ball
+- Glare
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_8 ===
 Name: GRUNT
@@ -4737,8 +4992,32 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 32
+Carracosta @ Quick Claw
+Brave Nature 
+Ability: Sturdy 
+Level: 80
+- Rock Slide
+- Ice Spinner
+- Muddy Water
+- Stealth Rock
+
+Gliscor @ Toxic Orb
+Jolly Nature 
+Ability: POison Heal 
+Level: 79
+- Dual Wingbeat
+- Facade
+- Swords Dance
+- Earthquake
+
+Goodra @ Leftovers
+Impish Nature 
+Ability: Gooey 
+Level: 80
+- Aqua Tail
+- Body Press
+- Curse
+- Dragon Tail
 
 === TRAINER_SHAWN ===
 Name: SHAWN

@@ -14788,17 +14788,62 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Mightyena
-Level: 37
+Groudon @ Red Orb
+Adamant Nature 
+Ability: Drought 
+Level: 80
+- Rock Polish
+- Rock Slide
+- Precipice Blades
+- Heat Crash
 
-Crobat
-Level: 38
+Tangrowth @ Life Orb
+Timid Nature 
+Ability: Chlorophyll 
+Level: 78
+- Solar Beam
+- Weather Ball
+- Sleep Powder
+- Ancient Power
 
-Camerupt
-Level: 39
+Garchomp @ Rocky Helmet
+Jolly Nature 
+Ability: Rough Skin 
+Level: 78
+- Bone Rush
+- Scale SHot
+- Rock Slide
+- Swords Dance
+
+Solgaleo @ Assault Vest
+Jolly Nature 
+Ability: Full Metal Body 
+Level: 79
+- Sunsteel Strike
+- Psychic Fangs
+- Flare Blitz  
+- Wild Charge
+
+Mew @ Lum Berry
+Jolly Nature 
+Ability: Synchronize 
+Level: 79
+- Psystrike
+- Flare Blitz
+- Dragon Dance
+- Soft Boiled
+
+Houndoom @ Houndoominite
+Timid Nature 
+Ability: Flash Fire 
+Level: 80
+- Eruption
+- Night Daze
+- Solar Beam  
+- Destiny Bond
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
 Name: MAXIE
@@ -18817,8 +18862,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 29
+Grimmsnarl @ Kebia Berry
+Adamant Nature 
+Ability: Prankster 
+Level: 76
+- Play Rough
+- Darkest Lariat
+- Fake Out
+- Reflect
+
+Turtonator @ Eject Pack
+Modest Nature 
+Ability: Shell Armor 
+Level: 76
+- Draco Meteor
+- Overheat
+- Scorching Sands
+- Protect
+
+Lickilicky @ Sitrus Berry
+Adamant Nature 
+Ability: Own Tempo 
+Level: 75
+- Belly Drum
+- KNock Off
+- Lick
+- Body Slam
+
+Incineroar @ Assault Vest
+Jolly Nature 
+Ability: Intimidate 
+Level: 75
+- Blaze Kick
+- Knock Off
+- Fake Out
+- Low Kick
+
+Jumpluff @ Leftovers
+Timid Nature 
+Ability: Infiltrator 
+Level: 75
+- Air Slash
+- Leech Seed
+- Spore
+- Substitute
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_12 ===
 Name: GRUNT
@@ -18829,8 +18916,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 29
+Arbok @ Bright Powder
+Jolly Nature 
+Ability: Intimidate 
+Level: 74
+- Septic Slam
+- Aqua Tail
+- Coil
+- Glare
+
+Victreebel @ Victreebelite
+Hasty Nature 
+Ability: Chlorophyll  
+Level: 76
+- Leaf Blade
+- Weather Ball
+- Sleep Powder
+- Septic Slam
+
+Ceruledge @ Assault Vest
+JOlly Nature 
+Ability: Weak Armor 
+Level: 75
+- Bitter Blade
+- Fire Lash
+- Psycho Cut
+- Night Slash
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_13 ===
 Name: GRUNT
@@ -18841,8 +18952,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 29
+Galvantula @ Focus Sash
+Timid Nature 
+Ability: Compound Eyes 
+Level: 76
+- Thunder
+- Bug Buzz
+- Energy Ball
+- Sticky Web
+
+Magmortar @ Choice Specs
+Timid Nature 
+Ability: Mega Launcher 
+Level: 75
+- Fire Blast
+- Flash Cannon
+- Aura Sphere
+- Heal Pulse
+
+Ursaluna @ Flame Orb
+JOlly Nature 
+Ability: Guts 
+Level: 75
+- Facade
+- Earthquake
+- Crunch
+- Protect
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_14 ===
 Name: GRUNT
@@ -18994,20 +19129,61 @@ Class: Magma Admin
 Pic: Magma Admin
 Gender: Male
 Music: Magma
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Numel
-Level: 26
+Chi-Yu @ Choice Scarf
+Timid Nature 
+Ability: Beads of Ruin 
+Level: 78
+- Dark Pulse
+- Lava Plume
 
-Mightyena
-Level: 28
 
-Zubat
-Level: 30
+Koraidon @ Life Orb
+Jolly Nature 
+Ability: Orichalcum Pulse 
+Level: 76
+- Collision Course
+- Dragon Dance
+- Flare Blitz
+- Dragon Claw
 
-Camerupt
-Level: 33
+Yanmega @ Sitrus Berry
+Modest Nature 
+Ability: Speed Boost 
+Level: 77
+- Detect
+- Air Slash
+- Ancient Power
+- CLanging Scales
+
+Snorlax @ Leftovers
+Impish Nature 
+Ability: Thick Fat 
+Level: 76
+- Body SLam
+- Heat Crash
+- Curse 
+- Rest
+
+Victini @ Eject Pack
+Naive Nature 
+Ability: Victory Star 
+Level: 78
+- V Create
+- Psyshock
+- Bolt Strike
+- Energy ball
+
+Ho-Oh @ Sacred Ash
+Jolly Nature 
+Ability: Pressure 
+Level: 79
+- Sacred Fire
+- Brave Bird
+- Future Sight 
+- Roost
 
 === TRAINER_DARCY ===
 Name: DARCY

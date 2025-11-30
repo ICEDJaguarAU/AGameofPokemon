@@ -583,8 +583,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 34
+Pincurchin @ Leftovers
+Quiet Nature 
+Ability: Electric Surge 
+Level: 82
+- Rising Voltage
+- Muddy Water
+- Thunder Wave
+- Pin Missile
+
+Rillaboom @ Assault Vest
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 82
+- Grassy Glide
+- High Horsepower
+- Darkest Lariat
+- Fake Out
 
 === TRAINER_GRUNT_RUSTURF_TUNNEL ===
 Name: GRUNT
@@ -4322,11 +4337,48 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 33
+Slurpuff @ Focus Sash
+Timid Nature 
+Ability: Unburden 
+Level: 82
+- Flamethrower
+- Thunderbolt
+- Sticky Web
+- Strange Steam
 
-Wingull
-Level: 33
+Nidoqueen @ Life Orb
+Timid Nature 
+Ability: Sheer Force 
+Level: 81
+- Sludge Bomb
+- Earth Power
+- Blizzard
+- Fire Blast
+
+Azumarill @ Sitrus Berry
+Jolly Nature 
+Ability: Huge Power 
+Level: 81
+- Play Rough
+- Aqua Jet
+- Ice Punch
+- Belly Drum
+
+Snorlax @ Custap Berry
+Impish Nature 
+Ability: Gluttony 
+Level: 83
+- Body Slam
+- Hammer Arm
+- Darkest Lariat
+- Belly Drum
+
+Wailord @ Choice Scarf
+Timid Nature 
+Ability: Oblivious 
+Level: 84
+- Water Spout
+- Hydro Pump
 
 === TRAINER_ROLAND ===
 Name: ROLAND
@@ -4337,8 +4389,29 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 34
+Slowking @ Sitrus Berry
+Bashful Nature 
+Ability: Oblivious 
+Level: 83
+- Water Pressure
+- Psychic
+- Recover
+- Amnesia
+
+Basculegion @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 82
+- Rain Dance
+- Wave Crash
+- Head Smash
+- Crunch
+
+Tentacruel @ Choice Scarf
+Bashful Nature 
+Ability: Rain Dish 
+Level: 83
+- Water Spout
 
 === TRAINER_NOLEN ===
 Name: NOLEN
@@ -4523,11 +4596,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 33
+Armaldo @ Sitrus Berry
+Bashful Nature 
+Ability: Battle Armor 
+Level: 83
+- Rock Slide
+- X-Scissor
+- Aqua Tail
+- Metal Claw
 
-Wailmer
-Level: 33
+Bruxish @ Sitrus Berry
+Bashful Nature 
+Ability: Dazzling  
+Level: 82
+- Zen HEadbutt
+- Wave Crash
+- Disable
+- Crunch
+
+Dragalge @ Sitrus Berry
+Bashful Nature 
+Ability: POison point 
+Level: 83
+- Gunk Shot
+- Clanging Scales
+- Hydro Pump
+- Double Team
 
 === TRAINER_TONY_2 ===
 Name: TONY
@@ -11392,8 +11486,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
-Level: 34
+Indeedee @ Focus Sash
+Timid Nature 
+Ability: Psychic Surge 
+Level: 82
+- Expanding Force
+- Dazzling Gleam
+- Mystical Fire
+- Calm Mind
+
+Primarina @ Throat Spray
+Timid Nature 
+Ability: Torrent 
+Level: 83
+- Sparkling Aria
+- Draining Kiss
+- Psychic
+- Sing
+
+Alakazam @ Life Orb
+Timid Nature 
+Ability: Magic Guard 
+Level: 82
+- Expanding Force
+- Dazzling Gleam
+- Recover
+- Substitute
+
+Flapple @ Petaya Berry
+Naive Nature 
+Ability: Gluttony 
+Level: 83
+- Dragon Claw
+- Grav Apple
+- Dragon Dance
+- Flame Burst
+
+Weavile @ Assault Vest
+Jolly Nature 
+Ability: Inner Focus 
+Level: 82
+- Pursuit
+- Triple Axel
+- Psycho Cut
+- Low Kick
+
+Slowbro @ Psychic Seed
+Careful Nature 
+Ability: Oblivious 
+Level: 83
+- Body Press
+- Curse
+- Slack Off
+- Liquidation
 
 === TRAINER_GRACE ===
 Name: GRACE
@@ -11404,8 +11549,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 34
+Greninja @ Life Orb
+Timid Nature 
+Ability: Protean 
+Level: 81
+- Dark Pulse
+- Ice Beam
+- Mat Block
+- Water Shuriken
+
+Dhelmise @ Assault Vest
+Adamant Nature 
+Ability: Steelworker 
+Level: 81
+- Power Whip
+- Grassy Glide
+- Shadow Claw
+- Steel Roller
+
+Clawitzer @ Focus Sash
+Modest Nature 
+Ability: Mega Launcher 
+Level: 81
+- Muddy Water
+- Water Pulse
+- Dragon Pulse
+- Terrain Pulse
 
 === TRAINER_TANYA ===
 Name: TANYA
@@ -14939,8 +15108,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 34
+Overqwil @ Sitrus Berry
+Bashful Nature 
+Ability: Intimidate 
+Level: 83
+- Barb Barrage
+- Septic Slam
+- Acupressure
+- Foul Play
+
+Slowbro @ Sitrus Berry
+Bashful Nature 
+Ability: Oblivious  
+Level: 82
+- Heal Pulse
+- Ice Punch
+- Water Punch
+- Smelling Salts
+
+Barraskewda @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 83
+- Liquidation
+- Crunch
+- Focus Energy
+- Agility
 
 === TRAINER_GRUNT_WEATHER_INST_5 ===
 Name: GRUNT
@@ -17784,11 +17977,56 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Chinchou
-Level: 34
+Ludicolo @ Focus Sash
+Timid Nature 
+Ability: Own Tempo 
+Level: 86
+- Fake Out
+- Energy Ball
+- Icy Wind
+- Scald
 
-Carvanha
-Level: 33
+Starmie @ Life Orb
+Timid Nature 
+Ability: Analytic 
+Level: 86
+- Hydro Pump
+- Blizzard
+- Grass Knot
+- Thunder
+
+Dragonite @ Lum Berry
+Jolly Nature 
+Ability: Inner Focus 
+Level: 85
+- Dragon Rush
+- Dual Wingbeat
+- Aqua Tail
+- Thunder Wave
+
+Stoutland @ Choice Band
+Jolly Nature 
+Ability: Scrappy 
+Level: 86
+- Retaliate
+
+Lanturn @ Life Orb
+Timid Nature 
+Ability: Volt Absorb 
+Level: 86
+- Hydro Pump
+- Thunder
+- Ice Beam
+- Protect
+
+Blastoise @ Blastoisinite X
+Calm Nature 
+Ability: Drizzle 
+Level: 87
+- COmbat Shell
+- Water Pressure
+- Body Press
+- Aqua Ring
 
 === TRAINER_LILA_AND_ROY_2 ===
 Name: LILA & ROY

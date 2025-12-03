@@ -4422,8 +4422,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
-Level: 34
+Bruxish @ Sitrus Berry
+Bashful Nature 
+Ability: Strong Jaw  
+Level: 82
+- Aqua Chomp
+- Psychic Fangs
+- Ice Fang
+- Fire Fang
+
+Milotic @ Sitrus Berry
+Bashful Nature 
+Ability: Marvel Scale 
+Level: 83
+- Water Pulse
+- Hyper Voice
+- Moonblast
+- Ice Beam
 
 === TRAINER_STAN ===
 Name: STAN
@@ -4434,8 +4449,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Horsea
-Level: 34
+Kingdra @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 82
+- Dragon Dance
+- Liquidation
+- Focus Energy
+- Dragon Rush
+
+Hydreigon @ Sitrus Berry
+Bashful Nature 
+Ability: Levitate 
+Level: 83
+- Nasty Plot
+- Dragon Pulse
+- Dark Pulse
+- Flash Cannon
+
+Goodra @ Sitrus Berry
+Bashful Nature 
+Ability: Hydration 
+Level: 83
+- Rest
+- Toxic
+- Rain Dance
+- Dragon Hammer
 
 === TRAINER_BARRY ===
 Name: BARRY
@@ -10435,11 +10474,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Tropius
-Level: 33
+Dragonite @ Lum Berry
+Jolly Nature 
+Ability: Inner Focus 
+Level: 82
+- Dragon Rush
+- Dual Wingbeat
+- Low Kick
+- Tailwind
 
-Xatu
-Level: 33
+Kleavor @ Life Orb 
+Jolly Nature 
+Ability: Sheer Force 
+Level: 83
+- Rock Slide
+- Skitter Smack
+- CLose Combat
+- Tailwind
+
+Toucannon @ Sitrus Berry
+Jolly Nature 
+Ability: Skill Link 
+Level: 83
+- Fury Attack
+- Beak Blast
+- Bullet Seed
+- Rock Blast
 
 === TRAINER_EDWARDO ===
 Name: EDWARDO
@@ -11582,11 +11642,26 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc
-Level: 34
+Slowbro @ Sitrus Berry
+Bashful Nature 
+Ability: Oblivious  
+Level: 82
+- Rain Dance
+- Slack Off
+- Amnesia
+- Water Punch
+
+Slowking @ Sitrus Berry
+Bashful Nature 
+Ability: Oblivious 
+Level: 83
+- Psych Up
+- Yawn
+- Hydro Pump
+- Heal Pulse
 
 === TRAINER_SHARON ===
 Name: SHARON
@@ -11597,8 +11672,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
-Level: 34
+Avalugg @ Sitrus Berry
+Bashful Nature 
+Ability: Own Tempo  
+Level: 82
+- Avalanche
+- Crunch
+- Recover
+- Ice Shard
+
+Walrein @ Sitrus Berry
+Bashful Nature 
+Ability: Thick Fat 
+Level: 83
+- Sheer Cold
+- Hydro Pump
+- Freeze Dry
+- Heavy Slam
 
 === TRAINER_NIKKI ===
 Name: NIKKI
@@ -12789,11 +12879,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Manectric
-Level: 33
+Salazzle @ Focus Sash
+Timid Nature 
+Ability: Corrosion 
+Level: 84
+- Fire Blast
+- Gunk Shot
+- Fake Out
+- Encore
 
-Machamp
-Level: 33
+Rillaboom @ Terrain Extender
+Jolly Nature 
+Ability: Grassy Surge 
+Level: 84
+- Wood Hammer
+- Grassy Glide
+- Acrobatics
+- Swords Dance
+
+Eelektross @ Eelektrossite
+Timid Nature 
+Ability: Levitate 
+Level: 85
+- Thunderbolt
+- Flamethrower
+- Super Fang
+- Protect
 
 === TRAINER_KELVIN ===
 Name: KELVIN
@@ -17758,19 +17869,59 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Swablu
-Level: 32
-- Sing
-- Fury Attack
-- Safeguard
-- Aerial Ace
+Ninetales_Alola @ Light Clay
+Timid Nature 
+Ability: Snow Warning 
+Level: 85
+- Aurora Veil
+- Blizzard
+- Dazzling Gleam
+- Icy Wind
 
-Numel
-Level: 35
-- Flamethrower
-- Take Down
-- Rest
-- Earthquake
+Medicham @ Expert Belt
+Jolly Nature 
+Ability: Pure Power 
+Level: 84
+- Fake Out
+- Zen Headbutt
+- Close Combat
+- Rock Slide
+
+Frosmoth @ Focus Sash
+Timid Nature 
+Ability: Shield Dust 
+Level: 84
+- Blizzard
+- Icy Wind
+- Infestation
+- Aurora Veil
+
+Frostkwen @ Choice Specs
+Timid Nature 
+Ability: Liquid Voice 
+Level: 84
+- Blizzard
+- Hyper Voice
+- Dazzling Gleam
+- Aura Sphere
+
+Sandslash_Alola @ Life Orb
+Adamant Nature 
+Ability: Slush Rush 
+Level: 85
+- Triple Axel
+- High Horsepower
+- Knock OFf
+- Swords Dance
+
+Magmortar @ Assault Vest
+Timid Nature 
+Ability: Mega Launcher 
+Level: 85
+- Heat Wave
+- Weather Ball
+- Flash Cannon
+- Clear SMog
 
 === TRAINER_TYRA_AND_IVY ===
 Name: TYRA & IVY

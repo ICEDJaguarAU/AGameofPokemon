@@ -6284,8 +6284,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 36
+Noivern @ Life Orb
+Timid Nature 
+Ability: Telepathy 
+Level: 85
+- Hurricane
+- Focus Blast
+- Super Fang
+- Tailwind
+
+Gardevoir @ Lum Berry
+Timid Nature 
+Ability: Telepathy 
+Level: 85
+- Dazzling Gleam
+- Icy Wind
+- Shadow Sneak
+- Helping Hand
+
+Mismagius @ Focus Sash
+Timid Nature 
+Ability: Levitate 
+Level: 85
+- Shadow Ball
+- Shadow Sneak
+- Mystical Fire
+- Psych Up
 
 === TRAINER_VIRGIL ===
 Name: VIRGIL
@@ -6296,8 +6320,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 36
+Krookodile @ Salac Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 85
+- High Horsepower
+- Knock Off
+- Close Combat 
+- Fling
+
+Mienshao @ Salac Berry
+Jolly Nature 
+Ability: Inner Focus 
+Level: 85
+- CLose COmbat
+- Rock Slide
+- Fling
+- Psych Up
+
+Delphox @ Focus Sash
+Timid Nature 
+Ability: Magic Guard 
+Level: 85
+- Fire Blast
+- Psychic
+- Hypnosis
+- Psych Up
 
 === TRAINER_BLAKE ===
 Name: BLAKE
@@ -6308,8 +6356,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Girafarig
-Level: 36
+Porygon2 @ Eviolite
+Quiet Nature 
+Ability: Download 
+Level: 85
+- Tri Attack
+- Thunder
+- Psychic 
+- Trick Room
+
+Jellicent @ Leftovers
+Quiet Nature 
+Ability: Water Absorb 
+Level: 85
+- Water Pressure
+- Cosmic Power
+- Night Terror
+- Strength Sap
+
+Hatterene @ Red Card
+Modest Nature 
+Ability: Magic Bounce 
+Level: 85
+- Psyshock
+- Dazzling Gleam
+- Protect
+- Trick Room
 
 === TRAINER_WILLIAM ===
 Name: WILLIAM
@@ -6497,8 +6569,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kirlia
-Level: 36
+Meowstic @ Focus Sash
+Timid Nature 
+Ability: Competitive 
+Level: 85
+- Psychic
+- Thunderbolt
+- Fake Out 
+- Imprison
+
+Milotic @ Leftovers
+Bold Nature 
+Ability: Competitive 
+Level: 85
+- Muddy Water
+- Coil
+- Hypnosis
+- Recover
+
+Purugly @ Silk Scarf
+Jolly Nature 
+Ability: Defiant 
+Level: 85
+- Return
+- Fake Out
+- Throat Chop
+- Leer
 
 === TRAINER_SAMANTHA ===
 Name: SAMANTHA
@@ -6509,8 +6605,30 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Xatu
-Level: 36
+Perrserker @ Occa Berry
+Brave Nature 
+Ability: Steely Spirit 
+Level: 85
+- Iron Tail
+- Close COmbat
+- Fake Out 
+- Metal Sound
+
+Bronzong @ Leftovers
+Relaxed Nature 
+Ability: Levitate 
+Level: 85
+- Heavy Slam
+- Body Press
+- Metal Sound
+- Trick Room
+
+Rampardos @ Choice Band
+Brave Nature 
+Ability: Sheer Force 
+Level: 85
+- Head Smash
+- Rock Slide
 
 === TRAINER_MAURA ===
 Name: MAURA
@@ -6521,8 +6639,30 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 36
+Sylveon @ Choice Scarf
+Modest Nature 
+Ability: Pixilate 
+Level: 85
+- Hyper Voice
+
+
+Metagross @ Weakness Policy
+Adamant Nature 
+Ability: Clear Body 
+Level: 85
+- Meteor Mash
+- Zen Headbutt
+- Bullet Punch
+- Helping Hand
+
+Drifblim @ Weakness Policy
+Naughty Nature 
+Ability: Unburden 
+Level: 85
+- Night Terror
+- Acrobatics
+- Silver Wind
+- Will o Wisp
 
 === TRAINER_KAYLA ===
 Name: KAYLA
@@ -7403,33 +7543,59 @@ Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Basic Trainer
 
-Claydol
-Level: 41
+Munkidori @ Light Clay
+Calm Nature 
+Ability: Toxic Chain 
+Level: 85
+- Light Screen
+- Reflect
+- Parting Shot  
+- Psychic
+
+Tapu_Lele @ Assault Vest
+Timid Nature 
+Ability: Psychic Surge 
+Level: 85
+- Dazzling Gleam
+- Natures Madness
+- Draining Kiss
+- Future Sight
+
+Latios @ Red Card
+Hasty Nature 
+Ability: Levitate 
+Level: 85
+- Draco Meteor
+- Zen Headbutt
 - Earthquake
-- Ancient Power
-- Psychic
-- Light Screen
+- Dragon Dance
 
-Xatu
-Level: 41
-- Psychic
-- Sunny Day
-- Confuse Ray
+Hoopa_Unbound @ Focus Sash
+Hasty Nature 
+Ability: Magician 
+Level: 86
+- Hyperspace Fury
+- Zen Headbutt
+- Expanding Force
+- Aura Sphere
+
+Hoopa @ Leftovers
+Timid Nature 
+Ability: Magician 
+Level: 86
+- Hyperspace Hole
+- Night Terror
+- Aura Sphere
+- Substitute
+
+Alakazam @ Alakazite
+Timid Nature 
+Ability: Inner Focus 
+Level: 86
+- Psyshock
+- Night Shade
 - Calm Mind
-
-Lunatone @ Sitrus Berry
-Level: 42
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
-
-Solrock @ Sitrus Berry
-Level: 42
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+- Dazzling Gleam
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -14903,8 +15069,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 36
+Conkeldurr @ Assault Vest
+Adamant Nature 
+Ability: Iron Fist 
+Level: 85
+- Hammer Arm
+- Mach Punch
+- POison Jab 
+- Ice Punch
+
+Gyarados @ Power Herb
+Jolly Nature 
+Ability: Intimidate 
+Level: 85
+- Wave Crash
+- Lash Out
+- Dragon Dance
+- Protect
+
+Rapidash_Galar @ Focus Sash
+Jolly Nature 
+Ability: Pastel Veil 
+Level: 85
+- Play Rough
+- Zen Headbutt
+- High Horsepower
+- Swords Dance
 
 === TRAINER_LEONARDO ===
 Name: LEONARDO
@@ -15009,8 +15199,32 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Spoink
-Level: 36
+Gothitelle @ Weakness Policy
+Timid Nature 
+Ability: Shadow Tag 
+Level: 85
+- Psyshock
+- Stored Power
+- Signal beam 
+- Fake Out
+
+Flapple @ Liechi Berry
+Adamant Nature 
+Ability: Ripen 
+Level: 85
+- Dragon Claw
+- Grav Apple
+- Sucker Punch
+- Substitute
+
+Venomoth @ Sitrus Berry
+Timid Nature 
+Ability: Tinted Lens 
+Level: 85
+- Bug Buzz
+- Sludge Wave
+- Quiver Dance
+- Sleep Powder
 
 === TRAINER_KATHLEEN ===
 Name: KATHLEEN
@@ -15021,8 +15235,32 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 36
+Crobat @ Black Sludge
+Jolly Nature 
+Ability: Inner Focus 
+Level: 85
+- Brave Bird
+- Super Fang
+- Screech  
+- Tailwind
+
+Togekiss @ Iapapa Berry
+Timid Nature 
+Ability: Serene Grace 
+Level: 85
+- Air Slash
+- Heat Wave
+- Follow Me
+- Tailwind
+
+Mr Rime @ Focus Sash
+Timid Nature 
+Ability: Screen Cleaner 
+Level: 85
+- Fake Out
+- Sucker Punch
+- Smelling Salts
+- Ice Shard
 
 === TRAINER_CLIFFORD ===
 Name: CLIFFORD
@@ -15033,8 +15271,32 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Girafarig
-Level: 36
+Passimian @ Focus Sash
+Jolly Nature 
+Ability: Receiver 
+Level: 85
+- Close Combat
+- Rock Slide
+- POison Jab  
+- Detect
+
+Greninja @ Expert Belt
+Naive Nature 
+Ability: Protean 
+Level: 85
+- Water Shuriken
+- Dark Pulse
+- Ice Beam
+- Low Kick
+
+Steinulfur @ Life Orb
+Adamant Nature 
+Ability: Tough Claws 
+Level: 85
+- Rock Slide
+- Accelerock
+- Close Combat
+- Psychic Fangs
 
 === TRAINER_NICHOLAS ===
 Name: NICHOLAS
@@ -15045,8 +15307,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Wobbuffet
-Level: 36
+Excadrill @ Leftovers
+Adamant Nature 
+Ability: Mold Breaker 
+Level: 85
+- Substitute
+- Rock Slide
+- Earthquake  
+- Iron Head
+
+Medicham @ Focus Sash
+Jolly Nature 
+Ability: Pure Power 
+Level: 85
+- Close Combat
+- Reversal
+- Zen Headbutt
+- Thunder Punch
+
+Cinderace @ Life Orb
+Jolly Nature 
+Ability: Libero 
+Level: 85
+- Pyro Ball
+- Zen Headbutt
+- Iron Head
+- Sucker Punch
 
 === TRAINER_GRUNT_SPACE_CENTER_3 ===
 Name: GRUNT
@@ -15120,8 +15406,24 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Natu
-Level: 36
+Tauros_Paldea_Combat @ Choice Scarf
+Jolly Nature 
+Ability: Intimidate 
+Level: 85
+- Close Combat
+- Return
+- Lash Out  
+- Role Play
+
+Golduck @ Life Orb
+Jolly Nature 
+Ability: Swift Swim 
+Level: 85
+- Aqua Jet
+- Cross Chop
+- Zen Headbutt
+- Role Play
+
 
 === TRAINER_BRENDAN_RUSTBORO_TREECKO ===
 Name: BRENDAN

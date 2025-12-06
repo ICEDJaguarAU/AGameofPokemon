@@ -853,8 +853,59 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 32
+Scrafty @ Assault Vest
+Adamant Nature 
+Ability: Intimidate 
+Level: 85
+- CLose Combat
+- KNock Off
+- Stone Edge
+- Counter
+
+Duraludon @ Iapapa Berry
+Relaxed Nature 
+Ability: Heavy Metal 
+Level: 84
+- Draco Meteor
+- Heavy Slam
+- Body PRess
+- Stealth Rock
+
+Exeggutor @ Quick Claw
+Quiet Nature 
+Ability: Chlorophyll 
+Level: 85
+- Psychic
+- Grass Knot
+- Sleep Powder
+- Leech Seed
+
+Aerodactyl @ Scope Lens
+Jolly Nature 
+Ability: Unnerve 
+Level: 84
+- Stone Edge
+- Dual Wingbeat
+- Earthquake
+- Dragon Dance
+
+Darmanitan @ Life Orb
+Jolly Nature 
+Ability: Sheer Force 
+Level: 86
+- Flare Blitz
+- Earthquake
+- Rock Slide
+- Reversal
+
+Weavile @ Bright Powder
+Jolly Nature 
+Ability: Inner Focus 
+Level: 86
+- Night Slash
+- Ice Shard
+- Low Kick
+- Swords Dance
 
 === TRAINER_GRUNT_MT_PYRE_1 ===
 Name: GRUNT
@@ -3515,14 +3566,59 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 26
+Shaymin @ Life Orb
+Timid Nature 
+Ability: Natural Cure 
+Level: 87
+- Seed Flare
+- Earth Power
+- Grass Whistle
+- Air Slash
 
-Mightyena
-Level: 28
+Dugtrio @ Focus Sash
+Jolly Nature 
+Ability: Arena Trap 
+Level: 86
+- Earthquake
+- Final Gambit
+- Memento
+- Stealth Rock
 
-Numel
-Level: 30
+Tyrantrum @ Red Card
+Adamant Nature 
+Ability: Rock Head 
+Level: 86
+- Head Smash
+- Scale Shot
+- Close COmbat
+- Rock Polish
+
+Raging Bolt @ Leftovers
+Timid Nature 
+Ability: Protosynthesis 
+Level: 87
+- Thunderclap
+- Rising Voltage
+- Dragon Pulse
+- Electric Terrain
+
+Slither Wing @ Assault Vest
+Jolly Nature 
+Ability: Protosynthesis 
+Level: 87
+- First Impression
+- Leech Life
+- Dual Wingbeat
+- Thrash
+
+Charizard @ Charizardite X
+Jolly Nature 
+Ability: Blaze 
+Level: 87
+- Flare Blitz
+- Dragon Claw
+- Dragon Dance
+- Roost
 
 === TRAINER_CINDY_2 ===
 Name: CINDY
@@ -13237,14 +13333,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Camerupt
-Level: 36
+Tyranitar @ Life Orb
+Adamant Nature 
+Ability: Sand Stream 
+Level: 89
+- Foul Play
+- Rock Slide
+- Heavy Slam
+- Taunt
 
-Mightyena
-Level: 38
+Ferrothorn @ Rocky Helmet
+Impish Nature 
+Ability: Iron Barbs 
+Level: 88
+- Power Whip
+- Body Press
+- Knock Off 
+- Leech Seed
 
-Golbat
-Level: 40
+Moltres @ Safety Goggles
+Timid Nature 
+Ability: Flame Body 
+Level: 88
+- Heat Wave
+- Hurricane
+- Detect 
+- Tailwind
 
 === TRAINER_EDWIN_2 ===
 Name: EDWIN
@@ -15343,11 +15457,50 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 31
+Steelix @ Bright Powder
+Brave Nature 
+Ability: Sturdy 
+Level: 84
+- Gyro Ball
+- Avalanche
+- Stealth Rock
+- Ice Shard
 
-Poochyena
-Level: 31
+Appletun @ Lum Berry
+Modest Nature 
+Ability: Thick Fat 
+Level: 83
+- Dragon Pulse
+- Apple Acid
+- Leech Seed
+- Recover
+
+Zebstrika @ Focus Band
+Naive Nature 
+Ability: Sap Sipper 
+Level: 84
+- Zing Zap
+- Overheat
+- High Horsepower
+- Low Kick
+
+Corviknight @ Weakness Policy
+Careful Nature 
+Ability: Unnerve 
+Level: 84
+- Body Press
+- POwer Trip
+- Iron Defense
+- Agility
+
+Simisear @ Focus Band
+Timid Nature 
+Ability: Blaze 
+Level: 85
+- Flamethrower
+- Grass Knot
+- Acrobatics
+- Nasty Plot
 
 === TRAINER_GRUNT_SPACE_CENTER_4 ===
 Name: GRUNT
@@ -15358,8 +15511,47 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 32
+Diggersby @ Quick Claw
+Adamant Nature 
+Ability: Huge Power 
+Level: 85
+- Double-Edge
+- Earthquake
+- Fire Punch
+- Knock Off
+
+Silvally_Grass @ Grass Memory
+Naive Nature 
+Ability: RKS System 
+Level: 85
+- Multi Attack
+- Flamethrower
+- Ice Beam
+- Imprison
+
+Ribombee @ Focus Band
+Modest Nature 
+Ability: Shield Dust 
+Level: 85
+- Moonblast
+- Bug Buzz
+- Quiver Dance
+- Stun Spore
+
+Arcanine @ Bright Powder
+Jolly Nature 
+Ability: Intimidate 
+Level: 86
+- Flare Blitz
+- Wild Charge
+- Close COmbat
+- Extreme Speed
+
+Klinklang @ Choice Band
+Jolly Nature 
+Ability: Clear Body 
+Level: 86
+- Gear Grind
 
 === TRAINER_GRUNT_SPACE_CENTER_5 ===
 Name: GRUNT
@@ -15370,8 +15562,23 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 32
+Armaldo @ Bright Powder
+Adamant Nature 
+Ability: Battle Armor 
+Level: 84
+- Leech Life
+- Rock Blast
+- Earthquake
+- Swords Dance
+
+Rotom_Heat @ White Herb
+Timid Nature 
+Ability: Levitate 
+Level: 85
+- Overheat
+- Thunderbolt
+- Will o Wisp
+- Thunder Wave
 
 === TRAINER_GRUNT_SPACE_CENTER_6 ===
 Name: GRUNT
@@ -15382,8 +15589,23 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 32
+Machamp @ Quick Claw
+Adamant Nature 
+Ability: No Guard 
+Level: 85
+- Dynamic Punch
+- Stone Edge
+- Knock Off
+- Bulk Up
+
+Talonflame @ Sitrus Berry
+Jolly Nature 
+Ability: Flame Body 
+Level: 85
+- Flare Blitz
+- Brave Bird
+- Will o Wisp
+- Swords Dance
 
 === TRAINER_GRUNT_SPACE_CENTER_7 ===
 Name: GRUNT
@@ -15394,8 +15616,32 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 32
+Bisharp @ Lum Berry
+Jolly Nature 
+Ability: Defiant 
+Level: 85
+- Iron Head
+- Pursuit
+- Psycho Cut
+- Low Kick
+
+Weezing_Galar @ Black Sludge
+Timid Nature 
+Ability: Levitate 
+Level: 85
+- Sludge Bomb
+- Flamethrower
+- Protect 
+- Will O Wisp
+
+Ting_Lu @ Focus Band
+Adamant Nature 
+Ability: Vessel of Ruin 
+Level: 86
+- Ruination
+- Earthquake
+- Stone Edge 
+- Throat Chop
 
 === TRAINER_MACEY ===
 Name: MACEY
@@ -20231,14 +20477,32 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 42
+Landorus @ Life Orb
+Timid Nature 
+Ability: Sheer Force 
+Level: 88
+- Earth Power
+- Psychic
+- Weather Ball
+- Protect
 
-Crobat
-Level: 43
+Heatran @ Air Balloon
+Timid Nature 
+Ability: Flash Fire 
+Level: 88
+- Magma Storm
+- Heat Wave
+- Flash Cannon 
+- Earth Power
 
-Camerupt
-Level: 44
+Garchomp @ Garchompite
+Jolly Nature 
+Ability: Rough Skin 
+Level: 89
+- High Horsepower
+- Scale Shot
+- Stone Edge 
+- Protect
 
 === TRAINER_PETE ===
 Name: PETE

@@ -40,65 +40,71 @@
         {
             {
 #line 15
-            .species = SPECIES_METANG,
+            .species = SPECIES_DIALGA,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 15
+            .heldItem = ITEM_LEFTOVERS,
 #line 19
-            .ev = TRAINER_PARTY_EVS(0, 252, 252, 0, 6, 0),
-#line 18
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 17
-            .lvl = 42,
+            .ability = ABILITY_TELEPATHY,
+#line 18
+            .lvl = 90,
 #line 16
+            .nature = NATURE_QUIET,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 19
+                MOVE_ROAR_OF_TIME,
+                MOVE_STEEL_BEAM,
+                MOVE_AURA_SPHERE,
+                MOVE_TRICK_ROOM,
+            },
+            },
+            {
+#line 24
+            .species = SPECIES_METAGROSS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 24
+            .heldItem = ITEM_LIFE_ORB,
+#line 28
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 26
+            .ability = ABILITY_CLEAR_BODY,
+#line 27
+            .lvl = 89,
+#line 25
             .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 20
-                MOVE_LIGHT_SCREEN,
-                MOVE_PSYCHIC,
-                MOVE_REFLECT,
-                MOVE_METAL_CLAW,
-            },
-            },
-            {
-#line 25
-            .species = SPECIES_SKARMORY,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-#line 29
-            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 6, 252),
 #line 28
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 27
-            .lvl = 43,
-#line 26
-            .nature = NATURE_IMPISH,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
-#line 30
-                MOVE_TOXIC,
-                MOVE_AERIAL_ACE,
-                MOVE_PROTECT,
-                MOVE_STEEL_WING,
+                MOVE_METEOR_MASH,
+                MOVE_ZEN_HEADBUTT,
+                MOVE_HAMMER_ARM,
+                MOVE_TRICK_ROOM,
             },
             },
             {
-#line 35
+#line 33
             .species = SPECIES_AGGRON,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 39
-            .ev = TRAINER_PARTY_EVS(0, 252, 0, 0, 252, 6),
-#line 38
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 33
+            .heldItem = ITEM_AGGRONITE,
 #line 37
-            .lvl = 44,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 35
+            .ability = ABILITY_STURDY,
 #line 36
-            .nature = NATURE_ADAMANT,
+            .lvl = 90,
+#line 34
+            .nature = NATURE_BRAVE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 40
-                MOVE_THUNDER,
-                MOVE_PROTECT,
-                MOVE_SOLAR_BEAM,
-                MOVE_DRAGON_CLAW,
+#line 37
+                MOVE_ROCK_SLIDE,
+                MOVE_HEAVY_SLAM,
+                MOVE_BODY_PRESS,
+                MOVE_LANDS_WRATH,
             },
             },
         },

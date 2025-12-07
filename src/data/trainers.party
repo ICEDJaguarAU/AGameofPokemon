@@ -4581,8 +4581,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 34
+Crustle @ Red Card
+Jolly Nature 
+Ability: Sturdy 
+Level: 89
+- Stone Edge
+- Stealth Rock
+- Earthquake
+- Shell Smash
+
+Tyranitar @ Choice Band
+Jolly Nature 
+Ability: Sand Stream 
+Level: 88
+- Stone Edge
+- Crunch
+- Pursuit
+- Heavy Slam
+
+Sneasler @ Life Orb
+Jolly Nature 
+Ability: Inner Focus 
+Level: 89
+- Close Combat
+- Septic Slam
+- Knock OFf
+- Swords Dance
+
+Delphox @ Focus Sash
+Timid Nature 
+Ability: Magic Guard 
+Level: 89
+- Overheat
+- Psyshock
+- Laser Focus
+- Hypnosis
+
+Kingdra @ Leftovers
+Jolly Nature 
+Ability: Sniper 
+Level: 89
+- Dragon Dance
+- OUtrage
+- Liquidation 
+- Facade
+
+Aerodactyl @ Aerodactylite
+Jolly Nature 
+Ability: Unnerve 
+Level: 90
+- Stone Edge
+- Dual Wingbeat
+- Earthquake
+- Hone Claws
 
 === TRAINER_DEAN ===
 Name: DEAN
@@ -4593,14 +4644,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 31
+Crustle @ White Herb
+Jolly Nature 
+Ability: Sturdy 
+Level: 86
+- Stone Edge
+- Leech life
+- Earthquake
+- Shell Smash
 
-Wingull
-Level: 31
+Turtonator @ White Herb
+Timid Nature 
+Ability: Shell Armor 
+Level: 86
+- Flamethrower
+- Dragon Pulse
+- Scorching Sands
+- Shell Smash
 
-Carvanha
-Level: 31
+Polteageist @ White Herb
+Timid Nature 
+Ability: Cursed Body 
+Level: 86
+- Shadow Ball
+- Giga Drain
+- Stored Power
+- Shell Smash
+
+Minior @ White Herb
+Jolly Nature 
+Ability: Shields Down 
+Level: 86
+- Stone Edge
+- Acrobatics
+- Earthquake
+- Shell Smash
+
+Shuckle @ Leftovers
+Relaxed Nature 
+Ability: Contrary 
+Level: 86
+- Infestation
+- Knock Off
+- Rest 
+- Shell Smash
+
+Terapagos_Terastal @ Bright Powder
+Timid Nature 
+Ability: Tera Shell 
+Level: 87
+- Shell Smash
+- Tera Starstorm
+- Heavy Slam
+- Stored Power
 
 === TRAINER_RODNEY ===
 Name: RODNEY
@@ -10239,11 +10335,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 33
+Masquerain @ Sitrus Berry
+Bashful Nature 
+Ability: Drizzle 
+Level: 75
+- Quiver Dance
+- Hydro Pump
+- Silver Wind
+- Hurricane
 
-Staryu
-Level: 33
+Gastrodon @ Sitrus Berry
+Bashful Nature 
+Ability: Sticky Hold 
+Level: 75
+- Ancient Power
+- Muddy Water
+- Earth Power
+- Recover
+
+Floatzel @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Wave Crash
+- Ice Fang
+- Quick Attack
+- Double Hit
 
 === TRAINER_CHASE ===
 Name: CHASE
@@ -10317,8 +10434,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 34
+Aerodactyl @ Sitrus Berry
+Bashful Nature 
+Ability: Rock Head 
+Level: 75
+- Double-Edge 
+- Head Smash
+- Brave Bird
+- Tailwind
+
+Cradily @ Sitrus Berry
+Bashful Nature 
+Ability: Storm Drain 
+Level: 75
+- Diamond Flash
+- Wood Hammer
+- Earthquake
+- Leech Seed
 
 === TRAINER_DONNY ===
 Name: DONNY
@@ -11961,11 +12093,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 33
+Gorebyss @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Coil 
+- Hydro Pump
+- Psychic
+- Hyper Voice
 
-Spheal
-Level: 33
+Huntail @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Crunch
+- Aqua Chomp
+- Shell Smash
+- Ice Fang
 
 === TRAINER_BRENDA ===
 Name: BRENDA
@@ -11976,8 +12120,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 34
+Golduck @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Rain Dance 
+- Zen Headbutt
+- Liquidation
+- Disable
+
+Milotic @ Sitrus Berry
+Bashful Nature 
+Ability: Marvel Scale 
+Level: 75
+- Coil
+- Sparkling Aria
+- Moonblast
+- Ice Beam
 
 === TRAINER_KATIE ===
 Name: KATIE
@@ -12039,11 +12198,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Luvdisc
-Level: 33
+Sharpedo @ Sitrus Berry
+Bashful Nature 
+Ability: Rough Skin 
+Level: 75
+- Swagger 
+- Foul Play
+- Wave Crash
+- Poison Fang
 
-Luvdisc
-Level: 33
+Gyarados @ Sitrus Berry
+Bashful Nature 
+Ability: Intimidate 
+Level: 75
+- Scale SHot
+- Aqua Tail
+- Brutal Swing
+- Thrash
 
 === TRAINER_DEBRA ===
 Name: DEBRA
@@ -15219,8 +15390,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 34
+Kingdra @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Rain Dance 
+- Water Spout
+- Sludge Bomb
+- Dragon Pulse
+
+Starmie @ Sitrus Berry
+Bashful Nature 
+Ability: Natural Cure 
+Level: 75
+- Psyshock
+- Surf
+- Dazzling Gleam
+- Power Gem
 
 === TRAINER_ATHENA ===
 Name: ATHENA

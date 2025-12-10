@@ -10293,11 +10293,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 33
+Bruxish @ Assault Vest
+Jolly Nature 
+Ability: Dazzling 
+Level: 89
+- Liquidation
+- Psychic Fangs
+- Icy Wind
+- Super Fang
 
-Staryu
-Level: 33
+Samurott_Hisui @ Life Orb
+Naive Nature 
+Ability: Sharpness 
+Level: 89
+- Aqua Cutter
+- Ceaseless Edge
+- Sacred Sword
+- Swords Dance
+
+Hitmonlee @ Red Card
+Adamant Nature 
+Ability: Unburden 
+Level: 89
+- Close COmbat
+- Retaliate
+- Acrobatics
+- Fake Out
 
 === TRAINER_DEMETRIUS ===
 Name: DEMETRIUS
@@ -10461,11 +10482,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 26
+Incineroar @ Iapapa Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 89
+- Fake Out
+- Flare Blitz
+- Throat chop
+- Low kIck
 
-Staryu
-Level: 34
+Pinsir @ Pinsirite
+Jolly Nature 
+Ability: Hyper Cutter 
+Level: 90
+- Close Combat
+- Return
+- Feint
+- Swords Dance
+
+Cinderace @ Focus Sash
+Jolly Nature 
+Ability: Libero 
+Level: 89
+- Pyro Ball
+- Septic Slam
+- Zen Headbutt
+- Coaching
 
 === TRAINER_TALIA ===
 Name: TALIA
@@ -15418,16 +15460,32 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Manectric
-Level: 32
-- Thunder
-- Thunder Wave
-- Quick Attack
+Lucario @ Life Orb
+Timid Nature 
+Ability: Inner Focus 
+Level: 86
+- Aura Sphere 
+- Flash Cannon
+- Dark Pulse
+- Detect
 
-Linoone
-Level: 32
-- Surf
-- Thief
+Toxicroak @ Black Sludge
+Timid Nature 
+Ability: Dry Skin 
+Level: 87
+- Sludge Wave
+- Fake OUt
+- Aura Sphere
+- Detect
+
+Infernape @ Focus Sash
+Hasty Nature 
+Ability: Blaze 
+Level: 87
+- Close Combat
+- Overheat
+- POison Jab
+- Fake OUt
 
 === TRAINER_HARRISON ===
 Name: HARRISON
@@ -18403,14 +18461,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
-Level: 30
+Ludicolo @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Rain Dance
+- Waterfall
+- Leaf Storm
+- Leech Seed
 
-Tentacool
-Level: 31
+Barraskewda @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Aqua Jet
+- Liquidation
+- DOuble-Edge
+- Crunch
 
-Sharpedo
-Level: 32
+Lumineon @ Sitrus Berry
+Bashful Nature 
+Ability: Swift Swim 
+Level: 75
+- Scald
+- Hurricane
+- Psychic
+- Attract
 
 === TRAINER_HENRY ===
 Name: HENRY
@@ -18421,11 +18497,23 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 31
+Dhelmise @ Sitrus Berry
+Bashful Nature 
+Ability: Steelworker 
+Level: 75
+- Power Whip
+- Phantom Force
+- Anchor Shot
+- Whirlpool
 
-Tentacruel
-Level: 34
+Stunfisk @ Sitrus Berry
+Bashful Nature 
+Ability: Static 
+Level: 75
+- Discharge
+- Muddy Water
+- Earth Power
+- Sucker Punch
 
 === TRAINER_ROGER ===
 Name: ROGER
@@ -18436,14 +18524,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 15
+Banette @ Banettite
+Jolly Nature 
+Ability: Insomnia 
+Level: 90
+- Shadow Claw
+- Foul Play
+- Swagger
+- Thunder Wave
 
-Magikarp
-Level: 25
+Grimmsnarl @ Lum Berry
+Impish Nature 
+Ability: Prankster 
+Level: 89
+- Foul Play
+- Fake Out
+- Swagger
+- Thunder Wave
 
-Gyarados
-Level: 35
+Spiritomb @ Leftovers
+Bold Nature 
+Ability: Pressure 
+Level: 89
+- Foul Play
+- Hex
+- Psychic
+- Hypnosis
 
 === TRAINER_ALEXA ===
 Name: ALEXA
@@ -18486,8 +18592,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machoke
-Level: 34
+Ursaluna @ Leftovers
+Careful Nature 
+Ability: Unnerve 
+Level: 89
+- High Horsepower
+- Body Slam
+- Body Press
+- Bulk up
+
+Corviknight @ Weakness POlicy
+Careful Nature 
+Ability: Unnerve 
+Level: 89
+- Dual Wingbeat
+- Body Press
+- Bulk Up
+- Roost
+
+Haxorus @ Red Card
+JOlly Nature 
+Ability: Unburden 
+Level: 89
+- Dual Chop
+- Earthquake
+- Aqua Tail
+- Swords Dance
 
 === TRAINER_WAYNE ===
 Name: WAYNE
@@ -18516,11 +18646,32 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Swellow
-Level: 32
+Staraptor @ Focus Sash
+Jolly Nature 
+Ability: Intimidate 
+Level: 86
+- Return
+- Brave Bird
+- Endeavor
+- Tailwind
 
-Skarmory
-Level: 32
+Vikavolt @ Lum Berry
+Modest Nature 
+Ability: Levitate 
+Level: 85
+- Thunderbolt
+- Bug Buzz
+- Electroweb
+- Roost
+
+Hydreigon @ Choice Specs
+Timid Nature 
+Ability: Levitate 
+Level: 85
+- Dark Pulse
+- Dragon Pulse
+- Flamethrower
+- Roost
 
 === TRAINER_REED ===
 Name: REED

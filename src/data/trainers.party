@@ -477,8 +477,51 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 36
+Cloyster @ Bright Powder
+Sassy Nature 
+Ability: Overcoat 
+Level: 87
+- Shell Smash
+- Toxic Spikes
+- Icicle Spear
+- Water Shuriken
+
+Malamar @ Assault Vest
+Careful Nature 
+Ability: Contrary 
+Level: 86
+- Night Slash
+- Psycho Cut
+- Superpower
+- Facade
+
+Aerodactyl @ Choice Band
+Jolly Nature 
+Ability: Unnerve 
+Level: 86
+- Stone Edge
+- Dual Wingbeat
+- Aqua Tail
+- Pursuit
+
+Froslass @ Bright Powder
+Timid Nature 
+Ability: Cursed Body 
+Level: 86
+- Freeze Dry
+- Hex
+- Nasty Plot
+- Sing
+
+Crawdaunt @ Life Orb
+JOlly Nature 
+Ability: Adaptability 
+Level: 87
+- Crabhammer
+- Knock Off
+- Aqua Jet
+- Swords Dance
+
 
 === TRAINER_GABRIELLE_1 ===
 Name: GABRIELLE
@@ -673,8 +716,42 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 36
+Scolipede @ Lum Berry
+JOlly Nature 
+Ability: Speed Boost 
+Level: 87
+- Megahorn
+- Aqua Tail
+- Baton Pass
+- Swords Dance
+
+Drednaw @ Leftovers
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 86
+- Aqua Chomp
+- Stone Edge
+- Jaw Lock
+- Stealth Rock
+
+Dhelmise @ Quick Claw
+Adamant Nature 
+Ability: Steelworker 
+Level: 87
+- Power Whip
+- Poltergeist
+- Anchor Shot
+- Synthesis
+
+Huntail @ White Herb
+Jolly Nature 
+Ability: Water Veil 
+Level: 87
+- Shell Smash
+- Liquidation
+- Crunch
+- Ice Fang
+
 
 === TRAINER_DECLAN ===
 Name: DECLAN
@@ -1451,14 +1528,60 @@ Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Sharpedo
-Level: 37
+Tapu_Fini @ Leftovers
+Timid Nature 
+Ability: Misty Surge 
+Level: 89
+- Natures Madness
+- Brine
+- Moonblast
+- Taunt
 
-Mightyena
-Level: 37
+Hawlucha @ Misty Seed
+Adamant Nature 
+Ability: Unburden 
+Level: 88
+- Close COmbat
+- Acrobatics
+- Rock Slide
+- Swords Dance
+
+Gengar @ Focus Sash
+Timid Nature 
+Ability: Infiltrator 
+Level: 88
+- Sludge Wave
+- Shadow Ball
+- Destiny Bond
+- Mean Look
+
+Darmanitan_Galar @ Choice Band
+Timid Nature 
+Ability: Gorilla Tactics 
+Level: 88
+- Icicle Crash
+- U-Turn
+
+Kyurem @ Leftovers
+Timid Nature 
+Ability: Pressure 
+Level: 87
+- Roost
+- Freeze Dry
+- Earth Power
+- Dragon Pulse
+
+Slowbro @ Slowbronite
+Calm Nature 
+Ability: Oblivious 
+Level: 87
+- Psychic
+- Scald
+- Calm Mind
+- Slack Off
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -1470,14 +1593,59 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Mightyena
-Level: 41
+Kyogre @ Blue Orb
+Timid Nature 
+Ability: Drizzle 
+Level: 90
+- Origin Pulse
+- Thunder 
+- Ice Beam
+- Hurricane
 
-Crobat
-Level: 41
+Overqwil @ Life Orb
+Adamant Nature 
+Ability: Swift Swim 
+Level: 89
+- Septic Slam
+- Throat Chop
+- Waterfall
+- Swords Dance
 
-Sharpedo
-Level: 43
+Serperior @ Leftovers
+Timid Nature 
+Ability: Contrary 
+Level: 89
+- Leaf Storm
+- Substitute
+- Glare 
+- Leech Seed
+
+Aegislash @ Weakness POlicy
+Timid Nature 
+Ability: Stance Change 
+Level: 89
+- Kings Shield
+- Autotomize
+- Shadow Ball
+- Flash Cannon
+
+Zapdos @ Iapapa Berry
+Timid Nature 
+Ability: Drizzle 
+Level: 90
+- Hurricane
+- Thunder
+- Weather Ball
+- Roost
+
+Swampert @ Swampertite
+Jolly Nature 
+Ability: Water Bubble 
+Level: 91
+- Muddy Water
+- Earthquake
+- Power Up Punch
+- Ice Hammer
 
 === TRAINER_LEAH ===
 Name: LEAH
@@ -15291,11 +15459,59 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Mightyena
-Level: 35
+Ferrothorn @ Quick Claw
+Brave Nature 
+Ability: Iron Barbs 
+Level: 87
+- Gyro Ball
+- Spikes
+- Stealth Rock
+- Leech Seed
 
-Golbat
-Level: 35
+Sharpedo @ Bright Powder
+Rash Nature 
+Ability: Speed Boost 
+Level: 88
+- Hydro Pump
+- Night Daze
+- Protect
+- Ice Beam
+
+Metagross @ Weakness Policy
+Careful Nature 
+Ability: Clear Body 
+Level: 87
+- Meteor Mash
+- Earthquake
+- Thunder Punch
+- Agility
+
+Zoroark @ Lum Berry
+Timid Nature 
+Ability: Illusion 
+Level: 87
+- Night Daze
+- Aura Sphere
+- Extrasensory
+- Nasty Plot
+
+Salamence @ Life Orb
+Naive Nature 
+Ability: Intimidate 
+Level: 87
+- Draco Meteor
+- Dual Wingbeat
+- Earthquake
+- Dragon Dance
+
+Toxicroak @ Focus Sash
+Timid Nature 
+Ability: Dry Skin 
+Level: 87
+- Sludge Bomb
+- Vacuum Wave
+- Dark Pulse
+- Nasty Plot
 
 === TRAINER_GRUNT_UNUSED ===
 Name: GRUNT

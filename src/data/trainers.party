@@ -351,8 +351,59 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 36
+Kingdra @ Scope Lens
+MOdest Nature 
+Ability: Sniper 
+Level: 85
+- Draco Meteor
+- Octazooka
+- Agility
+- Focus Energy
+
+Exeggutor_Alola @ Quick Claw
+Adamant Nature 
+Ability: Harvest 
+Level: 86
+- Wood Hammer
+- Dragon Hammer
+- Knock Off
+- Low Kick
+
+Honchkrow @ Scope Lens
+Jolly Nature 
+Ability: Super Luck 
+Level: 86
+- Brave Bird
+- Night Slash
+- Superpower
+- Substitute
+
+Magnezone @ Assault Vest
+Timid Nature 
+Ability: Magnet Pull 
+Level: 86
+- Thunder
+- Flash Cannon
+- MIrror Coat
+- Volt Switch
+
+Crobat @ Life Orb
+Timid Nature 
+Ability: Inner Focus 
+Level: 86
+- Sludge Wave
+- Air Slash
+- Giga Drain
+- Nasty Plot
+
+Gorebyss @ White Herb
+Timid Nature 
+Ability: Swift Swim 
+Level: 87
+- Surf
+- Ice Beam
+- Psychic
+- Shell Smash
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_2 ===
 Name: GRUNT
@@ -363,8 +414,59 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 36
+Swampert @ Rindo Berry
+Adamant Nature 
+Ability: Water Bubble 
+Level: 87
+- Wave Crash
+- Avalanche
+- Stealth Rock
+- Earthquake
+
+Gyarados @ Wacan Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 85
+- Wave Crash
+- Ice Fang
+- Brutal Swing
+- Dragon Dance
+
+Haxorus @ Lum Berry
+Brave Nature 
+Ability: Mold Breaker 
+Level: 86
+- Outrage
+- Iron Tail
+- Aqua Tail
+- Dragon Dance
+
+Muk @ Bright Powder
+Adamant Nature 
+Ability: Poison Touch 
+Level: 86
+- Septic Slam
+- Focus Punch
+- Jealous Fit
+- Knock Off
+
+Roserade @ Bright Powder
+Timid Nature 
+Ability: Technician 
+Level: 86
+- Sludge Bomb
+- Energy Ball
+- Sleep Powder
+- Dazzling Gleam
+
+Bruxish @ Life orb
+Jolly Nature 
+Ability: Dazzling 
+Level: 88
+- Aqua Tail
+- Psychic Fangs
+- Aqua Jet
+- Crunch
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_3 ===
 Name: GRUNT
@@ -10344,8 +10446,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 35
+Clawitzer @ Sitrus Berry
+Bashful Nature 
+Ability: Mega Launcher 
+Level: 75
+- Water Pulse
+- Dark Pulse
+- Flash Cannon
+- Aura Sphere
+
+Eelektross @ Sitrus Berry
+Bashful Nature 
+Ability: Levitate 
+Level: 75
+- Supercell Slam
+- Crunch
+- Coil
+- Headbutt
 
 === TRAINER_PABLO_1 ===
 Name: PABLO
@@ -10530,8 +10647,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 35
+Relicanth @ Sitrus Berry
+Bashful Nature 
+Ability: Rock Head 
+Level: 75
+- Wave Crash
+- Head Smash
+- Earthquake
+- Aqua Jet
+
+Tentacruel @ Sitrus Berry
+Bashful Nature 
+Ability: Clear Body 
+Level: 75
+- Water Pressure
+- Gunk Shot
+- Supersonic
+- Acid Armor
 
 === TRAINER_ALLISON ===
 Name: ALLISON
@@ -12324,8 +12456,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
-Level: 35
+Samurott_Hisui @ Assault Vest
+Timid Nature 
+Ability: Torrent 
+Level: 90
+- Surf
+- Dark Pulse
+- Icy Wind
+- Grass knot
+
+Decidueye_Hisui @ Weakness Policy
+Jolly Nature 
+Ability: Scrappy 
+Level: 90
+- Close Combat
+- Leaf Blade
+- Knock Off
+- Tailwind
+
+Typhlosion_Hisui @ White Herb
+Timid Nature 
+Ability: Blaze 
+Level: 90
+- Overheat
+- Shadow Ball
+- Protect
+- Heat Wave
 
 === TRAINER_JENNY_2 ===
 Name: JENNY
@@ -15496,8 +15652,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
-Level: 35
+Lapras @ Leftovers
+Timid Nature 
+Ability: Water Absorb 
+Level: 90
+- Blizzard
+- Scald
+- Freeze Dry
+- Thunderbolt
+
+Alakazam @ Focus Sash
+Timid Nature 
+Ability: Inner Focus 
+Level: 90
+- Focus Blast
+- Light Screen
+- Reflect
+- Psyshock
+
+Volcarona @ Charti Berry
+Timid Nature 
+Ability: Flame Body 
+Level: 90
+- Heat Wave
+- Bug Buzz
+- Giga Drain
+- Quiver Dance
 
 === TRAINER_GRUNT_MT_CHIMNEY_2 ===
 Name: GRUNT
@@ -18561,11 +18741,32 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Gloom
-Level: 34
+Florges @ Sitrus Berry
+Bashful Nature 
+Ability: Flower Veil 
+Level: 75
+- Strange Steam
+- Petal Blizzard
+- Psychic
+- Misty Terrain
 
-Azumarill
-Level: 34
+Ferrothorn @ Sitrus Berry
+Bashful Nature 
+Ability: Anticipation 
+Level: 75
+- Curse
+- Gyro Ball
+- Leech Seed
+- Power Whip
+
+Araquanid @ Sitrus Berry
+Bashful Nature 
+Ability: Water Bubble 
+Level: 75
+- Aqua Chomp
+- Leech life
+- Mirror Coat
+- Crunch
 
 === TRAINER_RUBEN ===
 Name: RUBEN
@@ -18577,11 +18778,23 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Shiftry
-Level: 34
+Durant @ Sitrus Berry
+Bashful Nature 
+Ability: Swarm 
+Level: 75
+- Iron Defense
+- Entrainment
+- Iron Head
+- Lunge
 
-Nosepass
-Level: 34
+Sceptile @ Sitrus Berry
+Bashful Nature 
+Ability: Overgrow 
+Level: 75
+- Leaf Storm
+- Leaf Blade
+- Clanging Scales
+- NIght Slash
 
 === TRAINER_KOJI_1 ===
 Name: KOJI
@@ -18628,14 +18841,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 31
+Qwilfish @ Sitrus Berry
+Bashful Nature 
+Ability: Intimidate 
+Level: 75
+- Septic Slam
+- Wave Crash
+- Pin Missile
+- Toxic Spikes
 
-Tentacool
-Level: 31
+Swampert @ Sitrus Berry
+Bashful Nature 
+Ability: Torrent 
+Level: 75
+- Wave Crash
+- Earthquake
+- Stone Edge
+- Hammer Arm
 
-Wailmer
-Level: 36
+Crawdaunt @ Sitrus Berry
+Bashful Nature 
+Ability: Hyper Cutter 
+Level: 75
+- Crabhammer
+- Night Slash
+- Swords Dance
+- Aqua Jet
 
 === TRAINER_AIDAN ===
 Name: AIDAN

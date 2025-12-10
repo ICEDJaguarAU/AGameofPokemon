@@ -14967,6 +14967,7 @@ static const struct LevelUpMove sEelektrikLevelUpLearnset[] = {
     LEVEL_UP_MOVE(64, MOVE_GASTRO_ACID),
     LEVEL_UP_MOVE(69, MOVE_ZAP_CANNON),
     LEVEL_UP_MOVE(74, MOVE_THRASH),
+    LEVEL_UP_MOVE(80, MOVE_SUPERCELL_SLAM),
     LEVEL_UP_END
 };
 

@@ -483,8 +483,8 @@ Ability: Overcoat
 Level: 87
 - Shell Smash
 - Toxic Spikes
-- Icicle Spear
-- Water Shuriken
+- Avalanche
+- Clamp
 
 Malamar @ Assault Vest
 Careful Nature 
@@ -10677,11 +10677,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 26
+Dragonite @ Yache Berry
+Naive Nature 
+Ability: Inner Focus 
+Level: 88
+- Dragon Claw
+- Hurricane
+- Hydro Pump
+- Thunder
 
-Staryu
-Level: 34
+Magnezone @ Custap Berry
+Quiet Nature 
+Ability: Sturdy 
+Level: 87
+- Thunder
+- Flash Cannon
+- Volt Switch 
+- Body Press
+
+Frostkwen @ Focus Sash
+Timid Nature 
+Ability: Hydration 
+Level: 87
+- Strange Steam
+- Freeze Dry
+- Aura Sphere
+- Nasty Plot
+
+Armaldo @ Lum Berry
+Jolly Nature 
+Ability: Swift Swim 
+Level: 87
+- Stone Edge
+- Leech Life
+- Earthquake
+- Swords Dance
+
+Tentacruel @ Choice Scarf
+Timid Nature 
+Ability: Rain Dish 
+Level: 88
+- Water Spout
+- Flip Turn
+- Sludge Bomb
+- Toxic
+
+Seismitoad @ Life Orb
+Naive Nature 
+Ability: Swift Swim 
+Level: 88
+- Earth power
+- Power Whip
+- Sludge Bomb
+- Weather Ball
 
 === TRAINER_ISAIAH_2 ===
 Name: ISAIAH
@@ -10842,11 +10890,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 27
+Copperajah @ Focus Sash
+Adamant Nature 
+Ability: Heavy Metal 
+Level: 87
+- Heavy Slam
+- Power Whip
+- Earthquake
+- Stealth Rock
 
-Staryu
-Level: 33
+Vaporeon @ Leftovers
+Timid Nature 
+Ability: Hydration 
+Level: 88
+- Acid Armor
+- Water Pressure
+- Baton pass 
+- Rest
+
+Comfey @ Red Card
+Modest Nature 
+Ability: Triage 
+Level: 88
+- Dazzling Gleam
+- Draining Kiss
+- Calm Mind
+- Leech Seed
+
+Falinks @ Falinksite
+Jolly Nature 
+Ability: Defiant 
+Level: 88
+- Close COmbat
+- POison Jab
+- Throat CHop
+- No Retreat
+
+Beartic @ Life Orb
+Jolly Nature 
+Ability: Swift Swim 
+Level: 87
+- Liquidation
+- Icicle Crash
+- Body Press
+- Throat Chop
+
+Poliwrath @ Sitrus Berry
+Jolly Nature 
+Ability: Swift Swim 
+Level: 88
+- Waterfall
+- Drain Punch
+- Belly Drum
+- Hypnosis
 
 === TRAINER_KATELYN_2 ===
 Name: KATELYN
@@ -15929,8 +16025,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Sharpedo
-Level: 34
+Coalossal @ Weakness Policy
+Rash Nature 
+Ability: Steam Engine 
+Level: 88
+- Burn Up
+- Stone Edge
+- Heat Wave
+- Solar Beam
+
+Heliolisk @ Life Orb
+Timid Nature 
+Ability: Solar Power 
+Level: 87
+- Thunderbolt
+- Dragon Pulse
+- Weather Ball
+- Mud Bomb
+
+Lapras @ Assault Vest
+Timid Nature 
+Ability: Shell Armor 
+Level: 88
+- Ice Beam
+- Freeze Dry
+- Solar Beam
+- Weather Ball
 
 === TRAINER_TERRY ===
 Name: TERRY
@@ -19129,11 +19249,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Spheal
-Level: 33
+Stunfisk @ Shuca Berry
+MOdest Nature 
+Ability: Static 
+Level: 89
+- Earth power
+- Discharge 
+- Foul Play
+- Stealth Rock
 
-Sharpedo
-Level: 33
+Greninja @ Focus Sash
+Naive Nature 
+Ability: Protean 
+Level: 88
+- Dark Pulse
+- Gunk Shot
+- Spikes
+- Water Shuriken
+
+Cloyster @ White Herb
+NAive Nature 
+Ability: Skill Link 
+Level: 88
+- Shell Smash
+- Weather Ball
+- Rock Blast 
+- Clamp
+
+Archeops @ Power Herb
+Timid Nature 
+Ability: Defeatist 
+Level: 87
+- Meteor Beam
+- Air Slash
+- Heat Wave
+- Endeavor
+
+Arcanine @ Leftovers
+Timid Nature 
+Ability: Intimidate 
+Level: 87
+- Flamethrower
+- Solar Beam
+- Scorching Sands
+- Roar
+
+Jolteon @ Life Orb
+Timid Nature 
+Ability: Volt Absorb 
+Level: 87
+- Thunderbolt
+- Volt Switch
+- Weather Ball
+- Alluring Voice
 
 === TRAINER_TISHA ===
 Name: TISHA
@@ -19144,8 +19312,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Chinchou
-Level: 34
+Bruxish @ Light Clay
+Jolly Nature 
+Ability: Dazzling  
+Level: 88
+- Psychic Fangs
+- Aqua Chomp
+- Light Screen
+- Reflect
+
+Toucannon @ Life Orb
+Hasty Nature 
+Ability: Sheer Force 
+Level: 88
+- Brave Bird
+- Heat Wave
+- Bullet Seed
+- Tailwind
+
+Nidoking @ Focus Sash
+Timid Nature 
+Ability: Sheer Force 
+Level: 88
+- Sludge Wave
+- Earth Power
+- Flamethrower
+- Thunderbolt
 
 === TRAINER_TORI_AND_TIA ===
 Name: TORI & TIA

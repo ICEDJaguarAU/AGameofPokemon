@@ -4977,8 +4977,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 34
+Zoroark_Hisui @ Sitrus Berry
+Bashful Nature 
+Ability: Illusion  
+Level: 80
+- Nasty Plot
+- Bitter Malice
+- Hyper Voice
+- Flamethrower
+
+Starmie @ Starminite
+Bashful Nature 
+Ability: Natural Cure 
+Level: 80
+- Waterfall
+- Psychic
+- Rapid Spin
+- Ice Spinner
+
+Dragonite @ Sitrus Berry
+Bashful Nature 
+Ability: Inner Focus 
+Level: 80
+- Scale Shot
+- Aqua Tail
+- Dual Wingbeat
+- Extreme Speed
 
 === TRAINER_RICHARD ===
 Name: RICHARD
@@ -5016,11 +5040,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
-Level: 33
+Mantine @ Sitrus Berry
+Modest Nature 
+Ability: Swift Swim  
+Level: 89
+- Hydro Pump
+- Hurricane
+- Ice Beam
+- Roost
 
-Wailmer
-Level: 33
+Gourgeist_Small @ Lum Berry
+Jolly Nature 
+Ability: Insomnia 
+Level: 88
+- Seed Bomb
+- Poltergeist
+- Shadow Sneak
+- Leech Seed
+
+Drifblim @ Focus Sash
+Naive Nature 
+Ability: Aftermath 
+Level: 88
+- Shadow Ball
+- Weather Ball
+- Thunder Wave
+- Hurricane
+
+Masquerain @ Life Orb
+Timid Nature 
+Ability: Intimidate  
+Level: 88
+- Bug Buzz
+- Air Slash
+- Hydro Pump
+- Stun Spore
+
+Blastoise @ Leftovers
+Calm Nature 
+Ability: Rain Dish 
+Level: 89
+- Scald
+- Body Press
+- Iron Defense
+- Protect
+
+Pyukumuku @ Leftovers
+Calm Nature 
+Ability: Innards Out 
+Level: 90
+- Double Team
+- Recover
+- Soak
+- Toxic
 
 === TRAINER_GILBERT ===
 Name: GILBERT
@@ -12585,11 +12657,57 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 33
+Kingdra @ Scope Lens
+Modest Nature 
+Ability: Swift Swim  
+Level: 89
+- Hydro Pump
+- Dragon Pulse
+- Ice Beam
+- Focus Energy
 
-Spheal
-Level: 33
+Rotom_Mow @ Iapapa Berry
+Naive Nature 
+Ability: Levitate 
+Level: 88
+- Thunder
+- Leaf Storm
+- Signal Beam
+- Nasty Plot
+
+Toxicroak @ Life orb
+Jolly Nature 
+Ability: Dry Skin 
+Level: 88
+- Poison Jab
+- Cross Chop
+- Sucker Punch
+- Swords Dance
+
+Goodra @ Leftovers
+Impish Nature 
+Ability: Hydration  
+Level: 88
+- Breaking Swipe
+- Aqua Tail
+- Curse
+- Rest
+
+Durant @ Wide Lens
+Jolly Nature 
+Ability: Hustle 
+Level: 88
+- First Impression
+- Iron Head
+- Leech Life
+- Rock Slide
+
+Drednaw @ Choice Band
+Jolly Nature 
+Ability: Swift Swim 
+Level: 89
+- Head Smash
+- Liquidation
 
 === TRAINER_SUSIE ===
 Name: SUSIE

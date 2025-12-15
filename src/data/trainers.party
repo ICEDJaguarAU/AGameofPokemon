@@ -5013,8 +5013,32 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Pelipper
-Level: 34
+Octillery @ Sitrus Berry
+Bashful Nature 
+Ability: Suction Cups  
+Level: 80
+- HYdro Pump
+- Ice Beam
+- Bullet Seed
+- Flamethrower
+
+Stunfisk @ Sitrus Berry
+Bashful Nature 
+Ability: Static 
+Level: 80
+- Earthquake
+- Wild Charge
+- Sucker Punch
+- Revenge
+
+Reuniclus @ Sitrus Berry
+Bashful Nature 
+Ability: Overcoat 
+Level: 80
+- Psyshock
+- Calm Mind
+- Stored Power
+- Dazzling Gleam
 
 === TRAINER_HERMAN ===
 Name: HERMAN
@@ -5025,11 +5049,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 33
+Araquanid @ Coba Berry
+Adamant Nature 
+Ability: Water Bubble 
+Level: 91
+- Liquidation
+- Leech Life
+- Infestation
+- Sticky Web
 
-Tentacruel
-Level: 33
+Eelektross @ Assault Vest
+Naive Nature 
+Ability: Levitate 
+Level: 91
+- Thunder
+- Aqua Tail
+- Sludge Bomb
+- Super Fang
+
+Scrafty @ Life Orb
+Jolly Nature 
+Ability: Moxie 
+Level: 89
+- Close COmbat
+- Crunch
+- Iron Tail
+- Dragon Dance
+
+Metagross @ Iapapa Berry
+Jolly Nature 
+Ability: Clear Body 
+Level: 89
+- Meteor Mash
+- Earthquake
+- Thunder Punch
+- Power Up Punch
+
+POrygon_z @ Chople Berry
+Timid Nature 
+Ability: Analytic 
+Level: 90
+- Tri Attack
+- Thunder
+- Dark Pulse
+- Nasty Plot
+
+Jellicent @ Leftovers
+Timid Nature 
+Ability: Water Absorb 
+Level: 91
+- Water Spout
+- Scald 
+- Shadow Ball
+- Strength Sap
 
 === TRAINER_SANTIAGO ===
 Name: SANTIAGO
@@ -5127,8 +5199,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Spheal
-Level: 34
+Overqwil @ Lum Berry
+Jolly Nature 
+Ability: Intimidate  
+Level: 90
+- Throat Chop
+- Spikes
+- Toxic Spikes
+- Septic Slam
+
+Talonflame @ Eject Pack
+Naive Nature 
+Ability: Flame Body 
+Level: 89
+- Flare Blitz
+- Acrobatics
+- Sunny Day
+- Roost
+
+Slurpuff @ Red Card
+Timid Nature 
+Ability: Unburden 
+Level: 89
+- Moonblast
+- Flamethrower
+- Psychic
+- Calm Mind
+
+Venusaur @ Focus Sash
+MOdest Nature 
+Ability: Chlorophyll  
+Level: 88
+- Solar Beam
+- Earth Power
+- Weather Ball
+- Growth
+
+Electivire @ Life Orb
+Calm Nature 
+Ability: Opportunist 
+Level: 90
+- Supercell Slam
+- Ice Punch
+- Thunderous Kick
+- Weather Ball
+
+Slowking @ COlbur Berry
+Modest Nature 
+Ability: Regenerator 
+Level: 90
+- Psychic
+- Flamethrower
+- Ice Beam
+- Grass knot
 
 === TRAINER_JACK ===
 Name: JACK
@@ -10923,8 +11046,59 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 34
+Komala @ Chople Berry
+Adamant Nature 
+Ability: Comatose  
+Level: 90
+- Return
+- Wood Hammer
+- Earthquake
+- Play Rough
+
+Charizard @ Charizardite Y
+Timid Nature 
+Ability: Solar Power 
+Level: 89
+- Flamethrower
+- Flame Charge
+- Solar Beam
+- Roost
+
+Silvally_Ghost @ Ghost Memory
+Hasty Nature 
+Ability: RKS System 
+Level: 89
+- Multi Attack
+- Flamethrower
+- Grass Pledge
+- Night Slash
+
+Gliscor @ Toxic Orb
+Jolly Nature 
+Ability: Poison Heal  
+Level: 89
+- Earthquake
+- Dual Wingbeat
+- Roost
+- Swords Dance
+
+Gastrodon @ Rindo Berry
+Bold Nature 
+Ability: Sticky Hold 
+Level: 90
+- Earth power
+- Weather Ball
+- Recover
+- Toxic
+
+Primarina @ Leftovers
+Bold Nature 
+Ability: Torrent 
+Level: 90
+- Moonblast
+- Psychic
+- Calm Mind
+- Weather Ball
 
 === TRAINER_KATELYN_1 ===
 Name: KATELYN
@@ -12715,11 +12889,26 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc
-Level: 34
+Gengar @ Sitrus Berry
+Bashful Nature 
+Ability: Infiltrator  
+Level: 80
+- Dazzling Gleam
+- Hex
+- Confuse Ray
+- Sludge Wave
+
+Banette @ Sitrus Berry
+Bashful Nature 
+Ability: Cursed Body 
+Level: 80
+- Will o Wisp
+- Knock Off
+- Jealous Fit
+- Skitter Smack
 
 === TRAINER_KARA ===
 Name: KARA
@@ -12730,8 +12919,23 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
-Level: 34
+Gengar @ Sitrus Berry
+Bashful Nature 
+Ability: Magician 
+Level: 80
+- Hypnosis
+- Hex
+- Nightmare
+- Destiny Bond
+
+Froslass @ Sitrus Berry
+Bashful Nature 
+Ability: Serene Grace 
+Level: 80
+- Shadow Ball
+- Water Pulse
+- Dark Pulse
+- Blizzard
 
 === TRAINER_DANA ===
 Name: DANA
@@ -19755,11 +19959,59 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Azumarill
-Level: 35
+Victreebel @ Focus Sash
+Lonely Nature 
+Ability: Chlorophyll  
+Level: 90
+- Solar Blade
+- Septic Slam
+- Weather Ball
+- Sleep Powder
 
-Wingull
-Level: 33
+Aerodactyl @ Aerodactylite
+Adamant Nature 
+Ability: Unnerve 
+Level: 90
+- Rock Slide
+- Dual Wingbeat
+- Stealth Rock
+- Protect
+
+Cinderace @ Iapapa Berry
+Lonely Nature 
+Ability: Libero  
+Level: 90
+- Pyro Ball
+- Low Sweep
+- Super Fang
+- Coaching
+
+Mimikyu @ Red Card
+Jolly Nature 
+Ability: Disguise 
+Level: 89
+- Play Rough
+- Shadow Claw
+- Shadow Sneak
+- Swords Dance
+
+Ursaluna @ Assault Vest
+Sassy Nature 
+Ability: Unnerve  
+Level: 89
+- Return
+- High Horsepower
+- Stone Edge
+- Payback
+
+Sharpedo @ Life Orb
+Jolly Nature 
+Ability: Speed Boost 
+Level: 91
+- Crunch
+- Psychic Fangs
+- Close COmbat
+- Protect
 
 === TRAINER_LILA_AND_ROY_1 ===
 Name: LILA & ROY

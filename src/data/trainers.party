@@ -5472,11 +5472,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 32
+Toxicroak
+Level: 80
+Ability: Poison Touch
 
-Machoke
-Level: 32
+Pangoro
+Level: 80
+Ability: Iron Fist
+
+Krookodile
+Level: 80
+Ability: Intimidate
 
 === TRAINER_KIYO ===
 Name: KIYO
@@ -11405,12 +11411,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Bagon
-Level: 34
-- Dragon Breath
-- Headbutt
-- Focus Energy
-- Ember
+Salamence
+Level: 80
+Ability: Intimidate
+
+Dragonite
+Level:80
+Ability: Inner Focus
+
+Aerodactyl
+Level: 80
+Ability: Rock Head
 
 === TRAINER_PERRY ===
 Name: PERRY
@@ -11876,11 +11887,17 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Natu
-Level: 33
+Xatu
+Level: 80
+Ability: Synchronize
 
-Swellow
-Level: 33
+Glalie
+Level: 80
+Ability: Inner Focus
+
+Boltund
+Level: 80
+Ability: Strong Jaw
 
 === TRAINER_BECK ===
 Name: BECK
@@ -13137,11 +13154,21 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Luvdisc
-Level: 33
+Masquerain
+Level: 80
+Ability: Drizzle
 
-Luvdisc
-Level: 33
+Gastrodon
+Level: 80
+Ability: Storm Drain
+
+Tentacruel
+Level: 80
+Ability: Rain Dish
+
+Probopass
+Level: 80
+Ability: Magnet Pull
 
 === TRAINER_CARLEE ===
 Name: CARLEE
@@ -14242,11 +14269,17 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machoke
-Level: 33
+Yanmega
+Level: 80
+Ability: Tinted Lens
 
-Spheal
-Level: 33
+Slowking
+Level: 80
+Ability: Oblivious
+
+Weezing_Galar
+Level: 80
+Ability: Levitate
 
 === TRAINER_MARLEY ===
 Name: MARLEY
@@ -14259,11 +14292,16 @@ Double Battle: No
 AI: Basic Trainer
 
 Manectric
-Level: 34
-- Bite
-- Roar
-- Thunder Wave
-- Thunderbolt
+Level: 80
+Ability: Static
+
+Arcanine
+Level:80
+Ability: Intimidate
+
+Granbull
+Level: 80
+Ability: Intimidate
 
 === TRAINER_REYNA ===
 Name: REYNA
@@ -14274,11 +14312,17 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 33
+Medicham
+Level: 80
+Ability: Pure Power
 
-Hariyama
-Level: 33
+Sawk
+Level: 80
+Ability: Mold Breaker
+
+Tauros
+Level: 80
+Ability: Intimidate
 
 === TRAINER_HUDSON ===
 Name: HUDSON
@@ -14289,8 +14333,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
-Level: 34
+Wailord
+Level: 80
+Ability: Water Veil
+
+Clawitzer
+Level: 80
+Ability: Mega Launcher
+
+Crawdaunt
+Level: 80
+Ability: Hyper Cutter
+
+Lanturn
+Level: 80
+Ability: Volt Absorb
+
+Zoroark
+Level: 80
+Ability: Illusion
+
+Lucario 
+Level: 80
+Ability: Steadfast
 
 === TRAINER_CONOR ===
 Name: CONOR
@@ -22340,11 +22405,19 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ninjask
-Level: 26
+Frostkwen
+Level: 80
+Ability: Liquid Voice
 
-Gulpin
-Level: 26
+Floatzel
+Level: 80
+Ability: Swift Swim
+
+Hatterene
+Level: 80
+Ability: Synchronize
+
+
 
 === TRAINER_ALIX ===
 Name: ALIX

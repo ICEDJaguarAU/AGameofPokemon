@@ -14854,40 +14854,59 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Altaria
-Level: 44
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
+Primeape @ Punching Glove
+Adamant Nature 
+Ability: Defiant 
+Level: 94
+- Rage Fist
+- Sky Uppercut
+- U-Turn
+- Dizzy Punch
 
-Delcatty
-Level: 43
-- Sing
-- Assist
-- Charm
-- Feint Attack
+Hakamo-o @ Throat Spray
+TImid Nature 
+Ability: Overcoat 
+Level: 67
+- Noble Roar
+- Clanging Scales
+- Vacuum Wave
+- Focus Blast
 
-Roselia
-Level: 44
-- Magical Leaf
+Chesnaught @ Leftovers
+Adamant Nature 
+Ability: Bulletproof 
+Level: 68
 - Leech Seed
-- Giga Drain
-- Toxic
+- Spiky Shield
+- Circle Throw
+- Seed Bomb
 
-Magneton
-Level: 41
-- Supersonic
-- Thunderbolt
-- Tri Attack
-- Screech
+Lucario @ Choice Specs
+Modest Nature 
+Ability: Inner Focus 
+Level: 67
+- Water Pulse
+- Aura Sphere
+- Flash Cannon
+- Extreme Speed
 
-Gardevoir
-Level: 45
-- Double Team
-- Calm Mind
-- Psychic
-- Future Sight
+Sneasler @ Expert Belt 
+Adamant Nature 
+Ability: Poison Touch 
+Level: 67
+- Close COmbat
+- Dire Claw
+- Fake Out
+- Metal Claw
+
+Gallade @ Life Orb
+Jolly Nature 
+Ability: Steadfast 
+Level: 69
+- Smelling Salts
+- Play Rough
+- Close Combat
+- Swords Dance
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN

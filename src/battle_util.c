@@ -9612,8 +9612,12 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
         break;
     case HOLD_EFFECT_PUNCHING_GLOVE:
         if (IsPunchingMove(move))
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.1));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.4));
         break;
+    case HOLD_EFFECT_HEAVY_DUTY_BOOTS:
+        if (IsKickingMove(move))
+            modifier = uq4_12_multiply(modifier, UQ_4_12(1.4));
+        break;    
     case HOLD_EFFECT_OGERPON_MASK:
         if (GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_OGERPON)
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));

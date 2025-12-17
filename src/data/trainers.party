@@ -5176,7 +5176,16 @@ Double Battle: No
 AI: Check Bad Move
 
 Sharpedo
-Level: 34
+Level: 80
+Ability: Rough Skin
+
+Azurill
+Level: 80
+Ability: Thick Fat
+
+Manectric
+Level: 80
+Ability: Static
 
 === TRAINER_FRANKLIN ===
 Name: FRANKLIN
@@ -5434,8 +5443,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hariyama
-Level: 34
+Bewear
+Level: 80
+Ability: Fluffy
+
+Mienshao
+Level: 80
+Ability: Inner Focus
+
+Sirfetchd
+Level: 80
+Ability: Inner Focus
+
+Hitmonchan
+Level: 80
+Ability: Inner Focus
+
+Hitmonlee
+Level: 80
+Ability: Limber
+
+Hitmontop
+Level: 80
+Ability: Intimidate
 
 === TRAINER_KOICHI ===
 Name: KOICHI
@@ -10275,23 +10305,26 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 19
+Froslass
+Level: 80
+Ability: Cursed Body
+
+Reuniclus
+Level: 80
+Ability: Overcoat
+
+Barraskewda
+Level: 80
+Ability: Swift Swim
+
+Golisopod
+Level: 80
+Ability: Emergency Exit
 
 Gyarados
-Level: 21
+Level: 80
+Ability: Intimidate
 
-Gyarados
-Level: 23
-
-Gyarados
-Level: 26
-
-Gyarados
-Level: 30
-
-Gyarados
-Level: 35
 
 === TRAINER_JACOB ===
 Name: JACOB
@@ -12946,8 +12979,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 34
+Togekiss
+Level: 80
+Ability: Super Luck
+
+Milotic
+Level: 80
+Ability: Marvel Scale
+
+Tsareena
+Level: 80
+Ability: Sweet Veil
 
 === TRAINER_SIENNA ===
 Name: SIENNA
@@ -16834,11 +16876,17 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
-Level: 33
+Staraptor
+Level: 80
+Ability: Intimidate
 
 Breloom
-Level: 33
+Level: 80
+Ability: Effect Spore
+
+Hawlucha
+Level: 80
+Ability: Limber
 
 === TRAINER_ISABELLA ===
 Name: ISABELLA
@@ -16967,11 +17015,17 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Kecleon
-Level: 33
+Overqwil
+Level: 80
+Ability: Intimidate
 
-Loudred
-Level: 33
+Kingdra
+Level: 80
+Ability: Swift Swim
+
+Dragalge
+Level: 80
+Ability: Poison Point
 
 === TRAINER_BRENDAN_RUSTBORO_TORCHIC ===
 Name: BRENDAN
@@ -21808,11 +21862,17 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Pelipper
-Level: 33
+Turtonator
+Level: 80
+Ability: Shell Armor
 
-Camerupt
-Level: 33
+Gyarados
+Level: 80
+Ability: Intimidate
+
+Eelektross
+Level: 80
+Ability: Levitate   
 
 === TRAINER_MAXIE_MOSSDEEP ===
 Name: MAXIE
@@ -22444,11 +22504,17 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Roselia
-Level: 33
+Kecleon
+Level: 80
+Ability: Protean
 
-Medicham
-Level: 33
+Conkeldurr
+Level: 80
+Ability: Guts
+
+Jellicent
+Level: 80
+Ability: Cursed Body
 
 === TRAINER_FABIAN ===
 Name: FABIAN

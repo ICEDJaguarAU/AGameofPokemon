@@ -3094,11 +3094,25 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Graveler
-Level: 33
+Golem_Alola
+Level: 80
+Ability: Magnet Pull
 
 Ludicolo
-Level: 33
+Level: 80
+Ability: Swift Swim
+
+Rhyperior
+Level: 80
+Ability: Solid Rock
+
+Noivern
+Level: 80
+Ability: Frisk
+
+Weavile
+Level: 80
+Ability: Inner Focus
 
 === TRAINER_MARY ===
 Name: MARY
@@ -4322,11 +4336,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Whiscash
-Level: 33
+Gyarados @ Power Herb
+Jolly Nature 
+Ability: Intimidate 
+Level: 90
+- Bounce 
+- Brutal Swing
+- Waterfall
+- Dragon Dance
 
-Meditite
-Level: 33
+Weezing_Galar @ Black Sludge
+Timid Nature 
+Ability: Levitate 
+Level: 90
+- Sludge Wave
+- Strange Steam
+- Flame Burst
+- Will o Wisp
+
+Braviary @ Iapapa Berry
+Jolly Nature 
+Ability: Defiant 
+Level: 90
+- Double-Edge
+- Brave Bird
+- Close COmbat
+- Tailwind
 
 === TRAINER_GARRET ===
 Name: GARRET
@@ -5196,8 +5231,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Sealeo
-Level: 34
+Walrein
+Level: 80
+Ability: Thick Fat
+
+Dragapult
+Level: 80
+Ability: Clear Body
+
+Electivire
+Level: 80
+Ability: Vital Spirit
 
 === TRAINER_KEVIN ===
 Name: KEVIN
@@ -11847,8 +11891,17 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Tropius
-Level: 34
+Electrode_Hisui
+Level: 80
+Ability: Aftermath
+
+Ursaluna
+Level: 80
+Ability: Guts
+
+Sharpedo
+Level: 80
+Ability: Speed Boost
 
 === TRAINER_YASU ===
 Name: YASU
@@ -13027,8 +13080,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
-Level: 34
+Avalugg_Hisui
+Level: 80
+Ability: Strong Jaw
+
+Hydreigon
+Level: 80
+Ability: Levitate
+
+Magmortar
+Level: 80
+Ability: Flame Body
 
 === TRAINER_LINDA ===
 Name: LINDA
@@ -13039,11 +13101,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Horsea
-Level: 33
+Kingdra
+Level: 80
+Ability: Sniper
 
-Seadra
-Level: 33
+Pidgeot
+Level: 80
+Ability: Keen Eye
+
+Altaria
+Level: 80
+Ability: Natural Cure
 
 === TRAINER_KAYLEE ===
 Name: KAYLEE
@@ -14233,11 +14301,32 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Chinchou
-Level: 33
+Manectric @ Life Orb
+Timid Nature 
+Ability: Lightning Rod 
+Level: 90
+- Thunderbolt
+- Flamethrower
+- Protect
+- Ice Fang 
 
-Hariyama
-Level: 33
+Dugtrio @ Focus Sash
+JOlly Nature 
+Ability: Arena Trap 
+Level: 90
+- Earthquake
+- Rock Slide
+- Pursuit
+- Reversal 
+
+Gyarados @ Gyaradosite
+JOlly Nature 
+Ability: Strong Jaw 
+Level: 90
+- Crunch
+- Dragon Dance
+- Aqua Chomp
+- Dragon Rush 
 
 === TRAINER_EDWIN_1 ===
 Name: EDWIN

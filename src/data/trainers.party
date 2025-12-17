@@ -3827,19 +3827,32 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Luvdisc @ Nugget
-Level: 39
-- Attract
-- Sweet Kiss
-- Flail
-- Water Pulse
+Empoleon @ Wide Lens
+Timid Nature 
+Ability: Snow Warning 
+Level: 90
+- Hydro Pump
+- Blizzard
+- Sing
+- Grass Knot
 
-Luvdisc @ Nugget
-Level: 39
-- Attract
-- Safeguard
-- Take Down
-- Water Pulse
+Kommo-O @ Throat Spray
+Timid Nature 
+Ability: Overcoat 
+Level: 89
+- Clanging Scales
+- Focus Blast
+- Flash Cannon
+- Protect
+
+Mamoswine @ Focus Sash
+Hasty Nature 
+Ability: Slush Rush 
+Level: 90
+- Blizzard
+- Earthquake
+- Freeze Dry
+- Ice Shard
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
 Name: GRUNT
@@ -3929,8 +3942,41 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Seaking @ Nugget
-Level: 40
+Kabutops @ Focus Sash
+Jolly Nature 
+Ability: Weak Armor 
+Level: 89
+- Rock Slide
+- Liquidation
+- Metal Sound
+- Stealth Rock
+
+Accelgor @ LIfe Orb
+Timid Nature 
+Ability: Sticky Hold 
+Level: 88
+- Bug Buzz
+- Focus Blast
+- Energy Ball
+- Spikes
+
+Togedemaru @ Salac Berry
+Jolly Nature 
+Ability: Iron Barbs 
+Level: 88
+- Iron Tail
+- Zing Zap
+- Flail
+- Endeavor
+
+Whiscash @ Rindo Berry
+Jolly Nature 
+Ability: Oblivious 
+Level: 89
+- Earthquake
+- Muddy Water
+- Zen Headbutt
+- Dragon Dance
 
 === TRAINER_NAOMI ===
 Name: NAOMI
@@ -4139,8 +4185,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 40
+Tsareena @ Sitrus Berry
+Jolly Nature 
+Ability: Queenly Majesty 
+Level: 90
+- Trop Kick
+- Triple Axel
+- Acupressure
+- Protect
+
+Toxicroak @ Focus Sash
+Naive Nature 
+Ability: Dry Skin 
+Level: 90
+- Focus Blast
+- Gunk Shot
+- Stone Edge
+- Acupressure
+
+Milotic @ Lum Berry
+Bold Nature 
+Ability: Competitive 
+Level: 91
+- Scald
+- Moonblast
+- Hypnosis
+- Recover
 
 === TRAINER_BRIDGET ===
 Name: BRIDGET
@@ -4151,8 +4221,50 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill
-Level: 40
+Clefable @ Life Orb
+Timid Nature 
+Ability: Magic Guard 
+Level: 91
+- Blizzard
+- Fire Blast
+- Psychic
+- Stealth Rock
+
+Greninja @ Greninjite
+Modest Nature 
+Ability: Protean 
+Level: 90
+- Surf
+- Blizzard
+- Night Daze
+- Toxic Spikes
+
+Sandslash_Alola @ Life Orb
+Jolly Nature 
+Ability: Slush Rush 
+Level: 90
+- Iron Head
+- triple Axel
+- Earthquake
+- Spikes
+
+Floatzel @ Expert Belt
+Timid Nature 
+Ability: Water Veil 
+Level: 90
+- Wave Crash
+- Ice Fang
+- Taunt
+- Brick Break
+
+Goodra_Hisui @ Leftovers
+Impish Nature 
+Ability: Shell Armor 
+Level: 91
+- Dragon Tail
+- Heavy Slam
+- Earthquake
+- Curse
 
 === TRAINER_OLIVIA ===
 Name: OLIVIA
@@ -4163,25 +4275,59 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Clamperl
-Level: 35
-- Iron Defense
-- Whirlpool
-- Rain Dance
-- Water Pulse
+Cryogonal @ Light Clay
+Naive Nature 
+Ability: Levitate 
+Level: 90
+- Blizzard
+- Freeze Dry
+- Aurora Veil
+- Reflect
 
-Corphish
-Level: 37
-- Taunt
-- Crabhammer
-- Water Pulse
+Sigilyph @ Weakness Policy
+Timid Nature 
+Ability: Magic Guard 
+Level: 89
+- Air Slash
+- Stored Power
+- Calm MInd
+- Roost
 
-Lombre
-Level: 39
-- Uproar
-- Fury Swipes
-- Fake Out
-- Water Pulse
+Electivire @ Expert Belt
+Timid Nature 
+Ability: Opportunist 
+Level: 88
+- Thunderbolt
+- Focus Blast
+- Weather Ball
+- Magnet Rise
+
+Walrein @ Leftovers
+Timid Nature 
+Ability: Thick Fat 
+Level: 89
+- Blizzard
+- Scald
+- Freeze Dry
+- Substitute
+
+Beartic @ Life orb
+Jolly Nature 
+Ability: Slush Rush 
+Level: 89
+- Ice Spinner
+- Liquidation
+- Low Kick
+- Swords Dance
+
+Feraligatr @ Life orb
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 91
+- Aqua Chomp
+- Crunch
+- Ice Punch
+- Dragon Dance
 
 === TRAINER_TIFFANY ===
 Name: TIFFANY
@@ -4192,11 +4338,59 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 39
+Ribombee @ Focus Sash
+Timid Nature 
+Ability: Shield Dust 
+Level: 90
+- Moonblast
+- Bug Buzz
+- Psychic
+- Sticky Web
 
-Sharpedo
-Level: 39
+Bruxish @ Tanga Berry
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 91
+- Aqua Chomp
+- Crunch
+- Psychic Fangs
+- Swords Dance
+
+Primarina @ Kebia Berry
+Timid Nature 
+Ability: Misty Surge 
+Level: 91
+- Sparkling Aria
+- Strange Steam
+- Calm Mind
+- Ice Beam
+
+Samurott_Hisui @ Chople Berry
+Jolly Nature 
+Ability: Sharpness 
+Level: 91
+- Razor Shell
+- Sacred Sword
+- Night Slash
+- Swords Dance
+
+Dragapult @ Power Herb
+Adamant Nature 
+Ability: Clear Body 
+Level: 89
+- Dragon Darts
+- Phantom Force
+- Aqua Tail
+- Infestation
+
+Roserade @ Life Orb
+Timid Nature 
+Ability: Technician 
+Level: 90
+- Sludge Bomb
+- Grass Knot
+- Extrasensory
+- Sleep Powder
 
 === TRAINER_JESSICA_2 ===
 Name: JESSICA
@@ -8344,40 +8538,59 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Luvdisc
-Level: 41
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
+Sneasler @ Red Card
+Jolly Nature 
+Ability: POison Touch 
+Level: 91
+- Fake OUt
+- Icy Wind
+- Poison Jab
+- Close Combat
 
-Whiscash
-Level: 41
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
+Frosmoth @ Focus Sash
+Timid Nature 
+Ability: Ice Scales 
+Level: 93
+- Blizzard
+- Bug Buzz
+- Quiver Dance
+- Hail
 
-Sealeo
-Level: 43
-- Encore
-- Body Slam
-- Aurora Beam
+Froslass @ Froslassite
+Modest Nature 
+Ability: Snow Cloak 
+Level: 92
+- Blizzard
+- Shadow Ball
 - Water Pulse
+- Aurora Veil
 
-Crawdaunt
-Level: 43
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
+Baxcalibur @ Assault Vest
+Jolly Nature 
+Ability: Thermal Exchange 
+Level: 91
+- Glaive Rush
+- Icicle Crash
+- Iron Head
+- Brick Break
 
-Kingdra @ Chesto Berry
-Level: 46
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
+Chien Pao @ Choice Band
+Adamant Nature 
+Ability: Sword of Ruin 
+Level: 92
+- Ice Spinner
+- Night Slash
+- Sacred Sword
+- Facade
+
+Glastrier @ Assault Vest
+JOlly Nature 
+Ability: Chilling Neigh 
+Level: 92
+- Glacial Lance
+- High Horsepower
+- Body Press
+- Facade
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
@@ -9028,14 +9241,59 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Azurill @ Oran Berry
-Level: 35
+Politoed @ Eject Button
+Timid Nature 
+Ability: Drizzle 
+Level: 91
+- Hydro Pump
+- Focus Blast
+- Psychic
+- Hypnosis
 
-Marill @ Oran Berry
-Level: 37
+Copperajah @ Iapapa Berry
+Adamant Nature 
+Ability: Sheer Force 
+Level: 90
+- Iron Head
+- Earthquake
+- Rock Slide
+- Stealth Rock
 
-Azumarill @ Oran Berry
-Level: 39
+Seismitoad @ Focus Sash
+Rash Nature 
+Ability: Swift Swim 
+Level: 90
+- Earth Power
+- Sludge Wave
+- Weather Ball
+- Hyper Voice
+
+Overqwil @ Lum Berry
+Adamant Nature 
+Ability: Swift Swim 
+Level: 90
+- Septic Slam
+- Throat Chop
+- Liquidation
+- Destiny Bond
+
+Electrode_Hisui @ Life orb
+Rash Nature 
+Ability: Static 
+Level: 90
+- Thunder
+- Chloroblast
+- Volt Switch
+- Light Screen
+
+Feraligatr @ Life orb
+Jolly Nature 
+Ability: Strong Jaw 
+Level: 91
+- Aqua Chomp
+- Crunch
+- Ice Punch
+- Dragon Dance
 
 === TRAINER_ISABEL_1 ===
 Name: ISABEL
@@ -14165,19 +14423,34 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Feebas @ Oran Berry
-Level: 39
-- Flail
-- Water Pulse
-- Return
-- Attract
+Mr_Rime @ Focus Sash
+Timid Nature 
+Ability: Ice Body 
+Level: 90
+- Blizzard
+- Psychic
+- Icy Wind
+- Fake OUt
 
-Feebas @ Oran Berry
-Level: 39
-- Flail
-- Water Pulse
-- Return
-- Attract
+Arctovish @ Life Orb
+Naive Nature 
+Ability: Water Absorb 
+Level: 90
+- Blizzard
+- Fishious Rend
+- Freeze Dry
+- Stone Edge
+
+Mandibuzz @ Rocky Helmet
+Timid Nature 
+Ability: Overcoat 
+Level: 89
+- Foul Play
+- Dark Pulse
+- Fake Tears
+- Tailwind
+
+
 
 === TRAINER_JAZMYN ===
 Name: JAZMYN
@@ -17632,8 +17905,32 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Luvdisc
-Level: 40
+Inteleon @ Light Clay
+Timid Nature 
+Ability: Sniper 
+Level: 91
+- Snipe Shot
+- Gunk Shot
+- Light Screen
+- Reflect
+
+Kangaskhan @ Weakness Policy
+JOlly Nature 
+Ability: Scrappy 
+Level: 90
+- Body Slam
+- Aqua Tail
+- Fake Out
+- Sucker Punch
+
+Decidueye_Hisui @ White Herb
+Naive Nature 
+Ability: Scrappy 
+Level: 90
+- Leaf Storm
+- Close Combat
+- Leaf Blade
+- KNock Off
 
 === TRAINER_CRISSY ===
 Name: CRISSY
@@ -17644,11 +17941,59 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 39
+Pincurchin @ Custap Berry
+Brave Nature 
+Ability: Electric Surge 
+Level: 91
+- Rising Voltage
+- Hydro Pump
+- Toxic Spikes
+- Pin Missile
 
-Wailmer
-Level: 39
+Silvally_Grass @ Grass Memory
+Naive Nature 
+Ability: RKS System 
+Level: 90
+- Multi Attack
+- Terrain Pulse
+- Ice Beam
+- Work up
+
+Hydreigon @ Life Orb
+Timid Nature 
+Ability: Opportunist 
+Level: 90
+- Draco Meteor
+- Earthquake
+- Iron Tail
+- Aqua Tail
+
+Raichu_Alola @ Focus Sash
+MOdest Nature 
+Ability: Surge Surfer 
+Level: 90
+- Rising Voltage
+- Surf
+- Grass knot
+- Nasty Plot
+
+Slowking_Galar @ Electric Seed
+Bold Nature 
+Ability: Regenerator 
+Level: 90
+- Psychic
+- Scald
+- Calm MInd
+- Slack OFf
+
+Clawitzer @ Leftovers
+Timid Nature 
+Ability: Mega Launcher 
+Level: 91
+- Water Pulse
+- Aura Sphere
+- Dark Pulse
+- Terrain Pulse
 
 === TRAINER_RICK ===
 Name: RICK

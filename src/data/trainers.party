@@ -2884,11 +2884,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Cacturne
-Level: 43
+Charizard @ Charizardite Y
+Timid Nature 
+Ability: Blaze 
+Level: 96
+- Heat Wave
+- Air Slash
+- Focus Blast
+- Solar Beam
 
-Pelipper
-Level: 43
+Rhyperior @ Leftovers 
+Adamant Nature 
+Ability: Rock Head 
+Level: 94
+- Head Smash
+- Earthquake
+- Heat Crash
+- Stealth Rock
+
+Lilligant_Hisui @ Sitrus Berry
+Adamant Nature 
+Ability: Chlorophyll 
+Level: 95
+- Solar Blade
+- Close Combat 
+- Acrobatics
+- Sleep Powder
+
+Ninetales_Alola @ Focus Sash
+Timid Nature 
+Ability: Snow Cloak 
+Level: 94
+- Moonblast
+- Freeze Dry
+- Weather Ball
+- Nasty Plot
+
+Venusaur @ Life Orb 
+Rash Nature 
+Ability: Chlorophyll 
+Level: 95
+- Solar Beam
+- Earthquake
+- Weather Ball
+- Growth
+
+Goodra @ Assault Vest
+Relaxed Nature 
+Ability: Gooey 
+Level: 94
+- Dragon Pulse
+- Earthquake 
+- Weather Ball
+- Counter
 
 === TRAINER_ALBERT ===
 Name: ALBERT
@@ -2900,11 +2948,57 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Magneton
-Level: 43
+Carbink @ Leftovers
+Impish Nature 
+Ability: Sturdy 
+Level: 94
+- Body Press
+- Spikes
+- Stealth Rock
+- Diamond Storm
 
-Muk
-Level: 43
+Slowking @ Assault Vest 
+Bold Nature 
+Ability: Regenerator 
+Level: 93
+- Future Sight
+- Scald
+- Dragon Tail
+- Slack off
+
+Trevenant @ Sitrus Berry
+Adamant Nature 
+Ability: Harvest 
+Level: 93
+- Poltergeist
+- Horn Leech 
+- Leech Seed
+- Substitute
+
+Muk @ Black Sludge
+Careful Nature 
+Ability: Poison Touch 
+Level: 94
+- Septic Slam
+- Fire Punch
+- Curse
+- Jealous Fit
+
+Kommo_O @ Choice Specs 
+Timid Nature 
+Ability: Overcoat 
+Level: 94
+- Clanging Scales
+- Focus Blast
+
+Beedrill @ Beedrillite
+Jolly Nature 
+Ability: Swarm 
+Level: 95
+- X-Scissor
+- Drill Run 
+- Poison Jab
+- Swords Dance
 
 === TRAINER_SAMUEL ===
 Name: SAMUEL
@@ -3416,8 +3510,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Roselia
-Level: 45
+Walrein @ Lum Berry
+Bold Nature 
+Ability: Thick Fat 
+Level: 93
+- Ice Beam
+- Scald
+- Whirlpool
+- Super Fang
+
+Yanmega @ Leftovers 
+Timid Nature 
+Ability: Speed Boost 
+Level: 93
+- Bug Buzz
+- Air Slash
+- Hypnosis
+- Substitute
+
+Ludicolo @ Eject Pack
+Timid Nature 
+Ability: Own Tempo 
+Level: 94
+- Leaf Storm
+- Scald 
+- Knock Off
+- Icy Wind
+
+Dugtrio @ Life Orb
+Jolly Nature 
+Ability: Arena Trap 
+Level: 94
+- Earthquake
+- Stone Edge
+- Night Slash
+- Pursuit
+
+Magnezone @ Air Balloon 
+Quiet Nature 
+Ability: Magnet Pull 
+Level: 94
+- Flash Cannon
+- Discharge
+- Volt Switch
+- Substitute
+
+Pinsir @ Pinsirite
+Jolly Nature 
+Ability: Hyper Cutter 
+Level: 95
+- Earthquake
+- Frustration 
+- Quick Attack
+- Swords Dance
 
 === TRAINER_SHANNON ===
 Name: SHANNON
@@ -4704,7 +4849,7 @@ Level: 74
 - Stealth Rock
 - Earthquake
 
-Hitmonlee @ Muscle Band
+Hitmonlee @ Heavy Duty Boots
 Adamant Nature 
 Ability: Golden Boot 
 Level: 74
@@ -9847,19 +9992,32 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Slaking
-Level: 43
-- Attract
-- Ice Beam
-- Thunderbolt
-- Flamethrower
+Aerodactyl @ Aerodactylite
+Jolly Nature 
+Ability: Unnerve 
+Level: 95
+- Rock Slide
+- Dual Wingbeat
+- Tailwind
+- Fire Fang
 
-Dusclops
-Level: 43
-- Skill Swap
-- Protect
-- Will O Wisp
-- Toxic
+Staraptor @ Choice Scarf 
+Adamant Nature 
+Ability: Intimidate 
+Level: 93
+- Double-Edge
+- Brave Bird
+- U-Turn
+- Tailwind
+
+Hydreigon @ Life orb
+Timid Nature 
+Ability: Levitate 
+Level: 94
+- Clanging Scales
+- Dark Pulse
+- Heat Wave
+- Tailwind
 
 === TRAINER_KATELYNN ===
 Name: KATELYNN
@@ -9871,19 +10029,32 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Gardevoir
-Level: 43
-- Skill Swap
-- Psychic
-- Thunderbolt
-- Calm Mind
-
-Slaking
-Level: 43
+Mamoswine @ Lum Berry
+Naive Nature 
+Ability: Oblivious 
+Level: 94
 - Earthquake
+- Icicle Crash
+- Freeze Dry
+- Knock Off
+
+Donphan @ Custap Berry 
+Adamant Nature 
+Ability: Sturdy 
+Level: 93
+- Earthquake
+- Stone Edge
+- Knock Off
+- Endeavor
+
+Venusaur @ Venusaurite X
+Naive Nature 
+Ability: Overgrow 
+Level: 95
+- Sludge Wave
+- Petal Blizzard
 - Shadow Ball
-- Aerial Ace
-- Brick Break
+- Sleep Powder
 
 === TRAINER_JAYLEN ===
 Name: JAYLEN
@@ -14854,7 +15025,7 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Primeape @ Punching Glove
+Annihilape @ Punching Glove
 Adamant Nature 
 Ability: Defiant 
 Level: 94
@@ -14864,48 +15035,48 @@ Level: 94
 - Dizzy Punch
 
 Hakamo-o @ Throat Spray
-TImid Nature 
+Timid Nature 
 Ability: Overcoat 
-Level: 67
+Level: 94
 - Noble Roar
 - Clanging Scales
 - Vacuum Wave
 - Focus Blast
 
-Chesnaught @ Leftovers
+Koraidon @ Leftovers
 Adamant Nature 
-Ability: Bulletproof 
-Level: 68
-- Leech Seed
-- Spiky Shield
-- Circle Throw
-- Seed Bomb
+Ability: Orichalcum Pulse 
+Level: 94
+- Collision Course
+- Flare Blitz
+- Outrage
+- Shadow Claw
 
 Lucario @ Choice Specs
 Modest Nature 
 Ability: Inner Focus 
-Level: 67
+Level: 95
 - Water Pulse
 - Aura Sphere
 - Flash Cannon
 - Extreme Speed
 
-Sneasler @ Expert Belt 
+Zapdos_Galar @ Expert Belt 
 Adamant Nature 
-Ability: Poison Touch 
-Level: 67
-- Close COmbat
-- Dire Claw
-- Fake Out
-- Metal Claw
+Ability: Defiant 
+Level: 95
+- Thunderous Kick
+- Drill Peck
+- Bulk Up
+- Roost
 
-Gallade @ Life Orb
+Gallade @ Galladite
 Jolly Nature 
 Ability: Steadfast 
-Level: 69
+Level: 95
 - Smelling Salts
 - Play Rough
-- Close Combat
+- Sacred Sword
 - Swords Dance
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===

@@ -3010,14 +3010,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
-Level: 42
+Scolipede @ Focus Sash
+Jolly Nature 
+Ability: Speed Boost 
+Level: 94
+- Infestation
+- Endeavor
+- Spikes
+- Toxic Spikes
 
-Mawile
-Level: 42
+Garchomp @ Life Orb 
+Jolly Nature 
+Ability: Rough Skin 
+Level: 93
+- Scale Shot
+- Earthquake
+- Stone Edge
+- Stealth Rock
 
-Kadabra
-Level: 42
+Bouffalant @ Life Orb
+Jolly Nature 
+Ability: Sap Sipper 
+Level: 93
+- Body Slam
+- Close Combat 
+- Zen Headbutt
+- Throat Chop
+
+Gyarados @ Lum Berry
+Jolly Nature 
+Ability: Moxie 
+Level: 93
+- Waterfall
+- Power Whip
+- Ice Fang
+- Dragon Dance
+
+Eelektross @ Assault Vest 
+Relaxed Nature 
+Ability: Levitate 
+Level: 94
+- Discharge
+- Flamethrower
+- Sludge Bomb
+- Knock Off
+
+Blaziken @ Blazikenite
+Jolly Nature 
+Ability: Blaze 
+Level: 95
+- Sky Uppercut
+- Blaze Kick 
+- Stone Edge
+- Swords Dance
 
 === TRAINER_VITO_FALLARBOR ===
 Name: VITO
@@ -3574,8 +3619,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Claydol
-Level: 45
+Pelipper @ Wacan Berry
+MOdest Nature 
+Ability: Drizzle 
+Level: 94
+- Polar Vortex
+- Icy Wind
+- Thunder
+- Detect
+
+Gorebyss @ White Herb 
+MOdest Nature 
+Ability: Swift Swim 
+Level: 94
+- Hydro Pump
+- Ice Beam
+- Baton Pass
+- Shell Smash
+
+Dragonite @ Lum Berry
+Naive Nature 
+Ability: Multiscale 
+Level: 93
+- Hurricane
+- Dragon Claw 
+- Hydro Pump
+- Earthquake
+
+Scizor @ Life Orb
+Jolly Nature 
+Ability: Technician 
+Level: 93
+- Bug Bite
+- Bullet Punch
+- Quick Attack
+- Swords Dance
+
+Whimsicott @ Life Orb 
+Timid Nature 
+Ability: Prankster 
+Level: 93
+- Energy Ball
+- Hurricane
+- Weather Ball
+- Grass Whistle
+
+Swampert @ Swampertite
+Jolly Nature 
+Ability: Damp 
+Level: 95
+- Earthquake
+- Liquidation 
+- Stone Edge
+- Power Up Punch
 
 === TRAINER_MICHELLE ===
 Name: MICHELLE
@@ -3587,14 +3683,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 42
+Slurpuff @ Focus Sash
+Adamant Nature 
+Ability: Unburden 
+Level: 94
+- Play Rough
+- Drain Punch
+- Sticky Web
+- Facade
 
-Medicham
-Level: 42
+Darmanitan @ Life Orb 
+Jolly Nature 
+Ability: Sheer Force 
+Level: 94
+- Flare Blitz
+- Earthquake
+- Zen Headbutt
+- Rock Slide
 
-Ludicolo
-Level: 42
+Chandelure @ Choice Specs
+Timid Nature 
+Ability: Shadow Tag 
+Level: 94
+- Fire Blast
+- Shadow Ball 
+- Energy Ball
+- Skitter Smack
+
+Gliscor @ Toxic Orb
+JOlly Nature 
+Ability: POison Heal 
+Level: 95
+- Earthquake
+- Facade
+- KNock OFf
+- Stealth Rock
+
+Hydreigon @ Lum Berry 
+Timid Nature 
+Ability: Levitate 
+Level: 95
+- Dragon Pulse
+- Dark Pulse
+- Flamethrower
+- Nasty Plot
+
+Heracross @ Heracronite
+JOlly Nature 
+Ability: Swarm 
+Level: 95
+- Arm Thrust
+- Pin Missile 
+- Rock Blast
+- Substitute
 
 === TRAINER_CAROLINE ===
 Name: CAROLINE
@@ -8680,7 +8821,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
 Sneasler @ Red Card
@@ -15865,19 +16006,32 @@ Music: Cool
 Double Battle: No
 AI: Basic Trainer
 
-Lunatone
-Level: 43
-- Explosion
-- Reflect
-- Light Screen
-- Psychic
+Turtonator @ Leftovers
+Adamant Nature 
+Ability: Shell Armor 
+Level: 94
+- Heat Crash
+- Heavy Slam
+- Body Press
+- Curse
 
-Solrock
-Level: 43
-- Explosion
-- Reflect
-- Light Screen
-- Shadow Ball
+Escavalier @ Assault Vest 
+Adamant Nature 
+Ability: Overcoat 
+Level: 95
+- Megahorn
+- Iron Head
+- Drill Run
+- KNock Off
+
+Mawile @ Mawilite
+Adamant Nature 
+Ability: Intimidate 
+Level: 96
+- Play Rough
+- Iron Head 
+- Sucker Punch
+- Swords Dance
 
 === TRAINER_ISAAC_2 ===
 Name: ISAAC
@@ -16042,11 +16196,32 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Sableye
-Level: 43
+Golem @ Custap Berry
+Adamant Nature 
+Ability: Sturdy 
+Level: 95
+- Earthquake
+- Rock Slide
+- Heavy Slam
+- Stealth Rock
 
-Absol
-Level: 43
+Florges @ Sitrus Berry 
+Timid Nature 
+Ability: Flower Veil 
+Level: 94
+- Light of Ruin
+- Psychic
+- Calm Mind
+- Petal Blizzard
+
+Weavile @ Focus Sash
+JOlly Nature 
+Ability: Inner Focus 
+Level: 95
+- KNock Off
+- Triple Axel 
+- Low Kick
+- Swords Dance
 
 === TRAINER_GARRISON ===
 Name: GARRISON

@@ -37,6 +37,16 @@ VictoryRoad_1F_EventScript_WallyBattleTrigger2::
 	goto VictoryRoad_1F_EventScript_WallyEntranceBattle
 	end
 
+VictoryRoad_1F_EventScript_Vito::
+	trainerbattle_single TRAINER_VITO_VR_1, VictoryRoad_1F_Text_VitoIntro, VictoryRoad_1F_Text_VitoDefeat
+	msgbox VictoryRoad_1F_Text_VitoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_1F_EventScript_Leaf::
+	trainerbattle_single TRAINER_MAY_PLACEHOLDER, VictoryRoad_1F_Text_LeafIntro, VictoryRoad_1F_Text_LeafDefeat
+	msgbox VictoryRoad_1F_Text_LeafPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 VictoryRoad_1F_EventScript_WallyEntranceBattle::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
@@ -218,3 +228,44 @@ VictoryRoad_1F_Text_KatelynnDefeat:
 VictoryRoad_1F_Text_KatelynnPostBattle:
 	.string "Humph, go right on ahead.\n"
 	.string "See if I care.$"
+
+
+VictoryRoad_1F_Text_VitoIntro:
+	.string "Well met again stranger.\n"
+	.string "After you bested me and my whole family,\p"
+	.string "I Vito of House Winstrate began\n"
+	.string "a great labour. I travlled across the\p"
+	.string "whole land, besting even the Gym Leaders\n"
+	.string "I confess it felt good to best thine own\p"
+	.string "Father, but did not clean my House of the\n"
+	.string "stain of your victory. My family might be\p"
+	.string "children of a younger Son, but we still\n"
+	.string "carry the name Winstrate. Now prepare yourself$"
+
+VictoryRoad_1F_Text_VitoDefeat:
+	.string "Again?!\n"
+	.string "How can I ever show my face at home again?!$"
+
+VictoryRoad_1F_Text_VitoPostBattle:
+	.string "For the sake of the Winstrate\n"
+	.string "family. I will stay here, and train,\p"
+	.string "I look forward to our next meeting.\n"
+	.string "Fare well Stranger, come back to me sometime.$"	
+
+
+VictoryRoad_1F_Text_LeafIntro:
+	.string "I have trained and defeated every trainer\n"
+	.string "that I have come aross!\p"
+	.string "Now it is just you, i need to defeat!\n"
+	.string "I hope this will give me peace...$"
+
+VictoryRoad_1F_Text_LeafDefeat:
+	.string "What is it about you?!\n"
+	.string "How could I not defeat you?!$"
+
+VictoryRoad_1F_Text_LeafPostBattle:
+	.string "After all that hard work\n"
+	.string "not even training, and\p"
+	.string "battling and defeating all those other\n"
+	.string "trainers could I find peace.\p"
+	.string "I am still lost, how can I be found?$"	

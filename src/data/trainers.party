@@ -1517,8 +1517,8 @@ Blastoise @ Blastoisinite Y
 Modest Nature 
 Ability: Drizzle 
 Level: 75
-- Combat Shell
-- Aqua Ring
+- Chill Pulse
+- Dark Pulse
 - Origin Pulse
 - Flash Cannon
 
@@ -1774,14 +1774,32 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Medicham
-Level: 43
-- Psychic
+Sceptile @ Sceptilite
+Timid Nature 
+Ability: Overgrow 
+Level: 95
+- Energy Ball
+- Dragon Pulse
+- Focus Blast
+- Detect
 
-Claydol
-Level: 43
-- Skill Swap
-- Earthquake
+Sirfetchd @ Assault Vest 
+Jolly Nature 
+Ability: Scrappy 
+Level: 94
+- Close Combat
+- POison Jab
+- Knock Off
+- Leaf Blade
+
+Florges @ Salac Berry
+Timid Nature 
+Ability: Symbiosis 
+Level: 94
+- Dazzling Gleam
+- Psychic 
+- Pollen Puff
+- Calm Mind
 
 === TRAINER_VIOLET ===
 Name: VIOLET
@@ -3139,13 +3157,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Kecleon
-Level: 42
+Bashful Nature
+Ability: Protean
+Level: 95
 
-Graveler
-Level: 42
+Golem
+Bashful Nature
+Ability: Sturdy
+Level: 94
 
 Wailord
-Level: 42
+Bashful Nature
+Ability: Oblivious
+Level: 94
 
 === TRAINER_WILTON_2 ===
 Name: WILTON
@@ -3747,11 +3771,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Skarmory
-Level: 43
+Mudsdale @ Assault Vest
+Adamant Nature 
+Ability: Stamina 
+Level: 94
+- Earthquake
+- Body Press
+- Payback
+- Heavy Slam
 
-Sableye
-Level: 43
+Ferrothorn @ Occa Berry 
+Sassy Nature 
+Ability: Iron Barbs 
+Level: 94
+- Power Whip
+- Gyro Ball
+- Spikes
+- Stealth Rock
+
+Blastoise  @ Blastoisinite X
+Naive Nature 
+Ability: Drizzle 
+Level: 94
+- Scald
+- Ice Beam 
+- Protect
+- Aqua Ring
+
+Zoroark_Hisui @ Focus Sash
+Timid Nature 
+Ability: Illusion 
+Level: 95
+- Hyper Voice
+- Night Daze
+- Bitter Malice
+- Nasty Plot
+
+Braviary_Hisui @ Life Orb 
+Timid Nature 
+Ability: Sheer Force 
+Level: 95
+- Hurricane
+- Psychic
+- Heat Wave
+- Agility
+
+Gallade @ Life Orb
+Jolly Nature 
+Ability: Inner Focus 
+Level: 95
+- Close Combat
+- Zen Headbutt 
+- Poison Jab
+- Knock Off
 
 === TRAINER_JULIE ===
 Name: JULIE
@@ -3763,14 +3835,59 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Sandslash
-Level: 42
+Rillaboom @ Focus Sash
+Adamant Nature 
+Ability: Grassy Surge 
+Level: 94
+- Grassy Glide
+- Knock Off
+- Low Sweep
+- Endeavor
 
-Ninetales
-Level: 42
+Tyranitar @ Leftovers 
+Jolly Nature 
+Ability: Sand Stream 
+Level: 93
+- Stone Edge
+- Foul Play
+- Pursuit
+- Stealth Rock
 
-Tropius
-Level: 42
+Clefable  @ Grassy Seed
+Timid Nature 
+Ability: Magic Guard 
+Level: 93
+- Strange Steam
+- Flamethrower 
+- Calm Mind
+- Soft Boiled
+
+Arcanine_Hisui @ Lum Berry
+Jolly Nature 
+Ability: Rock Head 
+Level: 93
+- Head Smash
+- Flare Blitz
+- Close Combat
+- Extreme Speed
+
+Inteleon @ Red Card 
+Hasty Nature 
+Ability: Sniper 
+Level: 95
+- Snipe Shot
+- Acrobatics
+- Gunk Shot
+- Work Up
+
+Ampharos @ Ampharosite
+Timid Nature 
+Ability: Static 
+Level: 95
+- Thunderbolt
+- Dragon Pulse 
+- Focus Blast
+- Agility
 
 === TRAINER_BROOKE_2 ===
 Name: BROOKE
@@ -12560,15 +12677,32 @@ Music: Cool
 Items: Full Restore
 Double Battle: No
 
-Claydol
-Level: 43
-- Skill Swap
-- Earthquake
+Golisopod @ Assault Vest
+Adamant Nature 
+Ability: Emergency Exit 
+Level: 94
+- First Impression
+- Liquidation
+- Leech Life
+- Icicle Crash
 
-Lanturn
-Level: 43
-- Thunderbolt
-- Earthquake
+Honchkrow @ Focus Sash 
+Timid Nature 
+Ability: Super Luck 
+Level: 94
+- Hurricane
+- Dark Pulse
+- Heat Wave
+- Tailwind
+
+Kangaskhan @ Kangaskhanite
+Jolly Nature 
+Ability: Scrappy 
+Level: 95
+- Body Slam
+- Seismic Toss 
+- Low Kick
+- Fake Out
 
 === TRAINER_JANI ===
 Name: JANI
@@ -26390,24 +26524,129 @@ Double Battle: No
 Bulbasaur
 Level: 5
 
-=== TRAINER_BRENDAN_PLACEHOLDER ===
-Name: BRENDAN
-Class: RS Protag
-Pic: RS Brendan
+=== TRAINER_VITO_VR_1 ===
+Name: VITO
+Class: Cooltrainer
+Pic: Cooltrainer M
 Gender: Male
-Music: Male
-Double Battle: No
+Music: Cool
+Items: Full Restore
+Double Battle: Yes
+AI: Check Bad Move / Powerful Status / Ace Pokemon / Smart Switching
 
-Groudon
-Level: 5
+Glimmora @ Rocky Helmet
+Bold Nature 
+Ability: Toxic Debris 
+Level: 96
+- Sludge Wave
+- Diamond Flash
+- Stealth Rock
+- Venom Drench
+
+Muk @ Black Sludge
+Brave Nature 
+Ability: Poison Touch 
+Level: 95
+- Septic Slam
+- Jealous Fit
+- Toxic
+- Minimize
+
+Fezandipiti @ Leftovers
+Calm Nature 
+Ability: Toxic Chain 
+Level: 96
+- Moonblast
+- Roost
+- Cross Poison
+- Beat Up
+
+Sneasel_Hisui @ Big Nugget
+Adamant Nature 
+Ability: Pickpocket 
+Level: 95
+- Dire Claw
+- Close Combat
+- Hone Claws
+- Fling
+
+Revavroom @ Air Balloon
+Adamant Nature 
+Ability: Overcoat 
+Level: 95
+- Spin Out
+- Poison Jab
+- Clear Smog
+- Shift Gear
+
+Garbodor @ Garbodorite
+Adamant Nature 
+Ability: Weak Armor 
+Level: 97
+- Septic Slam
+- Smack Down
+- Pain Split
+- Rock Slide
 
 === TRAINER_MAY_PLACEHOLDER ===
-Name: MAY
-Class: RS Protag
-Pic: RS May
+Name: LEAF
+Class: Rival
+Pic: Leaf
 Gender: Female
 Music: Male
-Double Battle: No
+Double Battle: Yes
+AI: Check Bad Move / Powerful Status / Ace Pokemon / Smart Switching
 
-Kyogre
-Level: 5
+Brambleghast @ Weakness Policy
+Brave Nature 
+Ability: Wind Rider 
+Level: 77
+- Leech Seed
+- Power Whip
+- Poltergeist
+- Infestation
+
+Toedscruel @ Heat Rock
+Modest Nature 
+Ability: Mycelium Might
+Level: 76
+- Earth Power
+- Giga Drain
+- Sunny Day
+- Spore
+
+Arboliva @ Terrain Extender
+Calm Nature 
+Ability: Seed Sower 
+Level: 76
+- Leech Seed
+- Terrain Pulse
+- Weather Ball
+- Hyper Voice
+
+Zarude @ Life Orb
+Jolly Nature 
+Ability: Leaf Guard
+Level: 76
+- Lash Out
+- Solar Blade
+- Sunny Day
+- Jungle Healing
+
+Ogerpon @ Hearthflame Mask
+Adamant Nature 
+Ability: Mold Breaker 
+Level: 76
+- Ivy Cudgel
+- Spiky Shield
+- Leech Seed
+- Wood Hammer
+
+Meganium @ Leftovers
+Relaxed Nature 
+Ability: Leaf Guard 
+Level: 78
+- Dazzling Gleam
+- Synthesis
+- Solar Beam
+- Weather Ball

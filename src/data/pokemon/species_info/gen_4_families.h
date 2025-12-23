@@ -7176,10 +7176,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     {
         .baseHP        = 100,
         .baseAttack    = 103,
-        .baseDefense   = 75,
+        .baseDefense   = 85,
         .baseSpeed     = 127,
-        .baseSpAttack  = 120,
-        .baseSpDefense = 75,
+        .baseSpAttack  = 130,
+        .baseSpDefense = 95,
         .types = MON_TYPES(TYPE_GRASS, TYPE_FLYING),
         .catchRate = 45,
         .expYield = SHAYMIN_EXP_YIELD,

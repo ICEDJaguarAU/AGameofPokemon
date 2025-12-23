@@ -69512,25 +69512,25 @@ F_TRAINER_FEMALE |
         {
             {
 #line 26600
-            .species = SPECIES_BRAMBLEGHAST,
+            .species = SPECIES_SHAYMIN_SKY,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 26600
             .heldItem = ITEM_WEAKNESS_POLICY,
 #line 26604
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 26602
-            .ability = ABILITY_WIND_RIDER,
+            .ability = ABILITY_SERENE_GRACE,
 #line 26603
-            .lvl = 77,
+            .lvl = 96,
 #line 26601
-            .nature = NATURE_BRAVE,
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 26604
-                MOVE_LEECH_SEED,
-                MOVE_POWER_WHIP,
-                MOVE_POLTERGEIST,
-                MOVE_INFESTATION,
+                MOVE_SEED_FLARE,
+                MOVE_AIR_SLASH,
+                MOVE_TAILWIND,
+                MOVE_PSYCHIC,
             },
             },
             {
@@ -69544,14 +69544,14 @@ F_TRAINER_FEMALE |
 #line 26611
             .ability = ABILITY_MYCELIUM_MIGHT,
 #line 26612
-            .lvl = 76,
+            .lvl = 97,
 #line 26610
-            .nature = NATURE_MODEST,
+            .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 26613
-                MOVE_EARTH_POWER,
-                MOVE_GIGA_DRAIN,
+                MOVE_EARTHQUAKE,
+                MOVE_POWER_WHIP,
                 MOVE_SUNNY_DAY,
                 MOVE_SPORE,
             },
@@ -69567,7 +69567,7 @@ F_TRAINER_FEMALE |
 #line 26620
             .ability = ABILITY_SEED_SOWER,
 #line 26621
-            .lvl = 76,
+            .lvl = 97,
 #line 26619
             .nature = NATURE_CALM,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -69590,7 +69590,7 @@ F_TRAINER_FEMALE |
 #line 26629
             .ability = ABILITY_LEAF_GUARD,
 #line 26630
-            .lvl = 76,
+            .lvl = 96,
 #line 26628
             .nature = NATURE_JOLLY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -69613,7 +69613,7 @@ F_TRAINER_FEMALE |
 #line 26638
             .ability = ABILITY_MOLD_BREAKER,
 #line 26639
-            .lvl = 76,
+            .lvl = 96,
 #line 26637
             .nature = NATURE_ADAMANT,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -69630,13 +69630,13 @@ F_TRAINER_FEMALE |
             .species = SPECIES_MEGANIUM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 26645
-            .heldItem = ITEM_LEFTOVERS,
+            .heldItem = ITEM_MEGANIUMITE,
 #line 26649
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 26647
             .ability = ABILITY_LEAF_GUARD,
 #line 26648
-            .lvl = 78,
+            .lvl = 97,
 #line 26646
             .nature = NATURE_RELAXED,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,

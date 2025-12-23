@@ -26597,28 +26597,28 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Powerful Status / Ace Pokemon / Smart Switching
 
-Brambleghast @ Weakness Policy
-Brave Nature 
-Ability: Wind Rider 
-Level: 77
-- Leech Seed
-- Power Whip
-- Poltergeist
-- Infestation
+Shaymin_Sky @ Weakness Policy
+Timid Nature 
+Ability: Serene Grace 
+Level: 96
+- Seed Flare
+- Air Slash
+- Tailwind
+- Psychic
 
 Toedscruel @ Heat Rock
-Modest Nature 
+Adamant Nature 
 Ability: Mycelium Might
-Level: 76
-- Earth Power
-- Giga Drain
+Level: 97
+- Earthquake
+- Power Whip
 - Sunny Day
 - Spore
 
 Arboliva @ Terrain Extender
 Calm Nature 
 Ability: Seed Sower 
-Level: 76
+Level: 97
 - Leech Seed
 - Terrain Pulse
 - Weather Ball
@@ -26627,7 +26627,7 @@ Level: 76
 Zarude @ Life Orb
 Jolly Nature 
 Ability: Leaf Guard
-Level: 76
+Level: 96
 - Lash Out
 - Solar Blade
 - Sunny Day
@@ -26636,16 +26636,16 @@ Level: 76
 Ogerpon @ Hearthflame Mask
 Adamant Nature 
 Ability: Mold Breaker 
-Level: 76
+Level: 96
 - Ivy Cudgel
 - Spiky Shield
 - Leech Seed
 - Wood Hammer
 
-Meganium @ Leftovers
+Meganium @ Meganiumite
 Relaxed Nature 
 Ability: Leaf Guard 
-Level: 78
+Level: 97
 - Dazzling Gleam
 - Synthesis
 - Solar Beam

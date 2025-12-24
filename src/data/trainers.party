@@ -686,11 +686,20 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Pelipper
-Level: 30
+Froslass
+Level: 95
+Bashful Nature
+Ability: Serene Grace
 
-Xatu
-Level: 30
+Orbeetle
+Level: 95
+Bashful Nature
+Ability: Telepathy
+
+Gengar
+Level: 95
+Bashful Nature
+Ability: Magician
 
 === TRAINER_ED ===
 Name: ED
@@ -701,11 +710,20 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Zangoose
-Level: 30
+Mr_Rime
+Level: 95
+Bashful Nature
+Ability: Tangled Feet
 
-Seviper
-Level: 30
+Decidueye
+Level: 95
+Bashful Nature
+Ability: Overgrow
+
+Sceptile
+Level: 95
+Bashful Nature
+Ability: Unburden
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_4 ===
 Name: GRUNT
@@ -1356,11 +1374,20 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Makuhita
-Level: 30
+Admiratross
+Level: 95
+Bashful Nature
+Ability: Drizzle
 
-Machoke
-Level: 30
+Tropius
+Level: 95
+Bashful Nature
+Ability: Harvest
+
+Charizard
+Level: 95
+Bashful Nature
+Ability: Blaze
 
 === TRAINER_MATT ===
 Name: MATT
@@ -2767,40 +2794,35 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Swellow
-Level: 28
-- Focus Energy
-- Quick Attack
-- Wing Attack
-- Endeavor
+Kingdra
+Level: 95
+Bashful Nature
+Ability: Swift Swim
 
-Trapinch
-Level: 28
-- Bite
-- Dig
-- Feint Attack
-- Sand Tomb
+Basculegion
+Level: 95
+Bashful Nature
+Ability: Mold Breaker
 
-Wailmer
-Level: 28
-- Rollout
-- Whirlpool
-- Astonish
-- Water Pulse
+Exeggutor_Alola
+Level: 95
+Bashful Nature
+Ability: Harvest
 
-Magneton
-Level: 28
-- Thunderbolt
-- Supersonic
-- Thunder Wave
-- Sonic Boom
+Abomasnow
+Level: 95
+Bashful Nature
+Ability: Soundproof
 
-Shiftry
-Level: 28
-- Giga Drain
-- Feint Attack
-- Double Team
-- Swagger
+Zangoose
+Level: 95
+Bashful Nature
+Ability: Toxic Boost
+
+Scizor
+Level: 95
+Bashful Nature
+Ability: Swarm
 
 === TRAINER_VINCENT ===
 Name: VINCENT
@@ -3440,26 +3462,35 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Mawile
-Level: 29
-- Baton Pass
-- Feint Attack
-- Fake Tears
-- Bite
+Togekiss
+Level: 95
+Bashful Nature
+Ability: Serene Grace
 
-Roselia
-Level: 29
-- Mega Drain
-- Magical Leaf
-- Grass Whistle
-- Leech Seed
+Marowak
+Level: 95
+Bashful Nature
+Ability: Battle Armor
 
-Pelipper
-Level: 29
-- Fly
-- Water Gun
-- Mist
-- Protect
+Serperior
+Level: 95
+Bashful Nature
+Ability: Contrary
+
+Drifblim
+Level: 95
+Bashful Nature
+Ability: Flare Boost
+
+Hatterene
+Level: 95
+Bashful Nature
+Ability: Magic Bounce
+
+Luxray
+Level: 95
+Bashful Nature
+Ability: Guts
 
 === TRAINER_KEIRA ===
 Name: KEIRA
@@ -3989,11 +4020,20 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Duskull
-Level: 30
+Togekiss
+Level: 95
+Bashful Nature
+Ability: Super Luck
 
-Shuppet
-Level: 30
+Sneasler
+Level: 95
+Bashful Nature
+Ability: Inner Focus
+
+Donphan
+Level: 95
+Bashful Nature
+Ability: Sturdy
 
 === TRAINER_TAMMY ===
 Name: TAMMY
@@ -6522,11 +6562,20 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 30
+Silvally_Electric
+Level: 95
+Bashful Nature
+Ability: RKS System
 
-Loudred
-Level: 30
+Kommo_O
+Level: 95
+Bashful Nature
+Ability: Overcoat
+
+Golem
+Level: 95
+Bashful Nature
+Ability: Sturdy
 
 === TRAINER_DALTON_1 ===
 Name: DALTON
@@ -7786,8 +7835,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Solrock
-Level: 31
+Raichu
+Level: 95
+Bashful Nature
+Ability: Static
+
+Glaceon
+Level: 95
+Bashful Nature
+Ability: Snow Cloak
+
+Swellow
+Level: 95
+Bashful Nature
+Ability: Scrappy
+
+Tangrowth
+Level: 95
+Bashful Nature
+Ability: Regenerator
+
+Volcarona
+Level: 95
+Bashful Nature
+Ability: Flame Body
+
+Slowbro
+Level: 95
+Bashful Nature
+Ability: Regenerator
 
 === TRAINER_CAMERON_2 ===
 Name: CAMERON
@@ -8067,11 +8143,20 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 30
+Wyrdeer
+Level: 95
+Bashful Nature
+Ability: Intimidate
 
-Lunatone
-Level: 30
+Metagross
+Level: 95
+Bashful Nature
+Ability: Clear Body
+
+Medicham
+Level: 95
+Bashful Nature
+Ability: Pure Power
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -14501,11 +14586,35 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Beautifly
-Level: 26
+Sharpedo
+Level: 95
+Bashful Nature
+Ability: Speed Boost
 
-Dustox
-Level: 26
+Marowak_Alola
+Level: 95
+Bashful Nature
+Ability: Lightning Rod
+
+Gothitelle
+Level: 95
+Bashful Nature
+Ability: Shadow Tag
+
+Granbull
+Level: 95
+Bashful Nature
+Ability: Intimidate
+
+Toxicroak
+Level: 95 
+Bashful Nature
+Ability: Poison Touch
+
+Arcanine_Hisui
+Level: 95
+Bashful Nature
+Ability: Intimidate
 
 === TRAINER_AMY_AND_LIV_3 ===
 Name: AMY & LIV
@@ -14908,8 +15017,20 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Absol
-Level: 27
+Oranguru
+Level: 95
+Bashful Nature
+Ability: Symbiosis
+
+Florges
+Level: 95
+Bashful Nature
+Ability: Symbiosis
+
+Vivillon_Garden
+Level: 95
+Bashful Nature
+Ability: Friend Guard
 
 === TRAINER_JONAS ===
 Name: JONAS
@@ -14920,12 +15041,20 @@ Music: Suspicious
 Double Battle: No
 AI: Basic Trainer
 
-Koffing
-Level: 31
-- Toxic
-- Thunder
-- Self Destruct
-- Sludge Bomb
+Mienshao
+Level: 95
+Bashful Nature
+Ability: Inner Focus
+
+Mimikyu
+Level: 95
+Bashful Nature
+Ability: Disguise
+
+Thievul
+Level: 95
+Bashful Nature
+Ability: Unburden
 
 === TRAINER_KAYLEY ===
 Name: KAYLEY
@@ -14936,12 +15065,20 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Castform
-Level: 31
-- Sunny Day
-- Weather Ball
-- Flamethrower
-- Solar Beam
+Indeedee
+Level: 95
+Bashful Nature
+Ability: Psychic Surge
+
+Alakazam
+Level: 95
+Bashful Nature
+Ability: Magic Guard
+
+Starmie
+Level: 95
+Bashful Nature
+Ability: Analytic
 
 === TRAINER_AURON ===
 Name: AURON
@@ -16128,8 +16265,20 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Pinsir
-Level: 27
+Greedent
+Level: 95
+Bashful Nature
+Ability: Cheek Pouch
+
+Swalot
+Level: 95
+Bashful Nature
+Ability: Liquid Ooze
+
+Snorlax
+Level: 95
+Bashful Nature
+Ability: Immunity
 
 === TRAINER_MITCHELL ===
 Name: MITCHELL

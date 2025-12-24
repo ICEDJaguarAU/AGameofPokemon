@@ -12102,11 +12102,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Altaria
-Level: 37
+Gyarados
+Level: 95
+Bashful Nature
+Ability: Intimidate
 
-Altaria
-Level: 37
+Sandaconda
+Level: 95
+Bashful Nature
+Ability: Sand Spit
+
+Metagross
+Level: 95
+Bashful Nature
+Ability: Clear Body
+
+Garchomp
+Level: 95
+Bashful Nature
+Ability: Sand Veil
+
+Goodra_Hisui
+Level: 95
+Bashful Nature
+Ability: Gooey
+
+Latias
+Level: 95
+Bashful Nature
+Ability: Levitate
 
 === TRAINER_NICOLAS_2 ===
 Name: NICOLAS
@@ -21045,19 +21069,35 @@ Music: Intense
 Double Battle: Yes
 AI: Basic Trainer
 
-Medicham
-Level: 39
-- Psychic
-- Fire Punch
-- Psych Up
-- Protect
+Whimsicott
+Level: 95
+Bashful Nature
+Ability: Prankster
 
-Hariyama
-Level: 39
-- Focus Punch
-- Rock Tomb
-- Rest
-- Belly Drum
+Vargkoenig
+Level: 95
+Bashful Nature
+Ability: Tough Claws
+
+Lilligant
+Level: 95
+Bashful Nature
+Ability: Own Tempo
+
+Clefable
+Level: 95
+Bashful Nature
+Ability: Unaware
+
+Heliolisk
+Level: 95
+Bashful Nature
+Ability: Dry Skin
+
+Nidoqueen
+Level: 95
+Bashful Nature
+Ability: Sheer Force
 
 === TRAINER_JOHN_AND_JAY_2 ===
 Name: JOHN & JAY

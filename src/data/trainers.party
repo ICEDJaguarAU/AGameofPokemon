@@ -5952,8 +5952,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
-Level: 34
+Frostkwen
+Level: 80
+Ability: Liquid Voice
+
+Floatzel
+Level: 80
+Ability: Swift Swim
+
+Hatterene
+Level: 80
+Ability: Synchronize
 
 === TRAINER_DUDLEY ===
 Name: DUDLEY
@@ -6163,11 +6172,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 24
+Porygon_Z
+Level: 95
+Bashful Nature
+Ability: Download
 
-Machoke
-Level: 28
+Yanmega
+Level: 95
+Bashful Nature
+Ability: Tinted Lens
+
+Ursaluna
+Level: 95
+Bashful Nature
+Ability: Guts
+
+Blaziken
+Level: 95
+Bashful Nature
+Ability: Speed Boost
+
+Conkeldurr
+Level: 95
+Bashful Nature
+Ability: Iron Fist
+
+Gallade
+Level: 95
+Bashful Nature
+Ability: Sharpness
 
 === TRAINER_NOB_1 ===
 Name: NOB
@@ -8393,44 +8426,63 @@ Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
-Mightyena
-Level: 46
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
+Incineroar @ Iapapa Berry
+Jolly Nature 
+Ability: Intimidate 
+Level: 98
+- Flare Blitz
+- Knock Off
+- Fake Out
+- Will O Wisp
 
-Shiftry
-Level: 48
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
+Yveltal @ Assault Vest
+Timid Nature 
+Ability: Dark Aura 
+Level: 98
+- Oblivion Wing
+- Night Daze
+- U-Turn
+- Heat Wave
 
-Cacturne
-Level: 46
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
+Urshifu_Single_Strike @ Focus Sash
+Jolly Nature 
+Ability: Unseen Fist 
+Level: 98
+- Close Combat
+- Wicked Blow
+- Reversal
+- Detect
 
-Crawdaunt
-Level: 48
-- Surf
-- Swords Dance
-- Strength
-- Facade
+Darkrai @ Life Orb
+Timid Nature 
+Ability: Bad Dreams 
+Level: 98
+- Dark Void
+- Nightmare
+- Sludge Wave
+- Dark Pulse
 
-Absol @ Sitrus Berry
-Level: 49
-- Aerial Ace
+Kingambit @ Air Balloon
+Careful Nature 
+Ability: Supreme Overlord 
+Level: 98
+- Kowtow Cleave
+- Iron Defense
+- Metal Burst
+- Shadow Claw
+
+Tyranitar @ Tyranitarite
+Jolly Nature 
+Ability: Sand Stream 
+Level: 99
+- Earthquake
 - Rock Slide
-- Swords Dance
-- Slash
+- Wide Guard
+- Foul Play
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -8439,44 +8491,63 @@ Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 Mugshot: Green
 
-Dusclops
-Level: 48
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
+Decidueye @ Leftovers
+Jolly Nature 
+Ability: Long Reach 
+Level: 100
+- Solar Blade
+- Spirit Shackle
+- Synthesis
+- Sunny Day
 
-Banette
-Level: 49
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
+Marshadow @ Assault Vest
+Jolly Nature 
+Ability: Technician 
+Level: 98
+- Spectral Thief
+- Drain Punch
+- Assurance
+- Shadow Sneak
 
-Sableye
-Level: 50
+Aegislash @ Weakness Policy
+Modest Nature 
+Ability: Stance Change 
+Level: 99
 - Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+- Autotomize
+- Kings Shield
+- Flash Cannon
 
-Banette
-Level: 49
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
+Calyrex_Shadow @ Life Orb
+Timid Nature 
+Ability: As One Shadow Rider
+Level: 98
+- Astral Barrage
+- Heal Pulse
+- Psyshock
+- Giga Drain
 
-Dusclops @ Sitrus Berry
-Level: 51
-- Shadow Ball
-- Ice Beam
-- Rock Slide
+Giratina @ Griseous Orb
+Naive Nature 
+Ability: Pressure 
+Level: 98
+- Shadow Force
+- Draco Meteor
+- Shadow Sneak
 - Earthquake
+
+Gengar @ Gengarite
+Timid Nature 
+Ability: Infiltrator 
+Level: 99
+- Dazzling Gleam
+- Sludge Wave
+- Protect
+- Night Terror
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -8485,44 +8556,63 @@ Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 Mugshot: Pink
 
-Sealeo
-Level: 50
+Magearna @ Occa Berry
+Quiet Nature 
+Ability: Soul-Heart
+Level: 99
+- Fleur Cannon
 - Encore
-- Body Slam
-- Hail
-- Ice Ball
+- Trick Room
+- Flash Cannon
 
-Glalie
-Level: 50
-- Light Screen
-- Crunch
-- Icy Wind
+Diancie @ Red Card
+Brave Nature 
+Ability: Sand Stream 
+Level: 99
+- Diamond Storm
+- Play Rough
+- Stealth Rock
+- Earthquake
+
+Enamorus_Therian @ Weakness Policy
+Modest Nature 
+Ability: Overcoat 
+Level: 99
+- Springtide Storm
+- Hurricane
+- Flatter
+- Extrasensory
+
+Primarina @ Terrain Extender
+MOdest Nature 
+Ability: Misty Surge
+Level: 100
+- Sparkling Aria
+- Alluring Voice
+- Hyper Voice
 - Ice Beam
 
-Sealeo
-Level: 52
-- Attract
-- Double Edge
-- Hail
-- Blizzard
+Xerneas @ Power Herb
+Jolly Nature 
+Ability: Fairy Aura 
+Level: 98
+- Geomancy
+- Horn Leech
+- Play Rough
+- Megahorn
 
-Glalie
-Level: 52
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
-
-Walrein @ Sitrus Berry
-Level: 53
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+Gardevoir @ Gardevoirite
+Timid Nature 
+Ability: Trace 
+Level: 100
+- Psych Up
+- Hyper Voice
+- Wish
+- Stored Power
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -8531,44 +8621,63 @@ Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 52
-- Rock Tomb
-- Dragon Claw
+Dragapult @ Light Clay
+Naive Nature 
+Ability: Clear Body
+Level: 100
+- Dragon Darts
+- Shadow Ball
+- Light Screen
+- Reflect
+
+Kyurem_Black @ Red Card
+Jolly Nature 
+Ability: Teravolt 
+Level: 99
+- Fusion Bolt
 - Protect
-- Double Edge
+- Scale Shot
+- Freeze Shock
 
-Altaria
-Level: 54
-- Double Edge
-- Dragon Breath
+Dialga @ Leftovers
+Timid Nature 
+Ability: Pressure 
+Level: 99
+- Roar of Time
+- Steel Beam
+- Rest
+- Aura Sphere
+
+Regidrago @ Choice Scarf
+Timid Nature 
+Ability: Dragons Maw
+Level: 100
+- Dragon Energy
+- Earth Power
+- Hyper Beam
+
+
+Rayquaza @ Life Orb
+Jolly Nature 
+Ability: Air Lock 
+Level: 98
+- Dragon Ascent
+- Extreme Speed
 - Dragon Dance
-- Aerial Ace
+- Scale Shot
 
-Kingdra
-Level: 53
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
-
-Flygon
-Level: 53
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
-
-Salamence @ Sitrus Berry
-Level: 55
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+Salamence @ Salamencite
+Timid Nature 
+Ability: Intimidate 
+Level: 100
+- Clanging Scales
+- Hyper Voice
+- Tailwind
+- Dark Pulse
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -9879,8 +9988,35 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Hariyama
-Level: 27
+Escavalier
+Level: 95
+Bashful Nature
+Ability: Overcoat
+
+Breloom
+Level: 95
+Bashful Nature
+Ability: Effect Spore
+
+Miltank
+Level: 95
+Bashful Nature
+Ability: Scrappy
+
+Dragonite
+Level: 95
+Bashful Nature
+Ability: Multiscale
+
+Quaquaval
+Level: 95
+Bashful Nature
+Ability: Golden Boot
+
+Lucario
+Level: 95
+Bashful Nature
+Ability: Inner Focus
 
 === TRAINER_TIMOTHY_2 ===
 Name: TIMOTHY
@@ -10625,47 +10761,59 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Yellow
 
-Wailord
-Level: 57
-- Rain Dance
+Kyogre @ Damp Rock
+Hasty Nature 
+Ability: Drizzle
+Level: 99
+- Origin Pulse
+- Thunder
+- Flip Turn
+- Ice Beam
+
+Lugia @ Wacan Berry
+Bold Nature 
+Ability: Multiscale 
+Level: 100
+- Polar Vortex
+- Aeroblast
+- Recycle
+- Calm Mind
+
+Palkia @ Scope Lens
+Timid Nature 
+Ability: Pressure 
+Level: 99
+- Spacial Rend
 - Water Spout
-- Double Edge
-- Blizzard
+- Aqua Ring
+- Aura Sphere
 
-Tentacruel
-Level: 55
-- Toxic
-- Hydro Pump
-- Sludge Bomb
-- Ice Beam
+Walrein @ Leftovers
+Brave Nature 
+Ability: Oblivious
+Level: 100
+- Wave Crash
+- Avalanche
+- Heavy Slam
+- Rest
 
-Ludicolo
-Level: 56
-- Giga Drain
-- Surf
-- Leech Seed
-- Double Team
+Palafin @ Life Orb
+Adamant Nature 
+Ability: Zero to Hero
+Level: 100
+- Flip Turn
+- Wave Crash
+- Drain Punch
+- Throat Chop
 
-Whiscash
-Level: 56
-- Earthquake
-- Surf
-- Amnesia
-- Hyper Beam
-
-Gyarados
-Level: 56
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
-
-Milotic @ Sitrus Berry
-Level: 58
+Milotic @ Milotite
+Bold Nature 
+Ability: Competitive
+Level: 100
+- Scald
 - Recover
-- Surf
+- Moonblast
 - Ice Beam
-- Toxic
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -23423,11 +23571,35 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 26
+Togedemaru
+Level: 95
+Bashful Nature
+Ability: Sturdy
 
-Dodrio
-Level: 26
+Swellow
+Level: 95
+Bashful Nature
+Ability: Scrappy
+
+Dugtrio
+Level: 95
+Bashful Nature
+Ability: Arena Trap
+
+Gourgeist_Small
+Level: 95
+Bashful Nature
+Ability: Insomnia
+
+Palafin
+Level: 95
+Bashful Nature
+Ability: Zero to Hero
+
+Infernape
+Level: 95
+Bashful Nature
+Ability: Iron Fist
 
 === TRAINER_JAIDEN ===
 Name: JAIDEN
@@ -23438,19 +23610,35 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Frostkwen
-Level: 80
-Ability: Liquid Voice
+Wyrdeer
+Level: 95
+Bashful Nature
+Ability: Intimidate
 
-Floatzel
-Level: 80
-Ability: Swift Swim
+Zoroark
+Level: 95
+Bashful Nature
+Ability: Illusion
 
-Hatterene
-Level: 80
-Ability: Synchronize
+Ditto
+Level: 95
+Bashful Nature
+Ability: Imposter
 
+Ferrothorn
+Level: 95
+Bashful Nature
+Ability: Iron Barbs
 
+Kecleon
+Level: 95
+Bashful Nature
+Ability: Color Change
+
+Wobbuffet
+Level: 95
+Bashful Nature
+Ability: Shadow Tag
 
 === TRAINER_ALIX ===
 Name: ALIX
@@ -23461,11 +23649,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 26
+Pyroar
+Level: 95
+Bashful Nature
+Ability: Unnerve
 
-Kirlia
-Level: 26
+Torterra
+Level: 95
+Bashful Nature
+Ability: Shell Armor
+
+Kommo_O
+Level: 95
+Bashful Nature
+Ability: Bulletproof
+
+Sylveon
+Level: 95
+Bashful Nature
+Ability: Pixilate
+
+Azumarill
+Level: 95
+Bashful Nature
+Ability: Huge Power
+
+Gardevoir
+Level: 95
+Bashful Nature
+Ability: Synchronize
 
 === TRAINER_HELENE ===
 Name: HELENE
@@ -23476,11 +23688,35 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 26
+Exeggutor
+Level: 95
+Bashful Nature
+Ability: Harvest
 
-Makuhita
-Level: 26
+Hawlucha
+Level: 95
+Bashful Nature
+Ability: Limber
+
+Kingambit
+Level: 95
+Bashful Nature
+Ability: Supreme Overlord
+
+Kleavor
+Level: 95
+Bashful Nature
+Ability: Sheer Force
+
+Mamoswine
+Level: 95
+Bashful Nature
+Ability: Thick Fat
+
+Cinderace
+Level: 95
+Bashful Nature
+Ability: Golden Boot
 
 === TRAINER_MARLENE ===
 Name: MARLENE
@@ -25731,50 +25967,62 @@ Pic: Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
 
-Skarmory
-Level: 77
-- Toxic
-- Aerial Ace
-- Spikes
-- Steel Wing
+Gholdengo @ Choice Scarf
+Timid Nature 
+Ability: Good as Gold 
+Level: 100
+- Make it Rain
+- Night Terror
+- Electro Ball
+- Dazzling Gleam
 
-Claydol
-Level: 75
-- Reflect
-- Light Screen
-- Ancient Power
-- Earthquake
+Dialga @ Leftovers
+Timid Nature 
+Ability: Pressure 
+Level: 100
+- Roar of Time
+- Steel Beam
+- Protect
+- Aura Sphere
 
-Aggron
-Level: 76
-- Thunder
-- Earthquake
-- Solar Beam
-- Dragon Claw
+Solgaleo @ Leftovers
+Jolly Nature 
+Ability: Full Metal Body  
+Level: 100
+- Sunsteel Strike
+- Flare Blitz
+- Wild Charge
+- Morning Sun
 
-Cradily
-Level: 76
-- Giga Drain
-- Ancient Power
-- Ingrain
-- Confuse Ray
+Melmetal @ Assault Vest
+Brave Nature 
+Ability: Iron Fist 
+Level: 100
+- Double Iron Bash
+- Thunder Punch
+- Drain Punch
+- Ice Punch
 
-Armaldo
-Level: 76
-- Water Pulse
-- Ancient Power
-- Aerial Ace
-- Slash
+Aggron @ Choice Band
+Jolly Nature 
+Ability: Heavy Metal  
+Level: 100
+- Iron Tail
+- Heavy Slam
+- Rock Slide
+- Lands Wrath
 
-Metagross @ Sitrus Berry
-Level: 78
-- Earthquake
-- Psychic
+Metagross @ Metagrossite
+Careful Nature 
+Ability: Clear Body 
+Level: 100
 - Meteor Mash
-- Shadow Ball
+- Smelling Salts
+- Shadow Claw
+- Bullet Punch
 
 === TRAINER_ANABEL ===
 Name: ANABEL

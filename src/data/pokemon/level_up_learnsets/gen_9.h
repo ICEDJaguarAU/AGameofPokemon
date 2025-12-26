@@ -7372,6 +7372,7 @@ static const struct LevelUpMove sLugiaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(72, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(81, MOVE_FUTURE_SIGHT),
     LEVEL_UP_MOVE(90, MOVE_SKY_ATTACK),
+    LEVEL_UP_MOVE(99, MOVE_POLAR_VORTEX),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_LUGIA

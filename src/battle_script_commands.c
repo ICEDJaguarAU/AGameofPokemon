@@ -604,23 +604,7 @@ static void Cmd_unused(void);
 static void Cmd_tryworryseed(void);
 static void Cmd_callnative(void);
 
-const u16 sLevelCapFlags[NUM_SOFT_CAPS] =
-{
-    FLAG_HIDE_PETALBURG_GYM_WALLY, FLAG_BADGE01_GET, FLAG_BADGE02_GET,FLAG_HIDE_ROUTE_110_RIVAL, FLAG_BADGE03_GET, FLAG_MET_PROF_COZMO,
-    FLAG_BADGE04_GET, FLAG_BADGE05_GET, FLAG_HIDE_ROUTE_119_RIVAL, FLAG_BADGE06_GET, FLAG_HIDE_LILYCOVE_CITY_RIVAL, FLAG_BADGE07_GET, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, FLAG_BADGE08_GET,
-};
 
-const u16 sLevelCaps[NUM_SOFT_CAPS] = { 10, 18, 25, 32, 35, 48, 59, 64, 65, 70, 77, 86, 92, 100 };
-const double sLevelCapReduction[7] = { .25, .20, .15, .10, .05, .02, .01 };
-const double sRelativePartyScaling[27] =
-{
-    3.00, 2.75, 2.50, 2.33, 2.25,
-    2.00, 1.80, 1.70, 1.60, 1.50,
-    1.40, 1.30, 1.20, 1.10, 1.00,
-    0.90, 0.80, 0.75, 0.66, 0.50,
-    0.40, 0.33, 0.25, 0.20, 0.15,
-    0.10, 0.05,
-};
 
 void (* const gBattleScriptingCommandsTable[])(void) =
 {

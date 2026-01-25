@@ -5327,17 +5327,56 @@ AI: Check Bad Move
 Carvanha
 Level: 26
 
-=== TRAINER_JEROME ===
-Name: JEROME
-Class: Swimmer M
-Pic: Swimmer M
+=== TRAINER_STEVEN_ROUTE_118 ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
 Gender: Male
-Music: Swimmer
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Tentacruel
-Level: 26
+Skarmory
+Level: 77
+- Toxic
+- Aerial Ace
+- Spikes
+- Steel Wing
+
+Claydol
+Level: 75
+- Reflect
+- Light Screen
+- Ancient Power
+- Earthquake
+
+Aggron
+Level: 76
+- Thunder
+- Earthquake
+- Solar Beam
+- Dragon Claw
+
+Cradily
+Level: 76
+- Giga Drain
+- Ancient Power
+- Ingrain
+- Confuse Ray
+
+Armaldo
+Level: 76
+- Water Pulse
+- Ancient Power
+- Aerial Ace
+- Slash
+
+Metagross @ Sitrus Berry
+Level: 78
+- Earthquake
+- Psychic
+- Meteor Mash
+- Shadow Ball
 
 === TRAINER_MATTHEW ===
 Name: MATTHEW

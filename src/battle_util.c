@@ -8603,19 +8603,19 @@ u8 GetAttackerObedienceForAction()
     obedienceLevel = 20;
 
     if (FlagGet(FLAG_BADGE01_GET)) // Stone Badge
-        obedienceLevel = 27;
+        obedienceLevel = 25;
     if (FlagGet(FLAG_BADGE02_GET)) // Knuckle Badge
-        obedienceLevel = 37;
+        obedienceLevel = 35;
     if (FlagGet(FLAG_BADGE03_GET)) // Dynamo Badge
-        obedienceLevel = 49;
+        obedienceLevel = 58;
     if (FlagGet(FLAG_BADGE04_GET)) // Heat Badge
-        obedienceLevel = 54;
+        obedienceLevel = 65;
     if (FlagGet(FLAG_BADGE05_GET)) // Balance Badge
-        obedienceLevel = 67;
+        obedienceLevel = 75;
     if (FlagGet(FLAG_BADGE06_GET)) // Feather Badge
-        obedienceLevel = 79;
+        obedienceLevel = 86;
     if (FlagGet(FLAG_BADGE07_GET)) // Mind Badge
-        obedienceLevel = 88;
+        obedienceLevel = 92;
 
     if (B_OBEDIENCE_MECHANICS >= GEN_8
      && !IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))

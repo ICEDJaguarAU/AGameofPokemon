@@ -159,7 +159,7 @@
 #define TRAINER_DOUGLAS                     153
 #define TRAINER_DARRIN                      154
 #define TRAINER_TONY_1                      155
-#define TRAINER_JEROME                      156
+#define TRAINER_STEVEN_ROUTE_118            156
 #define TRAINER_MATTHEW                     157
 #define TRAINER_DAVID                       158
 #define TRAINER_SPENCER                     159

@@ -13,12 +13,19 @@ LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft::
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins:
-	.2byte ITEM_PROTEIN
-	.2byte ITEM_CALCIUM
-	.2byte ITEM_IRON
-	.2byte ITEM_ZINC
-	.2byte ITEM_CARBOS
-	.2byte ITEM_HP_UP
+	.2byte ITEM_ABILITY_CAPSULE
+	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_ABILITY_SHIELD
+	.2byte ITEM_AIR_BALLOON
+	.2byte ITEM_CHOICE_BAND
+	.2byte ITEM_CHOICE_SCARF
+	.2byte ITEM_CHOICE_SPECS
+	.2byte ITEM_FLAME_ORB
+	.2byte ITEM_TOXIC_ORB
+	.2byte ITEM_DAMP_ROCK
+	.2byte ITEM_SMOOTH_ROCK
+	.2byte ITEM_HEAT_ROCK
+	.2byte ITEM_ICY_ROCK
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
@@ -33,13 +40,24 @@ LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 
 	.align 2
 LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters:
-	.2byte ITEM_X_SPEED
-	.2byte ITEM_X_SP_ATK
-	.2byte ITEM_X_ATTACK
-	.2byte ITEM_X_DEFENSE
-	.2byte ITEM_DIRE_HIT
-	.2byte ITEM_GUARD_SPEC
-	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_ELECTRIC_SEED
+	.2byte ITEM_PSYCHIC_SEED
+	.2byte ITEM_MISTY_SEED
+	.2byte ITEM_GRASSY_SEED
+	.2byte ITEM_ABSORB_BULB
+	.2byte ITEM_CELL_BATTERY
+	.2byte ITEM_SNOWBALL
+	.2byte ITEM_LUMINOUS_MOSS
+	.2byte ITEM_BRIGHT_POWDER
+	.2byte ITEM_WHITE_HERB
+	.2byte ITEM_POWER_HERB
+	.2byte ITEM_QUICK_CLAW
+	.2byte ITEM_SOOTHE_BELL
+	.2byte ITEM_MENTAL_HERB
+	.2byte ITEM_KINGS_ROCK
+	.2byte ITEM_FOCUS_BAND
+	.2byte ITEM_WIDE_LENS
+	.2byte ITEM_SCOPE_LENS
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM::

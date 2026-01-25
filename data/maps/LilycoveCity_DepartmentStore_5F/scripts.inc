@@ -22,25 +22,33 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarLeft::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls
+	pokemart LilycoveCity_DepartmentStore_5F_Pokemart_Dolls
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Dolls:
-	.2byte DECOR_PICHU_DOLL
-	.2byte DECOR_PIKACHU_DOLL
-	.2byte DECOR_MARILL_DOLL
-	.2byte DECOR_JIGGLYPUFF_DOLL
-	.2byte DECOR_DUSKULL_DOLL
-	.2byte DECOR_WYNAUT_DOLL
-	.2byte DECOR_BALTOY_DOLL
-	.2byte DECOR_KECLEON_DOLL
-	.2byte DECOR_AZURILL_DOLL
-	.2byte DECOR_SKITTY_DOLL
-	.2byte DECOR_SWABLU_DOLL
-	.2byte DECOR_GULPIN_DOLL
+	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_SHELL_BELL
+	.2byte ITEM_EXPERT_BELT
+	.2byte ITEM_LIGHT_CLAY
+	.2byte ITEM_LIFE_ORB
+	.2byte ITEM_FOCUS_SASH
+	.2byte ITEM_METRONOME
+	.2byte ITEM_LAGGING_TAIL
+	.2byte ITEM_IRON_BALL
+	.2byte ITEM_DESTINY_KNOT
+	.2byte ITEM_BLACK_SLUDGE
+	.2byte ITEM_GRIP_CLAW
+	.2byte ITEM_STICKY_BARB
+	.2byte ITEM_SHED_SHELL
+	.2byte ITEM_BIG_ROOT
+	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_EVIOLITE
+	.2byte ITEM_FLOAT_STONE
+	.2byte ITEM_ROCKY_HELMET
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft::
@@ -48,22 +56,36 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidLeft::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Cushions
+	pokemart LilycoveCity_DepartmentStore_5F_Pokemart_Cushions
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Cushions:
-	.2byte DECOR_PIKA_CUSHION
-	.2byte DECOR_ROUND_CUSHION
-	.2byte DECOR_ZIGZAG_CUSHION
-	.2byte DECOR_SPIN_CUSHION
-	.2byte DECOR_DIAMOND_CUSHION
-	.2byte DECOR_BALL_CUSHION
-	.2byte DECOR_GRASS_CUSHION
-	.2byte DECOR_FIRE_CUSHION
-	.2byte DECOR_WATER_CUSHION
+	.2byte ITEM_RED_CARD
+	.2byte ITEM_RING_TARGET
+	.2byte ITEM_BINDING_BAND
+	.2byte ITEM_EJECT_BUTTON
+	.2byte ITEM_EJECT_PACK
+	.2byte ITEM_WEAKNESS_POLICY
+	.2byte ITEM_ASSAULT_VEST
+	.2byte ITEM_SAFETY_GOGGLES
+	.2byte ITEM_TERRAIN_EXTENDER
+	.2byte ITEM_PROTECTIVE_PADS
+	.2byte ITEM_THROAT_SPRAY
+	.2byte ITEM_HEAVY_DUTY_BOOTS
+	.2byte ITEM_BLUNDER_POLICY
+	.2byte ITEM_ROOM_SERVICE
+	.2byte ITEM_PUNCHING_GLOVE
+	.2byte ITEM_UTILITY_UMBRELLA
+	.2byte ITEM_CLEAR_AMULET
+	.2byte ITEM_ABILITY_SHIELD
+	.2byte ITEM_COVERT_CLOAK
+	.2byte ITEM_LOADED_DICE
+	.2byte ITEM_AUSPICIOUS_ARMOR
+	.2byte ITEM_BOOSTER_ENERGY
+	.2byte ITEM_MIRROR_HERB
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight::
@@ -71,22 +93,54 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkMidRight::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Posters
+	pokemart LilycoveCity_DepartmentStore_5F_Pokemart_Posters
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Posters:
-	.2byte DECOR_BALL_POSTER
-	.2byte DECOR_GREEN_POSTER
-	.2byte DECOR_RED_POSTER
-	.2byte DECOR_BLUE_POSTER
-	.2byte DECOR_CUTE_POSTER
-	.2byte DECOR_PIKA_POSTER
-	.2byte DECOR_LONG_POSTER
-	.2byte DECOR_SEA_POSTER
-	.2byte DECOR_SKY_POSTER
+	.2byte ITEM_TM_DRAGON_PULSE
+	.2byte ITEM_TM_DRAIN_PUNCH
+	.2byte ITEM_TM_WILL_O_WISP
+	.2byte ITEM_TM_BUG_BUZZ
+	.2byte ITEM_TM_NASTY_PLOT
+	.2byte ITEM_TM_ICICLE_CRASH
+	.2byte ITEM_TM_SPIRIT_SHACKLE
+	.2byte ITEM_TM_PAYBACK
+	.2byte ITEM_TM_RECYCLE
+	.2byte ITEM_TM_GIGA_IMPACT
+	.2byte ITEM_TM_ROCK_POLISH
+	.2byte ITEM_TM_DIAMOND_FLASH
+	.2byte ITEM_TM_STONE_EDGE
+	.2byte ITEM_TM_AVALANCHE
+	.2byte ITEM_TM_THUNDER_WAVE
+	.2byte ITEM_TM_SWORDS_DANCE
+	.2byte ITEM_TM_GYRO_BALL
+	.2byte ITEM_TM_STEALTH_ROCK
+	.2byte ITEM_TM_PSYCH_UP
+	.2byte ITEM_TM_SNARL
+	.2byte ITEM_TM_DARK_PULSE
+	.2byte ITEM_TM_ROCK_SLIDE
+	.2byte ITEM_TM_LEECH_LIFE
+	.2byte ITEM_TM_SLEEP_TALK
+	.2byte ITEM_TM_POISON_JAB
+	.2byte ITEM_TM_PLAY_ROUGH
+	.2byte ITEM_TM_GRASS_KNOT
+	.2byte ITEM_TM_SWAGGER
+	.2byte ITEM_TM_AIR_SLASH
+	.2byte ITEM_TM_U_TURN
+	.2byte ITEM_TM_SUBSTITUTE
+	.2byte ITEM_TM_FLASH_CANNON
+	.2byte ITEM_TM_TRICK_ROOM
+	.2byte ITEM_TM_GRASSY_TERRAIN
+	.2byte ITEM_TM_MISTY_TERRAIN
+	.2byte ITEM_TM_PSYCHIC_TERRAIN
+	.2byte ITEM_TM_ELECTRIC_TERRAIN
+	.2byte ITEM_TM_HEX
+	.2byte ITEM_TM_VENOSHOCK
+	.2byte ITEM_TM_EARTH_POWER
+	.2byte ITEM_TM_WEATHER_BALL
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight::
@@ -94,23 +148,41 @@ LilycoveCity_DepartmentStore_5F_EventScript_ClerkFarRight::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemartdecoration2 LilycoveCity_DepartmentStore_5F_Pokemart_Mats
+	pokemart LilycoveCity_DepartmentStore_5F_Pokemart_Mats
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
 LilycoveCity_DepartmentStore_5F_Pokemart_Mats:
-	.2byte DECOR_SURF_MAT
-	.2byte DECOR_THUNDER_MAT
-	.2byte DECOR_FIRE_BLAST_MAT
-	.2byte DECOR_POWDER_SNOW_MAT
-	.2byte DECOR_ATTRACT_MAT
-	.2byte DECOR_FISSURE_MAT
-	.2byte DECOR_SPIKES_MAT
-	.2byte DECOR_GLITTER_MAT
-	.2byte DECOR_JUMP_MAT
-	.2byte DECOR_SPIN_MAT
+	.2byte ITEM_TM_LOW_SWEEP
+	.2byte ITEM_TM_DIG
+	.2byte ITEM_TM_PSYCHIC
+	.2byte ITEM_TM_SHADOW_BALL
+	.2byte ITEM_TM_BRICK_BREAK
+	.2byte ITEM_TM_DOUBLE_TEAM	
+	.2byte ITEM_TM_REFLECT	
+	.2byte ITEM_TM_FLAMETHROWER
+	.2byte ITEM_TM_SLUDGE_BOMB
+	.2byte ITEM_TM_SANDSTORM
+	.2byte ITEM_TM_FIRE_BLAST
+	.2byte ITEM_TM_TORMENT
+	.2byte ITEM_TM_FACADE
+	.2byte ITEM_TM_SUPERCELL_SLAM
+	.2byte ITEM_TM_REST
+	.2byte ITEM_TM_ATTRACT
+	.2byte ITEM_TM_THIEF
+	.2byte ITEM_TM_STEEL_WING
+	.2byte ITEM_TM_SKILL_SWAP
+	.2byte ITEM_TM_SCALD
+	.2byte ITEM_TM_ROOST
+	.2byte ITEM_TM_FOCUS_BLAST
+	.2byte ITEM_TM_ENERGY_BALL
+	.2byte ITEM_TM_FALSE_SWIPE
+	.2byte ITEM_TM_FLIP_TURN
+	.2byte ITEM_TM_FLING
+	.2byte ITEM_TM_CHARGE_BEAM
+	.2byte ITEM_TM_TERRAIN_PULSE
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_5F_EventScript_PokefanF::

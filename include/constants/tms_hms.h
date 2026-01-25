@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(SKY_UPPERCUT) \
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
@@ -11,7 +11,7 @@
     F(HAIL) \
     F(BULK_UP) \
     F(BULLET_SEED) \
-    F(HIDDEN_POWER) \
+    F(WORK_UP) \
     F(SUNNY_DAY) \
     F(TAUNT) \
     F(ICE_BEAM) \
@@ -22,13 +22,13 @@
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
     F(SAFEGUARD) \
-    F(FRUSTRATION) \
+    F(DAZZLING_GLEAM) \
     F(SOLAR_BEAM) \
-    F(IRON_TAIL) \
+    F(METEOR_MASH) \
     F(THUNDERBOLT) \
     F(THUNDER) \
     F(EARTHQUAKE) \
-    F(RETURN) \
+    F(LOW_SWEEP) \
     F(DIG) \
     F(PSYCHIC) \
     F(SHADOW_BALL) \
@@ -40,18 +40,68 @@
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
     F(FIRE_BLAST) \
-    F(ROCK_TOMB) \
-    F(AERIAL_ACE) \
+    F(SMACK_DOWN) \
+    F(DUAL_WINGBEAT) \
     F(TORMENT) \
     F(FACADE) \
-    F(SECRET_POWER) \
+    F(SUPERCELL_SLAM) \
     F(REST) \
     F(ATTRACT) \
     F(THIEF) \
     F(STEEL_WING) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(SCALD) \
+    F(OVERHEAT) \
+    F(ROOST) \
+    F(FOCUS_BLAST) \
+    F(ENERGY_BALL) \
+    F(FALSE_SWIPE) \
+    F(FLIP_TURN) \
+    F(FLING) \
+    F(CHARGE_BEAM) \
+    F(VENOSHOCK) \
+    F(TERRAIN_PULSE) \
+    F(DRAGON_PULSE) \
+    F(DRAIN_PUNCH) \
+    F(WILL_O_WISP) \
+    F(BUG_BUZZ) \
+    F(NASTY_PLOT) \
+    F(ICICLE_CRASH) \
+    F(SPIRIT_SHACKLE) \
+    F(PAYBACK) \
+    F(RECYCLE) \
+    F(GIGA_IMPACT) \
+    F(ROCK_POLISH) \
+    F(DIAMOND_FLASH) \
+    F(STONE_EDGE) \
+    F(AVALANCHE) \
+    F(HEX) \
+    F(THUNDER_WAVE) \
+    F(GYRO_BALL) \
+    F(SWORDS_DANCE) \
+    F(STEALTH_ROCK) \
+    F(PSYCH_UP) \
+    F(SNARL) \
+    F(DARK_PULSE) \
+    F(ROCK_SLIDE) \
+    F(LEECH_LIFE) \
+    F(SLEEP_TALK) \
+    F(SAND_DASH) \
+    F(POISON_JAB) \
+    F(PLAY_ROUGH) \
+    F(GRASS_KNOT) \
+    F(SWAGGER) \
+    F(AIR_SLASH) \
+    F(U_TURN) \
+    F(SUBSTITUTE) \
+    F(FLASH_CANNON) \
+    F(TRICK_ROOM) \
+    F(GRASSY_TERRAIN) \
+    F(MISTY_TERRAIN) \
+    F(ELECTRIC_TERRAIN) \
+    F(PSYCHIC_TERRAIN) \
+    F(EARTH_POWER) \
+    F(WEATHER_BALL)
 
 #define FOREACH_HM(F) \
     F(CUT) \

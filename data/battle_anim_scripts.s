@@ -15788,6 +15788,7 @@ gBattleAnimMove_WaveCrash::
 	loadspritegfx ANIM_TAG_ICE_CRYSTALS @Bubbles on attacker
 	monbg ANIM_DEF_PARTNER
 	createvisualtask AnimTask_BlendBattleAnimPal, 0xa, F_PAL_ATTACKER, 0x2, 0x0, 0xB, 0x726A
+	createvisualtask AnimTask_CreateSurfWave, 2, ANIM_SURF_PAL_SURF
 	createvisualtask AnimTask_WindUpLunge, 5, ANIM_ATTACKER, -20, 8, 48, 8, 56, 6
 	call WaterfallBubblesOnAttacker
 	waitforvisualfinish
@@ -15800,6 +15801,7 @@ gBattleAnimMove_WaveCrash::
 	clearmonbg ANIM_DEF_PARTNER
 	waitforvisualfinish
 	end
+
 
 
 @Credits to Skeli

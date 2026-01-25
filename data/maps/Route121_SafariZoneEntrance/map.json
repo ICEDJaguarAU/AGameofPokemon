@@ -85,15 +85,7 @@
     }
   ],
   "coord_events": [
-    {
-      "type": "trigger",
-      "x": 8,
-      "y": 4,
-      "elevation": 3,
-      "var": "VAR_TEMP_1",
-      "var_value": "0",
-      "script": "Route121_SafariZoneEntrance_EventScript_EntranceCounterTrigger"
-    }
+
   ],
   "bg_events": [
     {

@@ -97,6 +97,8 @@ Route118_EventScript_StevenTrigger::
 	delay 30
 	msgbox Route118_Text_StevenQuestions, MSGBOX_DEFAULT
 	closemessage
+	trainerbattle_no_intro TRAINER_STEVEN_ROUTE_118, Route118_Text_StevenDefeat
+	msgbox Route118_Text_StevenPostBattle, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, Route118_EventScript_StevenExit0
 	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
 	call_if_eq VAR_0x8008, 2, Route118_EventScript_StevenExit2
@@ -257,11 +259,8 @@ Route118_Text_StevenQuestions:
 	.string "favorites, that's fine.\p"
 	.string "Perhaps you find it more fun to raise\n"
 	.string "all sorts of POKéMON.\p"
-	.string "As a TRAINER of POKéMON,\n"
-	.string "what do you think?\p"
-	.string "Of course, it's not any of my business.\p"
-	.string "It would be nice if we were to meet\n"
-	.string "again somewhere.$"
+	.string "As a TRAINER of POKéMON, let me\n"
+	.string "see what you think?$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
 	.string "Hmm!\n"
@@ -300,3 +299,10 @@ Route118_Text_RouteSign119:
 	.string "ROUTE 118\n"
 	.string "{UP_ARROW} ROUTE 119$"
 
+Route118_Text_StevenDefeat:
+	.string "Huh, interesting...$"
+
+Route118_Text_StevenPostBattle:
+	.string "Well, I learn a lot\n"
+	.string "from that. I look\n"
+	.string "forward to a rematch$"

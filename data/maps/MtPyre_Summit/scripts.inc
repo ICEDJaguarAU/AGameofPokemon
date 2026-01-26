@@ -435,16 +435,12 @@ MtPyre_Summit_EventScript_Grunt4::
 MtPyre_Summit_EventScript_Leaf::
 	lock
 	faceplayer
-	checktrainerflag FLAG_MET_LEAF_MTPYRE
-	goto_if_set FLAG_MET_LEAF_MTPYRE, MtPyre_Summit_EventScript_Leaf_End
 	trainerbattle_single TRAINER_LEAF_MT_PYRE, MtPyre_Summit_Text_LeafIntro, MtPyre_Summit_Text_LeafDefeat
 	msgbox MtPyre_Summit_Text_LeafPostBattle, MSGBOX_AUTOCLOSE
 	delay 50 
 	applymovement LOCALID_LEAF, MtPyre_Summit_Movement_LeafLeavePostBattle
 	waitmovement 0
 	removeobject LOCALID_LEAF
-	delay 20
-	setflag FLAG_MET_LEAF_MTPYRE
 	release
 	end
 

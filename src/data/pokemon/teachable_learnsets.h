@@ -737,7 +737,6 @@ static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_AIR_SLASH,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
-    MOVE_DUAL_WINGBEAT,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_PROTECT,
@@ -767,7 +766,6 @@ static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_AIR_SLASH,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
-    MOVE_DUAL_WINGBEAT,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_PROTECT,
@@ -797,7 +795,6 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_AIR_SLASH,
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
-    MOVE_DUAL_WINGBEAT,
     MOVE_FACADE,
     MOVE_FLY,
     MOVE_GIGA_IMPACT,
@@ -995,7 +992,6 @@ static const u16 sRaticateAlolaTeachableLearnset[] = {
 static const u16 sSpearowTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
-    MOVE_DUAL_WINGBEAT,
     MOVE_FACADE,
     MOVE_FALSE_SWIPE,
     MOVE_FLY,
@@ -1024,7 +1020,6 @@ static const u16 sSpearowTeachableLearnset[] = {
 static const u16 sFearowTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_DOUBLE_TEAM,
-    MOVE_DUAL_WINGBEAT,
     MOVE_FACADE,
     MOVE_FALSE_SWIPE,
     MOVE_FLY,
@@ -9621,7 +9616,6 @@ static const u16 sPorygonZTeachableLearnset[] = {
 static const u16 sOmanyteTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
-    MOVE_DIAMOND_FLASH,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTH_POWER,
@@ -9662,7 +9656,6 @@ static const u16 sOmanyteTeachableLearnset[] = {
 static const u16 sOmastarTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
-    MOVE_DIAMOND_FLASH,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTH_POWER,
@@ -9709,7 +9702,6 @@ static const u16 sOmastarTeachableLearnset[] = {
 static const u16 sKabutoTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BLIZZARD,
-    MOVE_DIAMOND_FLASH,
     MOVE_DIG,
     MOVE_DOUBLE_TEAM,
     MOVE_EARTH_POWER,
@@ -9755,7 +9747,6 @@ static const u16 sKabutopsTeachableLearnset[] = {
     MOVE_BLIZZARD,
     MOVE_BRICK_BREAK,
     MOVE_CUT,
-    MOVE_DIAMOND_FLASH,
     MOVE_DIG,
     MOVE_DIVE,
     MOVE_DOUBLE_TEAM,

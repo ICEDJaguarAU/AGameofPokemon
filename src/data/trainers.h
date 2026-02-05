@@ -10271,7 +10271,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4051
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
                 MOVE_EARTHQUAKE,
                 MOVE_FIRE_PUNCH,
                 MOVE_KNOCK_OFF,
@@ -20827,7 +20827,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 8076
-                MOVE_RETURN,
+                MOVE_BODY_SLAM,
                 MOVE_FAKE_OUT,
                 MOVE_THROAT_CHOP,
                 MOVE_LEER,
@@ -21549,7 +21549,7 @@ F_TRAINER_FEMALE |
 #line 8342
                 MOVE_FLIP_TURN,
                 MOVE_PLAY_ROUGH,
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
                 MOVE_KNOCK_OFF,
             },
             },
@@ -31299,7 +31299,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 12068
                 MOVE_CLOSE_COMBAT,
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
                 MOVE_FEINT,
                 MOVE_SWORDS_DANCE,
             },
@@ -31367,7 +31367,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 12095
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
                 MOVE_WOOD_HAMMER,
                 MOVE_EARTHQUAKE,
                 MOVE_PLAY_ROUGH,
@@ -44982,7 +44982,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 17194
                 MOVE_GEAR_GRIND,
-                MOVE_RETURN,
+                MOVE_METAL_SOUND,
                 MOVE_WILD_CHARGE,
                 MOVE_SHIFT_GEAR,
             },
@@ -47211,7 +47211,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 18069
                 MOVE_CLOSE_COMBAT,
-                MOVE_RETURN,
+                MOVE_BODY_SLAM,
                 MOVE_LASH_OUT,
                 MOVE_ROLE_PLAY,
             },
@@ -54678,7 +54678,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 20954
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
                 MOVE_BRAVE_BIRD,
                 MOVE_ENDEAVOR,
                 MOVE_TAILWIND,
@@ -55884,7 +55884,7 @@ F_TRAINER_FEMALE |
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 21430
-                MOVE_RETURN,
+                MOVE_BODY_SLAM,
                 MOVE_HIGH_HORSEPOWER,
                 MOVE_STONE_EDGE,
                 MOVE_PAYBACK,
@@ -59545,7 +59545,7 @@ F_TRAINER_FEMALE |
                 MOVE_FAKE_OUT,
                 MOVE_LOW_KICK,
                 MOVE_SING,
-                MOVE_RETURN,
+                MOVE_DOUBLE_EDGE,
             },
             },
             {

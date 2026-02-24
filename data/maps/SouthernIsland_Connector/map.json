@@ -1,0 +1,39 @@
+{
+  "id": "MAP_SOUTHERN_ISLAND_CONNECTOR",
+  "name": "SouthernIsland_Connector",
+  "layout": "LAYOUT_SOUTHERN_ISLAND_CONNECTOR",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE134",
+      "offset": -68,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_SOUTHERN_ISLAND_EXTERIOR",
+      "offset": -27,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

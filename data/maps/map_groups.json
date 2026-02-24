@@ -605,7 +605,8 @@
     "NavelRock_Bottom",
     "TrainerHill_Elevator",
     "SafariZone_NewSouthEast",
-    "SafariZone_NewNorthEast"
+    "SafariZone_NewNorthEast",
+    "SouthernIsland_Connector"
   ],
   "gMapGroup_IndoorRoute104Prototype": [
     "Route104_Prototype",

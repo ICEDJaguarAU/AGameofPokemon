@@ -4130,8 +4130,8 @@ const struct Item gItemsInfo[] =
             "Pokémon. It's stiff\n"
             "and heavy."),
         .pocket = POCKET_ITEMS,
-        .type = EVO_HELD_ITEM_TYPE,
-        .fieldUseFunc = EVO_HELD_ITEM_FIELD_FUNC,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 80,
         .iconPic = gItemIcon_Protector,
@@ -4147,8 +4147,8 @@ const struct Item gItemsInfo[] =
             "Pokémon. It's full\n"
             "of electric energy."),
         .pocket = POCKET_ITEMS,
-        .type = EVO_HELD_ITEM_TYPE,
-        .fieldUseFunc = EVO_HELD_ITEM_FIELD_FUNC,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 80,
         .iconPic = gItemIcon_Electirizer,
@@ -4164,8 +4164,8 @@ const struct Item gItemsInfo[] =
             "Pokémon. It's full\n"
             "of magma energy."),
         .pocket = POCKET_ITEMS,
-        .type = EVO_HELD_ITEM_TYPE,
-        .fieldUseFunc = EVO_HELD_ITEM_FIELD_FUNC,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 80,
         .iconPic = gItemIcon_Magmarizer,
@@ -4181,8 +4181,8 @@ const struct Item gItemsInfo[] =
             "Pokémon. It's full\n"
             "of frost energy."),
         .pocket = POCKET_ITEMS,
-        .type = EVO_HELD_ITEM_TYPE,
-        .fieldUseFunc = EVO_HELD_ITEM_FIELD_FUNC,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .effect = gItemEffect_EvoItem,
         .flingPower = 80,
         .iconPic = gItemIcon_Frostirizer,

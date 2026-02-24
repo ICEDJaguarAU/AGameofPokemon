@@ -22,11 +22,6 @@
       "map": "MAP_ROUTE130",
       "offset": 0,
       "direction": "right"
-    },
-    {
-      "map": "MAP_BIRTH_ISLAND_EXTERIOR",
-      "offset": 19,
-      "direction": "down"
     }
   ],
   "object_events": [

@@ -1199,3 +1199,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route134South/scripts.inc"
 
 	.include "data/maps/Route129East/scripts.inc"
+
+	.include "data/maps/SouthernIsland_Connector/scripts.inc"

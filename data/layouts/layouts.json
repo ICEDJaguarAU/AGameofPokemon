@@ -4630,6 +4630,16 @@
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route129East/border.bin",
       "blockdata_filepath": "data/layouts/Route129East/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOUTHERN_ISLAND_CONNECTOR",
+      "name": "SouthernIsland_Connector_Layout",
+      "width": 10,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Pacifidlog",
+      "border_filepath": "data/layouts/SouthernIsland_Connector/border.bin",
+      "blockdata_filepath": "data/layouts/SouthernIsland_Connector/map.bin"
     }
   ]
 }

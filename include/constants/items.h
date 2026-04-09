@@ -1030,6 +1030,23 @@
 #define ITEM_ZYGARDITE 863
 #define ITEM_DRAMPANITE 864
 #define ITEM_FALINKSITE 865
+#define ITEM_CHIMECHITE 866
+#define ITEM_ABSOLITE_Z 867
+#define ITEM_STARAPTITE 868
+#define ITEM_GARCHOMPITE_Z 869
+#define ITEM_LUCARIONITE_Z 870
+#define ITEM_HEATRANITE 871
+#define ITEM_DARKRANITE 872
+#define ITEM_GOLURKITE 873
+#define ITEM_MEOWSTICITE 874
+#define ITEM_CRABOMINITE 875
+#define ITEM_GOLISOPITE 876
+#define ITEM_MAGEARNITE 877
+#define ITEM_ZERAORITE 878
+#define ITEM_SCOVILLAINITE 879
+#define ITEM_GLIMMORANITE 880
+#define ITEM_TATSUGIRINITE 881
+#define ITEM_BAXCALIBRITE 882
 
 
 
@@ -1037,7 +1054,7 @@
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 866 //item count = last item +1
+#define ITEMS_COUNT 883 //item count = last item +1
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

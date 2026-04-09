@@ -158,6 +158,25 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_METAL_COAT
 	pokemartlistend
 
+LilycoveCity_DepartmentStore_4F_EventScript_ClerkMiddle::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart LilycoveCity_DepartmentStore_4F_Pokemart_MegaStonesAO
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+LilycoveCity_DepartmentStore_4F_Pokemart_MegaStonesAO:
+	.2byte ITEM_VENUSAURITE_X
+	.2byte ITEM_BLASTOISINITE_X
+	.2byte ITEM_FLYGONITE
+	.2byte ITEM_MILOTITE
+	.2byte ITEM_GARBODORITE
+	pokemartlistend	
+
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string "Hmm…\p"
 	.string "An attacking move…\n"

@@ -9264,7 +9264,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3677
-            .species = SPECIES_PELIPPER,
+            .species = SPECIES_ADMIRATROSS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3677
             .heldItem = ITEM_WACAN_BERRY,
@@ -40877,7 +40877,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 15660
-            .species = SPECIES_HAKAMO_O,
+            .species = SPECIES_KOMMO_O,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 15660
             .heldItem = ITEM_THROAT_SPRAY,

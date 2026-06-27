@@ -189,6 +189,8 @@ static const struct LevelUpMove sWartortleLevelUpLearnset[] = {
 
 static const struct LevelUpMove sBlastoiseLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_FLASH_CANNON),
+    LEVEL_UP_MOVE( 0, MOVE_WATER_PRESSURE),
+    LEVEL_UP_MOVE( 0, MOVE_HEAVY_SLAM),
     LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),

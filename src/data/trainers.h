@@ -49303,7 +49303,7 @@ F_TRAINER_FEMALE |
 #line 18870
                 MOVE_BUG_BITE,
                 MOVE_SPARK,
-                MOVE_VICE_GRIP,
+                MOVE_STRING_SHOT,
             },
             },
             {

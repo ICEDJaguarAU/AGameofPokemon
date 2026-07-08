@@ -9685,27 +9685,27 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_PIPLUP"
+                "species": "SPECIES_POLIWAG"
               },
               {
                 "min_level": 10,
                 "max_level": 20,
-                "species": "SPECIES_OSHAWOTT"
+                "species": "SPECIES_TYMPOLE"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_OSHAWOTT"
+                "species": "SPECIES_TYMPOLE"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_OSHAWOTT"
+                "species": "SPECIES_TYMPOLE"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_OSHAWOTT"
+                "species": "SPECIES_TYMPOLE"
               }
             ]
           },
@@ -9715,12 +9715,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_CLAUNCHER"
+                "species": "SPECIES_PIPLUP"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_WISHIWASHI"
+                "species": "SPECIES_OSHAWOTT"
               },
               {
                 "min_level": 10,
@@ -9730,7 +9730,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_POLIWAG"
+                "species": "SPECIES_CLAUNCHER"
               },
               {
                 "min_level": 10,

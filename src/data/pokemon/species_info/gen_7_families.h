@@ -1928,7 +1928,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_QUICK_FEET, ABILITY_VITAL_SPIRIT, ABILITY_STEADFAST },
         .bodyColor = BODY_COLOR_GRAY,
-        .speciesName = _("Wolfy"),
+        .speciesName = _("Wulfy"),
         .cryId = CRY_ROCKRUFF,
         .natDexNum = NATIONAL_DEX_WOLFY,
         .categoryName = _("Wolf-Pup"),
@@ -4744,7 +4744,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
 
     [SPECIES_MIMIKYU_BUSTED] =
     {
-        .baseHP        = 55,
+        .baseHP        = 75,
         .baseAttack    = 90,
         .baseDefense   = 80,
         .baseSpeed     = 96,

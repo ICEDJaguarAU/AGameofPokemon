@@ -1739,9 +1739,10 @@ static s32 AI_CheckBadMove(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
                 ADJUST_SCORE(-10);
             break;
         case EFFECT_MAGNITUDE:
-            if (aiData->abilities[battlerDef] == ABILITY_LEVITATE)
-                ADJUST_SCORE(-10);
-            break;
+    if (aiData->abilities[battlerDef] == ABILITY_LEVITATE ||
+        aiData->abilities[battlerDef] == ABILITY_DRAGONS_WILL)
+        ADJUST_SCORE(-10);
+    break;
         case EFFECT_PARTING_SHOT:
             if (CountUsablePartyMons(battlerAtk) == 0)
                 ADJUST_SCORE(-10);

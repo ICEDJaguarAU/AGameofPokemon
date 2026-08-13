@@ -172,6 +172,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_HEX",
+      "MOVE_SHADOW_BALL",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_PROTECT",
@@ -387,6 +390,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -495,6 +499,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -618,6 +623,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -753,6 +759,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SCALD",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -864,6 +871,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SCALD",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -969,9 +977,14 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ICICLE_CRASH",
+      "MOVE_AVALANCHE",
+      "MOVE_SCALD",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
+      "MOVE_DARK_PULSE",
       "MOVE_WATER_PULSE",
       "MOVE_CHILLING_WATER",
       "MOVE_FACADE",
@@ -1021,6 +1034,8 @@
       "MOVE_FLIP_TURN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_WHIRLPOOL",
+      "MOVE_DIVE",
+      "MOVE_WATERFALL",
       "MOVE_MUDDY_WATER"
     ],
     "EggMoves": [],
@@ -1483,6 +1498,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -1631,6 +1647,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -2101,6 +2119,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -2270,6 +2289,7 @@
       }
     ],
     "PreEvoMoves": [
+      "MOVE_FLASH",
       "MOVE_POUND",
       "MOVE_GROWL",
       "MOVE_SING",
@@ -2439,6 +2459,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -2576,6 +2597,7 @@
       "MOVE_INFERNO"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -3965,6 +3987,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -4368,6 +4391,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -4506,6 +4530,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -4646,6 +4672,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -4769,6 +4796,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -5097,6 +5125,8 @@
       "MOVE_CIRCLE_THROW"
     ],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -5174,42 +5204,56 @@
   "ABRA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KADABRA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "ALAKAZAM": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "MACHOP": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "MACHOKE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "MACHAMP": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -6484,6 +6528,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -6599,6 +6645,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -7166,6 +7214,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_NASTY_PLOT",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -7296,6 +7347,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_WILL_O_WISP",
+      "MOVE_NASTY_PLOT",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -7655,6 +7709,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_ACID_SPRAY",
@@ -7781,6 +7836,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_ACID_SPRAY",
@@ -7922,6 +7979,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_ACID_SPRAY",
@@ -8002,7 +8061,30 @@
   "ONIX": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_HAIL",
+      "MOVE_ICE_BEAM",
+      "MOVE_ICE_FANG",
+      "MOVE_BLIZZARD",
+      "MOVE_SMACK_DOWN",
+      "MOVE_ROCK_POLISH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ROCK_TOMB",
+      "MOVE_SAND_TOMB",
+      "MOVE_DIG",
+      "MOVE_SANDSTORM",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_AVALANCHE",
+      "MOVE_STONE_EDGE",
+      "MOVE_GYRO_BALL",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_FLASH_CANNON",
+      "MOVE_EARTH_POWER",
+      "MOVE_WEATHER_BALL",
+      "MOVE_CUT",
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -8067,6 +8149,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -8204,6 +8287,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -8370,6 +8454,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -8484,6 +8569,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -8712,6 +8798,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -8770,14 +8857,22 @@
   "CUBONE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_MISTY_TERRAIN",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DAZZLING_GLEAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "MAROWAK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_MISTY_TERRAIN",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DAZZLING_GLEAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -8989,6 +9084,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_MEGA_PUNCH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
@@ -9926,14 +10023,18 @@
   "STARYU": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "STARMIE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -10123,6 +10224,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -10238,6 +10340,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -10512,6 +10615,15 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_FLIP_TURN",
+      "MOVE_NASTY_PLOT",
+      "MOVE_PAYBACK",
+      "MOVE_SNARL",
+      "MOVE_DARK_PULSE",
+      "MOVE_SAFEGUARD",
+      "MOVE_TAUNT",
+      "MOVE_WORK_UP",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -11080,6 +11192,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -11235,6 +11349,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -11353,6 +11468,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_ELECTRIC_TERRAIN",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -11396,35 +11515,45 @@
   "OMANYTE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "OMASTAR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KABUTO": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KABUTOPS": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "AERODACTYL": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -11797,6 +11926,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -11910,6 +12041,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -12267,6 +12399,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DUAL_WINGBEAT",
+      "MOVE_SCALD",
+      "MOVE_ROOST",
+      "MOVE_FLIP_TURN",
+      "MOVE_DIVE",
+      "MOVE_WATERFALL",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -12419,6 +12558,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -13194,6 +13334,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_FANG",
@@ -13307,6 +13448,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_FANG",
@@ -13426,6 +13568,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_FANG",
@@ -14691,6 +14834,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -14814,6 +14958,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -14893,6 +15038,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_PROTECT",
@@ -14976,6 +15122,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
@@ -15218,6 +15365,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -15327,6 +15475,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -15465,6 +15614,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -16644,6 +16795,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -16767,6 +16919,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_TRAILBLAZE",
@@ -16879,6 +17032,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_OVERHEAT",
+      "MOVE_FIRE_BLAST",
+      "MOVE_FLAMETHROWER",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_TRAILBLAZE",
@@ -17379,6 +17536,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -17547,6 +17705,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -17665,6 +17824,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -17817,6 +17977,7 @@
       "MOVE_CHILLY_RECEPTION"
     ],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -17952,6 +18113,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -18106,6 +18269,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -18723,7 +18887,30 @@
   "STEELIX": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_HAIL",
+      "MOVE_ICE_BEAM",
+      "MOVE_ICE_FANG",
+      "MOVE_BLIZZARD",
+      "MOVE_SMACK_DOWN",
+      "MOVE_ROCK_POLISH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_ROCK_TOMB",
+      "MOVE_SAND_TOMB",
+      "MOVE_DIG",
+      "MOVE_SANDSTORM",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_AVALANCHE",
+      "MOVE_STONE_EDGE",
+      "MOVE_GYRO_BALL",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_FLASH_CANNON",
+      "MOVE_EARTH_POWER",
+      "MOVE_WEATHER_BALL",
+      "MOVE_CUT",
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -19230,6 +19417,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -19885,6 +20073,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -20006,6 +20195,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -20298,7 +20489,9 @@
   "CORSOLA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -20312,7 +20505,13 @@
   "OCTILLERY": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_FLAMETHROWER",
+      "MOVE_FIRE_BLAST",
+      "MOVE_FLASH",
+      "MOVE_WILL_O_WISP"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -20592,6 +20791,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -20726,6 +20926,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -21222,6 +21424,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_ELECTRIC_TERRAIN",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -21644,6 +21850,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -21757,6 +21964,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -22048,6 +22256,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -22179,6 +22388,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -22421,6 +22631,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -22550,6 +22761,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -22702,6 +22914,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -22860,6 +23073,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIVE",
+      "MOVE_SURF",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -22993,6 +23208,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CHARGE_BEAM",
@@ -23524,6 +23740,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -23648,6 +23865,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -23786,6 +24005,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -24306,6 +24527,12 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SMACK_DOWN",
+      "MOVE_SAND_DASH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROCK_POLISH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -24355,7 +24582,7 @@
     "LevelMoves": [
       {
         "Level": 0,
-        "Move": "MOVE_SNARL"
+        "Move": "MOVE_ROCK_BLAST"
       },
       {
         "Level": 1,
@@ -24436,6 +24663,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ROCK_POLISH",
+      "MOVE_SMACK_DOWN",
+      "MOVE_SAND_DASH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROCK_POLISH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -25277,6 +25511,7 @@
       "MOVE_SUCKER_PUNCH"
     ],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -25677,6 +25912,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -25809,6 +26045,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -25967,6 +26204,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -27373,6 +27611,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FACADE",
@@ -27513,6 +27752,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -27606,21 +27846,30 @@
   "ARON": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "LAIRON": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "AGGRON": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -27693,6 +27942,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -27845,6 +28096,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -27925,14 +28178,19 @@
   "ELECTRIKE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "MANECTRIC": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -28017,6 +28275,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -28146,6 +28405,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -28254,6 +28514,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -28641,6 +28902,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_BLIZZARD",
+      "MOVE_WEATHER_BALL",
+      "MOVE_HAIL",
+      "MOVE_AVALANCHE",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_ICE_SPINNER",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -28792,6 +29060,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -28931,6 +29200,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -29082,6 +29352,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_SPIN",
@@ -29321,6 +29592,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -29602,6 +29874,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_LEECH_LIFE",
+      "MOVE_U_TURN",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -29754,6 +30028,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_LEECH_LIFE",
+      "MOVE_U_TURN",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -30675,14 +30951,20 @@
   "LUNATONE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SOLROCK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -31174,28 +31456,36 @@
   "LILEEP": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "CRADILY": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "ANORITH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "ARMALDO": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -31334,6 +31624,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_PLAY_ROUGH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -31397,7 +31688,12 @@
   "CASTFORM": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_ROCK_SLIDE",
+      "MOVE_STONE_EDGE",
+      "MOVE_SMACK_DOWN",
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -31578,6 +31874,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -31829,6 +32126,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -32137,7 +32435,14 @@
   "ABSOL": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_AVALANCHE",
+      "MOVE_BLIZZARD",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_ICE_SPINNER",
+      "MOVE_WEATHER_BALL",
+      "MOVE_ICE_BEAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -32962,6 +33267,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -33092,6 +33398,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -33221,6 +33528,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CHARGE_BEAM",
@@ -33338,6 +33647,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_PROTECT",
       "MOVE_CHARGE_BEAM",
       "MOVE_FACADE",
@@ -33455,6 +33766,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CHARGE_BEAM",
@@ -33952,6 +34266,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -34222,6 +34537,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_DRAINING_KISS",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_MUD_SLAP",
@@ -34353,6 +34672,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -34838,6 +35160,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -34970,6 +35293,14 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_GRASSY_TERRAIN",
+      "MOVE_GRASS_PLEDGE",
+      "MOVE_GRASS_KNOT",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SKY_UPPERCUT",
+      "MOVE_BULLET_SEED",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -35120,6 +35451,14 @@
       "MOVE_SLACK_OFF"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_GRASSY_TERRAIN",
+      "MOVE_GRASS_PLEDGE",
+      "MOVE_GRASS_KNOT",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_SKY_UPPERCUT",
+      "MOVE_BULLET_SEED",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -35377,6 +35716,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ICICLE_CRASH",
+      "MOVE_AVALANCHE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -35499,6 +35840,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ICICLE_CRASH",
+      "MOVE_AVALANCHE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -36074,6 +36417,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -36185,6 +36529,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -36300,6 +36645,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -37080,6 +37426,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -37681,6 +38028,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -37815,6 +38163,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_ACROBATICS",
       "MOVE_PSYBEAM",
@@ -37943,6 +38293,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_ACROBATICS",
       "MOVE_PSYBEAM",
@@ -38050,6 +38402,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -38171,6 +38525,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -39099,6 +39454,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -39688,6 +40044,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -39853,6 +40210,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -40241,6 +40599,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -40372,6 +40731,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -40452,8 +40812,58 @@
   "CARNIVINE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
-    "EggMoves": [],
+    "TMMoves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_SURF",
+      "MOVE_WATER_PLEDGE",
+      "MOVE_WATERFALL",
+      "MOVE_PROTECT",
+      "MOVE_ACID_SPRAY",
+      "MOVE_THIEF",
+      "MOVE_TRAILBLAZE",
+      "MOVE_POUNCE",
+      "MOVE_FACADE",
+      "MOVE_SWIFT",
+      "MOVE_MAGICAL_LEAF",
+      "MOVE_VENOSHOCK",
+      "MOVE_ENDURE",
+      "MOVE_SUNNY_DAY",
+      "MOVE_BULLET_SEED",
+      "MOVE_BODY_SLAM",
+      "MOVE_SLEEP_TALK",
+      "MOVE_SEED_BOMB",
+      "MOVE_REFLECT",
+      "MOVE_GRASS_KNOT",
+      "MOVE_POISON_JAB",
+      "MOVE_REST",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_LEECH_LIFE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_GIGA_DRAIN",
+      "MOVE_ENERGY_BALL",
+      "MOVE_ENCORE",
+      "MOVE_GRASSY_TERRAIN",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_LEAF_STORM",
+      "MOVE_SOLAR_BEAM",
+      "MOVE_TERA_BLAST",
+      "MOVE_TOXIC",
+      "MOVE_KNOCK_OFF",
+      "MOVE_BUG_BITE",
+      "MOVE_LUNGE",
+      "MOVE_WEATHER_BALL",
+      "MOVE_GRASSY_GLIDE",
+      "MOVE_SLUDGE_WAVE"
+    ],
+    "EggMoves": [
+      "MOVE_CLEAR_SMOG",
+      "MOVE_INGRAIN",
+      "MOVE_STRENGTH_SAP",
+      "MOVE_SUCKER_PUNCH",
+      "MOVE_SYNTHESIS",
+      "MOVE_TICKLE",
+      "MOVE_WORRY_SEED"
+    ],
     "TutorMoves": []
   },
   "FINNEON": {
@@ -40616,6 +41026,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -41128,6 +41539,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -41407,6 +41820,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_ROCK_SMASH",
+      "MOVE_STRENGTH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -41531,6 +41948,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_GYRO_BALL",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -41666,6 +42087,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DRAGON_PULSE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -42377,6 +42799,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_ELECTRIC_TERRAIN",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -42557,6 +42983,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -42744,6 +43174,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FACADE",
@@ -42888,6 +43319,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -43161,6 +43593,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -43316,6 +43750,14 @@
       "MOVE_EXPANDING_FORCE"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -43492,6 +43934,13 @@
       "MOVE_ALLY_SWITCH"
     ],
     "TMMoves": [
+      "MOVE_DRAGON_PULSE",
+      "MOVE_DRACO_METEOR",
+      "MOVE_DRAGON_CLAW",
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -43683,6 +44132,16 @@
       "MOVE_EXPANDING_FORCE"
     ],
     "TMMoves": [
+      "MOVE_ICE_BEAM",
+      "MOVE_BLIZZARD",
+      "MOVE_AVALANCHE",
+      "MOVE_ICICLE_CRASH",
+      "MOVE_ICY_WIND",
+      "MOVE_WEATHER_BALL",
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -44049,6 +44508,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -44171,6 +44631,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_MEGA_PUNCH",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -44499,6 +44960,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -44595,6 +45060,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_MUD_SLAP",
@@ -44696,6 +45165,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -44806,6 +45276,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_DISARMING_VOICE",
@@ -45022,7 +45496,12 @@
   "VICTINI": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_ALLURING_VOICE",
+      "MOVE_DAZZLING_GLEAM",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_DRAINING_KISS"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -45400,6 +45879,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -45517,6 +45997,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -45652,6 +46133,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_FLASH_CANNON",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -45903,6 +46388,58 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_TAKE_DOWN",
+      "MOVE_SCARY_FACE",
+      "MOVE_PROTECT",
+      "MOVE_WATER_PULSE",
+      "MOVE_THIEF",
+      "MOVE_CHILLING_WATER",
+      "MOVE_FACADE",
+      "MOVE_AERIAL_ACE",
+      "MOVE_BULLDOZE",
+      "MOVE_SNARL",
+      "MOVE_SWIFT",
+      "MOVE_ICY_WIND",
+      "MOVE_FLING",
+      "MOVE_AVALANCHE",
+      "MOVE_ENDURE",
+      "MOVE_RAIN_DANCE",
+      "MOVE_SNOWSCAPE",
+      "MOVE_SMART_STRIKE",
+      "MOVE_DIG",
+      "MOVE_FALSE_SWIPE",
+      "MOVE_BRICK_BREAK",
+      "MOVE_AIR_SLASH",
+      "MOVE_BODY_SLAM",
+      "MOVE_SLEEP_TALK",
+      "MOVE_WATERFALL",
+      "MOVE_GRASS_KNOT",
+      "MOVE_REST",
+      "MOVE_TAUNT",
+      "MOVE_SWORDS_DANCE",
+      "MOVE_DARK_PULSE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_X_SCISSOR",
+      "MOVE_DRILL_RUN",
+      "MOVE_LIQUIDATION",
+      "MOVE_ENCORE",
+      "MOVE_SURF",
+      "MOVE_HELPING_HAND",
+      "MOVE_ICE_BEAM",
+      "MOVE_HYDRO_PUMP",
+      "MOVE_BLIZZARD",
+      "MOVE_WATER_PLEDGE",
+      "MOVE_GIGA_IMPACT",
+      "MOVE_HYDRO_CANNON",
+      "MOVE_HYPER_BEAM",
+      "MOVE_TERA_BLAST",
+      "MOVE_KNOCK_OFF",
+      "MOVE_VACUUM_WAVE",
+      "MOVE_FLIP_TURN",
+      "MOVE_LASH_OUT",
+      "MOVE_WHIRLPOOL",
+      "MOVE_THROAT_CHOP",
+      "MOVE_UPPER_HAND",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -46268,6 +46805,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -46365,6 +46903,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -46414,21 +46953,27 @@
   "ROGGENROLA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "BOLDORE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "GIGALITH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -46844,6 +47389,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -46954,6 +47500,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -47036,14 +47583,18 @@
   "THROH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SAWK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -48423,6 +48974,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -48558,6 +49110,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_SCARY_FACE",
@@ -48634,35 +49187,49 @@
   "SIGILYPH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "YAMASK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "COFAGRIGUS": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_GYRO_BALL",
+      "MOVE_FLASH_CANNON",
+      "MOVE_METEOR_MASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "TIRTOUGA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "CARRACOSTA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -48690,7 +49257,15 @@
   "GARBODOR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_ROCK_BLAST",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_SMACK_DOWN",
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_STONE_EDGE",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_ROCK_POLISH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -49346,6 +49921,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
@@ -49461,6 +50037,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
@@ -50734,6 +51311,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
       "MOVE_STRUGGLE_BUG",
@@ -50841,6 +51419,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
       "MOVE_STRUGGLE_BUG",
@@ -50891,28 +51470,45 @@
   "FERROTHORN": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KLINK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KLANG": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_POISON_JAB",
+      "MOVE_VENOSHOCK",
+      "MOVE_TOXIC",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "KLINKLANG": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_POISON_JAB",
+      "MOVE_VENOSHOCK",
+      "MOVE_TOXIC",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -51011,6 +51607,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -51094,6 +51692,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -51243,6 +51842,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -51360,6 +51960,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -51478,6 +52079,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
       "MOVE_THIEF",
@@ -51607,6 +52209,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -51739,6 +52342,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -51872,6 +52476,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -52354,7 +52959,9 @@
   "STUNFISK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -52419,6 +53026,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -52533,6 +53141,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -52801,6 +53410,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_MEGA_PUNCH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
@@ -52941,6 +53551,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -53060,6 +53672,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -53572,7 +54186,15 @@
   "HEATMOR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_THUNDER",
+      "MOVE_THUNDERBOLT",
+      "MOVE_VOLT_SWITCH",
+      "MOVE_THUNDER_PUNCH",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -54029,6 +54651,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_ACROBATICS",
@@ -54168,6 +54791,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_ACROBATICS",
@@ -54401,6 +55025,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -54769,6 +55394,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -54892,6 +55518,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -55020,6 +55647,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -55642,6 +56270,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_WATER_PULSE",
+      "MOVE_WATER_PLEDGE",
+      "MOVE_WEATHER_BALL",
+      "MOVE_WATERFALL",
+      "MOVE_DIVE",
+      "MOVE_FLIP_TURN",
+      "MOVE_SURF",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_LOW_KICK",
@@ -55906,6 +56541,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -56053,6 +56689,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -56170,6 +56807,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -56311,6 +56949,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -56686,6 +57325,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_HEX",
+      "MOVE_SHADOW_BALL",
+      "MOVE_WILL_O_WISP",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -56916,6 +57559,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -57029,6 +57673,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -57300,6 +57945,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -57417,6 +58063,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -58026,14 +58673,18 @@
   "PANCHAM": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "PANGORO": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -58266,21 +58917,29 @@
   "HONEDGE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "DOUBLADE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "AEGISLASH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -59010,14 +59669,30 @@
   "HELIOPTILE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DIG",
+      "MOVE_SANDSTORM",
+      "MOVE_SMACK_DOWN",
+      "MOVE_EARTH_POWER",
+      "MOVE_SAND_DASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "HELIOLISK": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_EARTHQUAKE",
+      "MOVE_DIG",
+      "MOVE_SANDSTORM",
+      "MOVE_SMACK_DOWN",
+      "MOVE_EARTH_POWER",
+      "MOVE_SAND_DASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -59038,14 +59713,18 @@
   "AMAURA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "AURORUS": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -59271,6 +59950,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -59405,6 +60085,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -59516,6 +60198,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_PROTECT",
@@ -60821,6 +61504,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_FAKE_TEARS",
@@ -60956,6 +61640,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -61093,6 +61778,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -61588,6 +62274,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -61694,6 +62381,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -61812,6 +62500,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -62882,6 +63572,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -63011,6 +63702,7 @@
       "MOVE_BUG_BITE"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -63670,6 +64362,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DARK_PULSE",
+      "MOVE_SNARL",
+      "MOVE_PAYBACK",
+      "MOVE_TAUNT",
+      "MOVE_WORK_UP",
+      "MOVE_TORMENT",
+      "MOVE_NASTY_PLOT",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -63679,9 +64378,7 @@
       "MOVE_THUNDER_FANG",
       "MOVE_TRAILBLAZE",
       "MOVE_FACADE",
-      "MOVE_BULLDOZE",
       "MOVE_SNARL",
-      "MOVE_ROCK_TOMB",
       "MOVE_ENDURE",
       "MOVE_SANDSTORM",
       "MOVE_DIG",
@@ -63689,21 +64386,17 @@
       "MOVE_PSYCHIC_FANGS",
       "MOVE_BODY_SLAM",
       "MOVE_SLEEP_TALK",
-      "MOVE_STOMPING_TANTRUM",
       "MOVE_REST",
-      "MOVE_ROCK_SLIDE",
       "MOVE_TAUNT",
       "MOVE_SWORDS_DANCE",
       "MOVE_IRON_HEAD",
       "MOVE_SUBSTITUTE",
       "MOVE_IRON_DEFENSE",
       "MOVE_CRUNCH",
-      "MOVE_STEALTH_ROCK",
       "MOVE_HYPER_VOICE",
       "MOVE_PLAY_ROUGH",
       "MOVE_HELPING_HAND",
       "MOVE_EARTH_POWER",
-      "MOVE_STONE_EDGE",
       "MOVE_TERA_BLAST",
       "MOVE_ROAR",
       "MOVE_DOUBLE_EDGE",
@@ -63794,6 +64487,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DARK_PULSE",
+      "MOVE_SNARL",
+      "MOVE_PAYBACK",
+      "MOVE_TAUNT",
+      "MOVE_WORK_UP",
+      "MOVE_TORMENT",
+      "MOVE_NASTY_PLOT",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -63804,10 +64504,8 @@
       "MOVE_THUNDER_FANG",
       "MOVE_TRAILBLAZE",
       "MOVE_FACADE",
-      "MOVE_BULLDOZE",
       "MOVE_SNARL",
       "MOVE_SWIFT",
-      "MOVE_ROCK_TOMB",
       "MOVE_ENDURE",
       "MOVE_SUNNY_DAY",
       "MOVE_SANDSTORM",
@@ -63818,10 +64516,7 @@
       "MOVE_BULK_UP",
       "MOVE_BODY_SLAM",
       "MOVE_SLEEP_TALK",
-      "MOVE_ROCK_BLAST",
-      "MOVE_STOMPING_TANTRUM",
       "MOVE_REST",
-      "MOVE_ROCK_SLIDE",
       "MOVE_TAUNT",
       "MOVE_SWORDS_DANCE",
       "MOVE_IRON_HEAD",
@@ -63829,12 +64524,10 @@
       "MOVE_IRON_DEFENSE",
       "MOVE_DRILL_RUN",
       "MOVE_CRUNCH",
-      "MOVE_STEALTH_ROCK",
       "MOVE_HYPER_VOICE",
       "MOVE_PLAY_ROUGH",
       "MOVE_HELPING_HAND",
       "MOVE_EARTH_POWER",
-      "MOVE_STONE_EDGE",
       "MOVE_GIGA_IMPACT",
       "MOVE_CLOSE_COMBAT",
       "MOVE_TERA_BLAST",
@@ -64739,6 +65432,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -64881,6 +65575,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -65562,6 +66257,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -65958,6 +66654,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_ACROBATICS",
@@ -66122,7 +66819,9 @@
   "TOGEDEMARU": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -66191,6 +66890,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_PROTECT",
@@ -66360,7 +67060,9 @@
   "DHELMISE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -66421,6 +67123,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -66528,6 +67231,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -66664,6 +67368,7 @@
       "MOVE_BELLY_DRUM"
     ],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -66741,7 +67446,9 @@
   "TAPU_KOKO": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -66871,6 +67578,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -67005,6 +67714,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -67384,7 +68094,10 @@
   "MARSHADOW": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -67419,7 +68132,11 @@
   "ZERAORA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_SKY_UPPERCUT"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -67433,7 +68150,10 @@
   "MELMETAL": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -67819,6 +68539,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -67913,6 +68634,12 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SAND_DASH",
+      "MOVE_DIG",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EARTH_POWER",
+      "MOVE_SANDSTORM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -68022,6 +68749,12 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SAND_DASH",
+      "MOVE_DIG",
+      "MOVE_EARTHQUAKE",
+      "MOVE_EARTH_POWER",
+      "MOVE_SANDSTORM",      
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_MUD_SLAP",
@@ -68220,6 +68953,10 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_TOXIC",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_VENOSHOCK",
+      "MOVE_POISON_JAB",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -68320,6 +69057,11 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_TOXIC",
+      "MOVE_SLUDGE_BOMB",
+      "MOVE_VENOSHOCK",
+      "MOVE_POISON_JAB",      
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -69142,14 +69884,18 @@
   "YAMPER": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "BOLTUND": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -69198,6 +69944,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -69290,6 +70038,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -69398,6 +70148,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_SPIN",
@@ -70228,6 +70981,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_FACADE",
@@ -70343,6 +71097,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_SCARY_FACE",
@@ -70409,14 +71165,18 @@
   "SIZZLIPEDE": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "CENTISKORCH": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -70483,6 +71243,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
       "MOVE_CONFUSE_RAY",
@@ -70678,6 +71439,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -70776,6 +71538,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_PROTECT",
       "MOVE_PSYBEAM",
@@ -70882,6 +71645,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_CHARM",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -71413,14 +72177,18 @@
   "CURSOLA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "RUNERIGUS": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -71760,6 +72528,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CHILLING_WATER",
@@ -72334,6 +73103,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_FAKE_TEARS",
       "MOVE_AGILITY",
@@ -72563,6 +73333,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FACADE",
@@ -72624,14 +73395,20 @@
   "DRACOZOLT": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "ARCTOZOLT": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -72706,6 +73483,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_VOLT_SWITCH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -72879,6 +73659,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -73009,6 +73790,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -73129,6 +73911,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -73233,6 +74016,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -73459,6 +74244,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -73567,6 +74353,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -73697,6 +74484,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -73824,6 +74612,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -74476,6 +75265,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -75630,6 +76420,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -75736,6 +76527,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
@@ -75869,6 +76661,7 @@
       "MOVE_YAWN"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -76085,6 +76878,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -76214,6 +77008,7 @@
       "MOVE_COUNTER"
     ],
     "TMMoves": [
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -76921,6 +77716,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -77034,6 +77831,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -77166,6 +77965,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -78389,6 +79189,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FACADE",
@@ -78595,6 +79396,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_ACID_SPRAY",
@@ -78741,6 +79544,8 @@
       "MOVE_SOLAR_BLADE"
     ],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_CONFUSE_RAY",
@@ -78852,6 +79657,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -78951,6 +79757,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_MUD_SLAP",
       "MOVE_PROTECT",
       "MOVE_WATER_PULSE",
@@ -79046,6 +79853,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -79153,6 +79962,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -80432,6 +81242,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -80999,6 +81810,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
       "MOVE_THIEF",
@@ -81109,6 +81921,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
       "MOVE_THIEF",
@@ -81224,6 +82037,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_FAKE_TEARS",
       "MOVE_PROTECT",
       "MOVE_THIEF",
@@ -81997,6 +82811,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_VOLT_SWITCH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -82559,6 +83375,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -82679,6 +83496,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -83456,6 +84274,9 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_METEOR_MASH",
+      "MOVE_SKY_UPPERCUT",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -84036,6 +84857,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -88209,6 +89032,8 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
+      "MOVE_VOLT_SWITCH",
       "MOVE_TAKE_DOWN",
       "MOVE_SCARY_FACE",
       "MOVE_PROTECT",
@@ -89194,6 +90019,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_AGILITY",
@@ -89499,6 +90325,7 @@
       "MOVE_SNOWSCAPE"
     ],
     "TMMoves": [
+      "MOVE_METEOR_MASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_PROTECT",
@@ -90792,6 +91619,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -90931,6 +91759,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DIAMOND_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_MUD_SLAP",
       "MOVE_SCARY_FACE",
@@ -91153,7 +91982,9 @@
   "MAROWAK_ALOLA": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -92283,7 +93114,9 @@
   "CORSOLA_GALAR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_DIAMOND_FLASH"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -92318,7 +93151,9 @@
   "YAMASK_GALAR": {
     "LevelMoves": [],
     "PreEvoMoves": [],
-    "TMMoves": [],
+    "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE"
+    ],
     "EggMoves": [],
     "TutorMoves": []
   },
@@ -92394,6 +93229,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -92529,6 +93365,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_FLASH",
       "MOVE_TAKE_DOWN",
       "MOVE_AGILITY",
       "MOVE_SCARY_FACE",
@@ -92914,6 +93751,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_PROTECT",
       "MOVE_FIRE_FANG",
@@ -94216,6 +95054,7 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SUPERCELL_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_SCARY_FACE",
@@ -96718,6 +97557,13 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_DARK_PULSE",
+      "MOVE_SNARL",
+      "MOVE_PAYBACK",
+      "MOVE_TAUNT",
+      "MOVE_WORK_UP",
+      "MOVE_TORMENT",
+      "MOVE_NASTY_PLOT",      
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_MUD_SLAP",
@@ -96727,9 +97573,7 @@
       "MOVE_THUNDER_FANG",
       "MOVE_TRAILBLAZE",
       "MOVE_FACADE",
-      "MOVE_BULLDOZE",
       "MOVE_SNARL",
-      "MOVE_ROCK_TOMB",
       "MOVE_LOW_SWEEP",
       "MOVE_FLING",
       "MOVE_ENDURE",
@@ -96746,8 +97590,6 @@
       "MOVE_FIRE_PUNCH",
       "MOVE_THUNDER_PUNCH",
       "MOVE_SLEEP_TALK",
-      "MOVE_ROCK_BLAST",
-      "MOVE_STOMPING_TANTRUM",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
       "MOVE_TAUNT",
@@ -96756,13 +97598,11 @@
       "MOVE_SUBSTITUTE",
       "MOVE_IRON_DEFENSE",
       "MOVE_CRUNCH",
-      "MOVE_STEALTH_ROCK",
       "MOVE_HYPER_VOICE",
       "MOVE_PLAY_ROUGH",
       "MOVE_HELPING_HAND",
       "MOVE_EARTH_POWER",
       "MOVE_REVERSAL",
-      "MOVE_STONE_EDGE",
       "MOVE_GIGA_IMPACT",
       "MOVE_OUTRAGE",
       "MOVE_CLOSE_COMBAT",
@@ -96880,6 +97720,12 @@
     ],
     "PreEvoMoves": [],
     "TMMoves": [
+      "MOVE_SPIRIT_SHACKLE",
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SMACK_DOWN",
+      "MOVE_SAND_DASH",
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_SPIRIT_SHACKLE",
       "MOVE_TAKE_DOWN",
       "MOVE_CHARM",
       "MOVE_SCARY_FACE",
@@ -97940,6 +98786,279 @@
     "TMMoves": [],
     "EggMoves": [],
     "TutorMoves": []
+  },
+    "STEINULFUR": {
+    "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_ROCK_BLAST"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_CRUNCH"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_FIRE_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_ICE_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_THUNDER_FANG"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_THIEF"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SAND_ATTACK"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_BITE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TACKLE"
+      },
+      {
+        "Level": 13,
+        "Move": "MOVE_HOWL"
+      },
+      {
+        "Level": 13,
+        "Move": "MOVE_LEER"
+      },
+      {
+        "Level": 16,
+        "Move": "MOVE_ROAR"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_SWAGGER"
+      },
+      {
+        "Level": 24,
+        "Move": "MOVE_ASSURANCE"
+      },
+      {
+        "Level": 28,
+        "Move": "MOVE_SCARY_FACE"
+      },
+      {
+        "Level": 36,
+        "Move": "MOVE_TAUNT"
+      },
+      {
+        "Level": 44,
+        "Move": "MOVE_YAWN"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
+        "Level": 52,
+        "Move": "MOVE_SUCKER_PUNCH"
+      },
+      {
+        "Level": 56,
+        "Move": "MOVE_PLAY_ROUGH"
+      }
+    ],
+    "PreEvoMoves": [],
+    "TMMoves": [
+      "MOVE_ROCK_POLISH",
+      "MOVE_SMACK_DOWN",
+      "MOVE_SAND_DASH",
+      "MOVE_ROCK_SLIDE",
+      "MOVE_STEALTH_ROCK",
+      "MOVE_DIAMOND_FLASH",
+      "MOVE_TAKE_DOWN",
+      "MOVE_CHARM",
+      "MOVE_MUD_SLAP",
+      "MOVE_SCARY_FACE",
+      "MOVE_PROTECT",
+      "MOVE_FIRE_FANG",
+      "MOVE_THUNDER_FANG",
+      "MOVE_ICE_FANG",
+      "MOVE_THIEF",
+      "MOVE_TRAILBLAZE",
+      "MOVE_FACADE",
+      "MOVE_SNARL",
+      "MOVE_ENDURE",
+      "MOVE_SUNNY_DAY",
+      "MOVE_RAIN_DANCE",
+      "MOVE_DIG",
+      "MOVE_FOUL_PLAY",
+      "MOVE_PSYCHIC_FANGS",
+      "MOVE_BODY_SLAM",
+      "MOVE_SLEEP_TALK",
+      "MOVE_REST",
+      "MOVE_TAUNT",
+      "MOVE_DARK_PULSE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_CRUNCH",
+      "MOVE_SHADOW_BALL",
+      "MOVE_HYPER_VOICE",
+      "MOVE_PLAY_ROUGH",
+      "MOVE_HELPING_HAND",
+      "MOVE_NASTY_PLOT",
+      "MOVE_GIGA_IMPACT",
+      "MOVE_HYPER_BEAM",
+      "MOVE_TERA_BLAST",
+      "MOVE_ROAR",
+      "MOVE_SPITE",
+      "MOVE_SUPER_FANG",
+      "MOVE_UPROAR",
+      "MOVE_LASH_OUT",
+      "MOVE_DOUBLE_EDGE",
+      "MOVE_ENDEAVOR",
+      "MOVE_THROAT_CHOP"
+    ],
+    "EggMoves": [
+      "MOVE_ASTONISH",
+      "MOVE_COVET",
+      "MOVE_POISON_FANG"
+    ],
+    "TutorMoves": []
+  },
+    "FROSTKWEN": {
+    "LevelMoves": [
+      {
+        "Level": 1,
+        "Move": "MOVE_SWEET_KISS"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_LICK"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_POUND"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_POWDER_SNOW"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_COPYCAT"
+      },
+      {
+        "Level": 12,
+        "Move": "MOVE_CONFUSION"
+      },
+      {
+        "Level": 16,
+        "Move": "MOVE_COVET"
+      },
+      {
+        "Level": 20,
+        "Move": "MOVE_SING"
+      },
+      {
+        "Level": 24,
+        "Move": "MOVE_FAKE_TEARS"
+      },
+      {
+        "Level": 28,
+        "Move": "MOVE_ICE_PUNCH"
+      },
+      {
+        "Level": 34,
+        "Move": "MOVE_PSYCHIC"
+      },
+      {
+        "Level": 40,
+        "Move": "MOVE_LOVELY_KISS"
+      },
+      {
+        "Level": 46,
+        "Move": "MOVE_MEAN_LOOK"
+      },
+      {
+        "Level": 52,
+        "Move": "MOVE_PERISH_SONG"
+      },
+      {
+        "Level": 58,
+        "Move": "MOVE_BLIZZARD"
+      }
+    ],
+    "PreEvoMoves": [],
+    "TMMoves": [
+      "MOVE_MEGA_PUNCH",
+      "MOVE_MEGA_KICK",
+      "MOVE_ICE_PUNCH",
+      "MOVE_HYPER_BEAM",
+      "MOVE_GIGA_IMPACT",
+      "MOVE_LIGHT_SCREEN",
+      "MOVE_REFLECT",
+      "MOVE_REST",
+      "MOVE_THIEF",
+      "MOVE_SNORE",
+      "MOVE_PROTECT",
+      "MOVE_ICY_WIND",
+      "MOVE_CHARM",
+      "MOVE_ATTRACT",
+      "MOVE_RAIN_DANCE",
+      "MOVE_HAIL",
+      "MOVE_FACADE",
+      "MOVE_HELPING_HAND",
+      "MOVE_BRICK_BREAK",
+      "MOVE_FAKE_TEARS",
+      "MOVE_ICICLE_SPEAR",
+      "MOVE_PAYBACK",
+      "MOVE_FLING",
+      "MOVE_DRAIN_PUNCH",
+      "MOVE_AVALANCHE",
+      "MOVE_PSYCHO_CUT",
+      "MOVE_TRICK_ROOM",
+      "MOVE_WONDER_ROOM",
+      "MOVE_MAGIC_ROOM",
+      "MOVE_ROUND",
+      "MOVE_DRAINING_KISS",
+      "MOVE_PSYCHIC_TERRAIN",
+      "MOVE_BODY_SLAM",
+      "MOVE_ICE_BEAM",
+      "MOVE_BLIZZARD",
+      "MOVE_PSYCHIC",
+      "MOVE_METRONOME",
+      "MOVE_SUBSTITUTE",
+      "MOVE_PSYSHOCK",
+      "MOVE_ENDURE",
+      "MOVE_SLEEP_TALK",
+      "MOVE_ENCORE",
+      "MOVE_SHADOW_BALL",
+      "MOVE_FUTURE_SIGHT",
+      "MOVE_UPROAR",
+      "MOVE_TAUNT",
+      "MOVE_TRICK",
+      "MOVE_SKILL_SWAP",
+      "MOVE_HYPER_VOICE",
+      "MOVE_CALM_MIND",
+      "MOVE_FOCUS_BLAST",
+      "MOVE_ENERGY_BALL",
+      "MOVE_NASTY_PLOT",
+      "MOVE_ZEN_HEADBUTT",
+      "MOVE_GRASS_KNOT",
+      "MOVE_STORED_POWER",
+      "MOVE_ALLY_SWITCH"
+    ],
+    "EggMoves": [
+      "MOVE_FAKE_OUT",
+      "MOVE_ROLE_PLAY",
+      "MOVE_WISH"
+    ],
+    "TutorMoves": [
+      "MOVE_TRIPLE_AXEL",
+      "MOVE_EXPANDING_FORCE"
+    ]
   },
   "OINKOLOGNE_F": {
     "LevelMoves": [

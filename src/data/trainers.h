@@ -3672,7 +3672,7 @@ F_TRAINER_FEMALE |
 #line 1529
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 1527
-            .ability = ABILITY_MULTISCALE,
+            .ability = ABILITY_DRAGONS_WILL,
 #line 1528
             .lvl = 74,
 #line 1526

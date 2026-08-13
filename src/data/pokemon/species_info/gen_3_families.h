@@ -1128,7 +1128,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
             gShinyOverworldPalette_LycanrocDusk,
         )
         .levelUpLearnset = sSteinulfurLevelUpLearnset,
-        .teachableLearnset = sLycanrocDuskTeachableLearnset,
+        .teachableLearnset = sSteinulfurTeachableLearnset,
     },
 #endif //P_FAMILY_POOCHYENA
 
@@ -11029,11 +11029,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_WALREIN] =
     {
         .baseHP        = 110,
-        .baseAttack    = 100,
-        .baseDefense   = 90,
+        .baseAttack    = 90,
+        .baseDefense   = 100,
         .baseSpeed     = 65,
-        .baseSpAttack  = 135,
-        .baseSpDefense = 100,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 135,
         .types = MON_TYPES(TYPE_ICE, TYPE_WATER),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8

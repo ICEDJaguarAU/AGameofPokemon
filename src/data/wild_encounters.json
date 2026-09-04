@@ -13351,7 +13351,7 @@
           "map": "MAP_UPPER_RUSTURF_TUNNEL",
           "base_label": "gUpper_RusturfTunnel0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 17,
             "mons": [
               {
                 "min_level": 5,

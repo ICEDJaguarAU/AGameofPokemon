@@ -10625,6 +10625,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_PLUS_1,
+            .self = TRUE,
             .chance = 15,
         }),
         .category = DAMAGE_CATEGORY_SPECIAL,

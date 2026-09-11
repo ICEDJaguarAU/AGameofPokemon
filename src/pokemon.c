@@ -5543,6 +5543,8 @@ static const u16 sUniversalMoves[] =
     MOVE_RETURN,
     MOVE_SECRET_POWER,
     MOVE_SUBSTITUTE,
+    MOVE_TERRAIN_PULSE,
+    MOVE_WEATHER_BALL,
     MOVE_TERA_BLAST,
 };
 

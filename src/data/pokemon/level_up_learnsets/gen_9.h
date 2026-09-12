@@ -10221,6 +10221,13 @@ static const struct LevelUpMove sSealeoLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sWalreinLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_THUNDER_FANG),
+    LEVEL_UP_MOVE( 0, MOVE_FIRE_FANG),
+    LEVEL_UP_MOVE( 0, MOVE_ICE_FANG),
+    LEVEL_UP_MOVE( 0, MOVE_PSYCHIC_FANGS),
+    LEVEL_UP_MOVE( 0, MOVE_POISON_FANG),
+    LEVEL_UP_MOVE( 0, MOVE_AQUA_CHOMP),
+    LEVEL_UP_MOVE( 0, MOVE_CRUNCH),
     LEVEL_UP_MOVE( 1, MOVE_SWAGGER),
     LEVEL_UP_MOVE( 1, MOVE_CRUNCH),
     LEVEL_UP_MOVE( 1, MOVE_ICE_FANG),

@@ -5367,6 +5367,9 @@ bool8 PlayerHasMove(u16 move)
     case MOVE_SECRET_POWER:
         item = ITEM_TM43;
         break;
+    case MOVE_DIG:
+        item = ITEM_TM28;
+        break;    
     case MOVE_CUT:
         item = ITEM_HM01;
         break;

@@ -5081,7 +5081,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .pokemonOffset = 7,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Drampa,
+        .frontPic = gMonFrontPic_DrampaMega,
         .frontPicSize = MON_COORDS_SIZE(64, 64),
         .frontPicYOffset = 0,
         .frontAnimFrames = ANIM_FRAMES(
@@ -5089,13 +5089,13 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             ANIMCMD_FRAME(0, 50),
         ),
         .frontAnimId = ANIM_V_SHAKE_TWICE,
-        .backPic = gMonBackPic_Drampa,
+        .backPic = gMonBackPic_DrampaMega,
         .backPicSize = MON_COORDS_SIZE(64, 56),
         .backPicYOffset = 5,
         .backAnimId = BACK_ANIM_H_SLIDE,
-        .palette = gMonPalette_Drampa,
-        .shinyPalette = gMonShinyPalette_Drampa,
-        .iconSprite = gMonIcon_Drampa,
+        .palette = gMonPalette_DrampaMega,
+        .shinyPalette = gMonShinyPalette_DrampaMega,
+        .iconSprite = gMonIcon_DrampaMega,
         .iconPalIndex = 0,
         SHADOW(5, 13, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Drampa)

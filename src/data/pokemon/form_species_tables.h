@@ -125,6 +125,10 @@ static const u16 sPikachuFormSpeciesIdTable[] = {
 
 static const u16 sRaichuFormSpeciesIdTable[] = {
     SPECIES_RAICHU,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_RAICHU_MEGA_X,
+    SPECIES_RAICHU_MEGA_Y,
+#endif    
 #if P_ALOLAN_FORMS
     SPECIES_RAICHU_ALOLA,
 #endif

@@ -1680,9 +1680,10 @@
 #define SPECIES_FALINKS_MEGA                            1564
 #define SPECIES_RAICHU_MEGA_X                           1565
 #define SPECIES_RAICHU_MEGA_Y                           1566
+#define SPECIES_CHIMECHO_MEGA                           1567
 
 
-#define SPECIES_EGG                                     (SPECIES_RAICHU_MEGA_Y + 1)
+#define SPECIES_EGG                                     (SPECIES_CHIMECHO_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

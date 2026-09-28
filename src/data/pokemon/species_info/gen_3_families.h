@@ -10441,7 +10441,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 75,
         .baseSpAttack  = 75,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_NORMAL, TYPE_ICE),
+        .types = MON_TYPES(TYPE_DARK),
         .catchRate = 30,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 163 : 174,
         .genderRatio = PERCENT_FEMALE(50),
@@ -10518,7 +10518,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 115,
         .baseSpAttack  = 115,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_NORMAL, TYPE_ICE),
+        .types = MON_TYPES(TYPE_DARK, TYPE_FAIRY),
         .catchRate = 30,
         .expYield = 198,
         .genderRatio = PERCENT_FEMALE(50),
@@ -10556,6 +10556,74 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .palette = gMonPalette_AbsolMega,
         .shinyPalette = gMonShinyPalette_AbsolMega,
         .iconSprite = gMonIcon_AbsolMega,
+        .iconPalIndex = 0,
+        SHADOW(1, 7, SHADOW_SIZE_L)
+        FOOTPRINT(Absol)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_AbsolMega,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_AbsolMega,
+            gShinyOverworldPalette_AbsolMega
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sAbsolLevelUpLearnset,
+        .teachableLearnset = sAbsolTeachableLearnset,
+        .eggMoveLearnset = sAbsolEggMoveLearnset,
+        .formSpeciesIdTable = sAbsolFormSpeciesIdTable,
+        .formChangeTable = sAbsolFormChangeTable,
+    },
+
+    [SPECIES_ABSOL_MEGA_Z] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 154,
+        .baseDefense   = 60,
+        .baseSpeed     = 151,
+        .baseSpAttack  = 75,
+        .baseSpDefense = 60,
+        .types = MON_TYPES(TYPE_DARK, TYPE_GHOST),
+        .catchRate = 30,
+        .expYield = 198,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 25,
+        .friendship = 35,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_SHARPNESS, ABILITY_SHARPNESS, ABILITY_SHARPNESS },
+        .bodyColor = BODY_COLOR_BLACK,
+        .noFlip = TRUE,
+        .speciesName = _("Absol"),
+        .cryId = CRY_ABSOL_MEGA,
+        .natDexNum = NATIONAL_DEX_ABSOL,
+        .categoryName = _("Disaster"),
+        .height = 12,
+        .weight = 490,
+        .description = COMPOUND_STRING(
+            "As the energy of Mega Evolution fills it,\n"
+            "its fur bristles. What you see on its back\n"
+            "are not true wings, and this Pokémon isn't\n"
+            "able to fly."),
+        .pokemonScale = 301,
+        .pokemonOffset = 3,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_AbsolMegaZ,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_AbsolMegaZ,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
+        .palette = gMonPalette_AbsolMegaZ,
+        .shinyPalette = gMonShinyPalette_AbsolMegaZ,
+        .iconSprite = gMonIcon_AbsolMegaZ,
         .iconPalIndex = 0,
         SHADOW(1, 7, SHADOW_SIZE_L)
         FOOTPRINT(Absol)

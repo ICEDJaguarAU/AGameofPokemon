@@ -999,6 +999,7 @@ static const u16 sAbsolFormSpeciesIdTable[] = {
     SPECIES_ABSOL,
 #if P_MEGA_EVOLUTIONS
     SPECIES_ABSOL_MEGA,
+    SPECIES_ABSOL_MEGA_Z,
 #endif
     FORM_SPECIES_END,
 };

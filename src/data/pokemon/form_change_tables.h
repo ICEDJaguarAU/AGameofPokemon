@@ -494,6 +494,7 @@ static const struct FormChange sChimechoFormChangeTable[] = {
 static const struct FormChange sAbsolFormChangeTable[] = {
 #if P_MEGA_EVOLUTIONS
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ABSOL_MEGA, ITEM_ABSOLITE},
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ABSOL_MEGA_Z, ITEM_ABSOLITE_Z},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };

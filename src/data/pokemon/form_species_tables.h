@@ -1174,6 +1174,7 @@ static const u16 sGarchompFormSpeciesIdTable[] = {
     SPECIES_GARCHOMP,
 #if P_MEGA_EVOLUTIONS
     SPECIES_GARCHOMP_MEGA,
+    SPECIES_GARCHOMP_MEGA_Z,
 #endif
     FORM_SPECIES_END,
 };

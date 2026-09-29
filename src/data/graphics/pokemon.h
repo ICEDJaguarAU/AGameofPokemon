@@ -15339,6 +15339,12 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_GarchompMega[] = INCBIN_U32("graphics/pokemon/garchomp/mega/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS && OW_BATTLE_ONLY_FORMS
+
+    const u32 gMonFrontPic_GarchompMegaZ[] = INCBIN_U32("graphics/pokemon/garchomp/mega_z/front.4bpp.lz");
+    const u32 gMonPalette_GarchompMegaZ[] = INCBIN_U32("graphics/pokemon/garchomp/mega_z/normal.gbapal.lz");
+    const u32 gMonBackPic_GarchompMegaZ[] = INCBIN_U32("graphics/pokemon/garchomp/mega_z/back.4bpp.lz");
+    const u32 gMonShinyPalette_GarchompMegaZ[] = INCBIN_U32("graphics/pokemon/garchomp/mega_z/shiny.gbapal.lz");
+    const u8 gMonIcon_GarchompMegaZ[] = INCBIN_U8("graphics/pokemon/garchomp/mega_z/icon.4bpp");
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_GIBLE
 

@@ -4400,6 +4400,72 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .formSpeciesIdTable = sGarchompFormSpeciesIdTable,
         .formChangeTable = sGarchompFormChangeTable,
     },
+
+    [SPECIES_GARCHOMP_MEGA_Z] =
+    {
+        .baseHP        = 108,
+        .baseAttack    = 130,
+        .baseDefense   = 85,
+        .baseSpeed     = 151,
+        .baseSpAttack  = 141,
+        .baseSpDefense = 85,
+        .types = MON_TYPES(TYPE_DRAGON),
+        .catchRate = 45,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 350 : 315,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 40,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_LEVITATE, ABILITY_LEVITATE, ABILITY_LEVITATE },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Garchomp"),
+        .cryId = CRY_GARCHOMP_MEGA,
+        .natDexNum = NATIONAL_DEX_GARCHOMP,
+        .categoryName = _("Mach"),
+        .height = 19,
+        .weight = 990,
+        .description = COMPOUND_STRING(
+            "Excess energy melted its arms and wings\n"
+            "into giant scythes, sending it mad with\n"
+            "rage. It swings its scythes wildly and\n"
+            "slices the ground to pieces."),
+        .pokemonScale = 256,
+        .pokemonOffset = 1,
+        .trainerScale = 326,
+        .trainerOffset = 4,
+        .frontPic = gMonFrontPic_GarchompMegaZ,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_GarchompMegaZ,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 4,
+        .backAnimId = BACK_ANIM_JOLT_RIGHT,
+        .palette = gMonPalette_GarchompMegaZ,
+        .shinyPalette = gMonShinyPalette_GarchompMegaZ,
+        .iconSprite = gMonIcon_GarchompMegaZ,
+        .iconPalIndex = 0,
+        SHADOW(1, 12, SHADOW_SIZE_L)
+        FOOTPRINT(Garchomp)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_GarchompMega,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_GarchompMega,
+            gShinyOverworldPalette_GarchompMega
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sGarchompLevelUpLearnset,
+        .teachableLearnset = sGarchompTeachableLearnset,
+        .formSpeciesIdTable = sGarchompFormSpeciesIdTable,
+        .formChangeTable = sGarchompFormChangeTable,
+    },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_GIBLE
 

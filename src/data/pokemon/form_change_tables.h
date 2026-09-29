@@ -679,6 +679,7 @@ static const struct FormChange sLopunnyFormChangeTable[] = {
 static const struct FormChange sGarchompFormChangeTable[] = {
 #if P_MEGA_EVOLUTIONS
     {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GARCHOMP_MEGA, ITEM_GARCHOMPITE},
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GARCHOMP_MEGA_Z, ITEM_GARCHOMPITE_Z},
 #endif
     {FORM_CHANGE_TERMINATOR},
 };

@@ -1185,6 +1185,7 @@ static const u16 sLucarioFormSpeciesIdTable[] = {
     SPECIES_LUCARIO,
 #if P_MEGA_EVOLUTIONS
     SPECIES_LUCARIO_MEGA,
+    SPECIES_LUCARIO_MEGA_Z,
 #endif
     FORM_SPECIES_END,
 };

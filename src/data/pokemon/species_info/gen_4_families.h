@@ -4674,6 +4674,72 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .formSpeciesIdTable = sLucarioFormSpeciesIdTable,
         .formChangeTable = sLucarioFormChangeTable,
     },
+
+    [SPECIES_LUCARIO_MEGA_Z] =
+    {
+        .baseHP        = 70,
+        .baseAttack    = 100,
+        .baseDefense   = 70,
+        .baseSpeed     = 151,
+        .baseSpAttack  = 164,
+        .baseSpDefense = 70,
+        .types = MON_TYPES(TYPE_FIGHTING, TYPE_STEEL),
+        .catchRate = 45,
+        .expYield = 219,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .abilities = { ABILITY_FLUFFY, ABILITY_FLUFFY, ABILITY_FLUFFY },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Lucario"),
+        .cryId = CRY_LUCARIO_MEGA,
+        .natDexNum = NATIONAL_DEX_LUCARIO,
+        .categoryName = _("Aura"),
+        .height = 13,
+        .weight = 494,
+        .description = COMPOUND_STRING(
+            "It readies itself to face its enemies by\n"
+            "focusing its mental energies. Its fighting\n"
+            "style can be summed up in a single word:\n"
+            "heartless."),
+        .pokemonScale = 282,
+        .pokemonOffset = 4,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_LucarioMegaZ,
+        .frontPicSize = MON_COORDS_SIZE(48, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_LucarioMegaZ,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+        .palette = gMonPalette_LucarioMegaZ,
+        .shinyPalette = gMonShinyPalette_LucarioMegaZ,
+        .iconSprite = gMonIcon_LucarioMegaZ,
+        .iconPalIndex = 2,
+        SHADOW(-1, 11, SHADOW_SIZE_M)
+        FOOTPRINT(Lucario)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_LucarioMega,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_LucarioMega,
+            gShinyOverworldPalette_LucarioMega
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sLucarioLevelUpLearnset,
+        .teachableLearnset = sLucarioTeachableLearnset,
+        .formSpeciesIdTable = sLucarioFormSpeciesIdTable,
+        .formChangeTable = sLucarioFormChangeTable,
+    },
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_RIOLU
 

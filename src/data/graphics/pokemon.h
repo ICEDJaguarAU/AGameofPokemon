@@ -15394,6 +15394,12 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_LucarioMega[] = INCBIN_U32("graphics/pokemon/lucario/mega/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS && OW_BATTLE_ONLY_FORMS
+
+    const u32 gMonFrontPic_LucarioMegaZ[] = INCBIN_U32("graphics/pokemon/lucario/mega_z/front.4bpp.lz");
+    const u32 gMonPalette_LucarioMegaZ[] = INCBIN_U32("graphics/pokemon/lucario/mega_z/normal.gbapal.lz");
+    const u32 gMonBackPic_LucarioMegaZ[] = INCBIN_U32("graphics/pokemon/lucario/mega_z/back.4bpp.lz");
+    const u32 gMonShinyPalette_LucarioMegaZ[] = INCBIN_U32("graphics/pokemon/lucario/mega_z/shiny.gbapal.lz");
+    const u8 gMonIcon_LucarioMegaZ[] = INCBIN_U8("graphics/pokemon/lucario/mega_z/icon.4bpp");
 #endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_RIOLU
 

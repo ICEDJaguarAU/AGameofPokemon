@@ -20878,7 +20878,6 @@ static const u16 sChimechoTeachableLearnset[] = {
 static const u16 sAbsolTeachableLearnset[] = {
     MOVE_AIR_SLASH,
     MOVE_ATTRACT,
-    MOVE_AVALANCHE,
     MOVE_BLIZZARD,
     MOVE_CALM_MIND,
     MOVE_CHARGE_BEAM,
@@ -20895,7 +20894,6 @@ static const u16 sAbsolTeachableLearnset[] = {
     MOVE_HEX,
     MOVE_HYPER_BEAM,
     MOVE_ICE_BEAM,
-    MOVE_ICICLE_CRASH,
     MOVE_PAYBACK,
     MOVE_PLAY_ROUGH,
     MOVE_PROTECT,

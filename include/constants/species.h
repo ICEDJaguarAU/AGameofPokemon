@@ -1682,9 +1682,10 @@
 #define SPECIES_RAICHU_MEGA_Y                           1566
 #define SPECIES_CHIMECHO_MEGA                           1567
 #define SPECIES_ABSOL_MEGA_Z                            1568
+#define SPECIES_STARAPTOR_MEGA                          1569
 
 
-#define SPECIES_EGG                                     (SPECIES_ABSOL_MEGA_Z + 1)
+#define SPECIES_EGG                                     (SPECIES_STARAPTOR_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

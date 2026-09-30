@@ -1686,9 +1686,10 @@
 #define SPECIES_GARCHOMP_MEGA_Z                         1570
 #define SPECIES_LUCARIO_MEGA_Z                          1571
 #define SPECIES_HEATRAN_MEGA                            1572
+#define SPECIES_DARKRAI_MEGA                            1573
 
 
-#define SPECIES_EGG                                     (SPECIES_HEATRAN_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_DARKRAI_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

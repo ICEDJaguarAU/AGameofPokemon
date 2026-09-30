@@ -6799,12 +6799,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .iconSprite = gMonIcon_HeatranMega,
         .iconPalIndex = 0,
         SHADOW(-1, 11, SHADOW_SIZE_M)
-        FOOTPRINT(Staraptor)
+        FOOTPRINT(Heatran)
         .isMegaEvolution = TRUE,
-        .levelUpLearnset = sStaraptorLevelUpLearnset,
-        .teachableLearnset = sStaraptorTeachableLearnset,
-        .formSpeciesIdTable = sStaraptorFormSpeciesIdTable,
-        .formChangeTable = sStaraptorFormChangeTable,
+        .levelUpLearnset = sHeatranLevelUpLearnset,
+        .teachableLearnset = sHeatranTeachableLearnset,
+        .formSpeciesIdTable = sHeatranFormSpeciesIdTable,
+        .formChangeTable = sHeatranFormChangeTable,
     },
 #endif //P_MEGA_EVOLUTIONS    
 #endif //P_FAMILY_HEATRAN
@@ -7276,7 +7276,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .baseSpeed     = 125,
         .baseSpAttack  = 135,
         .baseSpDefense = 90,
-        .types = MON_TYPES(TYPE_DARK, TYPE_GHOST),
+        .types = MON_TYPES(TYPE_DARK),
         .catchRate = 3,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 300,
@@ -7342,6 +7342,68 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sDarkraiLevelUpLearnset,
         .teachableLearnset = sDarkraiTeachableLearnset,
     },
+
+        #if P_MEGA_EVOLUTIONS
+    [SPECIES_DARKRAI_MEGA] =
+    {
+        .baseHP        = 70,
+        .baseAttack    = 120,
+        .baseDefense   = 130,
+        .baseSpeed     = 85,
+        .baseSpAttack  = 165,
+        .baseSpDefense = 130,
+        .types = MON_TYPES(TYPE_DARK),
+        .catchRate = 3,
+        .expYield = 300,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_BAD_DREAMS, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLACK,
+        .speciesName = _("Darkrai"),
+        .cryId = CRY_DARKRAI,
+        .natDexNum = NATIONAL_DEX_DARKRAI,
+        .categoryName = _("Pitch-Black"),
+        .height = 30,
+        .weight = 2400,
+        .description = COMPOUND_STRING(
+            "It chases people and Pokémon from its\n"
+            "territory by causing them to experience\n"
+            "deep, nightmarish slumbers. However,\n"
+            "it means no harm."),
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_DarkraiMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 3,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 50),
+            ANIMCMD_FRAME(1, 30),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_GLOW_BLACK,
+        .enemyMonElevation = 4,
+        .backPic = gMonBackPic_DarkraiMega,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
+        .palette = gMonPalette_DarkraiMega,
+        .shinyPalette = gMonShinyPalette_DarkraiMega,
+        .iconSprite = gMonIcon_DarkraiMega,
+        .iconPalIndex = 0,
+        SHADOW(-1, 11, SHADOW_SIZE_M)
+        FOOTPRINT(Darkrai)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sDarkraiLevelUpLearnset,
+        .teachableLearnset = sDarkraiTeachableLearnset,
+        .formSpeciesIdTable = sDarkraiFormSpeciesIdTable,
+        .formChangeTable = sDarkraiFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS    
 #endif //P_FAMILY_DARKRAI
 
 #if P_FAMILY_SHAYMIN

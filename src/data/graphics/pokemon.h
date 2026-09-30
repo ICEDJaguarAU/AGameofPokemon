@@ -16004,6 +16004,14 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_Darkrai[] = INCBIN_U32("graphics/pokemon/darkrai/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_DarkraiMega[] = INCBIN_U32("graphics/pokemon/darkrai/mega/front.4bpp.lz");
+    const u32 gMonPalette_DarkraiMega[] = INCBIN_U32("graphics/pokemon/darkrai/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_DarkraiMega[] = INCBIN_U32("graphics/pokemon/darkrai/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_DarkraiMega[] = INCBIN_U32("graphics/pokemon/darkrai/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_DarkraiMega[] = INCBIN_U8("graphics/pokemon/darkrai/mega/icon.4bpp");
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_DARKRAI
 
 #if P_FAMILY_SHAYMIN

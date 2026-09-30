@@ -752,6 +752,15 @@ static const struct FormChange sGiratinaFormChangeTable[] = {
 };
 #endif //P_FAMILY_GIRATINA
 
+#if P_FAMILY_DARKRAI
+static const struct FormChange sDarkraiFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_DARKRAI_MEGA, ITEM_DARKRANITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_DARKRAI
+
 #if P_FAMILY_SHAYMIN
 static const struct FormChange sShayminFormChangeTable[] = {
     {FORM_CHANGE_ITEM_USE,    SPECIES_SHAYMIN_SKY, ITEM_GRACIDEA, DAY, STATUS1_FREEZE | STATUS1_FROSTBITE},

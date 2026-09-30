@@ -1249,6 +1249,16 @@ static const u16 sGiratinaFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_GIRATINA
 
+#if P_FAMILY_DARKRAI
+static const u16 sDarkraiFormSpeciesIdTable[] = {
+    SPECIES_DARKRAI,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_DARKRAI_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_DARKRAI
+
 #if P_FAMILY_SHAYMIN
 static const u16 sShayminFormSpeciesIdTable[] = {
     SPECIES_SHAYMIN_LAND,

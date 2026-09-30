@@ -732,6 +732,15 @@ static const struct FormChange sPalkiaFormChangeTable[] = {
 };
 #endif //P_FAMILY_PALKIA
 
+#if P_FAMILY_HEATRAN
+static const struct FormChange sHeatranFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_HEATRAN_MEGA, ITEM_HEATRANITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_HEATRAN
+
 #if P_FAMILY_GIRATINA
 static const struct FormChange sGiratinaFormChangeTable[] = {
     {FORM_CHANGE_ITEM_HOLD, SPECIES_GIRATINA_ALTERED, ITEM_NONE},

@@ -6746,6 +6746,67 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sHeatranLevelUpLearnset,
         .teachableLearnset = sHeatranTeachableLearnset,
     },
+
+    #if P_MEGA_EVOLUTIONS
+    [SPECIES_HEATRAN_MEGA] =
+    {
+        .baseHP        = 91,
+        .baseAttack    = 120,
+        .baseDefense   = 106,
+        .baseSpeed     = 67,
+        .baseSpAttack  = 175,
+        .baseSpDefense = 141,
+        .types = MON_TYPES(TYPE_FIRE, TYPE_STEEL),
+        .catchRate = 3,
+        .expYield = 300,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 10,
+        .friendship = 100,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_FLASH_FIRE, ABILITY_FLASH_FIRE, ABILITY_FLASH_FIRE },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Heatran"),
+        .cryId = CRY_HEATRAN,
+        .natDexNum = NATIONAL_DEX_HEATRAN,
+        .categoryName = _("Lava Dome"),
+        .height = 28,
+        .weight = 5700,
+        .description = COMPOUND_STRING(
+            "Boiling blood, like magma, circulates\n"
+            "through its body. It dwells in volcanic\n"
+            "caves, using its cross-shaped feet\n"
+            "to crawl on ceilings and walls."),
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 290,
+        .trainerOffset = 1,
+        .frontPic = gMonFrontPic_HeatranMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 56),
+        .frontPicYOffset = 5,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 50),
+            ANIMCMD_FRAME(1, 30),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_GLOW_ORANGE,
+        .backPic = gMonBackPic_HeatranMega,
+        .backPicSize = MON_COORDS_SIZE(64, 40),
+        .backPicYOffset = 13,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
+        .palette = gMonPalette_HeatranMega,
+        .shinyPalette = gMonShinyPalette_HeatranMega,
+        .iconSprite = gMonIcon_HeatranMega,
+        .iconPalIndex = 0,
+        SHADOW(-1, 11, SHADOW_SIZE_M)
+        FOOTPRINT(Staraptor)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sStaraptorLevelUpLearnset,
+        .teachableLearnset = sStaraptorTeachableLearnset,
+        .formSpeciesIdTable = sStaraptorFormSpeciesIdTable,
+        .formChangeTable = sStaraptorFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS    
 #endif //P_FAMILY_HEATRAN
 
 #if P_FAMILY_REGIGIGAS

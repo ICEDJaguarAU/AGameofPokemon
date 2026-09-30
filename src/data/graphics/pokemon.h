@@ -15874,6 +15874,14 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_Heatran[] = INCBIN_U32("graphics/pokemon/heatran/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_HeatranMega[] = INCBIN_U32("graphics/pokemon/heatran/mega/front.4bpp.lz");
+    const u32 gMonPalette_HeatranMega[] = INCBIN_U32("graphics/pokemon/heatran/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_HeatranMega[] = INCBIN_U32("graphics/pokemon/heatran/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_HeatranMega[] = INCBIN_U32("graphics/pokemon/heatran/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_HeatranMega[] = INCBIN_U8("graphics/pokemon/heatran/mega/icon.4bpp");
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_HEATRAN
 
 #if P_FAMILY_REGIGIGAS

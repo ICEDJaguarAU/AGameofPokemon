@@ -1231,6 +1231,16 @@ static const u16 sPalkiaFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_PALKIA
 
+#if P_FAMILY_HEATRAN
+static const u16 sHeatranFormSpeciesIdTable[] = {
+    SPECIES_HEATRAN,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_HEATRAN_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_HEATRAN
+
 #if P_FAMILY_GIRATINA
 static const u16 sGiratinaFormSpeciesIdTable[] = {
     SPECIES_GIRATINA_ALTERED,

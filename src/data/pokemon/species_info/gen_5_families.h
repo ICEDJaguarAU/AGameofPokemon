@@ -11189,6 +11189,67 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sGolurkLevelUpLearnset,
         .teachableLearnset = sGolurkTeachableLearnset,
     },
+
+    #if P_MEGA_EVOLUTIONS
+    [SPECIES_GOLURK_MEGA] =
+    {
+        .baseHP        = 89,
+        .baseAttack    = 159,
+        .baseDefense   = 105,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 105,
+        .types = MON_TYPES(TYPE_GROUND, TYPE_GHOST),
+        .catchRate = 90,
+        .expYield = 169,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 25,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
+        .abilities = { ABILITY_UNSEEN_FIST, ABILITY_UNSEEN_FIST, ABILITY_UNSEEN_FIST },
+        .bodyColor = BODY_COLOR_GREEN,
+        .noFlip = TRUE,
+        .speciesName = _("Golurk"),
+        .cryId = CRY_GOLURK,
+        .natDexNum = NATIONAL_DEX_GOLURK,
+        .categoryName = _("Automaton"),
+        .height = 40,
+        .weight = 3300,
+        .description = COMPOUND_STRING(
+            "Golurk were created to protect people\n"
+            "and Pokémon by an ancient civilisation.\n"
+            "Removing the seal on its chest makes its\n"
+            "internal energy go out of control."),
+        .pokemonScale = 275,
+        .pokemonOffset = 3,
+        .trainerScale = 300,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_GolurkMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 45),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_V_SHAKE_TWICE,
+        .backPic = gMonBackPic_GolurkMega,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 7,
+        .backAnimId = BACK_ANIM_V_SHAKE,
+        .palette = gMonPalette_GolurkMega,
+        .shinyPalette = gMonShinyPalette_GolurkMega,
+        .iconSprite = gMonIcon_GolurkMega,
+        .iconPalIndex = 0,
+        SHADOW(-1, 7, SHADOW_SIZE_M)
+        FOOTPRINT(Audino)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sGolurkLevelUpLearnset,
+        .teachableLearnset = sGolurkTeachableLearnset,
+        .formSpeciesIdTable = sGolurkFormSpeciesIdTable,
+        .formChangeTable = sGolurkFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_GOLETT
 
 #if P_FAMILY_PAWNIARD

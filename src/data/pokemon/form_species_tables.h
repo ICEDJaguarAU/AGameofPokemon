@@ -1485,6 +1485,16 @@ static const u16 sStunfiskFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_STUNFISK
 
+#if P_FAMILY_GOLETT
+static const u16 sGolurkFormSpeciesIdTable[] = {
+    SPECIES_GOLURK,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GOLURK_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_GOLURK
+
 #if P_FAMILY_RUFFLET
 static const u16 sBraviaryFormSpeciesIdTable[] = {
     SPECIES_BRAVIARY,
@@ -1712,6 +1722,9 @@ static const u16 sFurfrouFormSpeciesIdTable[] = {
 static const u16 sMeowsticFormSpeciesIdTable[] = {
     SPECIES_MEOWSTIC_M,
     SPECIES_MEOWSTIC_F,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_MEOWSTIC_MEGA,
+#endif
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_ESPURR

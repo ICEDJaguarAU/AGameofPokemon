@@ -18772,6 +18772,14 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_Golurk[] = INCBIN_U32("graphics/pokemon/golurk/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_GolurkMega[] = INCBIN_U32("graphics/pokemon/golurk/mega/front.4bpp.lz");
+    const u32 gMonPalette_GolurkMega[] = INCBIN_U32("graphics/pokemon/golurk/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_GolurkMega[] = INCBIN_U32("graphics/pokemon/golurk/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_GolurkMega[] = INCBIN_U32("graphics/pokemon/golurk/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_GolurkMega[] = INCBIN_U8("graphics/pokemon/golurk/mega/icon.4bpp");
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_GOLETT
 
 #if P_FAMILY_PAWNIARD
@@ -20305,6 +20313,14 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_MeowsticF[] = INCBIN_U32("graphics/pokemon/meowstic/f/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_MeowsticMega[] = INCBIN_U32("graphics/pokemon/meowstic/mega/front.4bpp.lz");
+    const u32 gMonPalette_MeowsticMega[] = INCBIN_U32("graphics/pokemon/meowstic/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_MeowsticMega[] = INCBIN_U32("graphics/pokemon/meowstic/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_MeowsticMega[] = INCBIN_U32("graphics/pokemon/meowstic/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_MeowsticMega[] = INCBIN_U8("graphics/pokemon/meowstic/mega/icon.4bpp");
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_ESPURR
 
 #if P_FAMILY_HONEDGE

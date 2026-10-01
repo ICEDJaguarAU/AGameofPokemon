@@ -1898,14 +1898,6 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .shinyPalette = gMonShinyPalette_PyroarMega,
         .iconSprite = gMonIcon_PyroarMega,
         .iconPalIndex = 2,
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_PyroarF,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64),
-        .backPicFemale = gMonBackPic_PyroarF,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64),
-        .iconSpriteFemale = gMonIcon_PyroarF,
-        .iconPalIndexFemale = 2,
-#endif //P_GENDER_DIFFERENCES
         SHADOW(-2, 11, SHADOW_SIZE_XL_BATTLE_ONLY)
         FOOTPRINT(Pyroar)
         OVERWORLD(
@@ -2817,6 +2809,62 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .teachableLearnset = sMeowsticFTeachableLearnset,
         .formSpeciesIdTable = sMeowsticFormSpeciesIdTable,
     },
+
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_MEOWSTIC_MEGA] =
+    {
+        .baseHP        = 74,
+        .baseAttack    = 48,
+        .baseDefense   = 76,
+        .baseSpeed     = 124,
+        .baseSpAttack  = 143,
+        .baseSpDefense = 101,
+        .types = MON_TYPES(TYPE_PSYCHIC),
+        .catchRate = 75,
+        .expYield = 163,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_TRACE, ABILITY_TRACE, ABILITY_TRACE },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Meowstic"),
+        .cryId = CRY_MEOWSTIC,
+        .natDexNum = NATIONAL_DEX_MEOWSTIC,
+        .categoryName = _("Constraint"),
+        .height = 8,
+        .weight = 101,
+        .description = COMPOUND_STRING(
+            "Females are a bit more selfish and\n"
+            "aggressive than males. If they\n"
+            "don't get what they want, they will\n"
+            "torment you with their psychic abilities."),
+        .pokemonScale = 422,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_MeowsticMega,
+        .frontPicSize = MON_COORDS_SIZE(56, 64),
+        .frontPicYOffset = 2,
+        .frontAnimId = ANIM_GROW_VIBRATE,
+        .backPic = gMonBackPic_MeowsticMega,
+        .backPicSize = MON_COORDS_SIZE(48, 64),
+        .backPicYOffset = 9,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+        .palette = gMonPalette_MeowsticMega,
+        .shinyPalette = gMonShinyPalette_MeowsticMega,
+        .iconSprite = gMonIcon_MeowsticMega,
+        .iconPalIndex = 0,
+        SHADOW(-2, 11, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Meowstic)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sMeowsticMLevelUpLearnset,
+        .teachableLearnset = sMeowsticMTeachableLearnset,
+        .formSpeciesIdTable = sMeowsticFormSpeciesIdTable,
+        .formChangeTable = sMeowsticFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS     
 #endif //P_FAMILY_ESPURR
 
 #if P_FAMILY_HONEDGE

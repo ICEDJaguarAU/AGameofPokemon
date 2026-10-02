@@ -1886,6 +1886,16 @@ static const u16 sVikavoltFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_GRUBBIN
 
+#if P_FAMILY_CRABRAWLER
+static const u16 sCrabominableFormSpeciesIdTable[] = {
+    SPECIES_CRABOMINABLE,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_CRABOMINABLE_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_CRABRAWLER
+
 #if P_FAMILY_ORICORIO
 static const u16 sOricorioFormSpeciesIdTable[] = {
     SPECIES_ORICORIO_BAILE,

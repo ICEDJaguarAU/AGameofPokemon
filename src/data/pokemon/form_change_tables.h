@@ -1170,6 +1170,15 @@ static const struct FormChange sWishiwashiFormChangeTable[] = {
 };
 #endif //P_FAMILY_WISHIWASHI
 
+#if P_FAMILY_WIMPOD
+static const struct FormChange sGolisopodFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GOLISOPOD_MEGA, ITEM_GOLISOPITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_WIMPOD
+
 #if P_FAMILY_TYPE_NULL
 static const struct FormChange sSilvallyFormChangeTable[] = {
     {FORM_CHANGE_ITEM_HOLD, SPECIES_SILVALLY_NORMAL,   ITEM_NONE,            ABILITY_RKS_SYSTEM},

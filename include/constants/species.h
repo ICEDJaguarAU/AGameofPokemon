@@ -1690,9 +1690,10 @@
 #define SPECIES_GOLURK_MEGA                             1574
 #define SPECIES_MEOWSTIC_MEGA                           1575
 #define SPECIES_CRABOMINABLE_MEGA                       1576
+#define SPECIES_GOLISOPOD_MEGA                          1577
 
 
-#define SPECIES_EGG                                     (SPECIES_CRABOMINABLE_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_GOLISOPOD_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

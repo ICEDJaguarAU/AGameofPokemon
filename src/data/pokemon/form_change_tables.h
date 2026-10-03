@@ -1596,6 +1596,15 @@ static const struct FormChange sEnamorusFormChangeTable[] = {
 };
 #endif //P_FAMILY_ENAMORUS
 
+#if P_FAMILY_CAPSAKID
+static const struct FormChange sScovillainFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_SCOVILLAIN_MEGA, ITEM_SCOVILLAINITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_CAPSAKID
+
 #if P_FAMILY_FINIZEN
 static const struct FormChange sPalafinZeroFormChangeTable[] =
 {

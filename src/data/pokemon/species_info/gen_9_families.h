@@ -3278,6 +3278,63 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sScovillainLevelUpLearnset,
         .teachableLearnset = sScovillainTeachableLearnset,
     },
+
+    #if P_MEGA_EVOLUTIONS
+    [SPECIES_SCOVILLAIN_MEGA] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 138,
+        .baseDefense   = 85,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 138,
+        .baseSpDefense = 85,
+        .types = MON_TYPES(TYPE_ELECTRIC),
+        .catchRate = 75,
+        .expYield = 170,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
+        .abilities = { ABILITY_FLAME_BODY, ABILITY_FLAME_BODY, ABILITY_FLAME_BODY },
+        .bodyColor = BODY_COLOR_GREEN,
+        .speciesName = _("Scovillain"),
+        .cryId = CRY_SCOVILLAIN,
+        .natDexNum = NATIONAL_DEX_SCOVILLAIN,
+        .categoryName = _("Spicy Pepper"),
+        .height = 12,
+        .weight = 220,
+        .description = COMPOUND_STRING(
+            "The green head has turned vicious\n"
+            "due to the spicy chemicals\n"
+            "stimulating its brain. Once it goes on a\n"
+            "rampage, there is no stopping it."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_ScovillainMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 3,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_ScovillainMega,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 8,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_ScovillainMega,
+        .shinyPalette = gMonShinyPalette_ScovillainMega,
+        .iconSprite = gMonIcon_ScovillainMega,
+        .iconPalIndex = 1,
+        SHADOW(6, 11, SHADOW_SIZE_M)
+        FOOTPRINT(Scovillain)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sScovillainLevelUpLearnset,
+        .teachableLearnset = sScovillainTeachableLearnset,
+        .formSpeciesIdTable = sScovillainFormSpeciesIdTable,
+        .formChangeTable = sScovillainFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS    
 #endif //P_FAMILY_CAPSAKID
 
 #if P_FAMILY_RELLOR

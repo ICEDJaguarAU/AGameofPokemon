@@ -2472,6 +2472,16 @@ static const u16 sSquawkabillyFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_SQUAWKABILLY
 
+#if P_FAMILY_CAPSAKID
+static const u16 sScovillainFormSpeciesIdTable[] = {
+    SPECIES_SCOVILLAIN,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_SCOVILLAIN_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_CAPSAKID
+
 #if P_FAMILY_FINIZEN
 static const u16 sPalafinFormSpeciesIdTable[] = {
     SPECIES_PALAFIN_ZERO,

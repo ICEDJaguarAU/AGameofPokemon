@@ -26424,6 +26424,14 @@ const u32 gShinyOverworldPalette_BlastoiseMegaY[] = INCBIN_U32("graphics/pokemon
     const u32 gShinyOverworldPalette_TatsugiriStretchy[] = INCBIN_U32("graphics/pokemon/tatsugiri/stretchy/overworld_shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_TatsugiriMega[] = INCBIN_U32("graphics/pokemon/tatsugiri/mega/front.4bpp.lz");
+    const u32 gMonPalette_TatsugiriMega[] = INCBIN_U32("graphics/pokemon/tatsugiri/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_TatsugiriMega[] = INCBIN_U32("graphics/pokemon/tatsugiri/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_TatsugiriMega[] = INCBIN_U32("graphics/pokemon/tatsugiri/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_TatsugiriMega[] = INCBIN_U8("graphics/pokemon/tatsugiri/mega/icon.4bpp");
+#endif //P_MEGA_EVOLUTIONS
 #endif //P_FAMILY_DONDOZO
 
 #if P_FAMILY_GREAT_TUSK

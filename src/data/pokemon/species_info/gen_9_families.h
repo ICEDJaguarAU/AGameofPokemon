@@ -4537,7 +4537,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .teachableLearnset = sGlimmoraTeachableLearnset,
     },
 
-        #if P_MEGA_EVOLUTIONS
+#if P_MEGA_EVOLUTIONS
     [SPECIES_GLIMMORA_MEGA] =
     {
         .baseHP        = 83,
@@ -5229,6 +5229,62 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggMoveLearnset = sTatsugiriEggMoveLearnset,
         .formSpeciesIdTable = sTatsugiriFormSpeciesIdTable,
     },
+
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_TATSUGIRI_MEGA] =
+    {
+        .baseHP        = 68,
+        .baseAttack    = 65,
+        .baseDefense   = 90,
+        .baseSpeed     = 92,
+        .baseSpAttack  = 135,
+        .baseSpDefense = 125,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_WATER),
+        .catchRate = 100,
+        .expYield = 166,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 35,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2),
+        .abilities = { ABILITY_COMMANDER, ABILITY_COMMANDER, ABILITY_COMMANDER },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Tatsugiri"),
+        .cryId = CRY_TATSUGIRI_STRETCHY,
+        .natDexNum = NATIONAL_DEX_TATSUGIRI,
+        .categoryName = _("Mimicry"),
+        .height = 6,
+        .weight = 240,
+        .description = COMPOUND_STRING(
+            "It's one of the most intelligent\n"
+            "dragon Pokémon. It camouflages itself\n"
+            "by inflating its throat sac."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_TatsugiriMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 14,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        /*.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,*/
+        .backPic = gMonBackPic_TatsugiriMega,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 17,
+        /*.backAnimId = BACK_ANIM_NONE,*/
+        .palette = gMonPalette_TatsugiriMega,
+        .shinyPalette = gMonShinyPalette_TatsugiriMega,
+        .iconSprite = gMonIcon_TatsugiriMega,
+        .iconPalIndex = 0,
+        SHADOW(-2, -1, SHADOW_SIZE_S)
+        FOOTPRINT(Tatsugiri)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sTatsugiriLevelUpLearnset,
+        .teachableLearnset = sTatsugiriTeachableLearnset,
+        .formSpeciesIdTable = sTatsugiriFormSpeciesIdTable,
+        .formChangeTable = sTatsugiriFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS       
 #endif //P_FAMILY_TATSUGIRI
 
 #if P_FAMILY_GREAT_TUSK

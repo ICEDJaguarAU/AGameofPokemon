@@ -1622,6 +1622,15 @@ static const struct FormChange sGlimmoraFormChangeTable[] = {
 };
 #endif //P_FAMILY_GLIMMET
 
+#if P_FAMILY_TATSUGIRI
+static const struct FormChange sTatsugiriFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_TATSUGIRI_MEGA, ITEM_TATSUGIRINITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_TATSUGIRI
+
 #if P_FAMILY_OGERPON
 static const struct FormChange sOgerponFormChangeTable[] = {
     {FORM_CHANGE_ITEM_HOLD,               SPECIES_OGERPON_TEAL,             ITEM_NONE},

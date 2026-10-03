@@ -3288,7 +3288,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .baseSpeed     = 75,
         .baseSpAttack  = 138,
         .baseSpDefense = 85,
-        .types = MON_TYPES(TYPE_ELECTRIC),
+        .types = MON_TYPES(TYPE_GRASS, TYPE_FIRE),
         .catchRate = 75,
         .expYield = 170,
         .genderRatio = PERCENT_FEMALE(50),
@@ -4536,6 +4536,64 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .levelUpLearnset = sGlimmoraLevelUpLearnset,
         .teachableLearnset = sGlimmoraTeachableLearnset,
     },
+
+        #if P_MEGA_EVOLUTIONS
+    [SPECIES_GLIMMORA_MEGA] =
+    {
+        .baseHP        = 83,
+        .baseAttack    = 90,
+        .baseDefense   = 105,
+        .baseSpeed     = 101,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 96,
+        .types = MON_TYPES(TYPE_ROCK, TYPE_POISON),
+        .catchRate = 25,
+        .expYield = 184,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 30,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
+        .abilities = { ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Glimmora"),
+        .cryId = CRY_GLIMMORA,
+        .natDexNum = NATIONAL_DEX_GLIMMORA,
+        .categoryName = _("Ore"),
+        .height = 28,
+        .weight = 770,
+        .description = COMPOUND_STRING(
+            "Glimmora's petals are made of\n"
+            "crystallized poison energy. It has\n"
+            "recently become evident that these\n"
+            "petals resemble Tera Jewels."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_GlimmoraMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .enemyMonElevation = 8,
+        .backPic = gMonBackPic_GlimmoraMega,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 11,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_GlimmoraMega,
+        .shinyPalette = gMonShinyPalette_GlimmoraMega,
+        .iconSprite = gMonIcon_GlimmoraMega,
+        .iconPalIndex = 0,
+        SHADOW(-3, 17, SHADOW_SIZE_M)
+        FOOTPRINT(Glimmora)
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sGlimmoraLevelUpLearnset,
+        .teachableLearnset = sGlimmoraTeachableLearnset,
+        .formSpeciesIdTable = sGlimmoraFormSpeciesIdTable,
+        .formChangeTable = sGlimmoraFormChangeTable, 
+    },
+#endif //P_MEGA_EVOLUTIONS   
 #endif //P_FAMILY_GLIMMET
 
 #if P_FAMILY_GREAVARD

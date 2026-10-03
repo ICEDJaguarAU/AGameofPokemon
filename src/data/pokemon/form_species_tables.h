@@ -2490,6 +2490,16 @@ static const u16 sPalafinFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_FINIZEN
 
+#if P_FAMILY_GLIMMET
+static const u16 sGlimmoraFormSpeciesIdTable[] = {
+    SPECIES_GLIMMORA,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GLIMMORA_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_GLIMMET
+
 #if P_FAMILY_TATSUGIRI
 static const u16 sTatsugiriFormSpeciesIdTable[] = {
     SPECIES_TATSUGIRI_CURLY,

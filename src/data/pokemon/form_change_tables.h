@@ -1613,6 +1613,15 @@ static const struct FormChange sPalafinZeroFormChangeTable[] =
 };
 #endif //P_FAMILY_FINIZEN
 
+#if P_FAMILY_GLIMMET
+static const struct FormChange sGlimmoraFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GLIMMORA_MEGA, ITEM_GLIMMORANITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_GLIMMET
+
 #if P_FAMILY_OGERPON
 static const struct FormChange sOgerponFormChangeTable[] = {
     {FORM_CHANGE_ITEM_HOLD,               SPECIES_OGERPON_TEAL,             ITEM_NONE},

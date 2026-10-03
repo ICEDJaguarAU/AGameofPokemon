@@ -2067,9 +2067,22 @@ static const u16 sNecrozmaFormSpeciesIdTable[] = {
 static const u16 sMagearnaFormSpeciesIdTable[] = {
     SPECIES_MAGEARNA,
     SPECIES_MAGEARNA_ORIGINAL,
+    #if P_MEGA_EVOLUTIONS
+    SPECIES_MAGEARNA_MEGA,
+    #endif
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_MAGEARNA
+
+#if P_FAMILY_ZERAORA
+static const u16 sZeraoraFormSpeciesIdTable[] = {
+    SPECIES_ZERAORA,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_ZERAORA_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_ZERAORA
 
 #if P_FAMILY_MELTAN
 static const u16 sMelmetalFormSpeciesIdTable[] = {

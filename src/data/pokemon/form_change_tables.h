@@ -1315,6 +1315,15 @@ static const struct FormChange sMagearnaFormChangeTable[] = {
 };
 #endif //P_FAMILY_MAGEARNA
 
+#if P_FAMILY_ZERAORA
+static const struct FormChange sZeraoraFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_ZERAORA_MEGA, ITEM_ZERAORITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_ZERAORA
+
 #if P_FAMILY_MELTAN
 static const struct FormChange sMelmetalFormChangeTable[] =
 {

@@ -735,7 +735,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_NORMALIZE] =
     {
-        .name = _("Normalize"),
+        .name = _("Normalise"),
         .description = COMPOUND_STRING("Moves become Normal-type."),
         .aiRating = -1,
     },
@@ -1563,8 +1563,15 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_GALVANIZE] =
     {
-        .name = _("Galvanize"),
+        .name = _("Galvanise"),
         .description = COMPOUND_STRING("Normal moves turn Electric."),
+        .aiRating = 8,
+    },
+
+    [ABILITY_DRAGONIZE] =
+    {
+        .name = _("Dragonise"),
+        .description = COMPOUND_STRING("Normal moves turn Dragon."),
         .aiRating = 8,
     },
 

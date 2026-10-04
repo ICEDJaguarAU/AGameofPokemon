@@ -9438,6 +9438,10 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
         if (moveType == TYPE_WATER)
            modifier = uq4_12_multiply(modifier, UQ_4_12(2.0));
         break;
+    case ABILITY_FIRE_MANE:
+        if (moveType == TYPE_FIRE)
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
+        break;    
     case ABILITY_STEELWORKER:
         if (moveType == TYPE_STEEL)
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));

@@ -1512,6 +1512,13 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 8,
     },
 
+    [ABILITY_FIRE_MANE] =
+    {
+        .name = _("Water Bubble"),
+        .description = COMPOUND_STRING("Boost power of fire-type moves."),
+        .aiRating = 8,
+    },
+
     [ABILITY_STEELWORKER] =
     {
         .name = _("Steelworker"),

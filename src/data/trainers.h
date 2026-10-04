@@ -28050,7 +28050,7 @@ F_TRAINER_FEMALE |
 #line 10834
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 10832
-            .ability = ABILITY_OBLIVIOUS,
+            .ability = ABILITY_SLUSH_RUSH,
 #line 10833
             .lvl = 100,
 #line 10831
@@ -28059,7 +28059,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 10834
                 MOVE_WAVE_CRASH,
-                MOVE_AVALANCHE,
+                MOVE_ICICLE_CRASH,
                 MOVE_HEAVY_SLAM,
                 MOVE_REST,
             },

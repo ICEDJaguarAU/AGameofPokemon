@@ -388,6 +388,13 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 4,
     },
 
+    [ABILITY_SPICY_SPRAY] =
+    {
+        .name = _("Spicy Spray"),
+        .description = COMPOUND_STRING("Burns the foe on contact."),
+        .aiRating = 4,
+    },
+
     [ABILITY_RUN_AWAY] =
     {
         .name = _("Run Away"),

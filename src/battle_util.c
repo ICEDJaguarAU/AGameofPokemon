@@ -5988,6 +5988,23 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 effect++;
             }
             break;
+        case ABILITY_SPICY_SPRAY:
+    if (!(gBattleStruct->moveResultFlags[gBattlerTarget] & MOVE_RESULT_NO_EFFECT)
+     && IsBattlerAlive(gBattlerAttacker)
+     && !gProtectStructs[gBattlerAttacker].confusionSelfDmg
+     && GetBattlerHoldEffect(gBattlerAttacker, TRUE) != HOLD_EFFECT_PROTECTIVE_PADS
+     && IsMoveMakingContact(move, gBattlerAttacker)
+     && IsBattlerTurnDamaged(gBattlerTarget)
+     && CanBeBurned(gBattlerAttacker, GetBattlerAbility(gBattlerAttacker)))
+    {
+        gBattleScripting.moveEffect = MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_BURN;
+        PREPARE_ABILITY_BUFFER(gBattleTextBuff1, gLastUsedAbility);
+        BattleScriptPushCursor();
+        gBattlescriptCurrInstr = BattleScript_AbilityStatusEffect;
+        gHitMarker |= HITMARKER_STATUS_ABILITY_EFFECT;
+        effect++;
+    }
+    break;
         case ABILITY_CUTE_CHARM:
             if (!(gBattleStruct->moveResultFlags[gBattlerTarget] & MOVE_RESULT_NO_EFFECT)
              && IsBattlerAlive(gBattlerAttacker)

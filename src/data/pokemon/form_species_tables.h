@@ -2534,6 +2534,16 @@ static const u16 sSinistchaFormSpeciesIdTable[] = {
 };
 #endif //P_FAMILY_POLTCHAGEIST
 
+#if P_FAMILY_FRIGIBAX
+static const u16 sBaxcaliburFormSpeciesIdTable[] = {
+    SPECIES_BAXCALIBUR,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_BAXCALIBUR_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_FRIGIBAX
+
 #if P_FAMILY_OGERPON
 static const u16 sOgerponFormSpeciesIdTable[] = {
     SPECIES_OGERPON_TEAL,

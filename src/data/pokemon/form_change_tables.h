@@ -1631,6 +1631,15 @@ static const struct FormChange sTatsugiriFormChangeTable[] = {
 };
 #endif //P_FAMILY_TATSUGIRI
 
+#if P_FAMILY_FRIGIBAX
+static const struct FormChange sBaxcaliburFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_BAXCALIBUR_MEGA, ITEM_BAXCALIBRITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_FRIGIBAX
+
 #if P_FAMILY_OGERPON
 static const struct FormChange sOgerponFormChangeTable[] = {
     {FORM_CHANGE_ITEM_HOLD,               SPECIES_OGERPON_TEAL,             ITEM_NONE},

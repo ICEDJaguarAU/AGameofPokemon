@@ -1696,9 +1696,10 @@
 #define SPECIES_SCOVILLAIN_MEGA                         1580
 #define SPECIES_GLIMMORA_MEGA                           1581
 #define SPECIES_TATSUGIRI_MEGA                          1582
+#define SPECIES_BAXCALIBUR_MEGA                         1583
 
 
-#define SPECIES_EGG                                     (SPECIES_TATSUGIRI_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_BAXCALIBUR_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

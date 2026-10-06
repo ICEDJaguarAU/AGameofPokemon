@@ -27964,7 +27964,7 @@ F_TRAINER_FEMALE |
 #line 10798
         .items = { ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE },
 #line 10799
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 10800
         .aiFlags = AI_FLAG_BASIC_TRAINER,
 #line 10801

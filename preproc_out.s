@@ -8018,10 +8018,6 @@ SlateportCity_EventScript_PowerTMClerk: ; .global SlateportCity_EventScript_Powe
 	.align 2
 # 563 "data/maps/SlateportCity/scripts.pory"
 SlateportCity_Pokemart_PowerTMs:
-# 564 "data/maps/SlateportCity/scripts.pory"
-	.2byte ITEM_TM_HIDDEN_POWER
-# 565 "data/maps/SlateportCity/scripts.pory"
-	.2byte ITEM_TM_SECRET_POWER
 # 566 "data/maps/SlateportCity/scripts.pory"
 	pokemartlistend
 # 567 "data/maps/SlateportCity/scripts.pory"

@@ -279,16 +279,16 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
-        __("abcdef ."),
-        __("ghijkl ,"),
-        __("mnopqrs "),
-        __("tuvwxyz "),
+        __("abcdefä."),   // 8 chars
+        __("ghijklþ,"),   // 8 chars  (þ next to l)
+        __("mnopqrs "),   // 8 chars  ← added the missing space
+        __("tuvwxyz "),   // 8 chars
     },
     [KEYBOARD_LETTERS_UPPER] = {
-        __("ABCDEF ."),
-        __("GHIJKL ,"),
-        __("MNOPQRS "),
-        __("TUVWXYZ "),
+        __("ABCDEFÄ."),   // 8 chars
+        __("GHIJKLÞ,"),   // 8 chars  (Þ next to L)
+        __("MNOPQRS "),   // 8 chars  ← added the missing space
+        __("TUVWXYZ "),   // 8 chars
     },
     [KEYBOARD_SYMBOLS] = {
         __("01234   "),

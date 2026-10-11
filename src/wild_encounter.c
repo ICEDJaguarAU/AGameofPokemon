@@ -305,46 +305,76 @@ static u8 ChooseWildMonIndex_Fishing(u8 rod)
     return wildMonIndex;
 }
 
-static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIndex, u8 area)
+u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIndex, u8 area)
 {
     u8 min;
     u8 max;
     u8 range;
     u8 rand;
+    u8 fixedLVL = 0;
 
     if (LURE_STEP_COUNT == 0)
     {
-        // Make sure minimum level is less than maximum level
-        u8 fixedLVL = 0;
-        {
+        // Calculate average level of the player's party
         if (GetMonData(&gPlayerParty[5], MON_DATA_SPECIES) != SPECIES_NONE)
-            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL) + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL) + GetMonData(&gPlayerParty[2], MON_DATA_LEVEL) + GetMonData(&gPlayerParty[3], MON_DATA_LEVEL) + GetMonData(&gPlayerParty[4], MON_DATA_LEVEL) + GetMonData(&gPlayerParty[5], MON_DATA_LEVEL)) / 6;
-        else if ((GetMonData(&gPlayerParty[5], MON_DATA_SPECIES) == SPECIES_NONE) && (GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) != SPECIES_NONE))
-                fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[3], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[4], MON_DATA_LEVEL)) / 5;
-            else if ((GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) == SPECIES_NONE) && (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE))
-                fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[3], MON_DATA_LEVEL)) / 4;
-                else if ((GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) == SPECIES_NONE) && (GetMonData(&gPlayerParty[2], MON_DATA_SPECIES) != SPECIES_NONE))
-                    fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)) / 3;
-                    else if ((GetMonData(&gPlayerParty[2], MON_DATA_SPECIES) == SPECIES_NONE) && (GetMonData(&gPlayerParty[1], MON_DATA_SPECIES) != SPECIES_NONE))
-                        fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)+GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)) / 2;
-                        else if ((GetMonData(&gPlayerParty[1], MON_DATA_SPECIES) == SPECIES_NONE) && (GetMonData(&gPlayerParty[0], MON_DATA_SPECIES) != SPECIES_NONE))
-                            fixedLVL = GetMonData(&gPlayerParty[0], MON_DATA_LEVEL);
-        }
-    
-        // Make sure minimum level is less than maximum level
         {
-            min = fixedLVL-5;
-            max = fixedLVL+1;
+            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[3], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[4], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[5], MON_DATA_LEVEL)) / 6;
         }
-        if (min <= 0)
+        else if (GetMonData(&gPlayerParty[4], MON_DATA_SPECIES) != SPECIES_NONE)
+        {
+            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[3], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[4], MON_DATA_LEVEL)) / 5;
+        }
+        else if (GetMonData(&gPlayerParty[3], MON_DATA_SPECIES) != SPECIES_NONE)
+        {
+            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[3], MON_DATA_LEVEL)) / 4;
+        }
+        else if (GetMonData(&gPlayerParty[2], MON_DATA_SPECIES) != SPECIES_NONE)
+        {
+            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[2], MON_DATA_LEVEL)) / 3;
+        }
+        else if (GetMonData(&gPlayerParty[1], MON_DATA_SPECIES) != SPECIES_NONE)
+        {
+            fixedLVL = (GetMonData(&gPlayerParty[0], MON_DATA_LEVEL)
+                      + GetMonData(&gPlayerParty[1], MON_DATA_LEVEL)) / 2;
+        }
+        else
+        {
+            fixedLVL = GetMonData(&gPlayerParty[0], MON_DATA_LEVEL);
+        }
+
+        // Safe min/max calculation (no underflow)
+        if (fixedLVL > 5)
+            min = fixedLVL - 5;
+        else
             min = 1;
+
+        max = fixedLVL + 1;
+        if (max > MAX_LEVEL)
+            max = MAX_LEVEL;
+        if (max < min)
+            max = min;
+
         range = max - min + 1;
         rand = Random() % range;
 
-        // check ability for max level mon
+        // Ability boost (Hustle / Vital Spirit / Pressure)
         if (!GetMonData(&gPlayerParty[0], MON_DATA_SANITY_IS_EGG))
         {
-            u16 ability = GetMonAbility(&gPlayerParty[0]);
+            u8 ability = GetMonAbility(&gPlayerParty[0]);
             if (ability == ABILITY_HUSTLE || ability == ABILITY_VITAL_SPIRIT || ability == ABILITY_PRESSURE)
             {
                 if (Random() % 2 == 0)
@@ -354,15 +384,16 @@ static u8 ChooseWildMonLevel(const struct WildPokemon *wildPokemon, u8 wildMonIn
                     rand--;
             }
         }
+
         return min + rand;
     }
     else
     {
-        // Looks for the max level of all slots that share the same species as the selected slot.
+        // Lure active – use highest level of that species in the table + 1
         max = GetMaxLevelOfSpeciesInWildTable(wildPokemon, wildPokemon[wildMonIndex].species, area);
         if (max > 0)
             return max + 1;
-        else // Failsafe
+        else
             return wildPokemon[wildMonIndex].maxLevel + 1;
     }
 }

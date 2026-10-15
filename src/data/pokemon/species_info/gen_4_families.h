@@ -2246,10 +2246,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),                         \
         .abilities = { ABILITY_SWARM, ABILITY_NONE, ABILITY_TINTED_LENS },  \
         .bodyColor = BODY_COLOR_YELLOW,                                     \
-        .speciesName = _("Mothim"),                                         \
+        .speciesName = _("Moþim"),                                         \
         .cryId = CRY_MOTHIM,                                                \
         .natDexNum = NATIONAL_DEX_MOTHIM,                                   \
-        .categoryName = _("Moth"),                                          \
+        .categoryName = _("Moþ"),                                          \
         .height = 9,                                                        \
         .weight = 233,                                                     \
         .description = gMothimPokedexText,                                  \
@@ -2321,7 +2321,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .description = COMPOUND_STRING(
             "A Pokémon formed by three others.\n"
             "It constantly gathers honey from flowers\n"
-            "to please Vespiquen. At night, they\n"
+            "to please Vespiqen. At night, they\n"
             "cluster to form a beehive and sleep."),
         .pokemonScale = 530,
         .pokemonOffset = 13,
@@ -2396,7 +2396,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG),
         .abilities = { ABILITY_PRESSURE, ABILITY_NONE, ABILITY_UNNERVE },
         .bodyColor = BODY_COLOR_YELLOW,
-        .speciesName = _("Vespiquen"),
+        .speciesName = _("Vespiqen"),
         .cryId = CRY_VESPIQUEN,
         .natDexNum = NATIONAL_DEX_VESPIQUEN,
         .categoryName = _("Beehive"),

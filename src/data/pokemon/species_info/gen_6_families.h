@@ -30,7 +30,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .height = 4,
         .weight = 90,
         .description = COMPOUND_STRING(
-            "The quills on its head are usually soft.\n"
+            "The qills on its head are usually soft.\n"
             "When it flexes them, the points become\n"
             "so hard and sharp that they can pierce\n"
             "rock without any effort."),
@@ -93,7 +93,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_OVERGROW, ABILITY_BULLETPROOF, ABILITY_BULLETPROOF },
         .bodyColor = BODY_COLOR_GREEN,
-        .speciesName = _("Quilladin"),
+        .speciesName = _("Qilladin"),
         .cryId = CRY_QUILLADIN,
         .natDexNum = NATIONAL_DEX_QUILLADIN,
         .categoryName = _("Spiny Armor"),
@@ -103,7 +103,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
             "They strengthen the sturdy shell covering\n"
             "their bodies by running into one another.\n"
             "They are very kind and won't start fights,\n"
-            "but will counterattack with sharp quills."),
+            "but will counterattack with sharp qills."),
         .pokemonScale = 365,
         .pokemonOffset = 12,
         .trainerScale = 256,

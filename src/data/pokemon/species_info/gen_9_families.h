@@ -398,7 +398,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .abilities = { ABILITY_TORRENT, ABILITY_MOXIE, ABILITY_MOXIE },
         .bodyColor = BODY_COLOR_WHITE,
-        .speciesName = _("Quaxly"),
+        .speciesName = _("Qaxly"),
         .cryId = CRY_QUAXLY,
         .natDexNum = NATIONAL_DEX_QUAXLY,
         .categoryName = _("Duckling"),
@@ -461,14 +461,14 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .abilities = { ABILITY_TORRENT, ABILITY_MOXIE, ABILITY_GOLDEN_BOOT },
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Quaxwell"),
+        .speciesName = _("Qaxwell"),
         .cryId = CRY_QUAXWELL,
         .natDexNum = NATIONAL_DEX_QUAXWELL,
         .categoryName = _("Practicing"),
         .height = 12,
         .weight = 215,
         .description = COMPOUND_STRING(
-            "The hardworking Quaxwell observes\n"
+            "The hardworking Qaxwell observes\n"
             "people and Pokémon from various\n"
             "regions and incorporates their\n"
             "movements into its own dance routines."),
@@ -523,14 +523,14 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING, EGG_GROUP_WATER_1),
         .abilities = { ABILITY_TORRENT, ABILITY_MOXIE, ABILITY_GOLDEN_BOOT},
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Quaquaval"),
+        .speciesName = _("Qaqaval"),
         .cryId = CRY_QUAQUAVAL,
         .natDexNum = NATIONAL_DEX_QUAQUAVAL,
         .categoryName = _("Dancer"),
         .height = 18,
         .weight = 619,
         .description = COMPOUND_STRING(
-            "A single kick from a Quaquaval can\n"
+            "A single kick from a Qaqaval can\n"
             "send a truck rolling. This Pokémon\n"
             "uses its powerful legs to perform\n"
             "striking dances from far-off lands."),
@@ -1718,7 +1718,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_INTIMIDATE, ABILITY_HUSTLE, ABILITY_GUTS },
         .bodyColor = BODY_COLOR_GREEN,
-        .speciesName = _("Squawkabilly"),
+        .speciesName = _("Sqawkabilly"),
         .cryId = CRY_SQUAWKABILLY,
         .natDexNum = NATIONAL_DEX_SQUAWKABILLY,
         .categoryName = _("Parrot"),
@@ -1781,7 +1781,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_INTIMIDATE, ABILITY_HUSTLE, ABILITY_GUTS },
         .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Squawkabilly"),
+        .speciesName = _("Sqawkabilly"),
         .cryId = CRY_SQUAWKABILLY,
         .natDexNum = NATIONAL_DEX_SQUAWKABILLY,
         .categoryName = _("Parrot"),
@@ -1844,7 +1844,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_INTIMIDATE, ABILITY_HUSTLE, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_YELLOW,
-        .speciesName = _("Squawkabilly"),
+        .speciesName = _("Sqawkabilly"),
         .cryId = CRY_SQUAWKABILLY,
         .natDexNum = NATIONAL_DEX_SQUAWKABILLY,
         .categoryName = _("Parrot"),
@@ -1907,7 +1907,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_INTIMIDATE, ABILITY_HUSTLE, ABILITY_SHEER_FORCE },
         .bodyColor = BODY_COLOR_WHITE,
-        .speciesName = _("Squawkabilly"),
+        .speciesName = _("Sqawkabilly"),
         .cryId = CRY_SQUAWKABILLY,
         .natDexNum = NATIONAL_DEX_SQUAWKABILLY,
         .categoryName = _("Parrot"),
@@ -3545,7 +3545,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
         .abilities = { ABILITY_OPPORTUNIST, ABILITY_FRISK, ABILITY_SPEED_BOOST },
         .bodyColor = BODY_COLOR_YELLOW,
-        .speciesName = _("Espathra"),
+        .speciesName = _("Espaþra"),
         .cryId = CRY_ESPATHRA,
         .natDexNum = NATIONAL_DEX_ESPATHRA,
         .categoryName = _("Ostrich"),
@@ -4365,10 +4365,10 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
         .abilities = { ABILITY_EARTH_EATER, ABILITY_NONE, ABILITY_SAND_VEIL },
         .bodyColor = BODY_COLOR_PINK,
-        .speciesName = _("Orthworm"),
+        .speciesName = _("Orþworm"),
         .cryId = CRY_ORTHWORM,
         .natDexNum = NATIONAL_DEX_ORTHWORM,
-        .categoryName = _("Earthworm"),
+        .categoryName = _("Earþworm"),
         .height = 25,
         .weight = 3100,
         .description = COMPOUND_STRING(

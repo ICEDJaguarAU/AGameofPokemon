@@ -5583,7 +5583,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Strikes the foe with hard\n"
             "wings spread wide."),
         .effect = EFFECT_HIT,
-        .power = 70,
+        .power = 35,
         .type = TYPE_STEEL,
         .accuracy = 100,
         .pp = 25,
@@ -5591,6 +5591,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .makesContact = TRUE,
+        .strikeCount = 2,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_PLUS_1,
             .self = TRUE,

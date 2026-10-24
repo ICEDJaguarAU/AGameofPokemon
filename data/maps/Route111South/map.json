@@ -19,16 +19,6 @@
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE111",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE111",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
       "map": "MAP_ROUTE111NORTH",
       "offset": 0,
       "direction": "up"

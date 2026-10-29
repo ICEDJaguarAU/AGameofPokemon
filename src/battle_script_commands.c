@@ -8738,6 +8738,7 @@ static void Cmd_getmoneyreward(void)
         money = GetTrainerMoneyToGive(TRAINER_BATTLE_PARAM.opponentA);
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
             money += GetTrainerMoneyToGive(TRAINER_BATTLE_PARAM.opponentB);
+        money /= 100;   // scale prize money down to ~1/100
         AddMoney(&gSaveBlock1Ptr->money, money);
     }
     else

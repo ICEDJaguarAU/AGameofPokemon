@@ -10376,14 +10376,16 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Razz Berry"),
         .pluralName = _("Razz Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
+        .holdEffectParam = 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Razz."),
+            "Heals injured.\n"
+            "Pokemon outside of\n"
+            "Battle 20HP."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Potion,
         .flingPower = 10,
         .iconPic = gItemIcon_RazzBerry,
         .iconPalette = gItemIconPalette_RazzBerry,
@@ -10393,14 +10395,16 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Bluk Berry"),
         .pluralName = _("Bluk Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
+        .holdEffectParam = 60,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 2 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Bluk."),
+            "Heals injured.\n"
+            "Pokemon outside of\n"
+            "Battle 60HP."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_SuperPotion,
         .flingPower = 10,
         .iconPic = gItemIcon_BlukBerry,
         .iconPalette = gItemIconPalette_BlukBerry,
@@ -10410,14 +10414,16 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Nanab Berry"),
         .pluralName = _("Nanab Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
+        .holdEffectParam = 120,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 5 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Nanab."),
+            "Heals injured.\n"
+            "Pokemon outside of\n"
+            "Battle 120HP."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_HyperPotion,
         .flingPower = 10,
         .iconPic = gItemIcon_NanabBerry,
         .iconPalette = gItemIconPalette_NanabBerry,
@@ -10427,14 +10433,16 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Wepear Berry"),
         .pluralName = _("Wepear Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
+        .holdEffectParam = 255,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 10 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Wepear."),
+            "Heals injured.\n"
+            "Pokemon outside of\n"
+            "Battle fully."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_MaxPotion,
         .flingPower = 10,
         .iconPic = gItemIcon_WepearBerry,
         .iconPalette = gItemIconPalette_WepearBerry,
@@ -10444,14 +10452,16 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Pinap Berry"),
         .pluralName = _("Pinap Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
+        .holdEffectParam = 255,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 12 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Pinap."),
+            "Totally heals a.\n"
+            "Pokemon outside\n"
+            "of Battle ."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_FullRestore,
         .flingPower = 10,
         .iconPic = gItemIcon_PinapBerry,
         .iconPalette = gItemIconPalette_PinapBerry,
@@ -10571,12 +10581,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Kornn Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Kornn."),
+            "Raises þe base\n"
+            "Attak stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Protein,
         .flingPower = 10,
         .iconPic = gItemIcon_CornnBerry,
         .iconPalette = gItemIconPalette_CornnBerry,
@@ -10588,12 +10599,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Magost Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Magost."),
+            "Raises þe base\n"
+            "Defense stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Iron,
         .flingPower = 10,
         .iconPic = gItemIcon_MagostBerry,
         .iconPalette = gItemIconPalette_MagostBerry,
@@ -10605,12 +10617,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Rabuta Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Rabuta."),
+            "Raises þe base\n"
+            "Sp.Atk stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Calcium,
         .flingPower = 10,
         .iconPic = gItemIcon_RabutaBerry,
         .iconPalette = gItemIconPalette_RabutaBerry,
@@ -10622,12 +10635,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Nomel Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Nomel."),
+            "Raises þe base\n"
+            "Sp.Def stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Zinc,
         .flingPower = 10,
         .iconPic = gItemIcon_NomelBerry,
         .iconPalette = gItemIconPalette_NomelBerry,
@@ -10639,12 +10653,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Spelon Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Spelon."),
+            "Raises þe base\n"
+            "Speed stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_Carbos,
         .flingPower = 10,
         .iconPic = gItemIcon_SpelonBerry,
         .iconPalette = gItemIconPalette_SpelonBerry,
@@ -10656,12 +10671,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Pamtre Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Pamtre."),
+            "Raises þe base\n"
+            "Healþ stat of one\n"
+            "Pokémon."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_HPUp,
         .flingPower = 10,
         .iconPic = gItemIcon_PamtreBerry,
         .iconPalette = gItemIconPalette_PamtreBerry,
@@ -10673,12 +10689,13 @@ const struct Item gItemsInfo[] =
         .pluralName = _("Watmel Berries"),
         .price = (I_BERRY_PRICE >= GEN_8) ? 8 : 2,
         .description = COMPOUND_STRING(
-            "{POKEBLOCK} ingredient.\n"
-            "Plant in loamy soil\n"
-            "to grow Watmel."),
+            "Raises þe base\n"
+            "PP stat of one\n"
+            "Attak fully."),
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_Medicine,
+        .effect = gItemEffect_PPMax,
         .flingPower = 10,
         .iconPic = gItemIcon_WatmelBerry,
         .iconPalette = gItemIconPalette_WatmelBerry,
